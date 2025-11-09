@@ -237,6 +237,96 @@
           "reading": "jama",
           "english": "hindrance; obstacle; nuisance; disturbance; interruption; interference",
           "score": 2
+        },
+        {
+          "word": "散歩",
+          "reading": "sanpo",
+          "english": "walk; stroll",
+          "score": 3
+        },
+        {
+          "word": "洗濯",
+          "reading": "sentaku",
+          "english": "washing; laundry",
+          "score": 2
+        },
+        {
+          "word": "出発",
+          "reading": "shuppatsu",
+          "english": "departure",
+          "score": 2
+        },
+        {
+          "word": "入学",
+          "reading": "nyuugaku",
+          "english": "entry to school or university; matriculation; enrolment (in university etc.) (enrollment)",
+          "score": 2
+        },
+        {
+          "word": "入院",
+          "reading": "nyuuin",
+          "english": "hospitalization; hospitalisation",
+          "score": 2
+        },
+        {
+          "word": "出席",
+          "reading": "shusseki",
+          "english": "attendance; presence; appearance",
+          "score": 2
+        },
+        {
+          "word": "競争",
+          "reading": "kyousou",
+          "english": "competition; contest; rivalry; race",
+          "score": 2
+        },
+        {
+          "word": "喧嘩",
+          "reading": "kenka",
+          "english": "quarrel; brawl; fight; squabble; scuffle; argument",
+          "score": 2
+        },
+        {
+          "word": "反対",
+          "reading": "hantai",
+          "english": "opposition; resistance; antagonism; hostility; objection; dissent",
+          "score": 2
+        },
+        {
+          "word": "遠慮",
+          "reading": "enryo",
+          "english": "reserve; constraint; restraint; modesty; diffidence; hesitation; holding back; discretion; tact; thoughtfulness",
+          "score": 2
+        },
+        {
+          "word": "会話",
+          "reading": "kaiwa",
+          "english": "conversation",
+          "score": 2
+        },
+        {
+          "word": "アルバイト",
+          "reading": "arubaito",
+          "english": "part-time job; side job",
+          "score": 2
+        },
+        {
+          "word": "世話",
+          "reading": "sewa",
+          "english": "looking after; help; aid; assistance",
+          "score": 2
+        },
+        {
+          "word": "復習",
+          "reading": "fukushuu",
+          "english": "review (of learned material); revision",
+          "score": 2
+        },
+        {
+          "word": "予習",
+          "reading": "yoshuu",
+          "english": "preparation for a lesson",
+          "score": 2
         }
       ]
     },
@@ -394,6 +484,48 @@
           "word": "女の子",
           "reading": "onnanoko",
           "english": "girl; daughter; baby girl",
+          "score": 2
+        },
+        {
+          "word": "運転手",
+          "reading": "untenshu",
+          "english": "driver; chauffeur",
+          "score": 2
+        },
+        {
+          "word": "社長",
+          "reading": "shachou",
+          "english": "company president; manager; director",
+          "score": 2
+        },
+        {
+          "word": "生徒",
+          "reading": "seito",
+          "english": "pupil; student; schoolchild",
+          "score": 2
+        },
+        {
+          "word": "先輩",
+          "reading": "senpai",
+          "english": "senior (at work or school); superior; elder; older graduate; progenitor; old-timer",
+          "score": 2
+        },
+        {
+          "word": "高校生",
+          "reading": "koukousei",
+          "english": "senior high school student",
+          "score": 2
+        },
+        {
+          "word": "大学生",
+          "reading": "daigakusei",
+          "english": "university student; college student",
+          "score": 2
+        },
+        {
+          "word": "市民",
+          "reading": "shimin",
+          "english": "citizen; citizenry; public",
           "score": 2
         }
       ]
@@ -849,6 +981,114 @@
           "reading": "kaijou",
           "english": "assembly hall; meeting place; venue; grounds",
           "score": 2
+        },
+        {
+          "word": "森",
+          "reading": "mori",
+          "english": "forest",
+          "score": 2
+        },
+        {
+          "word": "近所",
+          "reading": "kinjo",
+          "english": "neighbourhood; neighborhood",
+          "score": 2
+        },
+        {
+          "word": "研究室",
+          "reading": "kenkyuushitsu",
+          "english": "laboratory",
+          "score": 2
+        },
+        {
+          "word": "会議室",
+          "reading": "kaigishitsu",
+          "english": "conference room; council room",
+          "score": 2
+        },
+        {
+          "word": "駐車場",
+          "reading": "chuushajou",
+          "english": "parking lot; car park; carpark; parking garage",
+          "score": 2
+        },
+        {
+          "word": "池",
+          "reading": "ike",
+          "english": "pond",
+          "score": 2
+        },
+        {
+          "word": "港",
+          "reading": "minato",
+          "english": "harbour; harbor; port",
+          "score": 2
+        },
+        {
+          "word": "庭",
+          "reading": "niwa",
+          "english": "garden; yard; courtyard",
+          "score": 2
+        },
+        {
+          "word": "郵便局",
+          "reading": "yuubinkyoku",
+          "english": "post office",
+          "score": 2
+        },
+        {
+          "word": "喫茶店",
+          "reading": "kissaten",
+          "english": "coffee shop; tearoom; coffee lounge; coffeehouse; cafe",
+          "score": 2
+        },
+        {
+          "word": "食堂",
+          "reading": "shokudou",
+          "english": "dining room; dining hall; cafeteria; canteen; messroom",
+          "score": 2
+        },
+        {
+          "word": "美術館",
+          "reading": "bijutsukan",
+          "english": "art gallery; art museum",
+          "score": 2
+        },
+        {
+          "word": "デパート",
+          "reading": "depaato",
+          "english": "department store",
+          "score": 2
+        },
+        {
+          "word": "北",
+          "reading": "kita",
+          "english": "north",
+          "score": 2
+        },
+        {
+          "word": "南",
+          "reading": "minami",
+          "english": "south",
+          "score": 2
+        },
+        {
+          "word": "東",
+          "reading": "higashi",
+          "english": "east",
+          "score": 2
+        },
+        {
+          "word": "西",
+          "reading": "nishi",
+          "english": "west",
+          "score": 2
+        },
+        {
+          "word": "アメリカ",
+          "reading": "amerika",
+          "english": "America",
+          "score": 2
         }
       ]
     },
@@ -940,6 +1180,36 @@
           "word": "地図",
           "reading": "chizu",
           "english": "map",
+          "score": 2
+        },
+        {
+          "word": "鏡",
+          "reading": "kagami",
+          "english": "mirror; looking-glass",
+          "score": 2
+        },
+        {
+          "word": "雲",
+          "reading": "kumo",
+          "english": "cloud",
+          "score": 2
+        },
+        {
+          "word": "庭",
+          "reading": "niwa",
+          "english": "garden; yard; courtyard",
+          "score": 2
+        },
+        {
+          "word": "池",
+          "reading": "ike",
+          "english": "pond",
+          "score": 2
+        },
+        {
+          "word": "森",
+          "reading": "mori",
+          "english": "forest",
           "score": 2
         }
       ]
@@ -1235,6 +1505,66 @@
           "reading": "imouto",
           "english": "younger sister",
           "score": 2
+        },
+        {
+          "word": "来年",
+          "reading": "rainen",
+          "english": "next year",
+          "score": 2
+        },
+        {
+          "word": "来週",
+          "reading": "raishuu",
+          "english": "next week",
+          "score": 2
+        },
+        {
+          "word": "来月",
+          "reading": "raigetsu",
+          "english": "next month",
+          "score": 2
+        },
+        {
+          "word": "今度",
+          "reading": "kondo",
+          "english": "this time; now",
+          "score": 2
+        },
+        {
+          "word": "おじさん",
+          "reading": "ojisan",
+          "english": "uncle",
+          "score": 2
+        },
+        {
+          "word": "おばさん",
+          "reading": "obasan",
+          "english": "aunt",
+          "score": 2
+        },
+        {
+          "word": "お姉さん",
+          "reading": "oneesan",
+          "english": "older sister; elder sister",
+          "score": 2
+        },
+        {
+          "word": "お兄さん",
+          "reading": "oniisan",
+          "english": "older brother; elder brother",
+          "score": 2
+        },
+        {
+          "word": "おじいさん",
+          "reading": "ojiisan",
+          "english": "grandfather",
+          "score": 2
+        },
+        {
+          "word": "おばあさん",
+          "reading": "obaasan",
+          "english": "grandmother",
+          "score": 2
         }
       ]
     },
@@ -1354,6 +1684,36 @@
           "word": "友達",
           "reading": "tomodachi",
           "english": "friend; companion",
+          "score": 2
+        },
+        {
+          "word": "朝ご飯",
+          "reading": "asagohan",
+          "english": "breakfast",
+          "score": 3
+        },
+        {
+          "word": "昼ご飯",
+          "reading": "hirugohan",
+          "english": "lunch; midday meal",
+          "score": 2
+        },
+        {
+          "word": "夕飯",
+          "reading": "yuuhan",
+          "english": "evening meal",
+          "score": 2
+        },
+        {
+          "word": "お弁当",
+          "reading": "obentou",
+          "english": "bento; Japanese box lunch",
+          "score": 3
+        },
+        {
+          "word": "サラダ",
+          "reading": "sarada",
+          "english": "salad",
           "score": 2
         }
       ]
@@ -1549,6 +1909,54 @@
           "reading": "suutsu",
           "english": "suit (clothing)",
           "score": 2
+        },
+        {
+          "word": "ノート",
+          "reading": "nooto",
+          "english": "notebook; copy-book; exercise book",
+          "score": 3
+        },
+        {
+          "word": "鉛筆",
+          "reading": "enpitsu",
+          "english": "pencil",
+          "score": 2
+        },
+        {
+          "word": "ボールペン",
+          "reading": "boorupen",
+          "english": "ball-point pen",
+          "score": 2
+        },
+        {
+          "word": "辞典",
+          "reading": "jiten",
+          "english": "dictionary; lexicon",
+          "score": 2
+        },
+        {
+          "word": "切符",
+          "reading": "kippu",
+          "english": "ticket",
+          "score": 2
+        },
+        {
+          "word": "指輪",
+          "reading": "yubiwa",
+          "english": "(finger) ring",
+          "score": 2
+        },
+        {
+          "word": "時計",
+          "reading": "tokei",
+          "english": "clock; watch; timepiece",
+          "score": 2
+        },
+        {
+          "word": "ズボン",
+          "reading": "zubon",
+          "english": "trousers; pants",
+          "score": 2
         }
       ]
     },
@@ -1701,6 +2109,78 @@
           "reading": "okashi",
           "english": "confections; sweets; candy; cake",
           "score": 3
+        },
+        {
+          "word": "朝ご飯",
+          "reading": "asagohan",
+          "english": "breakfast",
+          "score": 3
+        },
+        {
+          "word": "夕飯",
+          "reading": "yuuhan",
+          "english": "evening meal",
+          "score": 3
+        },
+        {
+          "word": "ご飯",
+          "reading": "gohan",
+          "english": "cooked rice",
+          "score": 3
+        },
+        {
+          "word": "お弁当",
+          "reading": "obentou",
+          "english": "bento; Japanese box lunch",
+          "score": 3
+        },
+        {
+          "word": "サラダ",
+          "reading": "sarada",
+          "english": "salad",
+          "score": 2
+        },
+        {
+          "word": "ステーキ",
+          "reading": "suteeki",
+          "english": "steak",
+          "score": 2
+        },
+        {
+          "word": "ハンバーグ",
+          "reading": "hanbagu",
+          "english": "Hamburg steak; hamburger steak",
+          "score": 2
+        },
+        {
+          "word": "サンドイッチ",
+          "reading": "sandoicchi",
+          "english": "sandwich",
+          "score": 2
+        },
+        {
+          "word": "米",
+          "reading": "kome",
+          "english": "(husked grains of) rice",
+          "score": 3
+        },
+        {
+          "word": "牛肉",
+          "reading": "gyuuniku",
+          "english": "beef",
+          "score": 2
+        },
+        {
+          "word": "豚肉",
+          "reading": "butaniku",
+          "english": "pork",
+          "score": 2
+        },
+        {
+          "word": "鶏肉",
+          "reading": "toriniku",
+          "english": "chicken meat",
+          "score": 2
         }
       ]
     },
@@ -2109,6 +2589,24 @@
           "reading": "sensou",
           "english": "war",
           "score": 2
+        },
+        {
+          "word": "去年",
+          "reading": "kyonen",
+          "english": "last year",
+          "score": 2
+        },
+        {
+          "word": "先週",
+          "reading": "senshuu",
+          "english": "last week; the week before",
+          "score": 2
+        },
+        {
+          "word": "先月",
+          "reading": "sengetsu",
+          "english": "last month",
+          "score": 2
         }
       ]
     },
@@ -2378,6 +2876,18 @@
           "word": "戦争",
           "reading": "sensou",
           "english": "war",
+          "score": 2
+        },
+        {
+          "word": "来年",
+          "reading": "rainen",
+          "english": "next year",
+          "score": 2
+        },
+        {
+          "word": "来週",
+          "reading": "raishuu",
+          "english": "next week",
           "score": 2
         }
       ]
@@ -9882,6 +10392,42 @@
           "word": "手",
           "reading": "te",
           "english": "hand; arm",
+          "score": 2
+        },
+        {
+          "word": "耳",
+          "reading": "mimi",
+          "english": "ear",
+          "score": 2
+        },
+        {
+          "word": "鼻",
+          "reading": "hana",
+          "english": "nose",
+          "score": 2
+        },
+        {
+          "word": "首",
+          "reading": "kubi",
+          "english": "neck",
+          "score": 2
+        },
+        {
+          "word": "腕",
+          "reading": "ude",
+          "english": "arm",
+          "score": 2
+        },
+        {
+          "word": "背中",
+          "reading": "senaka",
+          "english": "back (of body)",
+          "score": 2
+        },
+        {
+          "word": "のど",
+          "reading": "nodo",
+          "english": "throat",
           "score": 2
         }
       ]
