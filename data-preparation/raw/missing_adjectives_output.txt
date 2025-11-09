@@ -1,0 +1,30 @@
+  1. 無理              (freq: 5.34) - unreasonable; unnatural; unjustifiable
+  2. 普通              (freq: 5.32) - general; ordinary; usual
+  3. 十分              (freq: 5.28) - enough; sufficient; plenty; adequate; satisfactory
+  4. 確か              (freq: 5.20) - sure; certain; positive; definite
+  5. かわいい            (freq: 5.18) - cute; adorable; charming; lovely; pretty
+  6. 大事              (freq: 5.13) - important; serious; crucial
+  7. 結構              (freq: 5.12) - splendid; nice; wonderful; delicious; sweet
+  8. 怖い              (freq: 5.09) - scary; frightening; eerie; dreadful
+  9. いろいろ            (freq: 4.98) - various; all sorts of; variety of
+ 10. 大切              (freq: 4.96) - important; necessary; indispensable
+ 11. 素晴らしい           (freq: 4.92) - wonderful; splendid; magnificent
+ 12. 国際              (freq: 4.90) - international
+ 13. ソフト             (freq: 4.88) - soft
+ 14. おかしい            (freq: 4.83) - funny; amusing; comical; laughable; ridiculous
+ 15. だめ              (freq: 4.82) - no good; not serving its purpose; useless; broken
+ 16. 急               (freq: 4.75) - sudden; abrupt; unexpected
+ 17. うまい             (freq: 4.63) - skillful; skilful; clever; expert; wise; successfu
+ 18. 厳しい             (freq: 4.61) - severe; strict; rigid; unsparing; relentless
+ 19. 弱い              (freq: 4.61) - weak; frail; delicate; tender; unskilled; weak (wi
+ 20. 悲しい             (freq: 4.59) - sad; miserable; unhappy; sorrowful
+ 21. 適当              (freq: 4.56) - suitable; proper; appropriate; adequate; fit; fair
+ 22. 複雑              (freq: 4.53) - complex; complicated; intricate; mixed (feelings)
+ 23. 遅い              (freq: 4.52) - slow; time-consuming; sluggish
+ 24. 短い              (freq: 4.47) - short
+ 25. 遠い              (freq: 4.42) - far; distant; far away; a long way off; in the dis
+ 26. まずい             (freq: 4.29) - bad (taste); unpalatable; unsavoury; unsavory; awf
+ 27. よろしい            (freq: 4.27) - good; OK; all right; fine; very well; will do; may
+ 28. 細かい             (freq: 4.25) - small
+ 29. 盛ん              (freq: 3.88) - prosperous; flourishing; thriving; successful
+ 30. ぬるい             (freq: 3.08) - lukewarm; tepid

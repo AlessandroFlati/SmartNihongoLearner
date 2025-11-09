@@ -2,7 +2,7 @@
   "version": "2.0.0",
   "generatedAt": "2025-11-09",
   "totalPairs": 1950,
-  "totalWords": 809,
+  "totalWords": 834,
   "words": {
     "する": {
       "word": "する",
@@ -618,6 +618,48 @@
             "reading": "genin",
             "english": "cause; origin; source",
             "score": 2
+          },
+          {
+            "word": "楽しみ",
+            "reading": "tanoshimi",
+            "english": "enjoyment; pleasure; diversion; amusement; hobby",
+            "score": 2
+          },
+          {
+            "word": "つもり",
+            "reading": "tsumori",
+            "english": "intention; plan",
+            "score": 2
+          },
+          {
+            "word": "場合",
+            "reading": "baai",
+            "english": "case; situation",
+            "score": 2
+          },
+          {
+            "word": "帰り",
+            "reading": "kaeri",
+            "english": "return; coming back",
+            "score": 2
+          },
+          {
+            "word": "仕方",
+            "reading": "shikata",
+            "english": "way; method; means; resource; course",
+            "score": 2
+          },
+          {
+            "word": "専門",
+            "reading": "senmon",
+            "english": "speciality; specialty; subject of study; expert; area of expertise",
+            "score": 2
+          },
+          {
+            "word": "クラス",
+            "reading": "kurasu",
+            "english": "class",
+            "score": 2
           }
         ]
       }
@@ -1232,6 +1274,30 @@
             "reading": "mori",
             "english": "forest",
             "score": 2
+          },
+          {
+            "word": "右",
+            "reading": "migi",
+            "english": "right; right-hand side",
+            "score": 2
+          },
+          {
+            "word": "左",
+            "reading": "hidari",
+            "english": "left; left hand side",
+            "score": 2
+          },
+          {
+            "word": "周り",
+            "reading": "mawari",
+            "english": "circumference; girth",
+            "score": 2
+          },
+          {
+            "word": "物",
+            "reading": "mono",
+            "english": "thing; object; article; stuff; substance",
+            "score": 2
           }
         ]
       }
@@ -1333,6 +1399,48 @@
             "word": "話",
             "reading": "hanashi",
             "english": "talk; speech; chat; conversation",
+            "score": 2
+          },
+          {
+            "word": "本当",
+            "reading": "hontou",
+            "english": "truth; reality; actuality; fact",
+            "score": 2
+          },
+          {
+            "word": "仕方",
+            "reading": "shikata",
+            "english": "way; method; means; resource; course",
+            "score": 2
+          },
+          {
+            "word": "語",
+            "reading": "go",
+            "english": "language",
+            "score": 2
+          },
+          {
+            "word": "法律",
+            "reading": "houritsu",
+            "english": "law",
+            "score": 2
+          },
+          {
+            "word": "経済",
+            "reading": "keizai",
+            "english": "economy; economics",
+            "score": 2
+          },
+          {
+            "word": "政治",
+            "reading": "seiji",
+            "english": "politics; government",
+            "score": 2
+          },
+          {
+            "word": "科学",
+            "reading": "kagaku",
+            "english": "science",
             "score": 2
           }
         ]
@@ -2748,6 +2856,12 @@
             "reading": "okane",
             "english": "money",
             "score": 2
+          },
+          {
+            "word": "点",
+            "reading": "ten",
+            "english": "dot; spot; point; speck; mark",
+            "score": 2
           }
         ]
       }
@@ -2885,6 +2999,30 @@
             "word": "意味",
             "reading": "imi",
             "english": "meaning; significance; sense",
+            "score": 2
+          },
+          {
+            "word": "本当",
+            "reading": "hontou",
+            "english": "truth; reality; actuality; fact",
+            "score": 2
+          },
+          {
+            "word": "仕方",
+            "reading": "shikata",
+            "english": "way; method; means; resource; course",
+            "score": 2
+          },
+          {
+            "word": "語",
+            "reading": "go",
+            "english": "language",
+            "score": 2
+          },
+          {
+            "word": "番号",
+            "reading": "bangou",
+            "english": "number; series of digits",
             "score": 2
           }
         ]
@@ -3053,6 +3191,12 @@
             "word": "漢字",
             "reading": "kanji",
             "english": "kanji; Chinese characters",
+            "score": 2
+          },
+          {
+            "word": "番号",
+            "reading": "bangou",
+            "english": "number; series of digits",
             "score": 2
           }
         ]
@@ -3431,6 +3575,18 @@
             "word": "道",
             "reading": "michi",
             "english": "road; path; street; lane; passage",
+            "score": 2
+          },
+          {
+            "word": "番号",
+            "reading": "bangou",
+            "english": "number; series of digits",
+            "score": 2
+          },
+          {
+            "word": "仕方",
+            "reading": "shikata",
+            "english": "way; method; means; resource; course",
             "score": 2
           }
         ]
@@ -5246,6 +5402,18 @@
             "reading": "kado",
             "english": "corner; edge",
             "score": 2
+          },
+          {
+            "word": "右",
+            "reading": "migi",
+            "english": "right; right-hand side",
+            "score": 3
+          },
+          {
+            "word": "左",
+            "reading": "hidari",
+            "english": "left; left hand side",
+            "score": 3
           }
         ]
       }
@@ -6326,6 +6494,24 @@
             "reading": "denwa",
             "english": "telephone call; phone call",
             "score": 2
+          },
+          {
+            "word": "語",
+            "reading": "go",
+            "english": "language",
+            "score": 2
+          },
+          {
+            "word": "政治",
+            "reading": "seiji",
+            "english": "politics; government",
+            "score": 2
+          },
+          {
+            "word": "昔",
+            "reading": "mukashi",
+            "english": "olden days; former",
+            "score": 2
           }
         ]
       }
@@ -6843,6 +7029,12 @@
             "word": "お金",
             "reading": "okane",
             "english": "money",
+            "score": 3
+          },
+          {
+            "word": "代",
+            "reading": "dai",
+            "english": "charge; cost; price",
             "score": 3
           }
         ]
@@ -9433,6 +9625,42 @@
             "word": "旅行",
             "reading": "ryokou",
             "english": "travel; trip; journey; excursion; tour",
+            "score": 2
+          },
+          {
+            "word": "科学",
+            "reading": "kagaku",
+            "english": "science",
+            "score": 2
+          },
+          {
+            "word": "遊び",
+            "reading": "asobi",
+            "english": "playing",
+            "score": 2
+          },
+          {
+            "word": "白",
+            "reading": "shiro",
+            "english": "white",
+            "score": 2
+          },
+          {
+            "word": "黒",
+            "reading": "kuro",
+            "english": "black",
+            "score": 2
+          },
+          {
+            "word": "赤",
+            "reading": "aka",
+            "english": "red; crimson; scarlet",
+            "score": 2
+          },
+          {
+            "word": "語",
+            "reading": "go",
+            "english": "language",
             "score": 2
           }
         ]
@@ -18981,6 +19209,143 @@
         "adjectives": []
       }
     },
+    "楽しみ": {
+      "word": "楽しみ",
+      "reading": "tanoshimi",
+      "english": "enjoyment; pleasure; diversion; amusement; hobby",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "ある",
+            "reading": "aru",
+            "english": "to be; to exist; to live",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "つもり": {
+      "word": "つもり",
+      "reading": "tsumori",
+      "english": "intention; plan",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "ある",
+            "reading": "aru",
+            "english": "to be; to exist; to live",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "場合": {
+      "word": "場合",
+      "reading": "baai",
+      "english": "case; situation",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "ある",
+            "reading": "aru",
+            "english": "to be; to exist; to live",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "帰り": {
+      "word": "帰り",
+      "reading": "kaeri",
+      "english": "return; coming back",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "ある",
+            "reading": "aru",
+            "english": "to be; to exist; to live",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "仕方": {
+      "word": "仕方",
+      "reading": "shikata",
+      "english": "way; method; means; resource; course",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "ある",
+            "reading": "aru",
+            "english": "to be; to exist; to live",
+            "score": 2
+          },
+          {
+            "word": "わかる",
+            "reading": "wakaru",
+            "english": "to understand; to comprehend; to grasp; to see; to get; to follow",
+            "score": 2
+          },
+          {
+            "word": "知る",
+            "reading": "shiru",
+            "english": "to be aware of; to know; to be conscious of; to cognize; to cognise",
+            "score": 2
+          },
+          {
+            "word": "教える",
+            "reading": "oshieru",
+            "english": "to teach; to instruct",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "専門": {
+      "word": "専門",
+      "reading": "senmon",
+      "english": "speciality; specialty; subject of study; expert; area of expertise",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "ある",
+            "reading": "aru",
+            "english": "to be; to exist; to live",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "クラス": {
+      "word": "クラス",
+      "reading": "kurasu",
+      "english": "class",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "ある",
+            "reading": "aru",
+            "english": "to be; to exist; to live",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
     "大人": {
       "word": "大人",
       "reading": "otona",
@@ -21117,6 +21482,86 @@
         "adjectives": []
       }
     },
+    "右": {
+      "word": "右",
+      "reading": "migi",
+      "english": "right; right-hand side",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "曲がる",
+            "reading": "magaru",
+            "english": "to bend; to curve; to warp; to wind; to twist",
+            "score": 3
+          },
+          {
+            "word": "見る",
+            "reading": "miru",
+            "english": "to see; to look; to watch; to view; to observe",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "左": {
+      "word": "左",
+      "reading": "hidari",
+      "english": "left; left hand side",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "曲がる",
+            "reading": "magaru",
+            "english": "to bend; to curve; to warp; to wind; to twist",
+            "score": 3
+          },
+          {
+            "word": "見る",
+            "reading": "miru",
+            "english": "to see; to look; to watch; to view; to observe",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "周り": {
+      "word": "周り",
+      "reading": "mawari",
+      "english": "circumference; girth",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "見る",
+            "reading": "miru",
+            "english": "to see; to look; to watch; to view; to observe",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "物": {
+      "word": "物",
+      "reading": "mono",
+      "english": "thing; object; article; stuff; substance",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "見る",
+            "reading": "miru",
+            "english": "to see; to look; to watch; to view; to observe",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
     "ドア": {
       "word": "ドア",
       "reading": "doa",
@@ -21277,6 +21722,146 @@
             "word": "深い",
             "reading": "fukai",
             "english": "deep",
+            "score": 2
+          }
+        ]
+      }
+    },
+    "本当": {
+      "word": "本当",
+      "reading": "hontou",
+      "english": "truth; reality; actuality; fact",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "わかる",
+            "reading": "wakaru",
+            "english": "to understand; to comprehend; to grasp; to see; to get; to follow",
+            "score": 2
+          },
+          {
+            "word": "知る",
+            "reading": "shiru",
+            "english": "to be aware of; to know; to be conscious of; to cognize; to cognise",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "語": {
+      "word": "語",
+      "reading": "go",
+      "english": "language",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "わかる",
+            "reading": "wakaru",
+            "english": "to understand; to comprehend; to grasp; to see; to get; to follow",
+            "score": 2
+          },
+          {
+            "word": "知る",
+            "reading": "shiru",
+            "english": "to be aware of; to know; to be conscious of; to cognize; to cognise",
+            "score": 2
+          },
+          {
+            "word": "話す",
+            "reading": "hanasu",
+            "english": "to talk; to speak; to converse; to chat",
+            "score": 2
+          }
+        ],
+        "adjectives": [
+          {
+            "word": "好き",
+            "reading": "suki",
+            "english": "liked; well-liked; favourite; favorite",
+            "score": 2
+          }
+        ]
+      }
+    },
+    "法律": {
+      "word": "法律",
+      "reading": "houritsu",
+      "english": "law",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "わかる",
+            "reading": "wakaru",
+            "english": "to understand; to comprehend; to grasp; to see; to get; to follow",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "経済": {
+      "word": "経済",
+      "reading": "keizai",
+      "english": "economy; economics",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "わかる",
+            "reading": "wakaru",
+            "english": "to understand; to comprehend; to grasp; to see; to get; to follow",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "政治": {
+      "word": "政治",
+      "reading": "seiji",
+      "english": "politics; government",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "わかる",
+            "reading": "wakaru",
+            "english": "to understand; to comprehend; to grasp; to see; to get; to follow",
+            "score": 2
+          },
+          {
+            "word": "話す",
+            "reading": "hanasu",
+            "english": "to talk; to speak; to converse; to chat",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "科学": {
+      "word": "科学",
+      "reading": "kagaku",
+      "english": "science",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "わかる",
+            "reading": "wakaru",
+            "english": "to understand; to comprehend; to grasp; to see; to get; to follow",
+            "score": 2
+          }
+        ],
+        "adjectives": [
+          {
+            "word": "好き",
+            "reading": "suki",
+            "english": "liked; well-liked; favourite; favorite",
             "score": 2
           }
         ]
@@ -24911,6 +25496,23 @@
         ]
       }
     },
+    "点": {
+      "word": "点",
+      "reading": "ten",
+      "english": "dot; spot; point; speck; mark",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "取る",
+            "reading": "toru",
+            "english": "to take; to pick up; to grab; to catch",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
     "タクシー": {
       "word": "タクシー",
       "reading": "takushii",
@@ -24963,6 +25565,35 @@
             "word": "消える",
             "reading": "kieru",
             "english": "to go out; to vanish; to disappear",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "番号": {
+      "word": "番号",
+      "reading": "bangou",
+      "english": "number; series of digits",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "知る",
+            "reading": "shiru",
+            "english": "to be aware of; to know; to be conscious of; to cognize; to cognise",
+            "score": 2
+          },
+          {
+            "word": "書く",
+            "reading": "kaku",
+            "english": "to write; to compose; to pen",
+            "score": 2
+          },
+          {
+            "word": "教える",
+            "reading": "oshieru",
+            "english": "to teach; to instruct",
             "score": 2
           }
         ],
@@ -27823,6 +28454,23 @@
         ]
       }
     },
+    "昔": {
+      "word": "昔",
+      "reading": "mukashi",
+      "english": "olden days; former",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "話す",
+            "reading": "hanasu",
+            "english": "to talk; to speak; to converse; to chat",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
     "雪": {
       "word": "雪",
       "reading": "yuki",
@@ -27965,6 +28613,23 @@
             "reading": "nigeru",
             "english": "to escape; to run away",
             "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "代": {
+      "word": "代",
+      "reading": "dai",
+      "english": "charge; cost; price",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "払う",
+            "reading": "harau",
+            "english": "to pay (e.g. money bill)",
+            "score": 3
           }
         ],
         "adjectives": []
@@ -28538,6 +29203,74 @@
             "word": "弱い",
             "reading": "yowai",
             "english": "weak; frail; delicate; tender; unskilled; weak (wine)",
+            "score": 2
+          }
+        ]
+      }
+    },
+    "遊び": {
+      "word": "遊び",
+      "reading": "asobi",
+      "english": "playing",
+      "type": "noun",
+      "matches": {
+        "verbs": [],
+        "adjectives": [
+          {
+            "word": "好き",
+            "reading": "suki",
+            "english": "liked; well-liked; favourite; favorite",
+            "score": 2
+          }
+        ]
+      }
+    },
+    "白": {
+      "word": "白",
+      "reading": "shiro",
+      "english": "white",
+      "type": "noun",
+      "matches": {
+        "verbs": [],
+        "adjectives": [
+          {
+            "word": "好き",
+            "reading": "suki",
+            "english": "liked; well-liked; favourite; favorite",
+            "score": 2
+          }
+        ]
+      }
+    },
+    "黒": {
+      "word": "黒",
+      "reading": "kuro",
+      "english": "black",
+      "type": "noun",
+      "matches": {
+        "verbs": [],
+        "adjectives": [
+          {
+            "word": "好き",
+            "reading": "suki",
+            "english": "liked; well-liked; favourite; favorite",
+            "score": 2
+          }
+        ]
+      }
+    },
+    "赤": {
+      "word": "赤",
+      "reading": "aka",
+      "english": "red; crimson; scarlet",
+      "type": "noun",
+      "matches": {
+        "verbs": [],
+        "adjectives": [
+          {
+            "word": "好き",
+            "reading": "suki",
+            "english": "liked; well-liked; favourite; favorite",
             "score": 2
           }
         ]

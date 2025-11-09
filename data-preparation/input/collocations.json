@@ -613,6 +613,48 @@
           "reading": "genin",
           "english": "cause; origin; source",
           "score": 2
+        },
+        {
+          "word": "楽しみ",
+          "reading": "tanoshimi",
+          "english": "enjoyment; pleasure; diversion; amusement; hobby",
+          "score": 2
+        },
+        {
+          "word": "つもり",
+          "reading": "tsumori",
+          "english": "intention; plan",
+          "score": 2
+        },
+        {
+          "word": "場合",
+          "reading": "baai",
+          "english": "case; situation",
+          "score": 2
+        },
+        {
+          "word": "帰り",
+          "reading": "kaeri",
+          "english": "return; coming back",
+          "score": 2
+        },
+        {
+          "word": "仕方",
+          "reading": "shikata",
+          "english": "way; method; means; resource; course",
+          "score": 2
+        },
+        {
+          "word": "専門",
+          "reading": "senmon",
+          "english": "speciality; specialty; subject of study; expert; area of expertise",
+          "score": 2
+        },
+        {
+          "word": "クラス",
+          "reading": "kurasu",
+          "english": "class",
+          "score": 2
         }
       ]
     },
@@ -1211,6 +1253,30 @@
           "reading": "mori",
           "english": "forest",
           "score": 2
+        },
+        {
+          "word": "右",
+          "reading": "migi",
+          "english": "right; right-hand side",
+          "score": 2
+        },
+        {
+          "word": "左",
+          "reading": "hidari",
+          "english": "left; left hand side",
+          "score": 2
+        },
+        {
+          "word": "周り",
+          "reading": "mawari",
+          "english": "circumference; girth",
+          "score": 2
+        },
+        {
+          "word": "物",
+          "reading": "mono",
+          "english": "thing; object; article; stuff; substance",
+          "score": 2
         }
       ]
     },
@@ -1306,6 +1372,48 @@
           "word": "話",
           "reading": "hanashi",
           "english": "talk; speech; chat; conversation",
+          "score": 2
+        },
+        {
+          "word": "本当",
+          "reading": "hontou",
+          "english": "truth; reality; actuality; fact",
+          "score": 2
+        },
+        {
+          "word": "仕方",
+          "reading": "shikata",
+          "english": "way; method; means; resource; course",
+          "score": 2
+        },
+        {
+          "word": "語",
+          "reading": "go",
+          "english": "language",
+          "score": 2
+        },
+        {
+          "word": "法律",
+          "reading": "houritsu",
+          "english": "law",
+          "score": 2
+        },
+        {
+          "word": "経済",
+          "reading": "keizai",
+          "english": "economy; economics",
+          "score": 2
+        },
+        {
+          "word": "政治",
+          "reading": "seiji",
+          "english": "politics; government",
+          "score": 2
+        },
+        {
+          "word": "科学",
+          "reading": "kagaku",
+          "english": "science",
           "score": 2
         }
       ]
@@ -2671,6 +2779,12 @@
           "reading": "okane",
           "english": "money",
           "score": 2
+        },
+        {
+          "word": "点",
+          "reading": "ten",
+          "english": "dot; spot; point; speck; mark",
+          "score": 2
         }
       ]
     },
@@ -2802,6 +2916,30 @@
           "word": "意味",
           "reading": "imi",
           "english": "meaning; significance; sense",
+          "score": 2
+        },
+        {
+          "word": "本当",
+          "reading": "hontou",
+          "english": "truth; reality; actuality; fact",
+          "score": 2
+        },
+        {
+          "word": "仕方",
+          "reading": "shikata",
+          "english": "way; method; means; resource; course",
+          "score": 2
+        },
+        {
+          "word": "語",
+          "reading": "go",
+          "english": "language",
+          "score": 2
+        },
+        {
+          "word": "番号",
+          "reading": "bangou",
+          "english": "number; series of digits",
           "score": 2
         }
       ]
@@ -2964,6 +3102,12 @@
           "word": "漢字",
           "reading": "kanji",
           "english": "kanji; Chinese characters",
+          "score": 2
+        },
+        {
+          "word": "番号",
+          "reading": "bangou",
+          "english": "number; series of digits",
           "score": 2
         }
       ]
@@ -3318,6 +3462,18 @@
           "word": "道",
           "reading": "michi",
           "english": "road; path; street; lane; passage",
+          "score": 2
+        },
+        {
+          "word": "番号",
+          "reading": "bangou",
+          "english": "number; series of digits",
+          "score": 2
+        },
+        {
+          "word": "仕方",
+          "reading": "shikata",
+          "english": "way; method; means; resource; course",
           "score": 2
         }
       ]
@@ -5021,6 +5177,18 @@
           "reading": "kado",
           "english": "corner; edge",
           "score": 2
+        },
+        {
+          "word": "右",
+          "reading": "migi",
+          "english": "right; right-hand side",
+          "score": 3
+        },
+        {
+          "word": "左",
+          "reading": "hidari",
+          "english": "left; left hand side",
+          "score": 3
         }
       ]
     },
@@ -6029,6 +6197,24 @@
           "reading": "denwa",
           "english": "telephone call; phone call",
           "score": 2
+        },
+        {
+          "word": "語",
+          "reading": "go",
+          "english": "language",
+          "score": 2
+        },
+        {
+          "word": "政治",
+          "reading": "seiji",
+          "english": "politics; government",
+          "score": 2
+        },
+        {
+          "word": "昔",
+          "reading": "mukashi",
+          "english": "olden days; former",
+          "score": 2
         }
       ]
     },
@@ -6512,6 +6698,12 @@
           "word": "お金",
           "reading": "okane",
           "english": "money",
+          "score": 3
+        },
+        {
+          "word": "代",
+          "reading": "dai",
+          "english": "charge; cost; price",
           "score": 3
         }
       ]
@@ -8902,6 +9094,42 @@
           "word": "旅行",
           "reading": "ryokou",
           "english": "travel; trip; journey; excursion; tour",
+          "score": 2
+        },
+        {
+          "word": "科学",
+          "reading": "kagaku",
+          "english": "science",
+          "score": 2
+        },
+        {
+          "word": "遊び",
+          "reading": "asobi",
+          "english": "playing",
+          "score": 2
+        },
+        {
+          "word": "白",
+          "reading": "shiro",
+          "english": "white",
+          "score": 2
+        },
+        {
+          "word": "黒",
+          "reading": "kuro",
+          "english": "black",
+          "score": 2
+        },
+        {
+          "word": "赤",
+          "reading": "aka",
+          "english": "red; crimson; scarlet",
+          "score": 2
+        },
+        {
+          "word": "語",
+          "reading": "go",
+          "english": "language",
           "score": 2
         }
       ]
