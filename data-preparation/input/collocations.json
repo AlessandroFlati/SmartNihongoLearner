@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
   "generatedAt": "2025-11-09",
-  "totalPairs": 925,
-  "totalWords": 185,
+  "totalPairs": 1200,
+  "totalWords": 240,
   "collocations": {
     "する": {
       "word": "する",
@@ -705,39 +705,15 @@
       "type": "verb",
       "matches": [
         {
-          "word": "家",
-          "reading": "ie",
-          "english": "house; residence; dwelling",
+          "word": "風呂",
+          "reading": "furo",
+          "english": "bath; bathing; bathtub; bathroom",
           "score": 2
         },
         {
-          "word": "部屋",
-          "reading": "heya",
-          "english": "room; chamber",
-          "score": 2
-        },
-        {
-          "word": "学校",
-          "reading": "gakkou",
-          "english": "school",
-          "score": 2
-        },
-        {
-          "word": "会社",
-          "reading": "kaisha",
-          "english": "company; corporation",
-          "score": 2
-        },
-        {
-          "word": "駅",
-          "reading": "eki",
-          "english": "railway station; train station",
-          "score": 2
-        },
-        {
-          "word": "店",
-          "reading": "mise",
-          "english": "store; shop; establishment; restaurant",
+          "word": "お風呂",
+          "reading": "ofuro",
+          "english": "bath",
           "score": 2
         }
       ]
@@ -1045,36 +1021,6 @@
       "type": "verb",
       "matches": [
         {
-          "word": "部屋",
-          "reading": "heya",
-          "english": "room; chamber",
-          "score": 3
-        },
-        {
-          "word": "家",
-          "reading": "ie",
-          "english": "house; residence; dwelling",
-          "score": 2
-        },
-        {
-          "word": "店",
-          "reading": "mise",
-          "english": "store; shop; establishment; restaurant",
-          "score": 2
-        },
-        {
-          "word": "大学",
-          "reading": "daigaku",
-          "english": "university; college",
-          "score": 2
-        },
-        {
-          "word": "会社",
-          "reading": "kaisha",
-          "english": "company; corporation",
-          "score": 2
-        },
-        {
           "word": "風呂",
           "reading": "furo",
           "english": "bath; bathing; bathtub; bathroom",
@@ -1245,16 +1191,10 @@
       "type": "verb",
       "matches": [
         {
-          "word": "時間",
-          "reading": "jikan",
-          "english": "time",
-          "score": 3
-        },
-        {
-          "word": "お金",
-          "reading": "okane",
-          "english": "money",
-          "score": 3
+          "word": "電話",
+          "reading": "denwa",
+          "english": "telephone call; phone call",
+          "score": 2
         }
       ]
     },
@@ -1963,18 +1903,6 @@
           "score": 2
         },
         {
-          "word": "部屋",
-          "reading": "heya",
-          "english": "room; chamber",
-          "score": 2
-        },
-        {
-          "word": "家",
-          "reading": "ie",
-          "english": "house; residence; dwelling",
-          "score": 2
-        },
-        {
           "word": "場所",
           "reading": "basho",
           "english": "place; location; spot; position",
@@ -2038,12 +1966,6 @@
       "english": "to hang up (e.g. a coat a picture on the wall); to let hang; to suspend (from); to hoist (e.g. sail); to raise (e.g. flag)",
       "type": "verb",
       "matches": [
-        {
-          "word": "電話",
-          "reading": "denwa",
-          "english": "telephone call; phone call",
-          "score": 3
-        },
         {
           "word": "時間",
           "reading": "jikan",
@@ -3358,6 +3280,1496 @@
           "word": "スリッパ",
           "reading": "surippa",
           "english": "slipper; slippers",
+          "score": 2
+        }
+      ]
+    },
+    "置く": {
+      "word": "置く",
+      "reading": "oku",
+      "english": "to put; to place",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "本",
+          "reading": "hon",
+          "english": "book; volume; script",
+          "score": 2
+        },
+        {
+          "word": "時計",
+          "reading": "tokei",
+          "english": "clock; watch; timepiece",
+          "score": 2
+        },
+        {
+          "word": "花",
+          "reading": "hana",
+          "english": "flower; blossom; bloom; petal",
+          "score": 2
+        },
+        {
+          "word": "机",
+          "reading": "tsukue",
+          "english": "desk",
+          "score": 2
+        }
+      ]
+    },
+    "並ぶ": {
+      "word": "並ぶ",
+      "reading": "narabu",
+      "english": "to line up; to stand in a line",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "人",
+          "reading": "hito",
+          "english": "man; person",
+          "score": 2
+        },
+        {
+          "word": "店",
+          "reading": "mise",
+          "english": "store; shop; establishment; restaurant",
+          "score": 2
+        }
+      ]
+    },
+    "並べる": {
+      "word": "並べる",
+      "reading": "naraberu",
+      "english": "to line up; to set up; to arrange in a line",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "椅子",
+          "reading": "isu",
+          "english": "chair; stool",
+          "score": 2
+        },
+        {
+          "word": "机",
+          "reading": "tsukue",
+          "english": "desk",
+          "score": 2
+        },
+        {
+          "word": "本",
+          "reading": "hon",
+          "english": "book; volume; script",
+          "score": 2
+        }
+      ]
+    },
+    "集まる": {
+      "word": "集まる",
+      "reading": "atsumaru",
+      "english": "to gather; to collect; to assemble",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "人",
+          "reading": "hito",
+          "english": "man; person",
+          "score": 3
+        },
+        {
+          "word": "学生",
+          "reading": "gakusei",
+          "english": "student (esp. a university student)",
+          "score": 2
+        },
+        {
+          "word": "友達",
+          "reading": "tomodachi",
+          "english": "friend; companion",
+          "score": 2
+        },
+        {
+          "word": "家族",
+          "reading": "kazoku",
+          "english": "family; members of a family",
+          "score": 2
+        }
+      ]
+    },
+    "集める": {
+      "word": "集める",
+      "reading": "atsumeru",
+      "english": "to collect; to assemble; to gather",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "お金",
+          "reading": "okane",
+          "english": "money",
+          "score": 2
+        },
+        {
+          "word": "切手",
+          "reading": "kitte",
+          "english": "stamp (postage); merchandise certificate",
+          "score": 2
+        }
+      ]
+    },
+    "別れる": {
+      "word": "別れる",
+      "reading": "wakareru",
+      "english": "to part (usu. of people); to part from; to part with; to be apart from",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "人",
+          "reading": "hito",
+          "english": "man; person",
+          "score": 2
+        },
+        {
+          "word": "友達",
+          "reading": "tomodachi",
+          "english": "friend; companion",
+          "score": 2
+        },
+        {
+          "word": "家族",
+          "reading": "kazoku",
+          "english": "family; members of a family",
+          "score": 2
+        }
+      ]
+    },
+    "生まれる": {
+      "word": "生まれる",
+      "reading": "umareru",
+      "english": "to be born",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "人",
+          "reading": "hito",
+          "english": "man; person",
+          "score": 2
+        },
+        {
+          "word": "子供",
+          "reading": "kodomo",
+          "english": "child",
+          "score": 2
+        },
+        {
+          "word": "赤ちゃん",
+          "reading": "akachan",
+          "english": "baby; infant",
+          "score": 2
+        }
+      ]
+    },
+    "育てる": {
+      "word": "育てる",
+      "reading": "sodateru",
+      "english": "to raise; to rear; to bring up",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "子供",
+          "reading": "kodomo",
+          "english": "child",
+          "score": 3
+        },
+        {
+          "word": "花",
+          "reading": "hana",
+          "english": "flower; blossom; bloom; petal",
+          "score": 2
+        },
+        {
+          "word": "野菜",
+          "reading": "yasai",
+          "english": "vegetable",
+          "score": 2
+        },
+        {
+          "word": "動物",
+          "reading": "doubutsu",
+          "english": "animal",
+          "score": 2
+        },
+        {
+          "word": "犬",
+          "reading": "inu",
+          "english": "dog (Canis (lupus) familiaris)",
+          "score": 2
+        },
+        {
+          "word": "猫",
+          "reading": "neko",
+          "english": "cat (esp. the domestic cat Felis catus)",
+          "score": 2
+        }
+      ]
+    },
+    "働く": {
+      "word": "働く",
+      "reading": "hataraku",
+      "english": "to work; to labor; to labour",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "会社",
+          "reading": "kaisha",
+          "english": "company; corporation",
+          "score": 3
+        },
+        {
+          "word": "店",
+          "reading": "mise",
+          "english": "store; shop; establishment; restaurant",
+          "score": 2
+        },
+        {
+          "word": "病院",
+          "reading": "byouin",
+          "english": "hospital",
+          "score": 2
+        },
+        {
+          "word": "工場",
+          "reading": "koujou",
+          "english": "factory; plant; mill; workshop",
+          "score": 2
+        },
+        {
+          "word": "レストラン",
+          "reading": "resutoran",
+          "english": "restaurant (esp. Western-style)",
+          "score": 2
+        }
+      ]
+    },
+    "休む": {
+      "word": "休む",
+      "reading": "yasumu",
+      "english": "to be absent; to take a day off",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "仕事",
+          "reading": "shigoto",
+          "english": "work; job; labor; labour; business; task; assignment; occupation; employment",
+          "score": 3
+        },
+        {
+          "word": "学校",
+          "reading": "gakkou",
+          "english": "school",
+          "score": 2
+        },
+        {
+          "word": "会社",
+          "reading": "kaisha",
+          "english": "company; corporation",
+          "score": 2
+        },
+        {
+          "word": "授業",
+          "reading": "jugyou",
+          "english": "lesson; class work; teaching; instruction",
+          "score": 2
+        },
+        {
+          "word": "日",
+          "reading": "nichi",
+          "english": "Sunday",
+          "score": 2
+        }
+      ]
+    },
+    "疲れる": {
+      "word": "疲れる",
+      "reading": "tsukareru",
+      "english": "to get tired; to tire; to get fatigued; to become exhausted; to grow weary",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "体",
+          "reading": "karada",
+          "english": "body",
+          "score": 2
+        },
+        {
+          "word": "足",
+          "reading": "ashi",
+          "english": "foot; paw; arm (of an octopus squid etc.)",
+          "score": 2
+        }
+      ]
+    },
+    "困る": {
+      "word": "困る",
+      "reading": "komaru",
+      "english": "to be troubled; to have difficulty; to be in a fix; to be at a loss; to be stumped; to be embarrassed",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "こと",
+          "reading": "koto",
+          "english": "thing; matter",
+          "score": 2
+        },
+        {
+          "word": "問題",
+          "reading": "mondai",
+          "english": "question (e.g. on a test); problem",
+          "score": 2
+        },
+        {
+          "word": "お金",
+          "reading": "okane",
+          "english": "money",
+          "score": 2
+        }
+      ]
+    },
+    "喜ぶ": {
+      "word": "喜ぶ",
+      "reading": "yorokobu",
+      "english": "to be delighted; to be glad; to be pleased",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "人",
+          "reading": "hito",
+          "english": "man; person",
+          "score": 2
+        },
+        {
+          "word": "こと",
+          "reading": "koto",
+          "english": "thing; matter",
+          "score": 2
+        },
+        {
+          "word": "ニュース",
+          "reading": "nyuusu",
+          "english": "news",
+          "score": 2
+        },
+        {
+          "word": "プレゼント",
+          "reading": "purezento",
+          "english": "present; gift",
+          "score": 2
+        }
+      ]
+    },
+    "驚く": {
+      "word": "驚く",
+      "reading": "odoroku",
+      "english": "to be surprised; to be astonished",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "こと",
+          "reading": "koto",
+          "english": "thing; matter",
+          "score": 2
+        },
+        {
+          "word": "ニュース",
+          "reading": "nyuusu",
+          "english": "news",
+          "score": 2
+        }
+      ]
+    },
+    "似る": {
+      "word": "似る",
+      "reading": "niru",
+      "english": "to resemble; to look like; to take after",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "人",
+          "reading": "hito",
+          "english": "man; person",
+          "score": 2
+        },
+        {
+          "word": "親",
+          "reading": "oya",
+          "english": "parent; parents; mother and father",
+          "score": 2
+        },
+        {
+          "word": "お母さん",
+          "reading": "okaasan",
+          "english": "mother; mom; mum; ma",
+          "score": 2
+        },
+        {
+          "word": "お父さん",
+          "reading": "otousan",
+          "english": "father; dad; papa; pa; pop; daddy; dada",
+          "score": 2
+        }
+      ]
+    },
+    "増える": {
+      "word": "増える",
+      "reading": "fueru",
+      "english": "to increase; to multiply",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "人",
+          "reading": "hito",
+          "english": "man; person",
+          "score": 2
+        },
+        {
+          "word": "お金",
+          "reading": "okane",
+          "english": "money",
+          "score": 2
+        },
+        {
+          "word": "問題",
+          "reading": "mondai",
+          "english": "question (e.g. on a test); problem",
+          "score": 2
+        },
+        {
+          "word": "仕事",
+          "reading": "shigoto",
+          "english": "work; job; labor; labour; business; task; assignment; occupation; employment",
+          "score": 2
+        }
+      ]
+    },
+    "上がる": {
+      "word": "上がる",
+      "reading": "agaru",
+      "english": "to rise; to go up; to come up; to ascend; to be raised",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "値段",
+          "reading": "nedan",
+          "english": "price; cost",
+          "score": 2
+        },
+        {
+          "word": "階段",
+          "reading": "kaidan",
+          "english": "stairs; stairway; staircase",
+          "score": 2
+        }
+      ]
+    },
+    "下がる": {
+      "word": "下がる",
+      "reading": "sagaru",
+      "english": "to come down; to go down; to fall; to drop; to sink; to get lower",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "値段",
+          "reading": "nedan",
+          "english": "price; cost",
+          "score": 2
+        }
+      ]
+    },
+    "上げる": {
+      "word": "上げる",
+      "reading": "ageru",
+      "english": "to raise; to elevate",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "手",
+          "reading": "te",
+          "english": "hand; arm",
+          "score": 2
+        },
+        {
+          "word": "声",
+          "reading": "koe",
+          "english": "voice",
+          "score": 2
+        },
+        {
+          "word": "値段",
+          "reading": "nedan",
+          "english": "price; cost",
+          "score": 2
+        }
+      ]
+    },
+    "下げる": {
+      "word": "下げる",
+      "reading": "sageru",
+      "english": "to hang; to suspend; to wear (e.g. decoration)",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "頭",
+          "reading": "atama",
+          "english": "head",
+          "score": 2
+        },
+        {
+          "word": "声",
+          "reading": "koe",
+          "english": "voice",
+          "score": 2
+        },
+        {
+          "word": "値段",
+          "reading": "nedan",
+          "english": "price; cost",
+          "score": 2
+        }
+      ]
+    },
+    "動く": {
+      "word": "動く",
+      "reading": "ugoku",
+      "english": "to move; to stir; to shift; to shake; to swing",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "人",
+          "reading": "hito",
+          "english": "man; person",
+          "score": 2
+        },
+        {
+          "word": "車",
+          "reading": "kuruma",
+          "english": "car; automobile; vehicle",
+          "score": 2
+        },
+        {
+          "word": "時計",
+          "reading": "tokei",
+          "english": "clock; watch; timepiece",
+          "score": 2
+        },
+        {
+          "word": "心",
+          "reading": "kokoro",
+          "english": "mind; heart; spirit",
+          "score": 2
+        }
+      ]
+    },
+    "止まる": {
+      "word": "止まる",
+      "reading": "tomaru",
+      "english": "to stop (moving); to come to a stop",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "車",
+          "reading": "kuruma",
+          "english": "car; automobile; vehicle",
+          "score": 2
+        },
+        {
+          "word": "電車",
+          "reading": "densha",
+          "english": "train; electric train",
+          "score": 2
+        },
+        {
+          "word": "時計",
+          "reading": "tokei",
+          "english": "clock; watch; timepiece",
+          "score": 2
+        },
+        {
+          "word": "雨",
+          "reading": "ame",
+          "english": "rain",
+          "score": 2
+        }
+      ]
+    },
+    "止める": {
+      "word": "止める",
+      "reading": "tomeru",
+      "english": "to stop; to turn off",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "車",
+          "reading": "kuruma",
+          "english": "car; automobile; vehicle",
+          "score": 2
+        },
+        {
+          "word": "時計",
+          "reading": "tokei",
+          "english": "clock; watch; timepiece",
+          "score": 2
+        },
+        {
+          "word": "人",
+          "reading": "hito",
+          "english": "man; person",
+          "score": 2
+        }
+      ]
+    },
+    "曲がる": {
+      "word": "曲がる",
+      "reading": "magaru",
+      "english": "to bend; to curve; to warp; to wind; to twist",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "道",
+          "reading": "michi",
+          "english": "road; path; street; lane; passage",
+          "score": 2
+        },
+        {
+          "word": "角",
+          "reading": "kado",
+          "english": "corner; edge",
+          "score": 2
+        }
+      ]
+    },
+    "渡る": {
+      "word": "渡る",
+      "reading": "wataru",
+      "english": "to cross over; to go across",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "道",
+          "reading": "michi",
+          "english": "road; path; street; lane; passage",
+          "score": 2
+        },
+        {
+          "word": "橋",
+          "reading": "hashi",
+          "english": "bridge",
+          "score": 2
+        },
+        {
+          "word": "川",
+          "reading": "kawa",
+          "english": "river; stream",
+          "score": 2
+        },
+        {
+          "word": "海",
+          "reading": "umi",
+          "english": "sea; ocean; waters",
+          "score": 2
+        }
+      ]
+    },
+    "通る": {
+      "word": "通る",
+      "reading": "tooru",
+      "english": "to go by; to go past; to go along; to travel along; to pass through; to use (a road); to take (a route); to go via; to go by way of",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "道",
+          "reading": "michi",
+          "english": "road; path; street; lane; passage",
+          "score": 2
+        },
+        {
+          "word": "駅",
+          "reading": "eki",
+          "english": "railway station; train station",
+          "score": 2
+        },
+        {
+          "word": "店",
+          "reading": "mise",
+          "english": "store; shop; establishment; restaurant",
+          "score": 2
+        }
+      ]
+    },
+    "過ぎる": {
+      "word": "過ぎる",
+      "reading": "sugiru",
+      "english": "to pass through; to pass by; to go beyond",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "時間",
+          "reading": "jikan",
+          "english": "time",
+          "score": 2
+        },
+        {
+          "word": "駅",
+          "reading": "eki",
+          "english": "railway station; train station",
+          "score": 2
+        },
+        {
+          "word": "店",
+          "reading": "mise",
+          "english": "store; shop; establishment; restaurant",
+          "score": 2
+        }
+      ]
+    },
+    "乗る": {
+      "word": "乗る",
+      "reading": "noru",
+      "english": "to get on (train plane bus ship etc.); to get in; to board; to take; to embark",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "電車",
+          "reading": "densha",
+          "english": "train; electric train",
+          "score": 3
+        },
+        {
+          "word": "バス",
+          "reading": "basu",
+          "english": "bus",
+          "score": 3
+        },
+        {
+          "word": "車",
+          "reading": "kuruma",
+          "english": "car; automobile; vehicle",
+          "score": 3
+        },
+        {
+          "word": "自転車",
+          "reading": "jitensha",
+          "english": "bicycle; bike",
+          "score": 2
+        },
+        {
+          "word": "飛行機",
+          "reading": "hikouki",
+          "english": "aeroplane; airplane; aircraft",
+          "score": 2
+        },
+        {
+          "word": "船",
+          "reading": "fune",
+          "english": "ship; boat; watercraft; vessel; seaplane",
+          "score": 2
+        },
+        {
+          "word": "タクシー",
+          "reading": "takushii",
+          "english": "taxi",
+          "score": 2
+        }
+      ]
+    },
+    "降りる": {
+      "word": "降りる",
+      "reading": "oriru",
+      "english": "to descend (e.g. a mountain); to go down; to come down",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "電車",
+          "reading": "densha",
+          "english": "train; electric train",
+          "score": 3
+        },
+        {
+          "word": "バス",
+          "reading": "basu",
+          "english": "bus",
+          "score": 2
+        },
+        {
+          "word": "車",
+          "reading": "kuruma",
+          "english": "car; automobile; vehicle",
+          "score": 2
+        },
+        {
+          "word": "階段",
+          "reading": "kaidan",
+          "english": "stairs; stairway; staircase",
+          "score": 2
+        },
+        {
+          "word": "駅",
+          "reading": "eki",
+          "english": "railway station; train station",
+          "score": 2
+        }
+      ]
+    },
+    "乗り換える": {
+      "word": "乗り換える",
+      "reading": "norikaeru",
+      "english": "to transfer (trains); to change (bus train)",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "電車",
+          "reading": "densha",
+          "english": "train; electric train",
+          "score": 3
+        },
+        {
+          "word": "バス",
+          "reading": "basu",
+          "english": "bus",
+          "score": 2
+        }
+      ]
+    },
+    "運ぶ": {
+      "word": "運ぶ",
+      "reading": "hakobu",
+      "english": "to carry; to transport; to move; to convey",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "荷物",
+          "reading": "nimotsu",
+          "english": "luggage; baggage; package",
+          "score": 3
+        },
+        {
+          "word": "箱",
+          "reading": "hako",
+          "english": "box; case; chest; package; pack; crate",
+          "score": 2
+        }
+      ]
+    },
+    "連れる": {
+      "word": "連れる",
+      "reading": "tsureru",
+      "english": "to take (someone) with one; to bring along; to go with; to be accompanied by",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "人",
+          "reading": "hito",
+          "english": "man; person",
+          "score": 2
+        },
+        {
+          "word": "子供",
+          "reading": "kodomo",
+          "english": "child",
+          "score": 2
+        },
+        {
+          "word": "友達",
+          "reading": "tomodachi",
+          "english": "friend; companion",
+          "score": 2
+        }
+      ]
+    },
+    "迎える": {
+      "word": "迎える",
+      "reading": "mukaeru",
+      "english": "to go out to meet",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "人",
+          "reading": "hito",
+          "english": "man; person",
+          "score": 2
+        },
+        {
+          "word": "友達",
+          "reading": "tomodachi",
+          "english": "friend; companion",
+          "score": 2
+        },
+        {
+          "word": "客",
+          "reading": "kyaku",
+          "english": "guest; visitor",
+          "score": 2
+        },
+        {
+          "word": "朝",
+          "reading": "asa",
+          "english": "morning",
+          "score": 2
+        },
+        {
+          "word": "年",
+          "reading": "toshi",
+          "english": "year",
+          "score": 2
+        }
+      ]
+    },
+    "訪ねる": {
+      "word": "訪ねる",
+      "reading": "tazuneru",
+      "english": "to visit; to call on; to pay a visit to",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "人",
+          "reading": "hito",
+          "english": "man; person",
+          "score": 2
+        },
+        {
+          "word": "家",
+          "reading": "ie",
+          "english": "house; residence; dwelling",
+          "score": 2
+        },
+        {
+          "word": "場所",
+          "reading": "basho",
+          "english": "place; location; spot; position",
+          "score": 2
+        }
+      ]
+    },
+    "遊ぶ": {
+      "word": "遊ぶ",
+      "reading": "asobu",
+      "english": "to play (games sports); to enjoy oneself; to have a good time",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "友達",
+          "reading": "tomodachi",
+          "english": "friend; companion",
+          "score": 3
+        },
+        {
+          "word": "子供",
+          "reading": "kodomo",
+          "english": "child",
+          "score": 2
+        },
+        {
+          "word": "公園",
+          "reading": "kouen",
+          "english": "(public) park",
+          "score": 2
+        }
+      ]
+    },
+    "楽しむ": {
+      "word": "楽しむ",
+      "reading": "tanoshimu",
+      "english": "to enjoy (oneself)",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "こと",
+          "reading": "koto",
+          "english": "thing; matter",
+          "score": 2
+        },
+        {
+          "word": "時間",
+          "reading": "jikan",
+          "english": "time",
+          "score": 2
+        },
+        {
+          "word": "パーティー",
+          "reading": "paatii",
+          "english": "party (gathering celebration etc.)",
+          "score": 2
+        },
+        {
+          "word": "旅行",
+          "reading": "ryokou",
+          "english": "travel; trip; journey; excursion; tour",
+          "score": 2
+        },
+        {
+          "word": "音楽",
+          "reading": "ongaku",
+          "english": "music",
+          "score": 2
+        }
+      ]
+    },
+    "住む": {
+      "word": "住む",
+      "reading": "sumu",
+      "english": "to live (of humans); to reside; to inhabit; to dwell; to abide",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "家",
+          "reading": "ie",
+          "english": "house; residence; dwelling",
+          "score": 3
+        },
+        {
+          "word": "町",
+          "reading": "machi",
+          "english": "town; block; neighbourhood; neighborhood",
+          "score": 2
+        },
+        {
+          "word": "国",
+          "reading": "kuni",
+          "english": "country; state",
+          "score": 2
+        },
+        {
+          "word": "場所",
+          "reading": "basho",
+          "english": "place; location; spot; position",
+          "score": 2
+        },
+        {
+          "word": "アパート",
+          "reading": "apaato",
+          "english": "apartment building; apartment block; apartment house",
+          "score": 2
+        }
+      ]
+    },
+    "引っ越す": {
+      "word": "引っ越す",
+      "reading": "hikkosu",
+      "english": "to move (house); to change residence",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "家",
+          "reading": "ie",
+          "english": "house; residence; dwelling",
+          "score": 3
+        },
+        {
+          "word": "町",
+          "reading": "machi",
+          "english": "town; block; neighbourhood; neighborhood",
+          "score": 2
+        },
+        {
+          "word": "国",
+          "reading": "kuni",
+          "english": "country; state",
+          "score": 2
+        },
+        {
+          "word": "アパート",
+          "reading": "apaato",
+          "english": "apartment building; apartment block; apartment house",
+          "score": 2
+        }
+      ]
+    },
+    "建てる": {
+      "word": "建てる",
+      "reading": "tateru",
+      "english": "to build; to construct",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "家",
+          "reading": "ie",
+          "english": "house; residence; dwelling",
+          "score": 3
+        },
+        {
+          "word": "建物",
+          "reading": "tatemono",
+          "english": "building",
+          "score": 2
+        },
+        {
+          "word": "ビル",
+          "reading": "biru",
+          "english": "multi-floor building; multi-storey building",
+          "score": 2
+        }
+      ]
+    },
+    "壊す": {
+      "word": "壊す",
+      "reading": "kowasu",
+      "english": "to break; to destroy; to demolish",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "建物",
+          "reading": "tatemono",
+          "english": "building",
+          "score": 2
+        },
+        {
+          "word": "家",
+          "reading": "ie",
+          "english": "house; residence; dwelling",
+          "score": 2
+        }
+      ]
+    },
+    "直る": {
+      "word": "直る",
+      "reading": "naoru",
+      "english": "to get mended; to be repaired; to be fixed",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "車",
+          "reading": "kuruma",
+          "english": "car; automobile; vehicle",
+          "score": 2
+        },
+        {
+          "word": "パソコン",
+          "reading": "pasokon",
+          "english": "personal computer",
+          "score": 2
+        },
+        {
+          "word": "病気",
+          "reading": "byouki",
+          "english": "illness (usu. excluding minor ailments e.g. colds); disease; sickness",
+          "score": 2
+        }
+      ]
+    },
+    "治る": {
+      "word": "治る",
+      "reading": "naoru",
+      "english": "to get better; to get well; to recover (from an illness); to be cured; to be restored; to heal",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "病気",
+          "reading": "byouki",
+          "english": "illness (usu. excluding minor ailments e.g. colds); disease; sickness",
+          "score": 3
+        },
+        {
+          "word": "風邪",
+          "reading": "kaze",
+          "english": "(common) cold; influenza; flu; ague; inflammatory respiratory system illness (in general)",
+          "score": 2
+        }
+      ]
+    },
+    "治す": {
+      "word": "治す",
+      "reading": "naosu",
+      "english": "to cure; to heal",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "病気",
+          "reading": "byouki",
+          "english": "illness (usu. excluding minor ailments e.g. colds); disease; sickness",
+          "score": 3
+        },
+        {
+          "word": "風邪",
+          "reading": "kaze",
+          "english": "(common) cold; influenza; flu; ague; inflammatory respiratory system illness (in general)",
+          "score": 2
+        }
+      ]
+    },
+    "太る": {
+      "word": "太る",
+      "reading": "futoru",
+      "english": "to put on weight; to gain weight; to grow fat; to get stout",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "体",
+          "reading": "karada",
+          "english": "body",
+          "score": 2
+        },
+        {
+          "word": "人",
+          "reading": "hito",
+          "english": "man; person",
+          "score": 2
+        }
+      ]
+    },
+    "痩せる": {
+      "word": "痩せる",
+      "reading": "yaseru",
+      "english": "to become thin; to lose weight; to reduce (one's) weight; to slim",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "体",
+          "reading": "karada",
+          "english": "body",
+          "score": 2
+        },
+        {
+          "word": "人",
+          "reading": "hito",
+          "english": "man; person",
+          "score": 2
+        }
+      ]
+    },
+    "調べる": {
+      "word": "調べる",
+      "reading": "shiraberu",
+      "english": "to examine; to look up; to investigate; to check up; to sense; to study; to inquire; to search",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "こと",
+          "reading": "koto",
+          "english": "thing; matter",
+          "score": 3
+        },
+        {
+          "word": "言葉",
+          "reading": "kotoba",
+          "english": "language; dialect",
+          "score": 2
+        },
+        {
+          "word": "意味",
+          "reading": "imi",
+          "english": "meaning; significance; sense",
+          "score": 2
+        },
+        {
+          "word": "辞書",
+          "reading": "jisho",
+          "english": "dictionary; lexicon",
+          "score": 2
+        },
+        {
+          "word": "問題",
+          "reading": "mondai",
+          "english": "question (e.g. on a test); problem",
+          "score": 2
+        }
+      ]
+    },
+    "片付ける": {
+      "word": "片付ける",
+      "reading": "katadukeru",
+      "english": "to tidy up; to put in order; to straighten up; to put away",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "部屋",
+          "reading": "heya",
+          "english": "room; chamber",
+          "score": 3
+        },
+        {
+          "word": "机",
+          "reading": "tsukue",
+          "english": "desk",
+          "score": 2
+        }
+      ]
+    },
+    "捨てる": {
+      "word": "捨てる",
+      "reading": "suteru",
+      "english": "to throw away; to cast away; to dump; to discard",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "ごみ",
+          "reading": "gomi",
+          "english": "rubbish; trash; garbage; refuse",
+          "score": 3
+        },
+        {
+          "word": "紙",
+          "reading": "kami",
+          "english": "paper",
+          "score": 2
+        },
+        {
+          "word": "箱",
+          "reading": "hako",
+          "english": "box; case; chest; package; pack; crate",
+          "score": 2
+        }
+      ]
+    },
+    "鳴る": {
+      "word": "鳴る",
+      "reading": "naru",
+      "english": "to sound; to ring; to resound; to echo; to roar; to rumble",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "電話",
+          "reading": "denwa",
+          "english": "telephone call; phone call",
+          "score": 2
+        },
+        {
+          "word": "ベル",
+          "reading": "beru",
+          "english": "bell",
+          "score": 2
+        },
+        {
+          "word": "時計",
+          "reading": "tokei",
+          "english": "clock; watch; timepiece",
+          "score": 2
+        }
+      ]
+    },
+    "光る": {
+      "word": "光る",
+      "reading": "hikaru",
+      "english": "to shine; to glitter; to be bright",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "光",
+          "reading": "hikari",
+          "english": "light",
+          "score": 2
+        },
+        {
+          "word": "星",
+          "reading": "hoshi",
+          "english": "star (usu. not including the Sun); planet (usu. not including Earth); heavenly body",
+          "score": 2
+        },
+        {
+          "word": "電気",
+          "reading": "denki",
+          "english": "electricity",
+          "score": 2
+        }
+      ]
+    },
+    "消える": {
+      "word": "消える",
+      "reading": "kieru",
+      "english": "to go out; to vanish; to disappear",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "電気",
+          "reading": "denki",
+          "english": "electricity",
+          "score": 2
+        },
+        {
+          "word": "光",
+          "reading": "hikari",
+          "english": "light",
+          "score": 2
+        },
+        {
+          "word": "人",
+          "reading": "hito",
+          "english": "man; person",
+          "score": 2
+        }
+      ]
+    },
+    "見つかる": {
+      "word": "見つかる",
+      "reading": "mitsukaru",
+      "english": "to be found; to be discovered",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "人",
+          "reading": "hito",
+          "english": "man; person",
+          "score": 2
+        },
+        {
+          "word": "場所",
+          "reading": "basho",
+          "english": "place; location; spot; position",
+          "score": 2
+        },
+        {
+          "word": "仕事",
+          "reading": "shigoto",
+          "english": "work; job; labor; labour; business; task; assignment; occupation; employment",
+          "score": 2
+        }
+      ]
+    },
+    "見つける": {
+      "word": "見つける",
+      "reading": "mitsukeru",
+      "english": "to discover; to find (e.g. an error in a book); to come across; to detect; to spot",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "人",
+          "reading": "hito",
+          "english": "man; person",
+          "score": 2
+        },
+        {
+          "word": "場所",
+          "reading": "basho",
+          "english": "place; location; spot; position",
+          "score": 2
+        },
+        {
+          "word": "仕事",
+          "reading": "shigoto",
+          "english": "work; job; labor; labour; business; task; assignment; occupation; employment",
+          "score": 2
+        }
+      ]
+    },
+    "祈る": {
+      "word": "祈る",
+      "reading": "inoru",
+      "english": "to pray; to wish",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "こと",
+          "reading": "koto",
+          "english": "thing; matter",
+          "score": 2
+        }
+      ]
+    },
+    "比べる": {
+      "word": "比べる",
+      "reading": "kuraberu",
+      "english": "to compare; to make a comparison",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "値段",
+          "reading": "nedan",
+          "english": "price; cost",
           "score": 2
         }
       ]
