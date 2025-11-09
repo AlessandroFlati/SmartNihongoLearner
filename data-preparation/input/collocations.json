@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
   "generatedAt": "2025-11-09",
-  "totalPairs": 1670,
-  "totalWords": 334,
+  "totalPairs": 1950,
+  "totalWords": 390,
   "collocations": {
     "する": {
       "word": "する",
@@ -7110,6 +7110,586 @@
         }
       ]
     },
+    "ご覧になる": {
+      "word": "ご覧になる",
+      "reading": "gorannninaru",
+      "english": "to see; to look; to watch",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "テレビ",
+          "reading": "terebi",
+          "english": "television; TV",
+          "score": 3
+        },
+        {
+          "word": "映画",
+          "reading": "eiga",
+          "english": "movie; film",
+          "score": 3
+        },
+        {
+          "word": "写真",
+          "reading": "shashin",
+          "english": "photograph; photo; picture; snapshot; snap",
+          "score": 3
+        },
+        {
+          "word": "本",
+          "reading": "hon",
+          "english": "book; volume; script",
+          "score": 2
+        }
+      ]
+    },
+    "おる": {
+      "word": "おる",
+      "reading": "oru",
+      "english": "to be (animate); to be; to exist",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "家",
+          "reading": "ie",
+          "english": "house; residence; dwelling",
+          "score": 2
+        },
+        {
+          "word": "部屋",
+          "reading": "heya",
+          "english": "room; chamber",
+          "score": 2
+        }
+      ]
+    },
+    "おいでになる": {
+      "word": "おいでになる",
+      "reading": "oideninaru",
+      "english": "to be",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "家",
+          "reading": "ie",
+          "english": "house; residence; dwelling",
+          "score": 2
+        },
+        {
+          "word": "部屋",
+          "reading": "heya",
+          "english": "room; chamber",
+          "score": 2
+        }
+      ]
+    },
+    "なさる": {
+      "word": "なさる",
+      "reading": "nasaru",
+      "english": "to do",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "仕事",
+          "reading": "shigoto",
+          "english": "work; job; labor; labour; business; task; assignment; occupation; employment",
+          "score": 3
+        },
+        {
+          "word": "勉強",
+          "reading": "benkyou",
+          "english": "study",
+          "score": 3
+        },
+        {
+          "word": "こと",
+          "reading": "koto",
+          "english": "thing; matter",
+          "score": 2
+        },
+        {
+          "word": "スポーツ",
+          "reading": "supootsu",
+          "english": "sport; sports",
+          "score": 2
+        }
+      ]
+    },
+    "申し上げる": {
+      "word": "申し上げる",
+      "reading": "moushiageru",
+      "english": "to say; to tell; to state; to express; to offer; to extend (greetings congratulations etc.)",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "こと",
+          "reading": "koto",
+          "english": "thing; matter",
+          "score": 2
+        },
+        {
+          "word": "話",
+          "reading": "hanashi",
+          "english": "talk; speech; chat; conversation",
+          "score": 2
+        }
+      ]
+    },
+    "申す": {
+      "word": "申す",
+      "reading": "mousu",
+      "english": "to say; to be called",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "こと",
+          "reading": "koto",
+          "english": "thing; matter",
+          "score": 2
+        },
+        {
+          "word": "名前",
+          "reading": "namae",
+          "english": "name",
+          "score": 2
+        }
+      ]
+    },
+    "伺う": {
+      "word": "伺う",
+      "reading": "ukagau",
+      "english": "to ask; to inquire; to hear; to be told",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "こと",
+          "reading": "koto",
+          "english": "thing; matter",
+          "score": 2
+        },
+        {
+          "word": "話",
+          "reading": "hanashi",
+          "english": "talk; speech; chat; conversation",
+          "score": 2
+        },
+        {
+          "word": "家",
+          "reading": "ie",
+          "english": "house; residence; dwelling",
+          "score": 2
+        },
+        {
+          "word": "お宅",
+          "reading": "otaku",
+          "english": "your house; your home; your family",
+          "score": 2
+        }
+      ]
+    },
+    "差し上げる": {
+      "word": "差し上げる",
+      "reading": "sashiageru",
+      "english": "to give; to offer",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "プレゼント",
+          "reading": "purezento",
+          "english": "present; gift",
+          "score": 3
+        },
+        {
+          "word": "花",
+          "reading": "hana",
+          "english": "flower; blossom; bloom; petal",
+          "score": 2
+        }
+      ]
+    },
+    "まいる": {
+      "word": "まいる",
+      "reading": "mairu",
+      "english": "to go; to come; to call",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "家",
+          "reading": "ie",
+          "english": "house; residence; dwelling",
+          "score": 2
+        },
+        {
+          "word": "部屋",
+          "reading": "heya",
+          "english": "room; chamber",
+          "score": 2
+        },
+        {
+          "word": "お宅",
+          "reading": "otaku",
+          "english": "your house; your home; your family",
+          "score": 2
+        }
+      ]
+    },
+    "いたす": {
+      "word": "いたす",
+      "reading": "itasu",
+      "english": "to do",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "仕事",
+          "reading": "shigoto",
+          "english": "work; job; labor; labour; business; task; assignment; occupation; employment",
+          "score": 2
+        },
+        {
+          "word": "こと",
+          "reading": "koto",
+          "english": "thing; matter",
+          "score": 2
+        },
+        {
+          "word": "準備",
+          "reading": "junbi",
+          "english": "preparation; arrangements; getting ready; provision; setup; reserving",
+          "score": 2
+        }
+      ]
+    },
+    "召し上がる": {
+      "word": "召し上がる",
+      "reading": "meshiagaru",
+      "english": "to eat; to drink",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "食事",
+          "reading": "shokuji",
+          "english": "meal; dinner",
+          "score": 3
+        },
+        {
+          "word": "お茶",
+          "reading": "ocha",
+          "english": "tea (usu. green)",
+          "score": 3
+        }
+      ]
+    },
+    "締める": {
+      "word": "締める",
+      "reading": "shimeru",
+      "english": "to tie; to fasten; to tighten",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "ネクタイ",
+          "reading": "nekutai",
+          "english": "tie; necktie",
+          "score": 3
+        },
+        {
+          "word": "ドア",
+          "reading": "doa",
+          "english": "door (Western-style car etc.)",
+          "score": 2
+        },
+        {
+          "word": "窓",
+          "reading": "mado",
+          "english": "window",
+          "score": 2
+        }
+      ]
+    },
+    "空く": {
+      "word": "空く",
+      "reading": "suku",
+      "english": "to become less crowded; to thin out; to get empty",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "席",
+          "reading": "seki",
+          "english": "seat",
+          "score": 3
+        },
+        {
+          "word": "部屋",
+          "reading": "heya",
+          "english": "room; chamber",
+          "score": 2
+        },
+        {
+          "word": "時間",
+          "reading": "jikan",
+          "english": "time",
+          "score": 2
+        },
+        {
+          "word": "お腹",
+          "reading": "onaka",
+          "english": "belly; abdomen; stomach",
+          "score": 2
+        }
+      ]
+    },
+    "しかる": {
+      "word": "しかる",
+      "reading": "shikaru",
+      "english": "to scold; to chide; to rebuke; to reprimand",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "子供",
+          "reading": "kodomo",
+          "english": "child",
+          "score": 3
+        },
+        {
+          "word": "子",
+          "reading": "ko",
+          "english": "child",
+          "score": 3
+        },
+        {
+          "word": "人",
+          "reading": "hito",
+          "english": "man; person",
+          "score": 2
+        }
+      ]
+    },
+    "釣る": {
+      "word": "釣る",
+      "reading": "tsuru",
+      "english": "to fish; to angle; to catch",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "魚",
+          "reading": "sakana",
+          "english": "fish",
+          "score": 3
+        }
+      ]
+    },
+    "差す": {
+      "word": "差す",
+      "reading": "sasu",
+      "english": "to shine",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "日",
+          "reading": "nichi",
+          "english": "Sunday",
+          "score": 3
+        },
+        {
+          "word": "光",
+          "reading": "hikari",
+          "english": "light",
+          "score": 2
+        }
+      ]
+    },
+    "植える": {
+      "word": "植える",
+      "reading": "ueru",
+      "english": "to plant; to grow; to raise",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "花",
+          "reading": "hana",
+          "english": "flower; blossom; bloom; petal",
+          "score": 3
+        },
+        {
+          "word": "木",
+          "reading": "ki",
+          "english": "tree; shrub; bush",
+          "score": 3
+        },
+        {
+          "word": "野菜",
+          "reading": "yasai",
+          "english": "vegetable",
+          "score": 2
+        }
+      ]
+    },
+    "沸く": {
+      "word": "沸く",
+      "reading": "waku",
+      "english": "to grow hot (e.g. water); to boil",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "水",
+          "reading": "mizu",
+          "english": "water (esp. cool fresh water e.g. drinking water)",
+          "score": 2
+        }
+      ]
+    },
+    "暮れる": {
+      "word": "暮れる",
+      "reading": "kureru",
+      "english": "to get dark; to grow dark",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "日",
+          "reading": "nichi",
+          "english": "Sunday",
+          "score": 3
+        },
+        {
+          "word": "空",
+          "reading": "sora",
+          "english": "sky; the air; the heavens",
+          "score": 2
+        }
+      ]
+    },
+    "閉まる": {
+      "word": "閉まる",
+      "reading": "shimaru",
+      "english": "to be shut; to close; to be closed",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "ドア",
+          "reading": "doa",
+          "english": "door (Western-style car etc.)",
+          "score": 3
+        },
+        {
+          "word": "窓",
+          "reading": "mado",
+          "english": "window",
+          "score": 3
+        },
+        {
+          "word": "店",
+          "reading": "mise",
+          "english": "store; shop; establishment; restaurant",
+          "score": 3
+        }
+      ]
+    },
+    "写す": {
+      "word": "写す",
+      "reading": "utsusu",
+      "english": "to transcribe; to duplicate; to reproduce; to imitate; to trace",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "写真",
+          "reading": "shashin",
+          "english": "photograph; photo; picture; snapshot; snap",
+          "score": 3
+        },
+        {
+          "word": "絵",
+          "reading": "e",
+          "english": "picture; drawing; painting; sketch",
+          "score": 2
+        }
+      ]
+    },
+    "構う": {
+      "word": "構う",
+      "reading": "kamau",
+      "english": "to mind; to care about; to be concerned about; to have a regard for",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "こと",
+          "reading": "koto",
+          "english": "thing; matter",
+          "score": 2
+        },
+        {
+          "word": "人",
+          "reading": "hito",
+          "english": "man; person",
+          "score": 2
+        }
+      ]
+    },
+    "取り替える": {
+      "word": "取り替える",
+      "reading": "torikaeru",
+      "english": "to exchange; to swap; to barter",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "服",
+          "reading": "fuku",
+          "english": "clothes (esp. Western clothes)",
+          "score": 2
+        },
+        {
+          "word": "部屋",
+          "reading": "heya",
+          "english": "room; chamber",
+          "score": 1
+        }
+      ]
+    },
+    "沸かす": {
+      "word": "沸かす",
+      "reading": "wakasu",
+      "english": "to boil; to heat",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "水",
+          "reading": "mizu",
+          "english": "water (esp. cool fresh water e.g. drinking water)",
+          "score": 3
+        }
+      ]
+    },
+    "漬ける": {
+      "word": "漬ける",
+      "reading": "tsukeru",
+      "english": "to soak (in); to steep; to dip; to dunk",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "野菜",
+          "reading": "yasai",
+          "english": "vegetable",
+          "score": 3
+        }
+      ]
+    },
+    "曇る": {
+      "word": "曇る",
+      "reading": "kumoru",
+      "english": "to get cloudy; to cloud over; to become overcast",
+      "type": "verb",
+      "matches": [
+        {
+          "word": "空",
+          "reading": "sora",
+          "english": "sky; the air; the heavens",
+          "score": 3
+        },
+        {
+          "word": "天気",
+          "reading": "tenki",
+          "english": "weather; the elements",
+          "score": 2
+        }
+      ]
+    },
     "いい": {
       "word": "いい",
       "reading": "ii",
@@ -10610,6 +11190,936 @@
           "word": "仕事",
           "reading": "shigoto",
           "english": "work; job; labor; labour; business; task; assignment; occupation; employment",
+          "score": 2
+        }
+      ]
+    },
+    "無理": {
+      "word": "無理",
+      "reading": "muri",
+      "english": "unreasonable; unnatural; unjustifiable",
+      "type": "adjective",
+      "matches": [
+        {
+          "word": "こと",
+          "reading": "koto",
+          "english": "thing; matter",
+          "score": 2
+        },
+        {
+          "word": "話",
+          "reading": "hanashi",
+          "english": "talk; speech; chat; conversation",
+          "score": 2
+        }
+      ]
+    },
+    "普通": {
+      "word": "普通",
+      "reading": "futsuu",
+      "english": "general; ordinary; usual",
+      "type": "adjective",
+      "matches": [
+        {
+          "word": "人",
+          "reading": "hito",
+          "english": "man; person",
+          "score": 2
+        },
+        {
+          "word": "生活",
+          "reading": "seikatsu",
+          "english": "living; life (one's daily existence); livelihood",
+          "score": 2
+        },
+        {
+          "word": "日",
+          "reading": "nichi",
+          "english": "Sunday",
+          "score": 2
+        },
+        {
+          "word": "話",
+          "reading": "hanashi",
+          "english": "talk; speech; chat; conversation",
+          "score": 2
+        },
+        {
+          "word": "こと",
+          "reading": "koto",
+          "english": "thing; matter",
+          "score": 2
+        }
+      ]
+    },
+    "十分": {
+      "word": "十分",
+      "reading": "juubun",
+      "english": "enough; sufficient; plenty; adequate; satisfactory",
+      "type": "adjective",
+      "matches": [
+        {
+          "word": "時間",
+          "reading": "jikan",
+          "english": "time",
+          "score": 3
+        },
+        {
+          "word": "お金",
+          "reading": "okane",
+          "english": "money",
+          "score": 2
+        },
+        {
+          "word": "準備",
+          "reading": "junbi",
+          "english": "preparation; arrangements; getting ready; provision; setup; reserving",
+          "score": 2
+        }
+      ]
+    },
+    "確か": {
+      "word": "確か",
+      "reading": "tashika",
+      "english": "sure; certain; positive; definite",
+      "type": "adjective",
+      "matches": [
+        {
+          "word": "こと",
+          "reading": "koto",
+          "english": "thing; matter",
+          "score": 2
+        }
+      ]
+    },
+    "かわいい": {
+      "word": "かわいい",
+      "reading": "kawaii",
+      "english": "cute; adorable; charming; lovely; pretty",
+      "type": "adjective",
+      "matches": [
+        {
+          "word": "子供",
+          "reading": "kodomo",
+          "english": "child",
+          "score": 3
+        },
+        {
+          "word": "赤ちゃん",
+          "reading": "akachan",
+          "english": "baby; infant",
+          "score": 3
+        },
+        {
+          "word": "犬",
+          "reading": "inu",
+          "english": "dog (Canis (lupus) familiaris)",
+          "score": 3
+        },
+        {
+          "word": "猫",
+          "reading": "neko",
+          "english": "cat (esp. the domestic cat Felis catus)",
+          "score": 3
+        },
+        {
+          "word": "服",
+          "reading": "fuku",
+          "english": "clothes (esp. Western clothes)",
+          "score": 2
+        },
+        {
+          "word": "顔",
+          "reading": "kao",
+          "english": "face; visage",
+          "score": 2
+        }
+      ]
+    },
+    "大事": {
+      "word": "大事",
+      "reading": "daiji",
+      "english": "important; serious; crucial",
+      "type": "adjective",
+      "matches": [
+        {
+          "word": "こと",
+          "reading": "koto",
+          "english": "thing; matter",
+          "score": 3
+        },
+        {
+          "word": "人",
+          "reading": "hito",
+          "english": "man; person",
+          "score": 2
+        },
+        {
+          "word": "話",
+          "reading": "hanashi",
+          "english": "talk; speech; chat; conversation",
+          "score": 2
+        },
+        {
+          "word": "仕事",
+          "reading": "shigoto",
+          "english": "work; job; labor; labour; business; task; assignment; occupation; employment",
+          "score": 2
+        },
+        {
+          "word": "時間",
+          "reading": "jikan",
+          "english": "time",
+          "score": 2
+        }
+      ]
+    },
+    "結構": {
+      "word": "結構",
+      "reading": "kekkou",
+      "english": "splendid; nice; wonderful; delicious; sweet",
+      "type": "adjective",
+      "matches": [
+        {
+          "word": "こと",
+          "reading": "koto",
+          "english": "thing; matter",
+          "score": 2
+        },
+        {
+          "word": "人",
+          "reading": "hito",
+          "english": "man; person",
+          "score": 2
+        }
+      ]
+    },
+    "怖い": {
+      "word": "怖い",
+      "reading": "kowai",
+      "english": "scary; frightening; eerie; dreadful",
+      "type": "adjective",
+      "matches": [
+        {
+          "word": "映画",
+          "reading": "eiga",
+          "english": "movie; film",
+          "score": 3
+        },
+        {
+          "word": "話",
+          "reading": "hanashi",
+          "english": "talk; speech; chat; conversation",
+          "score": 2
+        },
+        {
+          "word": "夢",
+          "reading": "yume",
+          "english": "dream",
+          "score": 2
+        },
+        {
+          "word": "顔",
+          "reading": "kao",
+          "english": "face; visage",
+          "score": 2
+        },
+        {
+          "word": "人",
+          "reading": "hito",
+          "english": "man; person",
+          "score": 2
+        },
+        {
+          "word": "こと",
+          "reading": "koto",
+          "english": "thing; matter",
+          "score": 2
+        }
+      ]
+    },
+    "いろいろ": {
+      "word": "いろいろ",
+      "reading": "iroiro",
+      "english": "various; all sorts of; variety of",
+      "type": "adjective",
+      "matches": [
+        {
+          "word": "こと",
+          "reading": "koto",
+          "english": "thing; matter",
+          "score": 3
+        },
+        {
+          "word": "人",
+          "reading": "hito",
+          "english": "man; person",
+          "score": 2
+        },
+        {
+          "word": "話",
+          "reading": "hanashi",
+          "english": "talk; speech; chat; conversation",
+          "score": 2
+        },
+        {
+          "word": "経験",
+          "reading": "keiken",
+          "english": "experience",
+          "score": 2
+        },
+        {
+          "word": "問題",
+          "reading": "mondai",
+          "english": "question (e.g. on a test); problem",
+          "score": 2
+        }
+      ]
+    },
+    "大切": {
+      "word": "大切",
+      "reading": "taisetsu",
+      "english": "important; necessary; indispensable",
+      "type": "adjective",
+      "matches": [
+        {
+          "word": "こと",
+          "reading": "koto",
+          "english": "thing; matter",
+          "score": 3
+        },
+        {
+          "word": "人",
+          "reading": "hito",
+          "english": "man; person",
+          "score": 3
+        },
+        {
+          "word": "時間",
+          "reading": "jikan",
+          "english": "time",
+          "score": 2
+        },
+        {
+          "word": "家族",
+          "reading": "kazoku",
+          "english": "family; members of a family",
+          "score": 2
+        },
+        {
+          "word": "友達",
+          "reading": "tomodachi",
+          "english": "friend; companion",
+          "score": 2
+        }
+      ]
+    },
+    "素晴らしい": {
+      "word": "素晴らしい",
+      "reading": "subarashii",
+      "english": "wonderful; splendid; magnificent",
+      "type": "adjective",
+      "matches": [
+        {
+          "word": "景色",
+          "reading": "keshiki",
+          "english": "scenery; scene; landscape",
+          "score": 3
+        },
+        {
+          "word": "経験",
+          "reading": "keiken",
+          "english": "experience",
+          "score": 2
+        },
+        {
+          "word": "人",
+          "reading": "hito",
+          "english": "man; person",
+          "score": 2
+        },
+        {
+          "word": "こと",
+          "reading": "koto",
+          "english": "thing; matter",
+          "score": 2
+        },
+        {
+          "word": "映画",
+          "reading": "eiga",
+          "english": "movie; film",
+          "score": 2
+        },
+        {
+          "word": "音楽",
+          "reading": "ongaku",
+          "english": "music",
+          "score": 2
+        },
+        {
+          "word": "天気",
+          "reading": "tenki",
+          "english": "weather; the elements",
+          "score": 2
+        }
+      ]
+    },
+    "国際": {
+      "word": "国際",
+      "reading": "kokusai",
+      "english": "international",
+      "type": "adjective",
+      "matches": [
+        {
+          "word": "空港",
+          "reading": "kuukou",
+          "english": "airport",
+          "score": 3
+        },
+        {
+          "word": "会議",
+          "reading": "kaigi",
+          "english": "meeting; conference; session; assembly; council; convention; congress",
+          "score": 2
+        },
+        {
+          "word": "関係",
+          "reading": "kankei",
+          "english": "relation; relationship; connection",
+          "score": 2
+        },
+        {
+          "word": "社会",
+          "reading": "shakai",
+          "english": "society; public; community; the world",
+          "score": 2
+        }
+      ]
+    },
+    "ソフト": {
+      "word": "ソフト",
+      "reading": "sofuto",
+      "english": "soft",
+      "type": "adjective",
+      "matches": [
+        {
+          "word": "声",
+          "reading": "koe",
+          "english": "voice",
+          "score": 2
+        }
+      ]
+    },
+    "おかしい": {
+      "word": "おかしい",
+      "reading": "okashii",
+      "english": "funny; amusing; comical; laughable; ridiculous",
+      "type": "adjective",
+      "matches": [
+        {
+          "word": "話",
+          "reading": "hanashi",
+          "english": "talk; speech; chat; conversation",
+          "score": 3
+        },
+        {
+          "word": "こと",
+          "reading": "koto",
+          "english": "thing; matter",
+          "score": 2
+        },
+        {
+          "word": "人",
+          "reading": "hito",
+          "english": "man; person",
+          "score": 2
+        },
+        {
+          "word": "顔",
+          "reading": "kao",
+          "english": "face; visage",
+          "score": 2
+        }
+      ]
+    },
+    "だめ": {
+      "word": "だめ",
+      "reading": "dame",
+      "english": "no good; not serving its purpose; useless; broken",
+      "type": "adjective",
+      "matches": [
+        {
+          "word": "こと",
+          "reading": "koto",
+          "english": "thing; matter",
+          "score": 2
+        },
+        {
+          "word": "人",
+          "reading": "hito",
+          "english": "man; person",
+          "score": 2
+        }
+      ]
+    },
+    "急": {
+      "word": "急",
+      "reading": "kyuu",
+      "english": "sudden; abrupt; unexpected",
+      "type": "adjective",
+      "matches": [
+        {
+          "word": "用",
+          "reading": "you",
+          "english": "business; task; errand; engagement",
+          "score": 3
+        },
+        {
+          "word": "用事",
+          "reading": "youji",
+          "english": "tasks; things to do; errand; business (to take care of); affairs; engagement",
+          "score": 3
+        },
+        {
+          "word": "仕事",
+          "reading": "shigoto",
+          "english": "work; job; labor; labour; business; task; assignment; occupation; employment",
+          "score": 2
+        },
+        {
+          "word": "話",
+          "reading": "hanashi",
+          "english": "talk; speech; chat; conversation",
+          "score": 2
+        },
+        {
+          "word": "電話",
+          "reading": "denwa",
+          "english": "telephone call; phone call",
+          "score": 2
+        }
+      ]
+    },
+    "うまい": {
+      "word": "うまい",
+      "reading": "umai",
+      "english": "skillful; skilful; clever; expert; wise; successful",
+      "type": "adjective",
+      "matches": [
+        {
+          "word": "料理",
+          "reading": "ryouri",
+          "english": "cooking; cookery; cuisine",
+          "score": 3
+        },
+        {
+          "word": "人",
+          "reading": "hito",
+          "english": "man; person",
+          "score": 2
+        },
+        {
+          "word": "話",
+          "reading": "hanashi",
+          "english": "talk; speech; chat; conversation",
+          "score": 2
+        }
+      ]
+    },
+    "厳しい": {
+      "word": "厳しい",
+      "reading": "kibishii",
+      "english": "severe; strict; rigid; unsparing; relentless",
+      "type": "adjective",
+      "matches": [
+        {
+          "word": "先生",
+          "reading": "sensei",
+          "english": "teacher; instructor; master",
+          "score": 3
+        },
+        {
+          "word": "人",
+          "reading": "hito",
+          "english": "man; person",
+          "score": 2
+        },
+        {
+          "word": "親",
+          "reading": "oya",
+          "english": "parent; parents; mother and father",
+          "score": 2
+        },
+        {
+          "word": "規則",
+          "reading": "kisoku",
+          "english": "rule; regulation",
+          "score": 2
+        },
+        {
+          "word": "練習",
+          "reading": "renshuu",
+          "english": "practice; training; drill; (an) exercise; workout",
+          "score": 2
+        },
+        {
+          "word": "冬",
+          "reading": "fuyu",
+          "english": "winter",
+          "score": 2
+        },
+        {
+          "word": "天気",
+          "reading": "tenki",
+          "english": "weather; the elements",
+          "score": 2
+        }
+      ]
+    },
+    "弱い": {
+      "word": "弱い",
+      "reading": "yowai",
+      "english": "weak; frail; delicate; tender; unskilled; weak (wine)",
+      "type": "adjective",
+      "matches": [
+        {
+          "word": "人",
+          "reading": "hito",
+          "english": "man; person",
+          "score": 2
+        },
+        {
+          "word": "子",
+          "reading": "ko",
+          "english": "child",
+          "score": 2
+        },
+        {
+          "word": "体",
+          "reading": "karada",
+          "english": "body",
+          "score": 2
+        },
+        {
+          "word": "力",
+          "reading": "chikara",
+          "english": "force; strength; might; vigour; vigor; energy",
+          "score": 2
+        }
+      ]
+    },
+    "悲しい": {
+      "word": "悲しい",
+      "reading": "kanashii",
+      "english": "sad; miserable; unhappy; sorrowful",
+      "type": "adjective",
+      "matches": [
+        {
+          "word": "話",
+          "reading": "hanashi",
+          "english": "talk; speech; chat; conversation",
+          "score": 3
+        },
+        {
+          "word": "こと",
+          "reading": "koto",
+          "english": "thing; matter",
+          "score": 2
+        },
+        {
+          "word": "映画",
+          "reading": "eiga",
+          "english": "movie; film",
+          "score": 2
+        },
+        {
+          "word": "顔",
+          "reading": "kao",
+          "english": "face; visage",
+          "score": 2
+        },
+        {
+          "word": "気持ち",
+          "reading": "kimochi",
+          "english": "feeling; sensation; mood; state of mind",
+          "score": 2
+        }
+      ]
+    },
+    "適当": {
+      "word": "適当",
+      "reading": "tekitou",
+      "english": "suitable; proper; appropriate; adequate; fit; fair",
+      "type": "adjective",
+      "matches": [
+        {
+          "word": "こと",
+          "reading": "koto",
+          "english": "thing; matter",
+          "score": 2
+        },
+        {
+          "word": "人",
+          "reading": "hito",
+          "english": "man; person",
+          "score": 2
+        },
+        {
+          "word": "時間",
+          "reading": "jikan",
+          "english": "time",
+          "score": 2
+        }
+      ]
+    },
+    "複雑": {
+      "word": "複雑",
+      "reading": "fukuzatsu",
+      "english": "complex; complicated; intricate; mixed (feelings)",
+      "type": "adjective",
+      "matches": [
+        {
+          "word": "問題",
+          "reading": "mondai",
+          "english": "question (e.g. on a test); problem",
+          "score": 2
+        },
+        {
+          "word": "話",
+          "reading": "hanashi",
+          "english": "talk; speech; chat; conversation",
+          "score": 2
+        },
+        {
+          "word": "気持ち",
+          "reading": "kimochi",
+          "english": "feeling; sensation; mood; state of mind",
+          "score": 2
+        },
+        {
+          "word": "関係",
+          "reading": "kankei",
+          "english": "relation; relationship; connection",
+          "score": 2
+        }
+      ]
+    },
+    "遅い": {
+      "word": "遅い",
+      "reading": "osoi",
+      "english": "slow; time-consuming; sluggish",
+      "type": "adjective",
+      "matches": [
+        {
+          "word": "時間",
+          "reading": "jikan",
+          "english": "time",
+          "score": 2
+        },
+        {
+          "word": "電車",
+          "reading": "densha",
+          "english": "train; electric train",
+          "score": 2
+        },
+        {
+          "word": "返事",
+          "reading": "henji",
+          "english": "reply; answer; response",
+          "score": 2
+        }
+      ]
+    },
+    "短い": {
+      "word": "短い",
+      "reading": "mijikai",
+      "english": "short",
+      "type": "adjective",
+      "matches": [
+        {
+          "word": "時間",
+          "reading": "jikan",
+          "english": "time",
+          "score": 3
+        },
+        {
+          "word": "話",
+          "reading": "hanashi",
+          "english": "talk; speech; chat; conversation",
+          "score": 2
+        },
+        {
+          "word": "髪",
+          "reading": "kami",
+          "english": "hair (on the head)",
+          "score": 2
+        },
+        {
+          "word": "スカート",
+          "reading": "sukaato",
+          "english": "skirt",
+          "score": 2
+        }
+      ]
+    },
+    "遠い": {
+      "word": "遠い",
+      "reading": "tooi",
+      "english": "far; distant; far away; a long way off; in the distance",
+      "type": "adjective",
+      "matches": [
+        {
+          "word": "場所",
+          "reading": "basho",
+          "english": "place; location; spot; position",
+          "score": 3
+        },
+        {
+          "word": "国",
+          "reading": "kuni",
+          "english": "country; state",
+          "score": 2
+        },
+        {
+          "word": "家",
+          "reading": "ie",
+          "english": "house; residence; dwelling",
+          "score": 2
+        },
+        {
+          "word": "学校",
+          "reading": "gakkou",
+          "english": "school",
+          "score": 2
+        },
+        {
+          "word": "駅",
+          "reading": "eki",
+          "english": "railway station; train station",
+          "score": 2
+        },
+        {
+          "word": "道",
+          "reading": "michi",
+          "english": "road; path; street; lane; passage",
+          "score": 2
+        }
+      ]
+    },
+    "まずい": {
+      "word": "まずい",
+      "reading": "mazui",
+      "english": "bad (taste); unpalatable; unsavoury; unsavory; awful; terrible; unpleasant",
+      "type": "adjective",
+      "matches": [
+        {
+          "word": "料理",
+          "reading": "ryouri",
+          "english": "cooking; cookery; cuisine",
+          "score": 3
+        },
+        {
+          "word": "味",
+          "reading": "aji",
+          "english": "flavor; flavour; taste",
+          "score": 2
+        },
+        {
+          "word": "こと",
+          "reading": "koto",
+          "english": "thing; matter",
+          "score": 2
+        }
+      ]
+    },
+    "よろしい": {
+      "word": "よろしい",
+      "reading": "yoroshii",
+      "english": "good; OK; all right; fine; very well; will do; may; can",
+      "type": "adjective",
+      "matches": [
+        {
+          "word": "こと",
+          "reading": "koto",
+          "english": "thing; matter",
+          "score": 2
+        },
+        {
+          "word": "時間",
+          "reading": "jikan",
+          "english": "time",
+          "score": 2
+        },
+        {
+          "word": "日",
+          "reading": "nichi",
+          "english": "Sunday",
+          "score": 2
+        }
+      ]
+    },
+    "細かい": {
+      "word": "細かい",
+      "reading": "komakai",
+      "english": "small",
+      "type": "adjective",
+      "matches": [
+        {
+          "word": "字",
+          "reading": "ji",
+          "english": "character (esp. kanji); letter; written text",
+          "score": 2
+        },
+        {
+          "word": "話",
+          "reading": "hanashi",
+          "english": "talk; speech; chat; conversation",
+          "score": 2
+        },
+        {
+          "word": "お金",
+          "reading": "okane",
+          "english": "money",
+          "score": 2
+        }
+      ]
+    },
+    "盛ん": {
+      "word": "盛ん",
+      "reading": "sakan",
+      "english": "prosperous; flourishing; thriving; successful",
+      "type": "adjective",
+      "matches": [
+        {
+          "word": "スポーツ",
+          "reading": "supootsu",
+          "english": "sport; sports",
+          "score": 2
+        },
+        {
+          "word": "産業",
+          "reading": "sangyou",
+          "english": "industry",
+          "score": 2
+        }
+      ]
+    },
+    "ぬるい": {
+      "word": "ぬるい",
+      "reading": "nurui",
+      "english": "lukewarm; tepid",
+      "type": "adjective",
+      "matches": [
+        {
+          "word": "お茶",
+          "reading": "ocha",
+          "english": "tea (usu. green)",
+          "score": 2
+        },
+        {
+          "word": "コーヒー",
+          "reading": "koohii",
+          "english": "coffee",
           "score": 2
         }
       ]

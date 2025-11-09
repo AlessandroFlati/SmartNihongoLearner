@@ -30,8 +30,13 @@ def main():
     missing_verbs = [all_verb_data[v] for v in missing]
     missing_verbs.sort(key=lambda x: x['frequency'], reverse=True)
 
-    for i, v in enumerate(missing_verbs[:100], 1):  # Show first 100
-        print(f"{i:3d}. {v['japanese']:15s} (freq: {v['frequency']:.2f}) - {v['english'][:50]}")
+    # Write to file to avoid encoding issues
+    output_file = Path(__file__).parent / "missing_verbs_output.txt"
+    with open(output_file, 'w', encoding='utf-8') as f:
+        for i, v in enumerate(missing_verbs[:100], 1):  # Show first 100
+            f.write(f"{i:3d}. {v['japanese']:15s} (freq: {v['frequency']:.2f}) - {v['english'][:50]}\n")
+
+    print(f"\nMissing verbs list written to: {output_file}")
 
 if __name__ == "__main__":
     main()
