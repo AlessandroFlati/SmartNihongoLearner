@@ -164,9 +164,9 @@ def save_collocations(verb_noun, adjective_noun):
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
         json.dump(output_data, f, ensure_ascii=False, indent=2)
 
-    print(f"\n✓ Saved {output_data['totalPairs']} collocation pairs")
-    print(f"✓ Covering {output_data['totalWords']} words")
-    print(f"✓ Output: {OUTPUT_FILE}")
+    print(f"\nSaved {output_data['totalPairs']} collocation pairs")
+    print(f"Covering {output_data['totalWords']} words")
+    print(f"Output: {OUTPUT_FILE}")
 
 
 def main():

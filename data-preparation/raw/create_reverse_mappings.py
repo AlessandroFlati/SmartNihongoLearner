@@ -2,8 +2,8 @@
 """
 Create reverse collocation mappings.
 
-This script takes the existing verb→noun and adjective→noun mappings
-and creates the reverse: noun→verbs and noun→adjectives.
+This script takes the existing verb->noun and adjective->noun mappings
+and creates the reverse: noun->verbs and noun->adjectives.
 
 This allows the game to work in both directions:
 - "What verbs/adjectives go with this noun?"
@@ -25,13 +25,13 @@ def load_collocations():
 
 def create_reverse_mappings(collocations_data):
     """
-    Create reverse mappings: noun → [verbs/adjectives that pair with it].
+    Create reverse mappings: noun -> [verbs/adjectives that pair with it].
 
     Args:
         collocations_data: The original collocation data
 
     Returns:
-        dict of noun → {verbs: [], adjectives: []}
+        dict of noun -> {verbs: [], adjectives: []}
     """
 
     reverse_map = {}
@@ -144,8 +144,8 @@ def save_complete_collocations(data):
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
-    print(f"\n✓ Saved complete collocation database")
-    print(f"✓ Output: {OUTPUT_FILE}")
+    print(f"\nSaved complete collocation database")
+    print(f"Output: {OUTPUT_FILE}")
 
 
 def main():
@@ -160,7 +160,7 @@ def main():
     print(f"  Original: {original_data['totalWords']} words, {original_data['totalPairs']} pairs")
 
     # Create reverse mappings
-    print("\nCreating reverse mappings (noun → verbs/adjectives)...")
+    print("\nCreating reverse mappings (noun -> verbs/adjectives)...")
     reverse_map = create_reverse_mappings(original_data)
     print(f"  Reverse: {len(reverse_map)} nouns")
 
@@ -171,15 +171,18 @@ def main():
     print(f"\nReverse mapping statistics:")
     print(f"  Nouns with verb pairings: {sum(1 for n in reverse_map.values() if n['verbs'])}")
     print(f"  Nouns with adjective pairings: {sum(1 for n in reverse_map.values() if n['adjectives'])}")
-    print(f"  Total noun→verb links: {total_verb_links}")
-    print(f"  Total noun→adjective links: {total_adj_links}")
+    print(f"  Total noun->verb links: {total_verb_links}")
+    print(f"  Total noun->adjective links: {total_adj_links}")
 
-    # Show example
-    sample_noun = list(reverse_map.keys())[0]
-    sample_data = reverse_map[sample_noun]
-    print(f"\nExample: {sample_noun}")
-    print(f"  Verbs: {', '.join(v['word'] for v in sample_data['verbs'][:5])}")
-    print(f"  Adjectives: {', '.join(a['word'] for a in sample_data['adjectives'][:5])}")
+    # Show example (skip if encoding issues)
+    try:
+        sample_noun = list(reverse_map.keys())[0]
+        sample_data = reverse_map[sample_noun]
+        print(f"\nExample: {sample_noun}")
+        print(f"  Verbs: {', '.join(v['word'] for v in sample_data['verbs'][:5])}")
+        print(f"  Adjectives: {', '.join(a['word'] for a in sample_data['adjectives'][:5])}")
+    except UnicodeEncodeError:
+        print("\nExample: [Japanese text - encoding not supported in console]")
 
     # Merge into bidirectional structure
     print("\nMerging into complete bidirectional structure...")
@@ -192,11 +195,11 @@ def main():
     print("\n" + "=" * 60)
     print("SUMMARY")
     print("=" * 60)
-    print(f"✓ Complete bidirectional collocation database created")
-    print(f"✓ {complete_data['totalWords']} total words")
-    print(f"✓ {original_data['totalWords']} verbs/adjectives → nouns")
-    print(f"✓ {len(reverse_map)} nouns → verbs/adjectives")
-    print(f"✓ Game can now work in both directions!")
+    print(f"Complete bidirectional collocation database created")
+    print(f"{complete_data['totalWords']} total words")
+    print(f"{original_data['totalWords']} verbs/adjectives -> nouns")
+    print(f"{len(reverse_map)} nouns -> verbs/adjectives")
+    print(f"Game can now work in both directions!")
     print("=" * 60)
 
 
