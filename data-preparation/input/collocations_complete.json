@@ -2,7 +2,7 @@
   "version": "2.0.0",
   "generatedAt": "2025-11-09",
   "totalPairs": 1950,
-  "totalWords": 1159,
+  "totalWords": 1169,
   "words": {
     "する": {
       "word": "する",
@@ -1764,6 +1764,36 @@
             "reading": "hige",
             "english": "moustache; beard; whiskers",
             "score": 2
+          },
+          {
+            "word": "０",
+            "reading": "zero",
+            "english": "zero; nought",
+            "score": 2
+          },
+          {
+            "word": "零",
+            "reading": "rei",
+            "english": "zero; nought",
+            "score": 2
+          },
+          {
+            "word": "１００",
+            "reading": "hyaku",
+            "english": "100; hundred",
+            "score": 2
+          },
+          {
+            "word": "メートル",
+            "reading": "meetoru",
+            "english": "metre; meter",
+            "score": 2
+          },
+          {
+            "word": "グラム",
+            "reading": "guramu",
+            "english": "gram; gramme",
+            "score": 2
           }
         ]
       }
@@ -1869,6 +1899,12 @@
             "word": "二十歳",
             "reading": "hatachi",
             "english": "20 years old",
+            "score": 2
+          },
+          {
+            "word": "一番",
+            "reading": "ichiban",
+            "english": "number one; first; first place",
             "score": 2
           }
         ]
@@ -3817,6 +3853,12 @@
             "word": "学部",
             "reading": "gakubu",
             "english": "department of a university",
+            "score": 2
+          },
+          {
+            "word": "新聞社",
+            "reading": "shinbunsha",
+            "english": "newspaper company",
             "score": 2
           }
         ]
@@ -6400,6 +6442,12 @@
             "score": 2
           },
           {
+            "word": "め",
+            "reading": "me",
+            "english": "eye; eyeball",
+            "score": 2
+          },
+          {
             "word": "口",
             "reading": "kuchi",
             "english": "mouth",
@@ -6432,6 +6480,12 @@
             "reading": "mado",
             "english": "window",
             "score": 3
+          },
+          {
+            "word": "め",
+            "reading": "me",
+            "english": "eye; eyeball",
+            "score": 2
           },
           {
             "word": "店",
@@ -7700,6 +7754,12 @@
             "reading": "resutoran",
             "english": "restaurant (esp. Western-style)",
             "score": 2
+          },
+          {
+            "word": "新聞社",
+            "reading": "shinbunsha",
+            "english": "newspaper company",
+            "score": 2
           }
         ]
       }
@@ -7755,6 +7815,12 @@
             "word": "体",
             "reading": "karada",
             "english": "body",
+            "score": 2
+          },
+          {
+            "word": "め",
+            "reading": "me",
+            "english": "eye; eyeball",
             "score": 2
           },
           {
@@ -7936,6 +8002,12 @@
             "reading": "kaidan",
             "english": "stairs; stairway; staircase",
             "score": 2
+          },
+          {
+            "word": "度",
+            "reading": "do",
+            "english": "degree (angle temperature scale etc.)",
+            "score": 2
           }
         ]
       }
@@ -7951,6 +8023,12 @@
             "word": "値段",
             "reading": "nedan",
             "english": "price; cost",
+            "score": 2
+          },
+          {
+            "word": "度",
+            "reading": "do",
+            "english": "degree (angle temperature scale etc.)",
             "score": 2
           }
         ]
@@ -8227,6 +8305,12 @@
             "word": "店",
             "reading": "mise",
             "english": "store; shop; establishment; restaurant",
+            "score": 2
+          },
+          {
+            "word": "半",
+            "reading": "han",
+            "english": "half; semi-",
             "score": 2
           }
         ]
@@ -25905,6 +25989,91 @@
         "adjectives": []
       }
     },
+    "０": {
+      "word": "０",
+      "reading": "zero",
+      "english": "zero; nought",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "ある",
+            "reading": "aru",
+            "english": "to be; to exist; to live",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "零": {
+      "word": "零",
+      "reading": "rei",
+      "english": "zero; nought",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "ある",
+            "reading": "aru",
+            "english": "to be; to exist; to live",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "１００": {
+      "word": "１００",
+      "reading": "hyaku",
+      "english": "100; hundred",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "ある",
+            "reading": "aru",
+            "english": "to be; to exist; to live",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "メートル": {
+      "word": "メートル",
+      "reading": "meetoru",
+      "english": "metre; meter",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "ある",
+            "reading": "aru",
+            "english": "to be; to exist; to live",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "グラム": {
+      "word": "グラム",
+      "reading": "guramu",
+      "english": "gram; gramme",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "ある",
+            "reading": "aru",
+            "english": "to be; to exist; to live",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
     "大人": {
       "word": "大人",
       "reading": "otona",
@@ -26245,6 +26414,23 @@
       "word": "二十歳",
       "reading": "hatachi",
       "english": "20 years old",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "なる",
+            "reading": "naru",
+            "english": "to become; to get; to grow; to be; to reach; to attain",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "一番": {
+      "word": "一番",
+      "reading": "ichiban",
+      "english": "number one; first; first place",
       "type": "noun",
       "matches": {
         "verbs": [
@@ -30991,6 +31177,29 @@
         "adjectives": []
       }
     },
+    "新聞社": {
+      "word": "新聞社",
+      "reading": "shinbunsha",
+      "english": "newspaper company",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "入る",
+            "reading": "hairu",
+            "english": "to enter; to go into",
+            "score": 2
+          },
+          {
+            "word": "働く",
+            "reading": "hataraku",
+            "english": "to work; to labor; to labour",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
     "本": {
       "word": "本",
       "reading": "hon",
@@ -35434,6 +35643,35 @@
         ]
       }
     },
+    "め": {
+      "word": "め",
+      "reading": "me",
+      "english": "eye; eyeball",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "開ける",
+            "reading": "akeru",
+            "english": "to open (a door etc.); to unwrap (e.g. parcel package); to unlock",
+            "score": 2
+          },
+          {
+            "word": "閉める",
+            "reading": "shimeru",
+            "english": "to close; to shut",
+            "score": 2
+          },
+          {
+            "word": "疲れる",
+            "reading": "tsukareru",
+            "english": "to get tired; to tire; to get fatigued; to become exhausted; to grow weary",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
     "口": {
       "word": "口",
       "reading": "kuchi",
@@ -37142,6 +37380,29 @@
         "adjectives": []
       }
     },
+    "度": {
+      "word": "度",
+      "reading": "do",
+      "english": "degree (angle temperature scale etc.)",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "上がる",
+            "reading": "agaru",
+            "english": "to rise; to go up; to come up; to ascend; to be raised",
+            "score": 2
+          },
+          {
+            "word": "下がる",
+            "reading": "sagaru",
+            "english": "to come down; to go down; to fall; to drop; to sink; to get lower",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
     "頭": {
       "word": "頭",
       "reading": "atama",
@@ -37222,6 +37483,23 @@
             "score": 2
           }
         ]
+      }
+    },
+    "半": {
+      "word": "半",
+      "reading": "han",
+      "english": "half; semi-",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "過ぎる",
+            "reading": "sugiru",
+            "english": "to pass through; to pass by; to go beyond",
+            "score": 2
+          }
+        ],
+        "adjectives": []
       }
     },
     "飛行機": {

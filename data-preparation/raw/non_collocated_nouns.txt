@@ -1,16 +1,6 @@
-Non-collocated nouns: 13
+Non-collocated nouns: 3
 ================================================================================
 
-  1. ０                    (freq: 5.66) - zero; nought
-  2. 度                    (freq: 5.64) - degree (angle temperature scale etc.)
-  3. 一番                   (freq: 5.39) - number one; first; first place
-  4. め                    (freq: 5.15) - eye; eyeball
-  5. 半                    (freq: 4.89) - half; semi-
-  6. 新聞社                  (freq: 4.66) - newspaper company
-  7. メートル                 (freq: 4.47) - metre; meter
-  8. 縦                    (freq: 4.29) - the vertical; height
-  9. 零                    (freq: 4.13) - zero; nought
- 10. １００                  (freq: 3.89) - 100; hundred
- 11. グラム                  (freq: 3.87) - gram; gramme
- 12. 拝見                   (freq: 3.86) - seeing; looking at
- 13. ご存じ                  (freq: 3.65) - knowing
+  1. 縦                    (freq: 4.29) - the vertical; height
+  2. 拝見                   (freq: 3.86) - seeing; looking at
+  3. ご存じ                  (freq: 3.65) - knowing

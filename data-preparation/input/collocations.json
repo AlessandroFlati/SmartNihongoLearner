@@ -1759,6 +1759,36 @@
           "reading": "hige",
           "english": "moustache; beard; whiskers",
           "score": 2
+        },
+        {
+          "word": "０",
+          "reading": "zero",
+          "english": "zero; nought",
+          "score": 2
+        },
+        {
+          "word": "零",
+          "reading": "rei",
+          "english": "zero; nought",
+          "score": 2
+        },
+        {
+          "word": "１００",
+          "reading": "hyaku",
+          "english": "100; hundred",
+          "score": 2
+        },
+        {
+          "word": "メートル",
+          "reading": "meetoru",
+          "english": "metre; meter",
+          "score": 2
+        },
+        {
+          "word": "グラム",
+          "reading": "guramu",
+          "english": "gram; gramme",
+          "score": 2
         }
       ]
     },
@@ -1862,6 +1892,12 @@
           "word": "二十歳",
           "reading": "hatachi",
           "english": "20 years old",
+          "score": 2
+        },
+        {
+          "word": "一番",
+          "reading": "ichiban",
+          "english": "number one; first; first place",
           "score": 2
         }
       ]
@@ -3772,6 +3808,12 @@
           "word": "学部",
           "reading": "gakubu",
           "english": "department of a university",
+          "score": 2
+        },
+        {
+          "word": "新聞社",
+          "reading": "shinbunsha",
+          "english": "newspaper company",
           "score": 2
         }
       ]
@@ -6277,6 +6319,12 @@
           "score": 2
         },
         {
+          "word": "め",
+          "reading": "me",
+          "english": "eye; eyeball",
+          "score": 2
+        },
+        {
           "word": "口",
           "reading": "kuchi",
           "english": "mouth",
@@ -6307,6 +6355,12 @@
           "reading": "mado",
           "english": "window",
           "score": 3
+        },
+        {
+          "word": "め",
+          "reading": "me",
+          "english": "eye; eyeball",
+          "score": 2
         },
         {
           "word": "店",
@@ -7505,6 +7559,12 @@
           "reading": "resutoran",
           "english": "restaurant (esp. Western-style)",
           "score": 2
+        },
+        {
+          "word": "新聞社",
+          "reading": "shinbunsha",
+          "english": "newspaper company",
+          "score": 2
         }
       ]
     },
@@ -7556,6 +7616,12 @@
           "word": "体",
           "reading": "karada",
           "english": "body",
+          "score": 2
+        },
+        {
+          "word": "め",
+          "reading": "me",
+          "english": "eye; eyeball",
           "score": 2
         },
         {
@@ -7725,6 +7791,12 @@
           "reading": "kaidan",
           "english": "stairs; stairway; staircase",
           "score": 2
+        },
+        {
+          "word": "度",
+          "reading": "do",
+          "english": "degree (angle temperature scale etc.)",
+          "score": 2
         }
       ]
     },
@@ -7738,6 +7810,12 @@
           "word": "値段",
           "reading": "nedan",
           "english": "price; cost",
+          "score": 2
+        },
+        {
+          "word": "度",
+          "reading": "do",
+          "english": "degree (angle temperature scale etc.)",
           "score": 2
         }
       ]
@@ -7996,6 +8074,12 @@
           "word": "店",
           "reading": "mise",
           "english": "store; shop; establishment; restaurant",
+          "score": 2
+        },
+        {
+          "word": "半",
+          "reading": "han",
+          "english": "half; semi-",
           "score": 2
         }
       ]
