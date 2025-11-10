@@ -671,6 +671,114 @@
           "reading": "shimin",
           "english": "citizen; citizenry; public",
           "score": 2
+        },
+        {
+          "word": "パパ",
+          "reading": "papa",
+          "english": "papa; dad; daddy",
+          "score": 2
+        },
+        {
+          "word": "ご主人",
+          "reading": "goshujin",
+          "english": "your husband; her husband",
+          "score": 2
+        },
+        {
+          "word": "奥さん",
+          "reading": "okusan",
+          "english": "wife; your wife; his wife; married lady; madam",
+          "score": 2
+        },
+        {
+          "word": "部長",
+          "reading": "buchou",
+          "english": "head (chief director) of a section or department",
+          "score": 2
+        },
+        {
+          "word": "校長",
+          "reading": "kouchou",
+          "english": "principal; headmaster",
+          "score": 2
+        },
+        {
+          "word": "看護婦",
+          "reading": "kangofu",
+          "english": "(female) nurse",
+          "score": 2
+        },
+        {
+          "word": "公務員",
+          "reading": "koumuin",
+          "english": "government worker; public servant; civil servant",
+          "score": 2
+        },
+        {
+          "word": "課長",
+          "reading": "kachou",
+          "english": "section manager; section chief",
+          "score": 2
+        },
+        {
+          "word": "留学生",
+          "reading": "ryuugakusei",
+          "english": "overseas student; exchange student",
+          "score": 2
+        },
+        {
+          "word": "警官",
+          "reading": "keikan",
+          "english": "police officer; policeman; constable",
+          "score": 2
+        },
+        {
+          "word": "お嬢さん",
+          "reading": "ojousan",
+          "english": "(another's) daughter",
+          "score": 2
+        },
+        {
+          "word": "赤ん坊",
+          "reading": "akanbou",
+          "english": "baby; infant",
+          "score": 2
+        },
+        {
+          "word": "お子さん",
+          "reading": "okosan",
+          "english": "child",
+          "score": 2
+        },
+        {
+          "word": "家内",
+          "reading": "kanai",
+          "english": "(my) wife",
+          "score": 2
+        },
+        {
+          "word": "おまわりさん",
+          "reading": "omawarisan",
+          "english": "police officer",
+          "score": 2
+        },
+        {
+          "word": "すり",
+          "reading": "suri",
+          "english": "pickpocket",
+          "score": 2
+        },
+        {
+          "word": "アナウンサー",
+          "reading": "anaunsaa",
+          "english": "announcer; presenter; broadcaster; reporter",
+          "score": 2
+        },
+        {
+          "word": "小鳥",
+          "reading": "kotori",
+          "english": "small bird; little bird",
+          "score": 2
         }
       ]
     },
@@ -897,6 +1005,42 @@
           "score": 2
         },
         {
+          "word": "夕べ",
+          "reading": "yuube",
+          "english": "evening",
+          "score": 2
+        },
+        {
+          "word": "正月",
+          "reading": "shougatsu",
+          "english": "New Year (esp. first three days)",
+          "score": 2
+        },
+        {
+          "word": "昼休み",
+          "reading": "hiruyasumi",
+          "english": "lunch break; noon recess; noon rest period",
+          "score": 2
+        },
+        {
+          "word": "再来年",
+          "reading": "sarainen",
+          "english": "year after next",
+          "score": 2
+        },
+        {
+          "word": "再来週",
+          "reading": "saraishuu",
+          "english": "week after next",
+          "score": 2
+        },
+        {
+          "word": "再来月",
+          "reading": "saraigetsu",
+          "english": "month after next",
+          "score": 2
+        },
+        {
           "word": "上",
           "reading": "ue",
           "english": "above; up; over; elder (e.g. daughter)",
@@ -1038,6 +1182,66 @@
           "word": "台所",
           "reading": "daidokoro",
           "english": "kitchen",
+          "score": 2
+        },
+        {
+          "word": "門",
+          "reading": "mon",
+          "english": "gate",
+          "score": 2
+        },
+        {
+          "word": "受付",
+          "reading": "uketsuke",
+          "english": "reception (desk); information desk",
+          "score": 2
+        },
+        {
+          "word": "交番",
+          "reading": "kouban",
+          "english": "police box; small neighborhood police station",
+          "score": 2
+        },
+        {
+          "word": "売り場",
+          "reading": "uriba",
+          "english": "selling area; counter; section; department; sales floor",
+          "score": 2
+        },
+        {
+          "word": "隅",
+          "reading": "sumi",
+          "english": "corner; nook; recess",
+          "score": 2
+        },
+        {
+          "word": "区",
+          "reading": "ku",
+          "english": "ward; borough; city (in Tokyo)",
+          "score": 2
+        },
+        {
+          "word": "都",
+          "reading": "to",
+          "english": "Metropolis (of Tokyo); (Tokyo) Metropolitan District; metropolitan prefecture",
+          "score": 2
+        },
+        {
+          "word": "田舎",
+          "reading": "inaka",
+          "english": "rural area; countryside; the sticks",
+          "score": 2
+        },
+        {
+          "word": "林",
+          "reading": "hayashi",
+          "english": "woods; forest; copse; thicket",
+          "score": 2
+        },
+        {
+          "word": "砂",
+          "reading": "suna",
+          "english": "sand; grit",
           "score": 2
         },
         {
@@ -1209,6 +1413,84 @@
           "score": 2
         },
         {
+          "word": "畳",
+          "reading": "tatami",
+          "english": "tatami mat; Japanese straw floor coverings",
+          "score": 2
+        },
+        {
+          "word": "棚",
+          "reading": "tana",
+          "english": "shelf; ledge; rack",
+          "score": 2
+        },
+        {
+          "word": "本棚",
+          "reading": "hondana",
+          "english": "bookshelves; bookshelf; bookcase",
+          "score": 2
+        },
+        {
+          "word": "ポケット",
+          "reading": "poketto",
+          "english": "pocket",
+          "score": 2
+        },
+        {
+          "word": "曇り",
+          "reading": "kumori",
+          "english": "cloudiness; cloudy weather",
+          "score": 2
+        },
+        {
+          "word": "式",
+          "reading": "shiki",
+          "english": "equation; formula; expression",
+          "score": 2
+        },
+        {
+          "word": "忘れ物",
+          "reading": "wasuremono",
+          "english": "lost article; something forgotten",
+          "score": 2
+        },
+        {
+          "word": "押し入れ",
+          "reading": "oshiire",
+          "english": "closet",
+          "score": 2
+        },
+        {
+          "word": "講堂",
+          "reading": "koudou",
+          "english": "auditorium; lecture hall",
+          "score": 2
+        },
+        {
+          "word": "以上",
+          "reading": "ijou",
+          "english": "not less than; ... and more; ... and upwards",
+          "score": 2
+        },
+        {
+          "word": "以下",
+          "reading": "ika",
+          "english": "not exceeding; and downward; ... and below",
+          "score": 2
+        },
+        {
+          "word": "以外",
+          "reading": "igai",
+          "english": "with the exception of; excepting",
+          "score": 2
+        },
+        {
+          "word": "以内",
+          "reading": "inai",
+          "english": "within; inside of; less than",
+          "score": 2
+        },
+        {
           "word": "日曜日",
           "reading": "nichiyoubi",
           "english": "Sunday",
@@ -1358,6 +1640,78 @@
           "word": "医者",
           "reading": "isha",
           "english": "(medical) doctor; physician",
+          "score": 2
+        },
+        {
+          "word": "最後",
+          "reading": "saigo",
+          "english": "end; conclusion",
+          "score": 2
+        },
+        {
+          "word": "最初",
+          "reading": "saisho",
+          "english": "beginning; outset; first; onset",
+          "score": 2
+        },
+        {
+          "word": "始め",
+          "reading": "hajime",
+          "english": "beginning; start; outset; opening",
+          "score": 2
+        },
+        {
+          "word": "お金持ち",
+          "reading": "okanemochi",
+          "english": "rich person",
+          "score": 2
+        },
+        {
+          "word": "部長",
+          "reading": "buchou",
+          "english": "head (chief director) of a section or department",
+          "score": 2
+        },
+        {
+          "word": "校長",
+          "reading": "kouchou",
+          "english": "principal; headmaster",
+          "score": 2
+        },
+        {
+          "word": "看護婦",
+          "reading": "kangofu",
+          "english": "(female) nurse",
+          "score": 2
+        },
+        {
+          "word": "公務員",
+          "reading": "koumuin",
+          "english": "government worker; public servant; civil servant",
+          "score": 2
+        },
+        {
+          "word": "課長",
+          "reading": "kachou",
+          "english": "section manager; section chief",
+          "score": 2
+        },
+        {
+          "word": "留学生",
+          "reading": "ryuugakusei",
+          "english": "overseas student; exchange student",
+          "score": 2
+        },
+        {
+          "word": "アナウンサー",
+          "reading": "anaunsaa",
+          "english": "announcer; presenter; broadcaster; reporter",
+          "score": 2
+        },
+        {
+          "word": "二十歳",
+          "reading": "hatachi",
+          "english": "20 years old",
           "score": 2
         }
       ]
@@ -1895,6 +2249,90 @@
           "score": 2
         },
         {
+          "word": "田舎",
+          "reading": "inaka",
+          "english": "rural area; countryside; the sticks",
+          "score": 2
+        },
+        {
+          "word": "林",
+          "reading": "hayashi",
+          "english": "woods; forest; copse; thicket",
+          "score": 2
+        },
+        {
+          "word": "アジア",
+          "reading": "ajia",
+          "english": "Asia",
+          "score": 2
+        },
+        {
+          "word": "アフリカ",
+          "reading": "afurika",
+          "english": "Africa",
+          "score": 2
+        },
+        {
+          "word": "西洋",
+          "reading": "seiyou",
+          "english": "the West; the Occident; Western countries",
+          "score": 2
+        },
+        {
+          "word": "中学校",
+          "reading": "chuugakkou",
+          "english": "junior high school; middle school; lower secondary school",
+          "score": 2
+        },
+        {
+          "word": "交番",
+          "reading": "kouban",
+          "english": "police box; small neighborhood police station",
+          "score": 2
+        },
+        {
+          "word": "飛行場",
+          "reading": "hikoujou",
+          "english": "airfield; airport",
+          "score": 2
+        },
+        {
+          "word": "ガソリンスタンド",
+          "reading": "gasorinsutando",
+          "english": "gas station; petrol station",
+          "score": 2
+        },
+        {
+          "word": "お手洗い",
+          "reading": "otearai",
+          "english": "toilet; restroom; lavatory; bathroom",
+          "score": 2
+        },
+        {
+          "word": "床屋",
+          "reading": "tokoya",
+          "english": "barbershop; barber shop; barber",
+          "score": 2
+        },
+        {
+          "word": "八百屋",
+          "reading": "yaoya",
+          "english": "greengrocer; fruit and vegetable shop",
+          "score": 2
+        },
+        {
+          "word": "歯医者",
+          "reading": "haisha",
+          "english": "dentist",
+          "score": 2
+        },
+        {
+          "word": "コンサート",
+          "reading": "konsaato",
+          "english": "concert",
+          "score": 2
+        },
+        {
           "word": "お祭り",
           "reading": "omatsuri",
           "english": "festival; feast; carnival",
@@ -2324,6 +2762,72 @@
           "word": "水道",
           "reading": "suidou",
           "english": "water supply; water service; waterworks",
+          "score": 2
+        },
+        {
+          "word": "コンピュータ",
+          "reading": "konpyuuta",
+          "english": "computer",
+          "score": 2
+        },
+        {
+          "word": "テープ",
+          "reading": "teepu",
+          "english": "tape",
+          "score": 2
+        },
+        {
+          "word": "ナイフ",
+          "reading": "naifu",
+          "english": "knife",
+          "score": 2
+        },
+        {
+          "word": "フォーク",
+          "reading": "fooku",
+          "english": "fork",
+          "score": 2
+        },
+        {
+          "word": "消しゴム",
+          "reading": "keshigomu",
+          "english": "eraser; rubber",
+          "score": 2
+        },
+        {
+          "word": "万年筆",
+          "reading": "mannenhitsu",
+          "english": "fountain pen",
+          "score": 2
+        },
+        {
+          "word": "ワープロ",
+          "reading": "waapuro",
+          "english": "word processor",
+          "score": 2
+        },
+        {
+          "word": "石鹸",
+          "reading": "sekken",
+          "english": "soap",
+          "score": 2
+        },
+        {
+          "word": "スプーン",
+          "reading": "supuun",
+          "english": "spoon",
+          "score": 2
+        },
+        {
+          "word": "糸",
+          "reading": "ito",
+          "english": "thread; yarn; string",
+          "score": 2
+        },
+        {
+          "word": "味噌",
+          "reading": "miso",
+          "english": "miso; fermented condiment usu. made from soybeans",
           "score": 2
         }
       ]
@@ -3025,6 +3529,330 @@
           "reading": "zubon",
           "english": "trousers; pants",
           "score": 2
+        },
+        {
+          "word": "食料品",
+          "reading": "shokuryouhin",
+          "english": "foodstuff; groceries",
+          "score": 2
+        },
+        {
+          "word": "バター",
+          "reading": "bataa",
+          "english": "butter",
+          "score": 2
+        },
+        {
+          "word": "ナイフ",
+          "reading": "naifu",
+          "english": "knife",
+          "score": 2
+        },
+        {
+          "word": "フォーク",
+          "reading": "fooku",
+          "english": "fork",
+          "score": 2
+        },
+        {
+          "word": "人形",
+          "reading": "ningyou",
+          "english": "doll; puppet; figure",
+          "score": 2
+        },
+        {
+          "word": "ペット",
+          "reading": "petto",
+          "english": "pet",
+          "score": 2
+        },
+        {
+          "word": "コンピュータ",
+          "reading": "konpyuuta",
+          "english": "computer",
+          "score": 2
+        },
+        {
+          "word": "テープ",
+          "reading": "teepu",
+          "english": "tape",
+          "score": 2
+        },
+        {
+          "word": "洋服",
+          "reading": "youfuku",
+          "english": "Western-style clothes (cf. traditional Japanese clothes)",
+          "score": 2
+        },
+        {
+          "word": "靴下",
+          "reading": "kutsushita",
+          "english": "socks; sock; stockings; stocking",
+          "score": 2
+        },
+        {
+          "word": "手袋",
+          "reading": "tebukuro",
+          "english": "glove; mitten; mitt",
+          "score": 2
+        },
+        {
+          "word": "セーター",
+          "reading": "seetaa",
+          "english": "sweater; jumper",
+          "score": 2
+        },
+        {
+          "word": "ワイシャツ",
+          "reading": "waishatsu",
+          "english": "shirt; business shirt; dress shirt",
+          "score": 2
+        },
+        {
+          "word": "下着",
+          "reading": "shitagi",
+          "english": "underwear",
+          "score": 2
+        },
+        {
+          "word": "オーバー",
+          "reading": "oobaa",
+          "english": "overcoat",
+          "score": 2
+        },
+        {
+          "word": "上着",
+          "reading": "uwagi",
+          "english": "coat; tunic; jacket; outer garment",
+          "score": 2
+        },
+        {
+          "word": "背広",
+          "reading": "sebiro",
+          "english": "business suit",
+          "score": 2
+        },
+        {
+          "word": "おもちゃ",
+          "reading": "omocha",
+          "english": "toy; plaything",
+          "score": 2
+        },
+        {
+          "word": "糸",
+          "reading": "ito",
+          "english": "thread; yarn; string",
+          "score": 2
+        },
+        {
+          "word": "お皿",
+          "reading": "osara",
+          "english": "plate; dish",
+          "score": 2
+        },
+        {
+          "word": "フィルム",
+          "reading": "firumu",
+          "english": "film",
+          "score": 2
+        },
+        {
+          "word": "冷蔵庫",
+          "reading": "reizouko",
+          "english": "refrigerator; fridge",
+          "score": 2
+        },
+        {
+          "word": "レコード",
+          "reading": "rekoodo",
+          "english": "record (e.g. LP)",
+          "score": 2
+        },
+        {
+          "word": "カレンダー",
+          "reading": "karendaa",
+          "english": "calendar",
+          "score": 2
+        },
+        {
+          "word": "アクセサリー",
+          "reading": "akusesarii",
+          "english": "accessory (fashion); jewelry",
+          "score": 2
+        },
+        {
+          "word": "ジャム",
+          "reading": "jamu",
+          "english": "jam",
+          "score": 2
+        },
+        {
+          "word": "スプーン",
+          "reading": "supuun",
+          "english": "spoon",
+          "score": 2
+        },
+        {
+          "word": "たばこ",
+          "reading": "tabako",
+          "english": "tobacco; cigarette; cigaret; cigar",
+          "score": 2
+        },
+        {
+          "word": "封筒",
+          "reading": "fuutou",
+          "english": "envelope",
+          "score": 2
+        },
+        {
+          "word": "かばん",
+          "reading": "kaban",
+          "english": "bag; satchel; briefcase; basket",
+          "score": 2
+        },
+        {
+          "word": "石鹸",
+          "reading": "sekken",
+          "english": "soap",
+          "score": 2
+        },
+        {
+          "word": "スーツケース",
+          "reading": "suutsukeesu",
+          "english": "suitcase",
+          "score": 2
+        },
+        {
+          "word": "ＦＡＸ",
+          "reading": "fakkusu",
+          "english": "fax; facsimile",
+          "score": 2
+        },
+        {
+          "word": "電灯",
+          "reading": "dentou",
+          "english": "electric light",
+          "score": 2
+        },
+        {
+          "word": "ハンカチ",
+          "reading": "hankachi",
+          "english": "handkerchief",
+          "score": 2
+        },
+        {
+          "word": "ストーブ",
+          "reading": "sutoobu",
+          "english": "(room) heater; stove",
+          "score": 2
+        },
+        {
+          "word": "絹",
+          "reading": "kinu",
+          "english": "silk",
+          "score": 2
+        },
+        {
+          "word": "品物",
+          "reading": "shinamono",
+          "english": "goods; article; thing",
+          "score": 2
+        },
+        {
+          "word": "はがき",
+          "reading": "hagaki",
+          "english": "postcard",
+          "score": 2
+        },
+        {
+          "word": "めがね",
+          "reading": "megane",
+          "english": "glasses; eyeglasses; spectacles",
+          "score": 2
+        },
+        {
+          "word": "木綿",
+          "reading": "momen",
+          "english": "cotton (material)",
+          "score": 2
+        },
+        {
+          "word": "花瓶",
+          "reading": "kabin",
+          "english": "(flower) vase",
+          "score": 2
+        },
+        {
+          "word": "万年筆",
+          "reading": "mannenhitsu",
+          "english": "fountain pen",
+          "score": 2
+        },
+        {
+          "word": "ワープロ",
+          "reading": "waapuro",
+          "english": "word processor",
+          "score": 2
+        },
+        {
+          "word": "ラジカセ",
+          "reading": "rajikase",
+          "english": "radio-cassette player",
+          "score": 2
+        },
+        {
+          "word": "テープレコーダー",
+          "reading": "teepurekoodaa",
+          "english": "tape recorder",
+          "score": 2
+        },
+        {
+          "word": "自動車",
+          "reading": "jidousha",
+          "english": "automobile; motorcar; motor vehicle; car; auto",
+          "score": 2
+        },
+        {
+          "word": "オートバイ",
+          "reading": "ootobai",
+          "english": "motorcycle",
+          "score": 2
+        },
+        {
+          "word": "地下鉄",
+          "reading": "chikatetsu",
+          "english": "underground train; subway",
+          "score": 2
+        },
+        {
+          "word": "汽車",
+          "reading": "kisha",
+          "english": "train (esp. long distance train)",
+          "score": 2
+        },
+        {
+          "word": "乗り物",
+          "reading": "norimono",
+          "english": "vehicle; conveyance; transport",
+          "score": 2
+        },
+        {
+          "word": "急行",
+          "reading": "kyuukou",
+          "english": "hurrying (to somewhere); rushing; hastening",
+          "score": 2
+        },
+        {
+          "word": "ぶどう",
+          "reading": "budou",
+          "english": "grape; grapevine",
+          "score": 2
+        },
+        {
+          "word": "味噌",
+          "reading": "miso",
+          "english": "miso; fermented condiment usu. made from soybeans",
+          "score": 2
         }
       ]
     },
@@ -3260,6 +4088,30 @@
           "word": "鶏肉",
           "reading": "toriniku",
           "english": "chicken meat",
+          "score": 2
+        },
+        {
+          "word": "バター",
+          "reading": "bataa",
+          "english": "butter",
+          "score": 2
+        },
+        {
+          "word": "ジャム",
+          "reading": "jamu",
+          "english": "jam",
+          "score": 2
+        },
+        {
+          "word": "飴",
+          "reading": "ame",
+          "english": "(hard) candy; toffee",
+          "score": 2
+        },
+        {
+          "word": "ぶどう",
+          "reading": "budou",
+          "english": "grape; grapevine",
           "score": 2
         },
         {
@@ -3502,6 +4354,30 @@
           "word": "文学",
           "reading": "bungaku",
           "english": "literature",
+          "score": 2
+        },
+        {
+          "word": "ひらがな",
+          "reading": "hiragana",
+          "english": "hiragana; cursive Japanese syllabary used primarily for native Japanese words (esp. function words inflections etc.)",
+          "score": 2
+        },
+        {
+          "word": "かたかな",
+          "reading": "katakana",
+          "english": "katakana; angular Japanese syllabary used primarily for loanwords",
+          "score": 2
+        },
+        {
+          "word": "テキスト",
+          "reading": "tekisuto",
+          "english": "text",
+          "score": 2
+        },
+        {
+          "word": "はがき",
+          "reading": "hagaki",
+          "english": "postcard",
           "score": 2
         }
       ]
@@ -4188,6 +5064,24 @@
           "word": "文章",
           "reading": "bunshou",
           "english": "writing; composition; essay; article; prose; (writing) style",
+          "score": 2
+        },
+        {
+          "word": "ひらがな",
+          "reading": "hiragana",
+          "english": "hiragana; cursive Japanese syllabary used primarily for native Japanese words (esp. function words inflections etc.)",
+          "score": 2
+        },
+        {
+          "word": "かたかな",
+          "reading": "katakana",
+          "english": "katakana; angular Japanese syllabary used primarily for loanwords",
+          "score": 2
+        },
+        {
+          "word": "はがき",
+          "reading": "hagaki",
+          "english": "postcard",
           "score": 2
         }
       ]
@@ -6505,6 +7399,54 @@
           "reading": "tokkyuu",
           "english": "limited express (train for which a limited-express ticket is required)",
           "score": 2
+        },
+        {
+          "word": "自動車",
+          "reading": "jidousha",
+          "english": "automobile; motorcar; motor vehicle; car; auto",
+          "score": 2
+        },
+        {
+          "word": "地下鉄",
+          "reading": "chikatetsu",
+          "english": "underground train; subway",
+          "score": 2
+        },
+        {
+          "word": "エレベーター",
+          "reading": "erebeetaa",
+          "english": "elevator; lift",
+          "score": 2
+        },
+        {
+          "word": "エスカレーター",
+          "reading": "esukareetaa",
+          "english": "escalator",
+          "score": 2
+        },
+        {
+          "word": "乗り物",
+          "reading": "norimono",
+          "english": "vehicle; conveyance; transport",
+          "score": 3
+        },
+        {
+          "word": "急行",
+          "reading": "kyuukou",
+          "english": "hurrying (to somewhere); rushing; hastening",
+          "score": 2
+        },
+        {
+          "word": "汽車",
+          "reading": "kisha",
+          "english": "train (esp. long distance train)",
+          "score": 2
+        },
+        {
+          "word": "オートバイ",
+          "reading": "ootobai",
+          "english": "motorcycle",
+          "score": 2
         }
       ]
     },
@@ -6542,6 +7484,24 @@
           "word": "駅",
           "reading": "eki",
           "english": "railway station; train station",
+          "score": 2
+        },
+        {
+          "word": "地下鉄",
+          "reading": "chikatetsu",
+          "english": "underground train; subway",
+          "score": 2
+        },
+        {
+          "word": "エレベーター",
+          "reading": "erebeetaa",
+          "english": "elevator; lift",
+          "score": 2
+        },
+        {
+          "word": "エスカレーター",
+          "reading": "esukareetaa",
+          "english": "escalator",
           "score": 2
         }
       ]

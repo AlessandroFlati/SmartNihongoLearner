@@ -2,7 +2,7 @@
   "version": "2.0.0",
   "generatedAt": "2025-11-09",
   "totalPairs": 1950,
-  "totalWords": 969,
+  "totalWords": 1093,
   "words": {
     "する": {
       "word": "する",
@@ -674,6 +674,114 @@
             "reading": "shimin",
             "english": "citizen; citizenry; public",
             "score": 2
+          },
+          {
+            "word": "パパ",
+            "reading": "papa",
+            "english": "papa; dad; daddy",
+            "score": 2
+          },
+          {
+            "word": "ご主人",
+            "reading": "goshujin",
+            "english": "your husband; her husband",
+            "score": 2
+          },
+          {
+            "word": "奥さん",
+            "reading": "okusan",
+            "english": "wife; your wife; his wife; married lady; madam",
+            "score": 2
+          },
+          {
+            "word": "部長",
+            "reading": "buchou",
+            "english": "head (chief director) of a section or department",
+            "score": 2
+          },
+          {
+            "word": "校長",
+            "reading": "kouchou",
+            "english": "principal; headmaster",
+            "score": 2
+          },
+          {
+            "word": "看護婦",
+            "reading": "kangofu",
+            "english": "(female) nurse",
+            "score": 2
+          },
+          {
+            "word": "公務員",
+            "reading": "koumuin",
+            "english": "government worker; public servant; civil servant",
+            "score": 2
+          },
+          {
+            "word": "課長",
+            "reading": "kachou",
+            "english": "section manager; section chief",
+            "score": 2
+          },
+          {
+            "word": "留学生",
+            "reading": "ryuugakusei",
+            "english": "overseas student; exchange student",
+            "score": 2
+          },
+          {
+            "word": "警官",
+            "reading": "keikan",
+            "english": "police officer; policeman; constable",
+            "score": 2
+          },
+          {
+            "word": "お嬢さん",
+            "reading": "ojousan",
+            "english": "(another's) daughter",
+            "score": 2
+          },
+          {
+            "word": "赤ん坊",
+            "reading": "akanbou",
+            "english": "baby; infant",
+            "score": 2
+          },
+          {
+            "word": "お子さん",
+            "reading": "okosan",
+            "english": "child",
+            "score": 2
+          },
+          {
+            "word": "家内",
+            "reading": "kanai",
+            "english": "(my) wife",
+            "score": 2
+          },
+          {
+            "word": "おまわりさん",
+            "reading": "omawarisan",
+            "english": "police officer",
+            "score": 2
+          },
+          {
+            "word": "すり",
+            "reading": "suri",
+            "english": "pickpocket",
+            "score": 2
+          },
+          {
+            "word": "アナウンサー",
+            "reading": "anaunsaa",
+            "english": "announcer; presenter; broadcaster; reporter",
+            "score": 2
+          },
+          {
+            "word": "小鳥",
+            "reading": "kotori",
+            "english": "small bird; little bird",
+            "score": 2
           }
         ]
       }
@@ -902,6 +1010,42 @@
             "score": 2
           },
           {
+            "word": "夕べ",
+            "reading": "yuube",
+            "english": "evening",
+            "score": 2
+          },
+          {
+            "word": "正月",
+            "reading": "shougatsu",
+            "english": "New Year (esp. first three days)",
+            "score": 2
+          },
+          {
+            "word": "昼休み",
+            "reading": "hiruyasumi",
+            "english": "lunch break; noon recess; noon rest period",
+            "score": 2
+          },
+          {
+            "word": "再来年",
+            "reading": "sarainen",
+            "english": "year after next",
+            "score": 2
+          },
+          {
+            "word": "再来週",
+            "reading": "saraishuu",
+            "english": "week after next",
+            "score": 2
+          },
+          {
+            "word": "再来月",
+            "reading": "saraigetsu",
+            "english": "month after next",
+            "score": 2
+          },
+          {
             "word": "上",
             "reading": "ue",
             "english": "above; up; over; elder (e.g. daughter)",
@@ -1043,6 +1187,66 @@
             "word": "台所",
             "reading": "daidokoro",
             "english": "kitchen",
+            "score": 2
+          },
+          {
+            "word": "門",
+            "reading": "mon",
+            "english": "gate",
+            "score": 2
+          },
+          {
+            "word": "受付",
+            "reading": "uketsuke",
+            "english": "reception (desk); information desk",
+            "score": 2
+          },
+          {
+            "word": "交番",
+            "reading": "kouban",
+            "english": "police box; small neighborhood police station",
+            "score": 2
+          },
+          {
+            "word": "売り場",
+            "reading": "uriba",
+            "english": "selling area; counter; section; department; sales floor",
+            "score": 2
+          },
+          {
+            "word": "隅",
+            "reading": "sumi",
+            "english": "corner; nook; recess",
+            "score": 2
+          },
+          {
+            "word": "区",
+            "reading": "ku",
+            "english": "ward; borough; city (in Tokyo)",
+            "score": 2
+          },
+          {
+            "word": "都",
+            "reading": "to",
+            "english": "Metropolis (of Tokyo); (Tokyo) Metropolitan District; metropolitan prefecture",
+            "score": 2
+          },
+          {
+            "word": "田舎",
+            "reading": "inaka",
+            "english": "rural area; countryside; the sticks",
+            "score": 2
+          },
+          {
+            "word": "林",
+            "reading": "hayashi",
+            "english": "woods; forest; copse; thicket",
+            "score": 2
+          },
+          {
+            "word": "砂",
+            "reading": "suna",
+            "english": "sand; grit",
             "score": 2
           },
           {
@@ -1214,6 +1418,84 @@
             "score": 2
           },
           {
+            "word": "畳",
+            "reading": "tatami",
+            "english": "tatami mat; Japanese straw floor coverings",
+            "score": 2
+          },
+          {
+            "word": "棚",
+            "reading": "tana",
+            "english": "shelf; ledge; rack",
+            "score": 2
+          },
+          {
+            "word": "本棚",
+            "reading": "hondana",
+            "english": "bookshelves; bookshelf; bookcase",
+            "score": 2
+          },
+          {
+            "word": "ポケット",
+            "reading": "poketto",
+            "english": "pocket",
+            "score": 2
+          },
+          {
+            "word": "曇り",
+            "reading": "kumori",
+            "english": "cloudiness; cloudy weather",
+            "score": 2
+          },
+          {
+            "word": "式",
+            "reading": "shiki",
+            "english": "equation; formula; expression",
+            "score": 2
+          },
+          {
+            "word": "忘れ物",
+            "reading": "wasuremono",
+            "english": "lost article; something forgotten",
+            "score": 2
+          },
+          {
+            "word": "押し入れ",
+            "reading": "oshiire",
+            "english": "closet",
+            "score": 2
+          },
+          {
+            "word": "講堂",
+            "reading": "koudou",
+            "english": "auditorium; lecture hall",
+            "score": 2
+          },
+          {
+            "word": "以上",
+            "reading": "ijou",
+            "english": "not less than; ... and more; ... and upwards",
+            "score": 2
+          },
+          {
+            "word": "以下",
+            "reading": "ika",
+            "english": "not exceeding; and downward; ... and below",
+            "score": 2
+          },
+          {
+            "word": "以外",
+            "reading": "igai",
+            "english": "with the exception of; excepting",
+            "score": 2
+          },
+          {
+            "word": "以内",
+            "reading": "inai",
+            "english": "within; inside of; less than",
+            "score": 2
+          },
+          {
             "word": "日曜日",
             "reading": "nichiyoubi",
             "english": "Sunday",
@@ -1365,6 +1647,78 @@
             "word": "医者",
             "reading": "isha",
             "english": "(medical) doctor; physician",
+            "score": 2
+          },
+          {
+            "word": "最後",
+            "reading": "saigo",
+            "english": "end; conclusion",
+            "score": 2
+          },
+          {
+            "word": "最初",
+            "reading": "saisho",
+            "english": "beginning; outset; first; onset",
+            "score": 2
+          },
+          {
+            "word": "始め",
+            "reading": "hajime",
+            "english": "beginning; start; outset; opening",
+            "score": 2
+          },
+          {
+            "word": "お金持ち",
+            "reading": "okanemochi",
+            "english": "rich person",
+            "score": 2
+          },
+          {
+            "word": "部長",
+            "reading": "buchou",
+            "english": "head (chief director) of a section or department",
+            "score": 2
+          },
+          {
+            "word": "校長",
+            "reading": "kouchou",
+            "english": "principal; headmaster",
+            "score": 2
+          },
+          {
+            "word": "看護婦",
+            "reading": "kangofu",
+            "english": "(female) nurse",
+            "score": 2
+          },
+          {
+            "word": "公務員",
+            "reading": "koumuin",
+            "english": "government worker; public servant; civil servant",
+            "score": 2
+          },
+          {
+            "word": "課長",
+            "reading": "kachou",
+            "english": "section manager; section chief",
+            "score": 2
+          },
+          {
+            "word": "留学生",
+            "reading": "ryuugakusei",
+            "english": "overseas student; exchange student",
+            "score": 2
+          },
+          {
+            "word": "アナウンサー",
+            "reading": "anaunsaa",
+            "english": "announcer; presenter; broadcaster; reporter",
+            "score": 2
+          },
+          {
+            "word": "二十歳",
+            "reading": "hatachi",
+            "english": "20 years old",
             "score": 2
           }
         ]
@@ -1914,6 +2268,90 @@
             "score": 2
           },
           {
+            "word": "田舎",
+            "reading": "inaka",
+            "english": "rural area; countryside; the sticks",
+            "score": 2
+          },
+          {
+            "word": "林",
+            "reading": "hayashi",
+            "english": "woods; forest; copse; thicket",
+            "score": 2
+          },
+          {
+            "word": "アジア",
+            "reading": "ajia",
+            "english": "Asia",
+            "score": 2
+          },
+          {
+            "word": "アフリカ",
+            "reading": "afurika",
+            "english": "Africa",
+            "score": 2
+          },
+          {
+            "word": "西洋",
+            "reading": "seiyou",
+            "english": "the West; the Occident; Western countries",
+            "score": 2
+          },
+          {
+            "word": "中学校",
+            "reading": "chuugakkou",
+            "english": "junior high school; middle school; lower secondary school",
+            "score": 2
+          },
+          {
+            "word": "交番",
+            "reading": "kouban",
+            "english": "police box; small neighborhood police station",
+            "score": 2
+          },
+          {
+            "word": "飛行場",
+            "reading": "hikoujou",
+            "english": "airfield; airport",
+            "score": 2
+          },
+          {
+            "word": "ガソリンスタンド",
+            "reading": "gasorinsutando",
+            "english": "gas station; petrol station",
+            "score": 2
+          },
+          {
+            "word": "お手洗い",
+            "reading": "otearai",
+            "english": "toilet; restroom; lavatory; bathroom",
+            "score": 2
+          },
+          {
+            "word": "床屋",
+            "reading": "tokoya",
+            "english": "barbershop; barber shop; barber",
+            "score": 2
+          },
+          {
+            "word": "八百屋",
+            "reading": "yaoya",
+            "english": "greengrocer; fruit and vegetable shop",
+            "score": 2
+          },
+          {
+            "word": "歯医者",
+            "reading": "haisha",
+            "english": "dentist",
+            "score": 2
+          },
+          {
+            "word": "コンサート",
+            "reading": "konsaato",
+            "english": "concert",
+            "score": 2
+          },
+          {
             "word": "お祭り",
             "reading": "omatsuri",
             "english": "festival; feast; carnival",
@@ -2355,6 +2793,72 @@
             "word": "水道",
             "reading": "suidou",
             "english": "water supply; water service; waterworks",
+            "score": 2
+          },
+          {
+            "word": "コンピュータ",
+            "reading": "konpyuuta",
+            "english": "computer",
+            "score": 2
+          },
+          {
+            "word": "テープ",
+            "reading": "teepu",
+            "english": "tape",
+            "score": 2
+          },
+          {
+            "word": "ナイフ",
+            "reading": "naifu",
+            "english": "knife",
+            "score": 2
+          },
+          {
+            "word": "フォーク",
+            "reading": "fooku",
+            "english": "fork",
+            "score": 2
+          },
+          {
+            "word": "消しゴム",
+            "reading": "keshigomu",
+            "english": "eraser; rubber",
+            "score": 2
+          },
+          {
+            "word": "万年筆",
+            "reading": "mannenhitsu",
+            "english": "fountain pen",
+            "score": 2
+          },
+          {
+            "word": "ワープロ",
+            "reading": "waapuro",
+            "english": "word processor",
+            "score": 2
+          },
+          {
+            "word": "石鹸",
+            "reading": "sekken",
+            "english": "soap",
+            "score": 2
+          },
+          {
+            "word": "スプーン",
+            "reading": "supuun",
+            "english": "spoon",
+            "score": 2
+          },
+          {
+            "word": "糸",
+            "reading": "ito",
+            "english": "thread; yarn; string",
+            "score": 2
+          },
+          {
+            "word": "味噌",
+            "reading": "miso",
+            "english": "miso; fermented condiment usu. made from soybeans",
             "score": 2
           }
         ]
@@ -3072,6 +3576,330 @@
             "reading": "zubon",
             "english": "trousers; pants",
             "score": 2
+          },
+          {
+            "word": "食料品",
+            "reading": "shokuryouhin",
+            "english": "foodstuff; groceries",
+            "score": 2
+          },
+          {
+            "word": "バター",
+            "reading": "bataa",
+            "english": "butter",
+            "score": 2
+          },
+          {
+            "word": "ナイフ",
+            "reading": "naifu",
+            "english": "knife",
+            "score": 2
+          },
+          {
+            "word": "フォーク",
+            "reading": "fooku",
+            "english": "fork",
+            "score": 2
+          },
+          {
+            "word": "人形",
+            "reading": "ningyou",
+            "english": "doll; puppet; figure",
+            "score": 2
+          },
+          {
+            "word": "ペット",
+            "reading": "petto",
+            "english": "pet",
+            "score": 2
+          },
+          {
+            "word": "コンピュータ",
+            "reading": "konpyuuta",
+            "english": "computer",
+            "score": 2
+          },
+          {
+            "word": "テープ",
+            "reading": "teepu",
+            "english": "tape",
+            "score": 2
+          },
+          {
+            "word": "洋服",
+            "reading": "youfuku",
+            "english": "Western-style clothes (cf. traditional Japanese clothes)",
+            "score": 2
+          },
+          {
+            "word": "靴下",
+            "reading": "kutsushita",
+            "english": "socks; sock; stockings; stocking",
+            "score": 2
+          },
+          {
+            "word": "手袋",
+            "reading": "tebukuro",
+            "english": "glove; mitten; mitt",
+            "score": 2
+          },
+          {
+            "word": "セーター",
+            "reading": "seetaa",
+            "english": "sweater; jumper",
+            "score": 2
+          },
+          {
+            "word": "ワイシャツ",
+            "reading": "waishatsu",
+            "english": "shirt; business shirt; dress shirt",
+            "score": 2
+          },
+          {
+            "word": "下着",
+            "reading": "shitagi",
+            "english": "underwear",
+            "score": 2
+          },
+          {
+            "word": "オーバー",
+            "reading": "oobaa",
+            "english": "overcoat",
+            "score": 2
+          },
+          {
+            "word": "上着",
+            "reading": "uwagi",
+            "english": "coat; tunic; jacket; outer garment",
+            "score": 2
+          },
+          {
+            "word": "背広",
+            "reading": "sebiro",
+            "english": "business suit",
+            "score": 2
+          },
+          {
+            "word": "おもちゃ",
+            "reading": "omocha",
+            "english": "toy; plaything",
+            "score": 2
+          },
+          {
+            "word": "糸",
+            "reading": "ito",
+            "english": "thread; yarn; string",
+            "score": 2
+          },
+          {
+            "word": "お皿",
+            "reading": "osara",
+            "english": "plate; dish",
+            "score": 2
+          },
+          {
+            "word": "フィルム",
+            "reading": "firumu",
+            "english": "film",
+            "score": 2
+          },
+          {
+            "word": "冷蔵庫",
+            "reading": "reizouko",
+            "english": "refrigerator; fridge",
+            "score": 2
+          },
+          {
+            "word": "レコード",
+            "reading": "rekoodo",
+            "english": "record (e.g. LP)",
+            "score": 2
+          },
+          {
+            "word": "カレンダー",
+            "reading": "karendaa",
+            "english": "calendar",
+            "score": 2
+          },
+          {
+            "word": "アクセサリー",
+            "reading": "akusesarii",
+            "english": "accessory (fashion); jewelry",
+            "score": 2
+          },
+          {
+            "word": "ジャム",
+            "reading": "jamu",
+            "english": "jam",
+            "score": 2
+          },
+          {
+            "word": "スプーン",
+            "reading": "supuun",
+            "english": "spoon",
+            "score": 2
+          },
+          {
+            "word": "たばこ",
+            "reading": "tabako",
+            "english": "tobacco; cigarette; cigaret; cigar",
+            "score": 2
+          },
+          {
+            "word": "封筒",
+            "reading": "fuutou",
+            "english": "envelope",
+            "score": 2
+          },
+          {
+            "word": "かばん",
+            "reading": "kaban",
+            "english": "bag; satchel; briefcase; basket",
+            "score": 2
+          },
+          {
+            "word": "石鹸",
+            "reading": "sekken",
+            "english": "soap",
+            "score": 2
+          },
+          {
+            "word": "スーツケース",
+            "reading": "suutsukeesu",
+            "english": "suitcase",
+            "score": 2
+          },
+          {
+            "word": "ＦＡＸ",
+            "reading": "fakkusu",
+            "english": "fax; facsimile",
+            "score": 2
+          },
+          {
+            "word": "電灯",
+            "reading": "dentou",
+            "english": "electric light",
+            "score": 2
+          },
+          {
+            "word": "ハンカチ",
+            "reading": "hankachi",
+            "english": "handkerchief",
+            "score": 2
+          },
+          {
+            "word": "ストーブ",
+            "reading": "sutoobu",
+            "english": "(room) heater; stove",
+            "score": 2
+          },
+          {
+            "word": "絹",
+            "reading": "kinu",
+            "english": "silk",
+            "score": 2
+          },
+          {
+            "word": "品物",
+            "reading": "shinamono",
+            "english": "goods; article; thing",
+            "score": 2
+          },
+          {
+            "word": "はがき",
+            "reading": "hagaki",
+            "english": "postcard",
+            "score": 2
+          },
+          {
+            "word": "めがね",
+            "reading": "megane",
+            "english": "glasses; eyeglasses; spectacles",
+            "score": 2
+          },
+          {
+            "word": "木綿",
+            "reading": "momen",
+            "english": "cotton (material)",
+            "score": 2
+          },
+          {
+            "word": "花瓶",
+            "reading": "kabin",
+            "english": "(flower) vase",
+            "score": 2
+          },
+          {
+            "word": "万年筆",
+            "reading": "mannenhitsu",
+            "english": "fountain pen",
+            "score": 2
+          },
+          {
+            "word": "ワープロ",
+            "reading": "waapuro",
+            "english": "word processor",
+            "score": 2
+          },
+          {
+            "word": "ラジカセ",
+            "reading": "rajikase",
+            "english": "radio-cassette player",
+            "score": 2
+          },
+          {
+            "word": "テープレコーダー",
+            "reading": "teepurekoodaa",
+            "english": "tape recorder",
+            "score": 2
+          },
+          {
+            "word": "自動車",
+            "reading": "jidousha",
+            "english": "automobile; motorcar; motor vehicle; car; auto",
+            "score": 2
+          },
+          {
+            "word": "オートバイ",
+            "reading": "ootobai",
+            "english": "motorcycle",
+            "score": 2
+          },
+          {
+            "word": "地下鉄",
+            "reading": "chikatetsu",
+            "english": "underground train; subway",
+            "score": 2
+          },
+          {
+            "word": "汽車",
+            "reading": "kisha",
+            "english": "train (esp. long distance train)",
+            "score": 2
+          },
+          {
+            "word": "乗り物",
+            "reading": "norimono",
+            "english": "vehicle; conveyance; transport",
+            "score": 2
+          },
+          {
+            "word": "急行",
+            "reading": "kyuukou",
+            "english": "hurrying (to somewhere); rushing; hastening",
+            "score": 2
+          },
+          {
+            "word": "ぶどう",
+            "reading": "budou",
+            "english": "grape; grapevine",
+            "score": 2
+          },
+          {
+            "word": "味噌",
+            "reading": "miso",
+            "english": "miso; fermented condiment usu. made from soybeans",
+            "score": 2
           }
         ]
       }
@@ -3315,6 +4143,30 @@
             "word": "鶏肉",
             "reading": "toriniku",
             "english": "chicken meat",
+            "score": 2
+          },
+          {
+            "word": "バター",
+            "reading": "bataa",
+            "english": "butter",
+            "score": 2
+          },
+          {
+            "word": "ジャム",
+            "reading": "jamu",
+            "english": "jam",
+            "score": 2
+          },
+          {
+            "word": "飴",
+            "reading": "ame",
+            "english": "(hard) candy; toffee",
+            "score": 2
+          },
+          {
+            "word": "ぶどう",
+            "reading": "budou",
+            "english": "grape; grapevine",
             "score": 2
           },
           {
@@ -3565,6 +4417,30 @@
             "word": "文学",
             "reading": "bungaku",
             "english": "literature",
+            "score": 2
+          },
+          {
+            "word": "ひらがな",
+            "reading": "hiragana",
+            "english": "hiragana; cursive Japanese syllabary used primarily for native Japanese words (esp. function words inflections etc.)",
+            "score": 2
+          },
+          {
+            "word": "かたかな",
+            "reading": "katakana",
+            "english": "katakana; angular Japanese syllabary used primarily for loanwords",
+            "score": 2
+          },
+          {
+            "word": "テキスト",
+            "reading": "tekisuto",
+            "english": "text",
+            "score": 2
+          },
+          {
+            "word": "はがき",
+            "reading": "hagaki",
+            "english": "postcard",
             "score": 2
           }
         ]
@@ -4277,6 +5153,24 @@
             "word": "文章",
             "reading": "bunshou",
             "english": "writing; composition; essay; article; prose; (writing) style",
+            "score": 2
+          },
+          {
+            "word": "ひらがな",
+            "reading": "hiragana",
+            "english": "hiragana; cursive Japanese syllabary used primarily for native Japanese words (esp. function words inflections etc.)",
+            "score": 2
+          },
+          {
+            "word": "かたかな",
+            "reading": "katakana",
+            "english": "katakana; angular Japanese syllabary used primarily for loanwords",
+            "score": 2
+          },
+          {
+            "word": "はがき",
+            "reading": "hagaki",
+            "english": "postcard",
             "score": 2
           }
         ]
@@ -6738,6 +7632,54 @@
             "reading": "tokkyuu",
             "english": "limited express (train for which a limited-express ticket is required)",
             "score": 2
+          },
+          {
+            "word": "自動車",
+            "reading": "jidousha",
+            "english": "automobile; motorcar; motor vehicle; car; auto",
+            "score": 2
+          },
+          {
+            "word": "地下鉄",
+            "reading": "chikatetsu",
+            "english": "underground train; subway",
+            "score": 2
+          },
+          {
+            "word": "エレベーター",
+            "reading": "erebeetaa",
+            "english": "elevator; lift",
+            "score": 2
+          },
+          {
+            "word": "エスカレーター",
+            "reading": "esukareetaa",
+            "english": "escalator",
+            "score": 2
+          },
+          {
+            "word": "乗り物",
+            "reading": "norimono",
+            "english": "vehicle; conveyance; transport",
+            "score": 3
+          },
+          {
+            "word": "急行",
+            "reading": "kyuukou",
+            "english": "hurrying (to somewhere); rushing; hastening",
+            "score": 2
+          },
+          {
+            "word": "汽車",
+            "reading": "kisha",
+            "english": "train (esp. long distance train)",
+            "score": 2
+          },
+          {
+            "word": "オートバイ",
+            "reading": "ootobai",
+            "english": "motorcycle",
+            "score": 2
           }
         ]
       }
@@ -6777,6 +7719,24 @@
             "word": "駅",
             "reading": "eki",
             "english": "railway station; train station",
+            "score": 2
+          },
+          {
+            "word": "地下鉄",
+            "reading": "chikatetsu",
+            "english": "underground train; subway",
+            "score": 2
+          },
+          {
+            "word": "エレベーター",
+            "reading": "erebeetaa",
+            "english": "elevator; lift",
+            "score": 2
+          },
+          {
+            "word": "エスカレーター",
+            "reading": "esukareetaa",
+            "english": "escalator",
             "score": 2
           }
         ]
@@ -19820,6 +20780,354 @@
         "adjectives": []
       }
     },
+    "パパ": {
+      "word": "パパ",
+      "reading": "papa",
+      "english": "papa; dad; daddy",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "いる",
+            "reading": "iru",
+            "english": "to be (of animate objects); to exist",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "ご主人": {
+      "word": "ご主人",
+      "reading": "goshujin",
+      "english": "your husband; her husband",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "いる",
+            "reading": "iru",
+            "english": "to be (of animate objects); to exist",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "奥さん": {
+      "word": "奥さん",
+      "reading": "okusan",
+      "english": "wife; your wife; his wife; married lady; madam",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "いる",
+            "reading": "iru",
+            "english": "to be (of animate objects); to exist",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "部長": {
+      "word": "部長",
+      "reading": "buchou",
+      "english": "head (chief director) of a section or department",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "いる",
+            "reading": "iru",
+            "english": "to be (of animate objects); to exist",
+            "score": 2
+          },
+          {
+            "word": "なる",
+            "reading": "naru",
+            "english": "to become; to get; to grow; to be; to reach; to attain",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "校長": {
+      "word": "校長",
+      "reading": "kouchou",
+      "english": "principal; headmaster",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "いる",
+            "reading": "iru",
+            "english": "to be (of animate objects); to exist",
+            "score": 2
+          },
+          {
+            "word": "なる",
+            "reading": "naru",
+            "english": "to become; to get; to grow; to be; to reach; to attain",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "看護婦": {
+      "word": "看護婦",
+      "reading": "kangofu",
+      "english": "(female) nurse",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "いる",
+            "reading": "iru",
+            "english": "to be (of animate objects); to exist",
+            "score": 2
+          },
+          {
+            "word": "なる",
+            "reading": "naru",
+            "english": "to become; to get; to grow; to be; to reach; to attain",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "公務員": {
+      "word": "公務員",
+      "reading": "koumuin",
+      "english": "government worker; public servant; civil servant",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "いる",
+            "reading": "iru",
+            "english": "to be (of animate objects); to exist",
+            "score": 2
+          },
+          {
+            "word": "なる",
+            "reading": "naru",
+            "english": "to become; to get; to grow; to be; to reach; to attain",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "課長": {
+      "word": "課長",
+      "reading": "kachou",
+      "english": "section manager; section chief",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "いる",
+            "reading": "iru",
+            "english": "to be (of animate objects); to exist",
+            "score": 2
+          },
+          {
+            "word": "なる",
+            "reading": "naru",
+            "english": "to become; to get; to grow; to be; to reach; to attain",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "留学生": {
+      "word": "留学生",
+      "reading": "ryuugakusei",
+      "english": "overseas student; exchange student",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "いる",
+            "reading": "iru",
+            "english": "to be (of animate objects); to exist",
+            "score": 2
+          },
+          {
+            "word": "なる",
+            "reading": "naru",
+            "english": "to become; to get; to grow; to be; to reach; to attain",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "警官": {
+      "word": "警官",
+      "reading": "keikan",
+      "english": "police officer; policeman; constable",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "いる",
+            "reading": "iru",
+            "english": "to be (of animate objects); to exist",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "お嬢さん": {
+      "word": "お嬢さん",
+      "reading": "ojousan",
+      "english": "(another's) daughter",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "いる",
+            "reading": "iru",
+            "english": "to be (of animate objects); to exist",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "赤ん坊": {
+      "word": "赤ん坊",
+      "reading": "akanbou",
+      "english": "baby; infant",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "いる",
+            "reading": "iru",
+            "english": "to be (of animate objects); to exist",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "お子さん": {
+      "word": "お子さん",
+      "reading": "okosan",
+      "english": "child",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "いる",
+            "reading": "iru",
+            "english": "to be (of animate objects); to exist",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "家内": {
+      "word": "家内",
+      "reading": "kanai",
+      "english": "(my) wife",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "いる",
+            "reading": "iru",
+            "english": "to be (of animate objects); to exist",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "おまわりさん": {
+      "word": "おまわりさん",
+      "reading": "omawarisan",
+      "english": "police officer",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "いる",
+            "reading": "iru",
+            "english": "to be (of animate objects); to exist",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "すり": {
+      "word": "すり",
+      "reading": "suri",
+      "english": "pickpocket",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "いる",
+            "reading": "iru",
+            "english": "to be (of animate objects); to exist",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "アナウンサー": {
+      "word": "アナウンサー",
+      "reading": "anaunsaa",
+      "english": "announcer; presenter; broadcaster; reporter",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "いる",
+            "reading": "iru",
+            "english": "to be (of animate objects); to exist",
+            "score": 2
+          },
+          {
+            "word": "なる",
+            "reading": "naru",
+            "english": "to become; to get; to grow; to be; to reach; to attain",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "小鳥": {
+      "word": "小鳥",
+      "reading": "kotori",
+      "english": "small bird; little bird",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "いる",
+            "reading": "iru",
+            "english": "to be (of animate objects); to exist",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
     "こと": {
       "word": "こと",
       "reading": "koto",
@@ -21430,6 +22738,108 @@
         "adjectives": []
       }
     },
+    "夕べ": {
+      "word": "夕べ",
+      "reading": "yuube",
+      "english": "evening",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "ある",
+            "reading": "aru",
+            "english": "to be; to exist; to live",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "正月": {
+      "word": "正月",
+      "reading": "shougatsu",
+      "english": "New Year (esp. first three days)",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "ある",
+            "reading": "aru",
+            "english": "to be; to exist; to live",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "昼休み": {
+      "word": "昼休み",
+      "reading": "hiruyasumi",
+      "english": "lunch break; noon recess; noon rest period",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "ある",
+            "reading": "aru",
+            "english": "to be; to exist; to live",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "再来年": {
+      "word": "再来年",
+      "reading": "sarainen",
+      "english": "year after next",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "ある",
+            "reading": "aru",
+            "english": "to be; to exist; to live",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "再来週": {
+      "word": "再来週",
+      "reading": "saraishuu",
+      "english": "week after next",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "ある",
+            "reading": "aru",
+            "english": "to be; to exist; to live",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "再来月": {
+      "word": "再来月",
+      "reading": "saraigetsu",
+      "english": "month after next",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "ある",
+            "reading": "aru",
+            "english": "to be; to exist; to live",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
     "上": {
       "word": "上",
       "reading": "ue",
@@ -21946,6 +23356,194 @@
             "word": "行く",
             "reading": "iku",
             "english": "to go; to move (in a direction or towards a specific location); to head (towards); to be transported (towards); to reach",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "門": {
+      "word": "門",
+      "reading": "mon",
+      "english": "gate",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "ある",
+            "reading": "aru",
+            "english": "to be; to exist; to live",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "受付": {
+      "word": "受付",
+      "reading": "uketsuke",
+      "english": "reception (desk); information desk",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "ある",
+            "reading": "aru",
+            "english": "to be; to exist; to live",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "交番": {
+      "word": "交番",
+      "reading": "kouban",
+      "english": "police box; small neighborhood police station",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "ある",
+            "reading": "aru",
+            "english": "to be; to exist; to live",
+            "score": 2
+          },
+          {
+            "word": "行く",
+            "reading": "iku",
+            "english": "to go; to move (in a direction or towards a specific location); to head (towards); to be transported (towards); to reach",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "売り場": {
+      "word": "売り場",
+      "reading": "uriba",
+      "english": "selling area; counter; section; department; sales floor",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "ある",
+            "reading": "aru",
+            "english": "to be; to exist; to live",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "隅": {
+      "word": "隅",
+      "reading": "sumi",
+      "english": "corner; nook; recess",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "ある",
+            "reading": "aru",
+            "english": "to be; to exist; to live",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "区": {
+      "word": "区",
+      "reading": "ku",
+      "english": "ward; borough; city (in Tokyo)",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "ある",
+            "reading": "aru",
+            "english": "to be; to exist; to live",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "都": {
+      "word": "都",
+      "reading": "to",
+      "english": "Metropolis (of Tokyo); (Tokyo) Metropolitan District; metropolitan prefecture",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "ある",
+            "reading": "aru",
+            "english": "to be; to exist; to live",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "田舎": {
+      "word": "田舎",
+      "reading": "inaka",
+      "english": "rural area; countryside; the sticks",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "ある",
+            "reading": "aru",
+            "english": "to be; to exist; to live",
+            "score": 2
+          },
+          {
+            "word": "行く",
+            "reading": "iku",
+            "english": "to go; to move (in a direction or towards a specific location); to head (towards); to be transported (towards); to reach",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "林": {
+      "word": "林",
+      "reading": "hayashi",
+      "english": "woods; forest; copse; thicket",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "ある",
+            "reading": "aru",
+            "english": "to be; to exist; to live",
+            "score": 2
+          },
+          {
+            "word": "行く",
+            "reading": "iku",
+            "english": "to go; to move (in a direction or towards a specific location); to head (towards); to be transported (towards); to reach",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "砂": {
+      "word": "砂",
+      "reading": "suna",
+      "english": "sand; grit",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "ある",
+            "reading": "aru",
+            "english": "to be; to exist; to live",
             "score": 2
           }
         ],
@@ -22508,6 +24106,227 @@
             "word": "閉める",
             "reading": "shimeru",
             "english": "to close; to shut",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "畳": {
+      "word": "畳",
+      "reading": "tatami",
+      "english": "tatami mat; Japanese straw floor coverings",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "ある",
+            "reading": "aru",
+            "english": "to be; to exist; to live",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "棚": {
+      "word": "棚",
+      "reading": "tana",
+      "english": "shelf; ledge; rack",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "ある",
+            "reading": "aru",
+            "english": "to be; to exist; to live",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "本棚": {
+      "word": "本棚",
+      "reading": "hondana",
+      "english": "bookshelves; bookshelf; bookcase",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "ある",
+            "reading": "aru",
+            "english": "to be; to exist; to live",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "ポケット": {
+      "word": "ポケット",
+      "reading": "poketto",
+      "english": "pocket",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "ある",
+            "reading": "aru",
+            "english": "to be; to exist; to live",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "曇り": {
+      "word": "曇り",
+      "reading": "kumori",
+      "english": "cloudiness; cloudy weather",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "ある",
+            "reading": "aru",
+            "english": "to be; to exist; to live",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "式": {
+      "word": "式",
+      "reading": "shiki",
+      "english": "equation; formula; expression",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "ある",
+            "reading": "aru",
+            "english": "to be; to exist; to live",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "忘れ物": {
+      "word": "忘れ物",
+      "reading": "wasuremono",
+      "english": "lost article; something forgotten",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "ある",
+            "reading": "aru",
+            "english": "to be; to exist; to live",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "押し入れ": {
+      "word": "押し入れ",
+      "reading": "oshiire",
+      "english": "closet",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "ある",
+            "reading": "aru",
+            "english": "to be; to exist; to live",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "講堂": {
+      "word": "講堂",
+      "reading": "koudou",
+      "english": "auditorium; lecture hall",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "ある",
+            "reading": "aru",
+            "english": "to be; to exist; to live",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "以上": {
+      "word": "以上",
+      "reading": "ijou",
+      "english": "not less than; ... and more; ... and upwards",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "ある",
+            "reading": "aru",
+            "english": "to be; to exist; to live",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "以下": {
+      "word": "以下",
+      "reading": "ika",
+      "english": "not exceeding; and downward; ... and below",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "ある",
+            "reading": "aru",
+            "english": "to be; to exist; to live",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "以外": {
+      "word": "以外",
+      "reading": "igai",
+      "english": "with the exception of; excepting",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "ある",
+            "reading": "aru",
+            "english": "to be; to exist; to live",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "以内": {
+      "word": "以内",
+      "reading": "inai",
+      "english": "within; inside of; less than",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "ある",
+            "reading": "aru",
+            "english": "to be; to exist; to live",
             "score": 2
           }
         ],
@@ -23155,6 +24974,91 @@
             "word": "呼ぶ",
             "reading": "yobu",
             "english": "to call out (to); to call; to invoke",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "最後": {
+      "word": "最後",
+      "reading": "saigo",
+      "english": "end; conclusion",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "なる",
+            "reading": "naru",
+            "english": "to become; to get; to grow; to be; to reach; to attain",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "最初": {
+      "word": "最初",
+      "reading": "saisho",
+      "english": "beginning; outset; first; onset",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "なる",
+            "reading": "naru",
+            "english": "to become; to get; to grow; to be; to reach; to attain",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "始め": {
+      "word": "始め",
+      "reading": "hajime",
+      "english": "beginning; start; outset; opening",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "なる",
+            "reading": "naru",
+            "english": "to become; to get; to grow; to be; to reach; to attain",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "お金持ち": {
+      "word": "お金持ち",
+      "reading": "okanemochi",
+      "english": "rich person",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "なる",
+            "reading": "naru",
+            "english": "to become; to get; to grow; to be; to reach; to attain",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "二十歳": {
+      "word": "二十歳",
+      "reading": "hatachi",
+      "english": "20 years old",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "なる",
+            "reading": "naru",
+            "english": "to become; to get; to grow; to be; to reach; to attain",
             "score": 2
           }
         ],
@@ -24580,6 +26484,193 @@
         "adjectives": []
       }
     },
+    "アジア": {
+      "word": "アジア",
+      "reading": "ajia",
+      "english": "Asia",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "行く",
+            "reading": "iku",
+            "english": "to go; to move (in a direction or towards a specific location); to head (towards); to be transported (towards); to reach",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "アフリカ": {
+      "word": "アフリカ",
+      "reading": "afurika",
+      "english": "Africa",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "行く",
+            "reading": "iku",
+            "english": "to go; to move (in a direction or towards a specific location); to head (towards); to be transported (towards); to reach",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "西洋": {
+      "word": "西洋",
+      "reading": "seiyou",
+      "english": "the West; the Occident; Western countries",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "行く",
+            "reading": "iku",
+            "english": "to go; to move (in a direction or towards a specific location); to head (towards); to be transported (towards); to reach",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "中学校": {
+      "word": "中学校",
+      "reading": "chuugakkou",
+      "english": "junior high school; middle school; lower secondary school",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "行く",
+            "reading": "iku",
+            "english": "to go; to move (in a direction or towards a specific location); to head (towards); to be transported (towards); to reach",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "飛行場": {
+      "word": "飛行場",
+      "reading": "hikoujou",
+      "english": "airfield; airport",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "行く",
+            "reading": "iku",
+            "english": "to go; to move (in a direction or towards a specific location); to head (towards); to be transported (towards); to reach",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "ガソリンスタンド": {
+      "word": "ガソリンスタンド",
+      "reading": "gasorinsutando",
+      "english": "gas station; petrol station",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "行く",
+            "reading": "iku",
+            "english": "to go; to move (in a direction or towards a specific location); to head (towards); to be transported (towards); to reach",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "お手洗い": {
+      "word": "お手洗い",
+      "reading": "otearai",
+      "english": "toilet; restroom; lavatory; bathroom",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "行く",
+            "reading": "iku",
+            "english": "to go; to move (in a direction or towards a specific location); to head (towards); to be transported (towards); to reach",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "床屋": {
+      "word": "床屋",
+      "reading": "tokoya",
+      "english": "barbershop; barber shop; barber",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "行く",
+            "reading": "iku",
+            "english": "to go; to move (in a direction or towards a specific location); to head (towards); to be transported (towards); to reach",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "八百屋": {
+      "word": "八百屋",
+      "reading": "yaoya",
+      "english": "greengrocer; fruit and vegetable shop",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "行く",
+            "reading": "iku",
+            "english": "to go; to move (in a direction or towards a specific location); to head (towards); to be transported (towards); to reach",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "歯医者": {
+      "word": "歯医者",
+      "reading": "haisha",
+      "english": "dentist",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "行く",
+            "reading": "iku",
+            "english": "to go; to move (in a direction or towards a specific location); to head (towards); to be transported (towards); to reach",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "コンサート": {
+      "word": "コンサート",
+      "reading": "konsaato",
+      "english": "concert",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "行く",
+            "reading": "iku",
+            "english": "to go; to move (in a direction or towards a specific location); to head (towards); to be transported (towards); to reach",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
     "お見舞い": {
       "word": "お見舞い",
       "reading": "omimai",
@@ -25986,6 +28077,253 @@
             "score": 2
           }
         ]
+      }
+    },
+    "コンピュータ": {
+      "word": "コンピュータ",
+      "reading": "konpyuuta",
+      "english": "computer",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "使う",
+            "reading": "tsukau",
+            "english": "to use (a thing method etc.); to make use of; to put to use",
+            "score": 2
+          },
+          {
+            "word": "買う",
+            "reading": "kau",
+            "english": "to buy; to purchase",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "テープ": {
+      "word": "テープ",
+      "reading": "teepu",
+      "english": "tape",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "使う",
+            "reading": "tsukau",
+            "english": "to use (a thing method etc.); to make use of; to put to use",
+            "score": 2
+          },
+          {
+            "word": "買う",
+            "reading": "kau",
+            "english": "to buy; to purchase",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "ナイフ": {
+      "word": "ナイフ",
+      "reading": "naifu",
+      "english": "knife",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "使う",
+            "reading": "tsukau",
+            "english": "to use (a thing method etc.); to make use of; to put to use",
+            "score": 2
+          },
+          {
+            "word": "買う",
+            "reading": "kau",
+            "english": "to buy; to purchase",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "フォーク": {
+      "word": "フォーク",
+      "reading": "fooku",
+      "english": "fork",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "使う",
+            "reading": "tsukau",
+            "english": "to use (a thing method etc.); to make use of; to put to use",
+            "score": 2
+          },
+          {
+            "word": "買う",
+            "reading": "kau",
+            "english": "to buy; to purchase",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "消しゴム": {
+      "word": "消しゴム",
+      "reading": "keshigomu",
+      "english": "eraser; rubber",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "使う",
+            "reading": "tsukau",
+            "english": "to use (a thing method etc.); to make use of; to put to use",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "万年筆": {
+      "word": "万年筆",
+      "reading": "mannenhitsu",
+      "english": "fountain pen",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "使う",
+            "reading": "tsukau",
+            "english": "to use (a thing method etc.); to make use of; to put to use",
+            "score": 2
+          },
+          {
+            "word": "買う",
+            "reading": "kau",
+            "english": "to buy; to purchase",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "ワープロ": {
+      "word": "ワープロ",
+      "reading": "waapuro",
+      "english": "word processor",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "使う",
+            "reading": "tsukau",
+            "english": "to use (a thing method etc.); to make use of; to put to use",
+            "score": 2
+          },
+          {
+            "word": "買う",
+            "reading": "kau",
+            "english": "to buy; to purchase",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "石鹸": {
+      "word": "石鹸",
+      "reading": "sekken",
+      "english": "soap",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "使う",
+            "reading": "tsukau",
+            "english": "to use (a thing method etc.); to make use of; to put to use",
+            "score": 2
+          },
+          {
+            "word": "買う",
+            "reading": "kau",
+            "english": "to buy; to purchase",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "スプーン": {
+      "word": "スプーン",
+      "reading": "supuun",
+      "english": "spoon",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "使う",
+            "reading": "tsukau",
+            "english": "to use (a thing method etc.); to make use of; to put to use",
+            "score": 2
+          },
+          {
+            "word": "買う",
+            "reading": "kau",
+            "english": "to buy; to purchase",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "糸": {
+      "word": "糸",
+      "reading": "ito",
+      "english": "thread; yarn; string",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "使う",
+            "reading": "tsukau",
+            "english": "to use (a thing method etc.); to make use of; to put to use",
+            "score": 2
+          },
+          {
+            "word": "買う",
+            "reading": "kau",
+            "english": "to buy; to purchase",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "味噌": {
+      "word": "味噌",
+      "reading": "miso",
+      "english": "miso; fermented condiment usu. made from soybeans",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "使う",
+            "reading": "tsukau",
+            "english": "to use (a thing method etc.); to make use of; to put to use",
+            "score": 2
+          },
+          {
+            "word": "買う",
+            "reading": "kau",
+            "english": "to buy; to purchase",
+            "score": 2
+          }
+        ],
+        "adjectives": []
       }
     },
     "客": {
@@ -27903,6 +30241,826 @@
         "adjectives": []
       }
     },
+    "食料品": {
+      "word": "食料品",
+      "reading": "shokuryouhin",
+      "english": "foodstuff; groceries",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "買う",
+            "reading": "kau",
+            "english": "to buy; to purchase",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "バター": {
+      "word": "バター",
+      "reading": "bataa",
+      "english": "butter",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "買う",
+            "reading": "kau",
+            "english": "to buy; to purchase",
+            "score": 2
+          },
+          {
+            "word": "食べる",
+            "reading": "taberu",
+            "english": "to eat",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "人形": {
+      "word": "人形",
+      "reading": "ningyou",
+      "english": "doll; puppet; figure",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "買う",
+            "reading": "kau",
+            "english": "to buy; to purchase",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "ペット": {
+      "word": "ペット",
+      "reading": "petto",
+      "english": "pet",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "買う",
+            "reading": "kau",
+            "english": "to buy; to purchase",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "洋服": {
+      "word": "洋服",
+      "reading": "youfuku",
+      "english": "Western-style clothes (cf. traditional Japanese clothes)",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "買う",
+            "reading": "kau",
+            "english": "to buy; to purchase",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "靴下": {
+      "word": "靴下",
+      "reading": "kutsushita",
+      "english": "socks; sock; stockings; stocking",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "買う",
+            "reading": "kau",
+            "english": "to buy; to purchase",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "手袋": {
+      "word": "手袋",
+      "reading": "tebukuro",
+      "english": "glove; mitten; mitt",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "買う",
+            "reading": "kau",
+            "english": "to buy; to purchase",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "セーター": {
+      "word": "セーター",
+      "reading": "seetaa",
+      "english": "sweater; jumper",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "買う",
+            "reading": "kau",
+            "english": "to buy; to purchase",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "ワイシャツ": {
+      "word": "ワイシャツ",
+      "reading": "waishatsu",
+      "english": "shirt; business shirt; dress shirt",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "買う",
+            "reading": "kau",
+            "english": "to buy; to purchase",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "下着": {
+      "word": "下着",
+      "reading": "shitagi",
+      "english": "underwear",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "買う",
+            "reading": "kau",
+            "english": "to buy; to purchase",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "オーバー": {
+      "word": "オーバー",
+      "reading": "oobaa",
+      "english": "overcoat",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "買う",
+            "reading": "kau",
+            "english": "to buy; to purchase",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "上着": {
+      "word": "上着",
+      "reading": "uwagi",
+      "english": "coat; tunic; jacket; outer garment",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "買う",
+            "reading": "kau",
+            "english": "to buy; to purchase",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "背広": {
+      "word": "背広",
+      "reading": "sebiro",
+      "english": "business suit",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "買う",
+            "reading": "kau",
+            "english": "to buy; to purchase",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "おもちゃ": {
+      "word": "おもちゃ",
+      "reading": "omocha",
+      "english": "toy; plaything",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "買う",
+            "reading": "kau",
+            "english": "to buy; to purchase",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "お皿": {
+      "word": "お皿",
+      "reading": "osara",
+      "english": "plate; dish",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "買う",
+            "reading": "kau",
+            "english": "to buy; to purchase",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "フィルム": {
+      "word": "フィルム",
+      "reading": "firumu",
+      "english": "film",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "買う",
+            "reading": "kau",
+            "english": "to buy; to purchase",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "冷蔵庫": {
+      "word": "冷蔵庫",
+      "reading": "reizouko",
+      "english": "refrigerator; fridge",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "買う",
+            "reading": "kau",
+            "english": "to buy; to purchase",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "レコード": {
+      "word": "レコード",
+      "reading": "rekoodo",
+      "english": "record (e.g. LP)",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "買う",
+            "reading": "kau",
+            "english": "to buy; to purchase",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "カレンダー": {
+      "word": "カレンダー",
+      "reading": "karendaa",
+      "english": "calendar",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "買う",
+            "reading": "kau",
+            "english": "to buy; to purchase",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "アクセサリー": {
+      "word": "アクセサリー",
+      "reading": "akusesarii",
+      "english": "accessory (fashion); jewelry",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "買う",
+            "reading": "kau",
+            "english": "to buy; to purchase",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "ジャム": {
+      "word": "ジャム",
+      "reading": "jamu",
+      "english": "jam",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "買う",
+            "reading": "kau",
+            "english": "to buy; to purchase",
+            "score": 2
+          },
+          {
+            "word": "食べる",
+            "reading": "taberu",
+            "english": "to eat",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "たばこ": {
+      "word": "たばこ",
+      "reading": "tabako",
+      "english": "tobacco; cigarette; cigaret; cigar",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "買う",
+            "reading": "kau",
+            "english": "to buy; to purchase",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "封筒": {
+      "word": "封筒",
+      "reading": "fuutou",
+      "english": "envelope",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "買う",
+            "reading": "kau",
+            "english": "to buy; to purchase",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "かばん": {
+      "word": "かばん",
+      "reading": "kaban",
+      "english": "bag; satchel; briefcase; basket",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "買う",
+            "reading": "kau",
+            "english": "to buy; to purchase",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "スーツケース": {
+      "word": "スーツケース",
+      "reading": "suutsukeesu",
+      "english": "suitcase",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "買う",
+            "reading": "kau",
+            "english": "to buy; to purchase",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "ＦＡＸ": {
+      "word": "ＦＡＸ",
+      "reading": "fakkusu",
+      "english": "fax; facsimile",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "買う",
+            "reading": "kau",
+            "english": "to buy; to purchase",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "電灯": {
+      "word": "電灯",
+      "reading": "dentou",
+      "english": "electric light",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "買う",
+            "reading": "kau",
+            "english": "to buy; to purchase",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "ハンカチ": {
+      "word": "ハンカチ",
+      "reading": "hankachi",
+      "english": "handkerchief",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "買う",
+            "reading": "kau",
+            "english": "to buy; to purchase",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "ストーブ": {
+      "word": "ストーブ",
+      "reading": "sutoobu",
+      "english": "(room) heater; stove",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "買う",
+            "reading": "kau",
+            "english": "to buy; to purchase",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "絹": {
+      "word": "絹",
+      "reading": "kinu",
+      "english": "silk",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "買う",
+            "reading": "kau",
+            "english": "to buy; to purchase",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "品物": {
+      "word": "品物",
+      "reading": "shinamono",
+      "english": "goods; article; thing",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "買う",
+            "reading": "kau",
+            "english": "to buy; to purchase",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "はがき": {
+      "word": "はがき",
+      "reading": "hagaki",
+      "english": "postcard",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "買う",
+            "reading": "kau",
+            "english": "to buy; to purchase",
+            "score": 2
+          },
+          {
+            "word": "読む",
+            "reading": "yomu",
+            "english": "to read",
+            "score": 2
+          },
+          {
+            "word": "書く",
+            "reading": "kaku",
+            "english": "to write; to compose; to pen",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "めがね": {
+      "word": "めがね",
+      "reading": "megane",
+      "english": "glasses; eyeglasses; spectacles",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "買う",
+            "reading": "kau",
+            "english": "to buy; to purchase",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "木綿": {
+      "word": "木綿",
+      "reading": "momen",
+      "english": "cotton (material)",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "買う",
+            "reading": "kau",
+            "english": "to buy; to purchase",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "花瓶": {
+      "word": "花瓶",
+      "reading": "kabin",
+      "english": "(flower) vase",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "買う",
+            "reading": "kau",
+            "english": "to buy; to purchase",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "ラジカセ": {
+      "word": "ラジカセ",
+      "reading": "rajikase",
+      "english": "radio-cassette player",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "買う",
+            "reading": "kau",
+            "english": "to buy; to purchase",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "テープレコーダー": {
+      "word": "テープレコーダー",
+      "reading": "teepurekoodaa",
+      "english": "tape recorder",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "買う",
+            "reading": "kau",
+            "english": "to buy; to purchase",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "自動車": {
+      "word": "自動車",
+      "reading": "jidousha",
+      "english": "automobile; motorcar; motor vehicle; car; auto",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "買う",
+            "reading": "kau",
+            "english": "to buy; to purchase",
+            "score": 2
+          },
+          {
+            "word": "乗る",
+            "reading": "noru",
+            "english": "to get on (train plane bus ship etc.); to get in; to board; to take; to embark",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "オートバイ": {
+      "word": "オートバイ",
+      "reading": "ootobai",
+      "english": "motorcycle",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "買う",
+            "reading": "kau",
+            "english": "to buy; to purchase",
+            "score": 2
+          },
+          {
+            "word": "乗る",
+            "reading": "noru",
+            "english": "to get on (train plane bus ship etc.); to get in; to board; to take; to embark",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "地下鉄": {
+      "word": "地下鉄",
+      "reading": "chikatetsu",
+      "english": "underground train; subway",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "買う",
+            "reading": "kau",
+            "english": "to buy; to purchase",
+            "score": 2
+          },
+          {
+            "word": "乗る",
+            "reading": "noru",
+            "english": "to get on (train plane bus ship etc.); to get in; to board; to take; to embark",
+            "score": 2
+          },
+          {
+            "word": "降りる",
+            "reading": "oriru",
+            "english": "to descend (e.g. a mountain); to go down; to come down",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "汽車": {
+      "word": "汽車",
+      "reading": "kisha",
+      "english": "train (esp. long distance train)",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "買う",
+            "reading": "kau",
+            "english": "to buy; to purchase",
+            "score": 2
+          },
+          {
+            "word": "乗る",
+            "reading": "noru",
+            "english": "to get on (train plane bus ship etc.); to get in; to board; to take; to embark",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "乗り物": {
+      "word": "乗り物",
+      "reading": "norimono",
+      "english": "vehicle; conveyance; transport",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "乗る",
+            "reading": "noru",
+            "english": "to get on (train plane bus ship etc.); to get in; to board; to take; to embark",
+            "score": 3
+          },
+          {
+            "word": "買う",
+            "reading": "kau",
+            "english": "to buy; to purchase",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "急行": {
+      "word": "急行",
+      "reading": "kyuukou",
+      "english": "hurrying (to somewhere); rushing; hastening",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "買う",
+            "reading": "kau",
+            "english": "to buy; to purchase",
+            "score": 2
+          },
+          {
+            "word": "乗る",
+            "reading": "noru",
+            "english": "to get on (train plane bus ship etc.); to get in; to board; to take; to embark",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "ぶどう": {
+      "word": "ぶどう",
+      "reading": "budou",
+      "english": "grape; grapevine",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "買う",
+            "reading": "kau",
+            "english": "to buy; to purchase",
+            "score": 2
+          },
+          {
+            "word": "食べる",
+            "reading": "taberu",
+            "english": "to eat",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
     "ごみ": {
       "word": "ごみ",
       "reading": "gomi",
@@ -28175,6 +31333,23 @@
       "word": "鶏肉",
       "reading": "toriniku",
       "english": "chicken meat",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "食べる",
+            "reading": "taberu",
+            "english": "to eat",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "飴": {
+      "word": "飴",
+      "reading": "ame",
+      "english": "(hard) candy; toffee",
       "type": "noun",
       "matches": {
         "verbs": [
@@ -28606,6 +31781,69 @@
       "word": "文学",
       "reading": "bungaku",
       "english": "literature",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "読む",
+            "reading": "yomu",
+            "english": "to read",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "ひらがな": {
+      "word": "ひらがな",
+      "reading": "hiragana",
+      "english": "hiragana; cursive Japanese syllabary used primarily for native Japanese words (esp. function words inflections etc.)",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "読む",
+            "reading": "yomu",
+            "english": "to read",
+            "score": 2
+          },
+          {
+            "word": "書く",
+            "reading": "kaku",
+            "english": "to write; to compose; to pen",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "かたかな": {
+      "word": "かたかな",
+      "reading": "katakana",
+      "english": "katakana; angular Japanese syllabary used primarily for loanwords",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "読む",
+            "reading": "yomu",
+            "english": "to read",
+            "score": 2
+          },
+          {
+            "word": "書く",
+            "reading": "kaku",
+            "english": "to write; to compose; to pen",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "テキスト": {
+      "word": "テキスト",
+      "reading": "tekisuto",
+      "english": "text",
       "type": "noun",
       "matches": {
         "verbs": [
@@ -31944,6 +35182,52 @@
             "word": "揺れる",
             "reading": "yureru",
             "english": "to shake; to sway; to waver",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "エレベーター": {
+      "word": "エレベーター",
+      "reading": "erebeetaa",
+      "english": "elevator; lift",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "乗る",
+            "reading": "noru",
+            "english": "to get on (train plane bus ship etc.); to get in; to board; to take; to embark",
+            "score": 2
+          },
+          {
+            "word": "降りる",
+            "reading": "oriru",
+            "english": "to descend (e.g. a mountain); to go down; to come down",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "エスカレーター": {
+      "word": "エスカレーター",
+      "reading": "esukareetaa",
+      "english": "escalator",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "乗る",
+            "reading": "noru",
+            "english": "to get on (train plane bus ship etc.); to get in; to board; to take; to embark",
+            "score": 2
+          },
+          {
+            "word": "降りる",
+            "reading": "oriru",
+            "english": "to descend (e.g. a mountain); to go down; to come down",
             "score": 2
           }
         ],

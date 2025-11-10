@@ -1,11 +1,11 @@
-Non-collocated nouns: 203
+Non-collocated nouns: 79
 ================================================================================
 
   1. ため                   (freq: 6.11) - good; advantage; benefit; welfare
   2. 一                    (freq: 6.08) - one
   3. 方                    (freq: 6.07) - direction; way; side; area (in a particular direction)
-  4. 一人                   (freq: 5.96) - one person
-  5. 気                    (freq: 5.96) - spirit; mind; heart
+  4. 気                    (freq: 5.96) - spirit; mind; heart
+  5. 一人                   (freq: 5.96) - one person
   6. 一日                   (freq: 5.90) - one day
   7. 分                    (freq: 5.82) - minute (unit of time)
   8. 円                    (freq: 5.80) - yen (Japanese monetary unit)
@@ -16,191 +16,67 @@ Non-collocated nouns: 203
  13. ０                    (freq: 5.66) - zero; nought
  14. 度                    (freq: 5.64) - degree (angle temperature scale etc.)
  15. 三                    (freq: 5.60) - three
- 16. 以上                   (freq: 5.56) - not less than; ... and more; ... and upwards
- 17. 三日                   (freq: 5.53) - third day of the month
- 18. 十                    (freq: 5.43) - ten
- 19. 最後                   (freq: 5.40) - end; conclusion
- 20. 一番                   (freq: 5.39) - number one; first; first place
- 21. 十日                   (freq: 5.38) - tenth day of the month
- 22. 最初                   (freq: 5.36) - beginning; outset; first; onset
- 23. 始め                   (freq: 5.35) - beginning; start; outset; opening
- 24. 以外                   (freq: 5.33) - with the exception of; excepting
- 25. 番                    (freq: 5.32) - number (in a series)
- 26. 一つ                   (freq: 5.27) - one
- 27. 区                    (freq: 5.25) - ward; borough; city (in Tokyo)
- 28. 二十日                  (freq: 5.24) - twentieth day of the month
- 29. 式                    (freq: 5.22) - equation; formula; expression
- 30. め                    (freq: 5.15) - eye; eyeball
- 31. 以下                   (freq: 5.13) - not exceeding; and downward; ... and below
- 32. 台                    (freq: 5.10) - stand; rack; table; bench; podium; pedestal; platform; stage
- 33. 週間                   (freq: 5.09) - week
- 34. 千                    (freq: 5.08) - 1000; thousand
- 35. 二十歳                  (freq: 5.07) - 20 years old
- 36. 億                    (freq: 5.03) - 10^8; 100000000; hundred million
- 37. 四                    (freq: 4.93) - four
- 38. 四日                   (freq: 4.91) - fourth day of the month
- 39. 半                    (freq: 4.89) - half; semi-
- 40. 都                    (freq: 4.87) - Metropolis (of Tokyo); (Tokyo) Metropolitan District; metropolitan prefecture
- 41. 五                    (freq: 4.86) - five
- 42. 五日                   (freq: 4.85) - fifth day of the month
- 43. 八                    (freq: 4.79) - eight
- 44. 八日                   (freq: 4.78) - eighth day of the month
- 45. 血                    (freq: 4.73) - blood
- 46. 自動車                  (freq: 4.68) - automobile; motorcar; motor vehicle; car; auto
- 47. ひらがな                 (freq: 4.68) - hiragana; cursive Japanese syllabary used primarily for native Japanese words (esp. function words inflections etc.)
- 48. 以内                   (freq: 4.66) - within; inside of; less than
- 49. 新聞社                  (freq: 4.66) - newspaper company
- 50. 六                    (freq: 4.66) - six
- 51. 七                    (freq: 4.66) - seven
- 52. 七日                   (freq: 4.65) - seventh day of the month
- 53. 六日                   (freq: 4.65) - sixth day of the month
- 54. アジア                  (freq: 4.60) - Asia
- 55. 二つ                   (freq: 4.60) - two
- 56. 九                    (freq: 4.55) - nine
- 57. 九日                   (freq: 4.54) - ninth day of the month
- 58. パパ                   (freq: 4.51) - papa; dad; daddy
- 59. 人形                   (freq: 4.50) - doll; puppet; figure
- 60. メートル                 (freq: 4.47) - metre; meter
- 61. ペット                  (freq: 4.45) - pet
- 62. ポケット                 (freq: 4.45) - pocket
- 63. 受付                   (freq: 4.44) - reception (desk); information desk
- 64. コンピュータ               (freq: 4.43) - computer
- 65. 門                    (freq: 4.42) - gate
- 66. ひげ                   (freq: 4.41) - moustache; beard; whiskers
- 67. コンサート                (freq: 4.41) - concert
- 68. パート                  (freq: 4.41) - part
- 69. テーブル                 (freq: 4.40) - table
- 70. 田舎                   (freq: 4.40) - rural area; countryside; the sticks
- 71. 格好                   (freq: 4.40) - shape; form; figure; posture; pose
- 72. 部長                   (freq: 4.37) - head (chief director) of a section or department
- 73. お金持ち                 (freq: 4.37) - rich person
- 74. テープ                  (freq: 4.35) - tape
- 75. ご主人                  (freq: 4.35) - your husband; her husband
- 76. 下着                   (freq: 4.34) - underwear
- 77. 奥さん                  (freq: 4.33) - wife; your wife; his wife; married lady; madam
- 78. アフリカ                 (freq: 4.32) - Africa
- 79. 林                    (freq: 4.31) - woods; forest; copse; thicket
- 80. 医学                   (freq: 4.31) - medical science; medicine
- 81. オーバー                 (freq: 4.30) - overcoat
- 82. 縦                    (freq: 4.29) - the vertical; height
- 83. アルコール                (freq: 4.27) - alcohol
- 84. かたかな                 (freq: 4.26) - katakana; angular Japanese syllabary used primarily for loanwords
- 85. 踊り                   (freq: 4.26) - dance
- 86. おもちゃ                 (freq: 4.26) - toy; plaything
- 87. 糸                    (freq: 4.25) - thread; yarn; string
- 88. 地下鉄                  (freq: 4.25) - underground train; subway
- 89. お皿                   (freq: 4.25) - plate; dish
- 90. フィルム                 (freq: 4.24) - film
- 91. 戸                    (freq: 4.23) - door (esp. Japanese-style)
- 92. 中学校                  (freq: 4.23) - junior high school; middle school; lower secondary school
- 93. テキスト                 (freq: 4.21) - text
- 94. 冷蔵庫                  (freq: 4.21) - refrigerator; fridge
- 95. 警官                   (freq: 4.21) - police officer; policeman; constable
- 96. レコード                 (freq: 4.20) - record (e.g. LP)
- 97. 校長                   (freq: 4.19) - principal; headmaster
- 98. 砂                    (freq: 4.17) - sand; grit
- 99. 看護婦                  (freq: 4.16) - (female) nurse
-100. 公務員                  (freq: 4.14) - government worker; public servant; civil servant
-101. エレベーター               (freq: 4.14) - elevator; lift
-102. 食料品                  (freq: 4.13) - foodstuff; groceries
-103. ナイフ                  (freq: 4.13) - knife
-104. 零                    (freq: 4.13) - zero; nought
-105. バター                  (freq: 4.13) - butter
-106. 西洋                   (freq: 4.13) - the West; the Occident; Western countries
-107. 棚                    (freq: 4.13) - shelf; ledge; rack
-108. ガソリン                 (freq: 4.10) - gasoline; petrol
-109. レジ                   (freq: 4.10) - (cash) register
-110. 学部                   (freq: 4.09) - department of a university
-111. 味噌                   (freq: 4.08) - miso; fermented condiment usu. made from soybeans
-112. 三つ                   (freq: 4.08) - three
-113. カレンダー                (freq: 4.08) - calendar
-114. 洋服                   (freq: 4.08) - Western-style clothes (cf. traditional Japanese clothes)
-115. 大使館                  (freq: 4.06) - embassy
-116. スクリーン                (freq: 4.04) - screen
-117. 正月                   (freq: 4.01) - New Year (esp. first three days)
-118. アナウンサー               (freq: 4.00) - announcer; presenter; broadcaster; reporter
-119. 隅                    (freq: 3.97) - corner; nook; recess
-120. 靴下                   (freq: 3.97) - socks; sock; stockings; stocking
-121. 歯医者                  (freq: 3.92) - dentist
-122. すり                   (freq: 3.92) - pickpocket
-123. 手袋                   (freq: 3.90) - glove; mitten; mitt
-124. 課長                   (freq: 3.90) - section manager; section chief
-125. １００                  (freq: 3.89) - 100; hundred
-126. フォーク                 (freq: 3.88) - fork
-127. 留学生                  (freq: 3.87) - overseas student; exchange student
-128. グラム                  (freq: 3.87) - gram; gramme
-129. 文法                   (freq: 3.87) - grammar
-130. 拝見                   (freq: 3.86) - seeing; looking at
-131. カーテン                 (freq: 3.84) - curtain; curtains
-132. アクセサリー               (freq: 3.83) - accessory (fashion); jewelry
-133. 畳                    (freq: 3.83) - tatami mat; Japanese straw floor coverings
-134. ジャム                  (freq: 3.81) - jam
-135. 急行                   (freq: 3.81) - hurrying (to somewhere); rushing; hastening
-136. 曇り                   (freq: 3.79) - cloudiness; cloudy weather
-137. 飴                    (freq: 3.77) - (hard) candy; toffee
-138. スプーン                 (freq: 3.75) - spoon
-139. お嬢さん                 (freq: 3.75) - (another's) daughter
-140. たばこ                  (freq: 3.75) - tobacco; cigarette; cigaret; cigar
-141. 乗り物                  (freq: 3.75) - vehicle; conveyance; transport
-142. 小鳥                   (freq: 3.74) - small bird; little bird
-143. 地理                   (freq: 3.74) - geography
-144. 封筒                   (freq: 3.73) - envelope
-145. かばん                  (freq: 3.72) - bag; satchel; briefcase; basket
-146. 上着                   (freq: 3.71) - coat; tunic; jacket; outer garment
-147. 赤ん坊                  (freq: 3.70) - baby; infant
-148. お子さん                 (freq: 3.68) - child
-149. ステレオ                 (freq: 3.68) - stereo
-150. 石鹸                   (freq: 3.68) - soap
-151. 売り場                  (freq: 3.67) - selling area; counter; section; department; sales floor
-152. ご存じ                  (freq: 3.65) - knowing
-153. セーター                 (freq: 3.65) - sweater; jumper
-154. ぶどう                  (freq: 3.64) - grape; grapevine
-155. 本棚                   (freq: 3.60) - bookshelves; bookshelf; bookcase
-156. 七つ                   (freq: 3.59) - seven
-157. スーツケース               (freq: 3.59) - suitcase
-158. ＦＡＸ                  (freq: 3.59) - fax; facsimile
-159. けが                   (freq: 3.58) - injury (to animate object); hurt
-160. 電灯                   (freq: 3.58) - electric light
-161. エスカレーター              (freq: 3.58) - escalator
-162. 昼休み                  (freq: 3.58) - lunch break; noon recess; noon rest period
-163. 四つ                   (freq: 3.58) - four
-164. ハンカチ                 (freq: 3.55) - handkerchief
-165. 忘れ物                  (freq: 3.54) - lost article; something forgotten
-166. 交番                   (freq: 3.48) - police box; small neighborhood police station
-167. ストーブ                 (freq: 3.48) - (room) heater; stove
-168. 飛行場                  (freq: 3.47) - airfield; airport
-169. 絹                    (freq: 3.47) - silk
-170. ガソリンスタンド             (freq: 3.45) - gas station; petrol station
-171. オートバイ                (freq: 3.43) - motorcycle
-172. お手洗い                 (freq: 3.43) - toilet; restroom; lavatory; bathroom
-173. 八つ                   (freq: 3.42) - eight
-174. 茶碗                   (freq: 3.41) - rice bowl; tea cup; teacup
-175. 汽車                   (freq: 3.39) - train (esp. long distance train)
-176. 品物                   (freq: 3.38) - goods; article; thing
-177. 電報                   (freq: 3.38) - telegram
-178. 灰皿                   (freq: 3.37) - ashtray
-179. 消しゴム                 (freq: 3.35) - eraser; rubber
-180. はがき                  (freq: 3.30) - postcard
-181. 五つ                   (freq: 3.28) - five
-182. 床屋                   (freq: 3.27) - barbershop; barber shop; barber
-183. めがね                  (freq: 3.26) - glasses; eyeglasses; spectacles
-184. 家内                   (freq: 3.25) - (my) wife
-185. おまわりさん               (freq: 3.22) - police officer
-186. ワイシャツ                (freq: 3.21) - shirt; business shirt; dress shirt
-187. 木綿                   (freq: 3.19) - cotton (material)
-188. 花瓶                   (freq: 3.14) - (flower) vase
-189. 万年筆                  (freq: 3.14) - fountain pen
-190. 六つ                   (freq: 3.13) - six
-191. 夕べ                   (freq: 3.13) - evening
-192. 講堂                   (freq: 3.06) - auditorium; lecture hall
-193. 八百屋                  (freq: 2.99) - greengrocer; fruit and vegetable shop
-194. ワープロ                 (freq: 2.96) - word processor
-195. 背広                   (freq: 2.90) - business suit
-196. 押し入れ                 (freq: 2.90) - closet
-197. ラジカセ                 (freq: 2.83) - radio-cassette player
-198. 再来年                  (freq: 2.81) - year after next
-199. 再来週                  (freq: 2.75) - week after next
-200. テープレコーダー             (freq: 2.64) - tape recorder
-201. 九つ                   (freq: 2.64) - nine
-202. 再来月                  (freq: 2.05) - month after next
-203. 字引                   (freq: 1.24) - dictionary
+ 16. 三日                   (freq: 5.53) - third day of the month
+ 17. 十                    (freq: 5.43) - ten
+ 18. 一番                   (freq: 5.39) - number one; first; first place
+ 19. 十日                   (freq: 5.38) - tenth day of the month
+ 20. 番                    (freq: 5.32) - number (in a series)
+ 21. 一つ                   (freq: 5.27) - one
+ 22. 二十日                  (freq: 5.24) - twentieth day of the month
+ 23. め                    (freq: 5.15) - eye; eyeball
+ 24. 台                    (freq: 5.10) - stand; rack; table; bench; podium; pedestal; platform; stage
+ 25. 週間                   (freq: 5.09) - week
+ 26. 千                    (freq: 5.08) - 1000; thousand
+ 27. 億                    (freq: 5.03) - 10^8; 100000000; hundred million
+ 28. 四                    (freq: 4.93) - four
+ 29. 四日                   (freq: 4.91) - fourth day of the month
+ 30. 半                    (freq: 4.89) - half; semi-
+ 31. 五                    (freq: 4.86) - five
+ 32. 五日                   (freq: 4.85) - fifth day of the month
+ 33. 八                    (freq: 4.79) - eight
+ 34. 八日                   (freq: 4.78) - eighth day of the month
+ 35. 血                    (freq: 4.73) - blood
+ 36. 新聞社                  (freq: 4.66) - newspaper company
+ 37. 六                    (freq: 4.66) - six
+ 38. 七                    (freq: 4.66) - seven
+ 39. 六日                   (freq: 4.65) - sixth day of the month
+ 40. 七日                   (freq: 4.65) - seventh day of the month
+ 41. 二つ                   (freq: 4.60) - two
+ 42. 九                    (freq: 4.55) - nine
+ 43. 九日                   (freq: 4.54) - ninth day of the month
+ 44. メートル                 (freq: 4.47) - metre; meter
+ 45. パート                  (freq: 4.41) - part
+ 46. ひげ                   (freq: 4.41) - moustache; beard; whiskers
+ 47. テーブル                 (freq: 4.40) - table
+ 48. 格好                   (freq: 4.40) - shape; form; figure; posture; pose
+ 49. 医学                   (freq: 4.31) - medical science; medicine
+ 50. 縦                    (freq: 4.29) - the vertical; height
+ 51. アルコール                (freq: 4.27) - alcohol
+ 52. 踊り                   (freq: 4.26) - dance
+ 53. 戸                    (freq: 4.23) - door (esp. Japanese-style)
+ 54. 零                    (freq: 4.13) - zero; nought
+ 55. レジ                   (freq: 4.10) - (cash) register
+ 56. ガソリン                 (freq: 4.10) - gasoline; petrol
+ 57. 学部                   (freq: 4.09) - department of a university
+ 58. 三つ                   (freq: 4.08) - three
+ 59. 大使館                  (freq: 4.06) - embassy
+ 60. スクリーン                (freq: 4.04) - screen
+ 61. １００                  (freq: 3.89) - 100; hundred
+ 62. 文法                   (freq: 3.87) - grammar
+ 63. グラム                  (freq: 3.87) - gram; gramme
+ 64. 拝見                   (freq: 3.86) - seeing; looking at
+ 65. カーテン                 (freq: 3.84) - curtain; curtains
+ 66. 地理                   (freq: 3.74) - geography
+ 67. ステレオ                 (freq: 3.68) - stereo
+ 68. ご存じ                  (freq: 3.65) - knowing
+ 69. 七つ                   (freq: 3.59) - seven
+ 70. けが                   (freq: 3.58) - injury (to animate object); hurt
+ 71. 四つ                   (freq: 3.58) - four
+ 72. 八つ                   (freq: 3.42) - eight
+ 73. 茶碗                   (freq: 3.41) - rice bowl; tea cup; teacup
+ 74. 電報                   (freq: 3.38) - telegram
+ 75. 灰皿                   (freq: 3.37) - ashtray
+ 76. 五つ                   (freq: 3.28) - five
+ 77. 六つ                   (freq: 3.13) - six
+ 78. 九つ                   (freq: 2.64) - nine
+ 79. 字引                   (freq: 1.24) - dictionary
