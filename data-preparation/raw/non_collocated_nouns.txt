@@ -1,5 +1,4 @@
-Non-collocated nouns: 2
+Non-collocated nouns: 1
 ================================================================================
 
-  1. 拝見                   (freq: 3.86) - seeing; looking at
-  2. ご存じ                  (freq: 3.65) - knowing
+  1. ご存じ                  (freq: 3.65) - knowing

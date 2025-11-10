@@ -2,7 +2,7 @@
   "version": "2.0.0",
   "generatedAt": "2025-11-09",
   "totalPairs": 1950,
-  "totalWords": 1170,
+  "totalWords": 1171,
   "words": {
     "する": {
       "word": "する",
@@ -483,6 +483,12 @@
             "word": "格好",
             "reading": "kakkou",
             "english": "shape; form; figure; posture; pose",
+            "score": 2
+          },
+          {
+            "word": "拝見",
+            "reading": "haiken",
+            "english": "seeing; looking at",
             "score": 2
           }
         ]
@@ -19555,6 +19561,23 @@
       "word": "格好",
       "reading": "kakkou",
       "english": "shape; form; figure; posture; pose",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "する",
+            "reading": "suru",
+            "english": "to do; to carry out; to perform",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "拝見": {
+      "word": "拝見",
+      "reading": "haiken",
+      "english": "seeing; looking at",
       "type": "noun",
       "matches": {
         "verbs": [
