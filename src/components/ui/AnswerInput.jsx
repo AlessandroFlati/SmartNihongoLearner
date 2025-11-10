@@ -37,6 +37,14 @@ function AnswerInput({ onSubmit, disabled = false, placeholder = 'Enter your ans
     }
   };
 
+  const handleParticleClick = (particle) => {
+    setAnswer(answer + particle);
+    // Re-focus input after clicking particle
+    if (inputRef.current) {
+      setTimeout(() => inputRef.current.focus(), 0);
+    }
+  };
+
   return (
     <Box sx={{ width: '100%' }}>
       {previousAnswers.length > 0 && (
@@ -95,7 +103,7 @@ function AnswerInput({ onSubmit, disabled = false, placeholder = 'Enter your ans
         <Button
           size="small"
           variant="outlined"
-          onClick={() => setAnswer('を')}
+          onClick={() => handleParticleClick('を')}
           disabled={disabled}
         >
           を
@@ -103,7 +111,7 @@ function AnswerInput({ onSubmit, disabled = false, placeholder = 'Enter your ans
         <Button
           size="small"
           variant="outlined"
-          onClick={() => setAnswer('が')}
+          onClick={() => handleParticleClick('が')}
           disabled={disabled}
         >
           が
@@ -111,7 +119,7 @@ function AnswerInput({ onSubmit, disabled = false, placeholder = 'Enter your ans
         <Button
           size="small"
           variant="outlined"
-          onClick={() => setAnswer('に')}
+          onClick={() => handleParticleClick('に')}
           disabled={disabled}
         >
           に
@@ -119,7 +127,7 @@ function AnswerInput({ onSubmit, disabled = false, placeholder = 'Enter your ans
         <Button
           size="small"
           variant="outlined"
-          onClick={() => setAnswer('で')}
+          onClick={() => handleParticleClick('で')}
           disabled={disabled}
         >
           で

@@ -20,6 +20,7 @@ import {
   CheckCircle as CheckIcon,
   Cancel as CancelIcon,
   EmojiEvents as TrophyIcon,
+  Home as HomeIcon,
 } from '@mui/icons-material';
 import PropTypes from 'prop-types';
 import FuriganaText from '../ui/FuriganaText';
@@ -32,6 +33,7 @@ import storage from '../../services/storage';
 function WhatCouldMatch({ word, onComplete, mode = 'verb-to-noun' }) {
   const [collocation, setCollocation] = useState(null);
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
   const [gameState, setGameState] = useState('playing'); // playing, finished
   const [answers, setAnswers] = useState([]);
   const [foundMatches, setFoundMatches] = useState(new Set());
@@ -39,26 +41,38 @@ function WhatCouldMatch({ word, onComplete, mode = 'verb-to-noun' }) {
   const [score, setScore] = useState(0);
 
   useEffect(() => {
-    loadWord();
-  }, [word]);
-
-  const loadWord = async () => {
+    // Reset state when word changes
     setLoading(true);
-    try {
-      const data = await getCollocation(word.japanese);
-      if (data) {
-        setCollocation(data);
-        const matches = data.getNounMatches();
-        setTotalMatches(matches.length);
-      } else {
-        console.error('No collocation data found for:', word.japanese);
+    setError(null);
+    setGameState('playing');
+    setAnswers([]);
+    setFoundMatches(new Set());
+    setScore(0);
+
+    const loadWord = async () => {
+      try {
+        const data = await getCollocation(word.japanese);
+        if (data) {
+          setCollocation(data);
+          const matches = data.getNounMatches();
+          setTotalMatches(matches.length);
+
+          if (matches.length === 0) {
+            setError('No collocation data available for this word.');
+          }
+        } else {
+          setError('Failed to load collocation data for this word.');
+        }
+      } catch (err) {
+        console.error('Error loading collocation:', err);
+        setError(`Error: ${err.message}`);
+      } finally {
+        setLoading(false);
       }
-    } catch (error) {
-      console.error('Error loading collocation:', error);
-    } finally {
-      setLoading(false);
-    }
-  };
+    };
+
+    loadWord();
+  }, [word.japanese]); // Only depend on word.japanese to avoid infinite loop
 
   const handleAnswer = async (answer) => {
     if (!collocation || gameState !== 'playing') return;
@@ -67,17 +81,22 @@ function WhatCouldMatch({ word, onComplete, mode = 'verb-to-noun' }) {
     const match = matches.find(m => m.word === answer);
 
     const isCorrect = !!match;
+    const alreadyFound = foundMatches.has(answer);
+
     const newAnswer = {
       answer,
       correct: isCorrect,
       score: match ? match.score : 0,
       reading: match ? match.reading : '',
       english: match ? match.english : '',
+      duplicate: isCorrect && alreadyFound,
     };
 
     setAnswers([...answers, newAnswer]);
 
-    if (isCorrect && !foundMatches.has(answer)) {
+    // Only process if it's a new correct answer or a wrong answer
+    if (isCorrect && !alreadyFound) {
+      // New correct answer
       const newFoundMatches = new Set(foundMatches);
       newFoundMatches.add(answer);
       setFoundMatches(newFoundMatches);
@@ -90,19 +109,20 @@ function WhatCouldMatch({ word, onComplete, mode = 'verb-to-noun' }) {
       collocationProgress.recordCorrect();
       await storage.saveCollocationProgress(pairId, collocationProgress.toJSON());
     } else if (!isCorrect) {
-      // Wrong answer - record as incorrect
+      // Wrong answer (not a valid match)
       const pairId = `${word.japanese}|${answer}`;
       const progress = await storage.getCollocationProgress(pairId);
       const collocationProgress = new CollocationProgress(progress || { pairId });
       collocationProgress.recordIncorrect();
       await storage.saveCollocationProgress(pairId, collocationProgress.toJSON());
     }
+    // If duplicate correct answer, just ignore (don't record as incorrect)
   };
 
   const handleGiveUp = async () => {
     // Calculate performance for SRS
     const foundCount = foundMatches.size;
-    const percentage = (foundCount / totalMatches) * 100;
+    const percentage = totalMatches > 0 ? (foundCount / totalMatches) * 100 : 0;
 
     let srsAnswer = 'again';
     if (percentage >= 90) srsAnswer = 'easy';
@@ -136,15 +156,27 @@ function WhatCouldMatch({ word, onComplete, mode = 'verb-to-noun' }) {
     );
   }
 
-  if (!collocation) {
+  if (error) {
     return (
       <Paper sx={{ p: 4 }}>
-        <Alert severity="error">Failed to load word data</Alert>
+        <Alert severity="error" sx={{ mb: 3 }}>
+          {error}
+        </Alert>
+        <Typography variant="body2" color="text.secondary" paragraph>
+          Word: {word.japanese} ({word.reading})
+        </Typography>
+        <Button
+          variant="contained"
+          startIcon={<HomeIcon />}
+          onClick={() => onComplete && onComplete({ error: true })}
+        >
+          Skip This Word
+        </Button>
       </Paper>
     );
   }
 
-  const progress = (foundMatches.size / totalMatches) * 100;
+  const progress = totalMatches > 0 ? (foundMatches.size / totalMatches) * 100 : 0;
   const allMatches = collocation.getNounMatches();
   const missedMatches = allMatches.filter(m => !foundMatches.has(m.word));
 

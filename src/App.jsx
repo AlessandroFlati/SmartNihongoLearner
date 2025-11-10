@@ -80,6 +80,7 @@ function App() {
 
   const handleStartGame = async (config) => {
     setGameConfig(config);
+    setError(null); // Clear any previous errors
 
     // Get word queue based on selection mode
     let queue = [];
@@ -113,6 +114,7 @@ function App() {
 
       if (queue.length === 0) {
         setError('No words available for practice. Try a different selection mode.');
+        // Stay on game-setup screen
         return;
       }
 
@@ -122,6 +124,7 @@ function App() {
     } catch (err) {
       console.error('Error starting game:', err);
       setError(`Failed to start game: ${err.message}`);
+      // Stay on game-setup screen
     }
   };
 
@@ -145,6 +148,7 @@ function App() {
     setGameConfig(null);
     setCurrentWord(null);
     setWordQueue([]);
+    setError(null); // Clear any errors when going home
   };
 
   if (loading) {
@@ -163,15 +167,16 @@ function App() {
     );
   }
 
-  if (error) {
+  if (error && !initialized) {
+    // Only show full-screen error if initialization failed
     return (
       <Container maxWidth="md">
         <Box sx={{ my: 4 }}>
           <Alert severity="error" sx={{ mb: 2 }}>
             {error}
           </Alert>
-          <Button variant="contained" onClick={handleBackToHome}>
-            Back to Home
+          <Button variant="contained" onClick={() => window.location.reload()}>
+            Reload Page
           </Button>
         </Box>
       </Container>
@@ -194,9 +199,9 @@ function App() {
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             Smart Nihongo Learner
           </Typography>
-          {currentScreen === 'playing' && wordQueue.length > 0 && (
+          {currentScreen === 'playing' && wordQueue.length > 0 && currentWord && (
             <Typography variant="body2">
-              Word {wordQueue.findIndex(w => w.japanese === currentWord?.japanese) + 1} / {wordQueue.length}
+              Word {wordQueue.findIndex(w => w.japanese === currentWord.japanese) + 1} / {wordQueue.length}
             </Typography>
           )}
         </Toolbar>
@@ -349,10 +354,17 @@ function App() {
         )}
 
         {currentScreen === 'game-setup' && (
-          <GameModeSelector onStartGame={handleStartGame} />
+          <Box>
+            {error && (
+              <Alert severity="error" sx={{ mb: 3 }}>
+                {error}
+              </Alert>
+            )}
+            <GameModeSelector onStartGame={handleStartGame} />
+          </Box>
         )}
 
-        {currentScreen === 'playing' && currentWord && (
+        {currentScreen === 'playing' && currentWord && gameConfig && (
           <WhatCouldMatch
             word={currentWord}
             onComplete={handleGameComplete}
