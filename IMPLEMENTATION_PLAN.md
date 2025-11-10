@@ -2,6 +2,9 @@
 
 This document provides detailed technical specifications and implementation guidelines for the Smart Nihongo Learner project.
 
+> **CRITICAL: SERVERLESS ARCHITECTURE**
+> This is a **100% SERVERLESS application** with **NO backend server**. All components, data storage, and functionality MUST run entirely in the browser. All resources (vocabulary, collocations), progress tracking, and user settings MUST be stored in browser storage (LocalStorage/IndexedDB) and persist across browser sessions (even when shut down). No data is sent to external servers except optional OpenAI API calls for gameplay features.
+
 ## Table of Contents
 
 1. [Phase 1: Data Preparation](#phase-1-data-preparation)
@@ -160,7 +163,7 @@ This is an iterative process using Claude Code locally (not API calls) to analyz
 
 ## Phase 2: Core Infrastructure
 
-**Goal**: Set up React application with essential services.
+**Goal**: Set up serverless React application with browser-based storage and essential client-side services.
 
 ### 2.1 Project Initialization
 
@@ -240,15 +243,17 @@ export const darkTheme = createTheme({
 });
 ```
 
-### 2.3 Storage Service
+### 2.3 Storage Service (SERVERLESS - Browser-Only)
 
 **File**: `src/services/storage.js`
 
-**Requirements**:
-- LocalStorage for settings and progress (< 5MB)
-- IndexedDB for large datasets using Dexie
-- Encrypted API key storage
-- Automatic backup/restore
+**Requirements** (100% Browser-Based):
+- **NO backend server** - all storage is browser-only
+- LocalStorage for settings, API keys, and progress (< 5MB)
+- IndexedDB for large datasets (vocabulary, collocations, detailed progress) using Dexie
+- **ALL data persists across browser sessions** (even when shut down)
+- Encrypted API key storage (browser-side encryption)
+- Automatic backup/restore (browser-to-browser export/import)
 
 **Implementation**:
 
@@ -863,16 +868,20 @@ db.version(1).stores({
 - Japanese text rendering
 - Mobile responsiveness
 
-### Deployment Checklist
+### Deployment Checklist (Serverless Static Hosting)
+
+**Deployment Target**: Static hosting only (Netlify, Vercel, GitHub Pages, etc.) - NO backend server required
 
 - [ ] Minimize bundle size
 - [ ] Optimize images and assets
 - [ ] Test on multiple browsers
-- [ ] Verify API key encryption
-- [ ] Test offline functionality
+- [ ] Verify API key encryption (client-side)
+- [ ] Verify all data persists in browser storage across sessions
+- [ ] Test offline functionality (after initial load)
 - [ ] Add error boundaries
-- [ ] Setup analytics (optional)
+- [ ] Setup analytics (optional, client-side only)
 - [ ] Create user guide
+- [ ] Confirm NO server-side code or backend dependencies
 
 ---
 

@@ -6,6 +6,9 @@ A context-aware Japanese vocabulary learning application that helps users master
 
 Smart Nihongo Learner goes beyond traditional flashcards by teaching Japanese vocabulary in context. Instead of memorizing words in isolation, learners practice meaningful word combinations (collocations) like のむ (to drink) with コーヒー (coffee), 水 (water), or ビール (beer).
 
+> **IMPORTANT: SERVERLESS ARCHITECTURE**
+> This is a **fully serverless application** with **NO backend server**. All data, progress tracking, and user preferences are stored **exclusively in the browser** using LocalStorage and IndexedDB. Your learning progress persists across sessions and browser restarts. No data is ever sent to external servers except optional OpenAI API calls for gameplay assistance.
+
 ### Key Features
 
 - **Context-Based Learning**: Learn vocabulary through meaningful word pairs and collocations
@@ -32,12 +35,15 @@ Pre-deployment data processing using local tools (Claude Code, web scrapers):
 **Output**: Static collocation database (JSON/optimized format)
 
 #### Phase 2: Web Application (Online)
-Static web application with local browser storage:
+**100% serverless static web application** with browser-only persistence:
 
 - **Frontend Framework**: React with Vite
 - **UI Library**: Material UI (dark theme)
-- **Storage**: LocalStorage/IndexedDB for progress persistence
-- **API Integration**: OpenAI API for gameplay assistance (user-provided API key)
+- **Storage**: LocalStorage/IndexedDB for ALL progress, settings, and data persistence
+  - **All resources stored in browser** (vocabulary, collocations, user progress)
+  - **Progress persists across browser sessions** (even when browser is shut down)
+  - **No backend server** - everything runs client-side
+- **API Integration**: OpenAI API for gameplay assistance (user-provided API key, optional)
 
 ### Project Structure
 

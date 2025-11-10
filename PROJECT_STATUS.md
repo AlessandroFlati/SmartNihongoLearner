@@ -1,7 +1,10 @@
 # Project Status - Smart Nihongo Learner
 
-**Last Updated**: 2025-11-08
+**Last Updated**: 2025-11-10
 **Current Phase**: Data Preparation Complete - Ready for Frontend Development
+
+> **CRITICAL ARCHITECTURE REQUIREMENT**
+> This is a **SERVERLESS PROJECT** - NO backend server. All resources, progress tracking, vocabulary data, and user settings MUST be stored in the browser (LocalStorage/IndexedDB) and persist across browser sessions (even when shut down).
 
 ## Completed Items
 
@@ -119,10 +122,12 @@ SmartNihongoLearner/
 
 ### Phase 3: Core Services (Next 2 Weeks)
 
-4. **Storage Service Implementation**
+4. **Storage Service Implementation** (SERVERLESS - Browser-Only)
    - LocalStorage for settings and API keys
-   - IndexedDB for vocabulary and progress (using Dexie)
-   - Progress tracking and backup
+   - IndexedDB for vocabulary, collocations, and progress (using Dexie)
+   - **ALL data stored in browser** - no backend server
+   - Progress tracking and backup (browser-based)
+   - **Data persists across browser sessions** (even when shut down)
 
 5. **SRS Algorithm**
    - Implement SM-2 spaced repetition
