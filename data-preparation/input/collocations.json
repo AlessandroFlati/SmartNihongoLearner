@@ -471,6 +471,24 @@
           "reading": "nioi",
           "english": "odour; odor; scent; smell; stench",
           "score": 2
+        },
+        {
+          "word": "パート",
+          "reading": "paato",
+          "english": "part",
+          "score": 2
+        },
+        {
+          "word": "格好",
+          "reading": "kakkou",
+          "english": "shape; form; figure; posture; pose",
+          "score": 2
+        },
+        {
+          "word": "気",
+          "reading": "ki",
+          "english": "spirit; mind; heart",
+          "score": 2
         }
       ]
     },
@@ -778,6 +796,18 @@
           "word": "小鳥",
           "reading": "kotori",
           "english": "small bird; little bird",
+          "score": 2
+        },
+        {
+          "word": "一人",
+          "reading": "hitori",
+          "english": "one person",
+          "score": 2
+        },
+        {
+          "word": "二人",
+          "reading": "futari",
+          "english": "two persons; two people; pair; couple",
           "score": 2
         }
       ]
@@ -1609,6 +1639,126 @@
           "reading": "gochisou",
           "english": "feast; treating (someone)",
           "score": 2
+        },
+        {
+          "word": "一つ",
+          "reading": "hitotsu",
+          "english": "one",
+          "score": 2
+        },
+        {
+          "word": "二つ",
+          "reading": "futatsu",
+          "english": "two",
+          "score": 2
+        },
+        {
+          "word": "三つ",
+          "reading": "mittsu",
+          "english": "three",
+          "score": 2
+        },
+        {
+          "word": "四つ",
+          "reading": "yottsu",
+          "english": "four",
+          "score": 2
+        },
+        {
+          "word": "五つ",
+          "reading": "itsutsu",
+          "english": "five",
+          "score": 2
+        },
+        {
+          "word": "六つ",
+          "reading": "muttsu",
+          "english": "six",
+          "score": 2
+        },
+        {
+          "word": "七つ",
+          "reading": "nanatsu",
+          "english": "seven",
+          "score": 2
+        },
+        {
+          "word": "八つ",
+          "reading": "yattsu",
+          "english": "eight",
+          "score": 2
+        },
+        {
+          "word": "九つ",
+          "reading": "kokonotsu",
+          "english": "nine",
+          "score": 2
+        },
+        {
+          "word": "台",
+          "reading": "dai",
+          "english": "stand; rack; table; bench; podium; pedestal; platform; stage",
+          "score": 2
+        },
+        {
+          "word": "番",
+          "reading": "ban",
+          "english": "number (in a series)",
+          "score": 2
+        },
+        {
+          "word": "ため",
+          "reading": "tame",
+          "english": "good; advantage; benefit; welfare",
+          "score": 2
+        },
+        {
+          "word": "テーブル",
+          "reading": "teeburu",
+          "english": "table",
+          "score": 2
+        },
+        {
+          "word": "灰皿",
+          "reading": "haizara",
+          "english": "ashtray",
+          "score": 2
+        },
+        {
+          "word": "カーテン",
+          "reading": "kaaten",
+          "english": "curtain; curtains",
+          "score": 2
+        },
+        {
+          "word": "ステレオ",
+          "reading": "sutereo",
+          "english": "stereo",
+          "score": 2
+        },
+        {
+          "word": "戸",
+          "reading": "to",
+          "english": "door (esp. Japanese-style)",
+          "score": 2
+        },
+        {
+          "word": "レジ",
+          "reading": "reji",
+          "english": "(cash) register",
+          "score": 2
+        },
+        {
+          "word": "けが",
+          "reading": "kega",
+          "english": "injury (to animate object); hurt",
+          "score": 2
+        },
+        {
+          "word": "ひげ",
+          "reading": "hige",
+          "english": "moustache; beard; whiskers",
+          "score": 2
         }
       ]
     },
@@ -1814,6 +1964,66 @@
           "word": "名前",
           "reading": "namae",
           "english": "name",
+          "score": 2
+        },
+        {
+          "word": "一",
+          "reading": "ichi",
+          "english": "one",
+          "score": 2
+        },
+        {
+          "word": "二",
+          "reading": "ni",
+          "english": "two",
+          "score": 2
+        },
+        {
+          "word": "三",
+          "reading": "san",
+          "english": "three",
+          "score": 2
+        },
+        {
+          "word": "四",
+          "reading": "shi",
+          "english": "four",
+          "score": 2
+        },
+        {
+          "word": "五",
+          "reading": "go",
+          "english": "five",
+          "score": 2
+        },
+        {
+          "word": "六",
+          "reading": "roku",
+          "english": "six",
+          "score": 2
+        },
+        {
+          "word": "七",
+          "reading": "shichi",
+          "english": "seven",
+          "score": 2
+        },
+        {
+          "word": "八",
+          "reading": "hachi",
+          "english": "eight",
+          "score": 2
+        },
+        {
+          "word": "九",
+          "reading": "kyuu",
+          "english": "nine",
+          "score": 2
+        },
+        {
+          "word": "十",
+          "reading": "juu",
+          "english": "ten",
           "score": 2
         }
       ]
@@ -2333,6 +2543,12 @@
           "score": 2
         },
         {
+          "word": "大使館",
+          "reading": "taishikan",
+          "english": "embassy",
+          "score": 2
+        },
+        {
           "word": "お祭り",
           "reading": "omatsuri",
           "english": "festival; feast; carnival",
@@ -2531,6 +2747,18 @@
           "reading": "omote",
           "english": "surface",
           "score": 2
+        },
+        {
+          "word": "スクリーン",
+          "reading": "sukuriin",
+          "english": "screen",
+          "score": 2
+        },
+        {
+          "word": "踊り",
+          "reading": "odori",
+          "english": "dance",
+          "score": 2
         }
       ]
     },
@@ -2669,6 +2897,30 @@
           "reading": "kagaku",
           "english": "science",
           "score": 2
+        },
+        {
+          "word": "方",
+          "reading": "hou",
+          "english": "direction; way; side; area (in a particular direction)",
+          "score": 2
+        },
+        {
+          "word": "医学",
+          "reading": "igaku",
+          "english": "medical science; medicine",
+          "score": 2
+        },
+        {
+          "word": "文法",
+          "reading": "bunpou",
+          "english": "grammar",
+          "score": 2
+        },
+        {
+          "word": "地理",
+          "reading": "chiri",
+          "english": "geography",
+          "score": 2
         }
       ]
     },
@@ -2678,6 +2930,54 @@
       "english": "to leave; to exit; to go out; to come out; to get out",
       "type": "verb",
       "matches": [
+        {
+          "word": "家",
+          "reading": "ie",
+          "english": "house; residence; dwelling",
+          "score": 2
+        },
+        {
+          "word": "部屋",
+          "reading": "heya",
+          "english": "room; chamber",
+          "score": 2
+        },
+        {
+          "word": "学校",
+          "reading": "gakkou",
+          "english": "school",
+          "score": 2
+        },
+        {
+          "word": "会社",
+          "reading": "kaisha",
+          "english": "company; corporation",
+          "score": 2
+        },
+        {
+          "word": "血",
+          "reading": "chi",
+          "english": "blood",
+          "score": 2
+        },
+        {
+          "word": "熱",
+          "reading": "netsu",
+          "english": "heat",
+          "score": 2
+        },
+        {
+          "word": "駅",
+          "reading": "eki",
+          "english": "railway station; train station",
+          "score": 2
+        },
+        {
+          "word": "店",
+          "reading": "mise",
+          "english": "store; shop; establishment; restaurant",
+          "score": 2
+        },
         {
           "word": "風呂",
           "reading": "furo",
@@ -2828,6 +3128,18 @@
           "word": "味噌",
           "reading": "miso",
           "english": "miso; fermented condiment usu. made from soybeans",
+          "score": 2
+        },
+        {
+          "word": "茶碗",
+          "reading": "chawan",
+          "english": "rice bowl; tea cup; teacup",
+          "score": 2
+        },
+        {
+          "word": "字引",
+          "reading": "jibiki",
+          "english": "dictionary",
           "score": 2
         }
       ]
@@ -3379,6 +3691,36 @@
       "type": "verb",
       "matches": [
         {
+          "word": "部屋",
+          "reading": "heya",
+          "english": "room; chamber",
+          "score": 3
+        },
+        {
+          "word": "家",
+          "reading": "ie",
+          "english": "house; residence; dwelling",
+          "score": 2
+        },
+        {
+          "word": "店",
+          "reading": "mise",
+          "english": "store; shop; establishment; restaurant",
+          "score": 2
+        },
+        {
+          "word": "大学",
+          "reading": "daigaku",
+          "english": "university; college",
+          "score": 2
+        },
+        {
+          "word": "会社",
+          "reading": "kaisha",
+          "english": "company; corporation",
+          "score": 2
+        },
+        {
           "word": "風呂",
           "reading": "furo",
           "english": "bath; bathing; bathtub; bathroom",
@@ -3388,6 +3730,48 @@
           "word": "お風呂",
           "reading": "ofuro",
           "english": "bath",
+          "score": 2
+        },
+        {
+          "word": "トイレ",
+          "reading": "toire",
+          "english": "toilet; restroom; bathroom; lavatory",
+          "score": 3
+        },
+        {
+          "word": "教室",
+          "reading": "kyoushitsu",
+          "english": "classroom",
+          "score": 2
+        },
+        {
+          "word": "会場",
+          "reading": "kaijou",
+          "english": "assembly hall; meeting place; venue; grounds",
+          "score": 2
+        },
+        {
+          "word": "高校",
+          "reading": "koukou",
+          "english": "senior high school; high school",
+          "score": 2
+        },
+        {
+          "word": "内",
+          "reading": "uchi",
+          "english": "inside; within",
+          "score": 2
+        },
+        {
+          "word": "泥棒",
+          "reading": "dorobou",
+          "english": "thief; burglar; robber",
+          "score": 2
+        },
+        {
+          "word": "学部",
+          "reading": "gakubu",
+          "english": "department of a university",
           "score": 2
         }
       ]
@@ -3853,6 +4237,18 @@
           "reading": "miso",
           "english": "miso; fermented condiment usu. made from soybeans",
           "score": 2
+        },
+        {
+          "word": "茶碗",
+          "reading": "chawan",
+          "english": "rice bowl; tea cup; teacup",
+          "score": 2
+        },
+        {
+          "word": "字引",
+          "reading": "jibiki",
+          "english": "dictionary",
+          "score": 2
         }
       ]
     },
@@ -3950,6 +4346,126 @@
       "english": "to take (a resource e.g. time or money)",
       "type": "verb",
       "matches": [
+        {
+          "word": "時間",
+          "reading": "jikan",
+          "english": "time",
+          "score": 3
+        },
+        {
+          "word": "お金",
+          "reading": "okane",
+          "english": "money",
+          "score": 3
+        },
+        {
+          "word": "分",
+          "reading": "fun",
+          "english": "minute (unit of time)",
+          "score": 3
+        },
+        {
+          "word": "週間",
+          "reading": "shuukan",
+          "english": "week",
+          "score": 2
+        },
+        {
+          "word": "一月",
+          "reading": "hitotsuki",
+          "english": "one month",
+          "score": 2
+        },
+        {
+          "word": "円",
+          "reading": "en",
+          "english": "yen (Japanese monetary unit)",
+          "score": 2
+        },
+        {
+          "word": "一日",
+          "reading": "ichinichi",
+          "english": "one day",
+          "score": 2
+        },
+        {
+          "word": "二日",
+          "reading": "futsuka",
+          "english": "second day of the month",
+          "score": 2
+        },
+        {
+          "word": "三日",
+          "reading": "mikka",
+          "english": "third day of the month",
+          "score": 2
+        },
+        {
+          "word": "四日",
+          "reading": "yokka",
+          "english": "fourth day of the month",
+          "score": 2
+        },
+        {
+          "word": "五日",
+          "reading": "itsuka",
+          "english": "fifth day of the month",
+          "score": 2
+        },
+        {
+          "word": "六日",
+          "reading": "muika",
+          "english": "sixth day of the month",
+          "score": 2
+        },
+        {
+          "word": "七日",
+          "reading": "nanoka",
+          "english": "seventh day of the month",
+          "score": 2
+        },
+        {
+          "word": "八日",
+          "reading": "youka",
+          "english": "eighth day of the month",
+          "score": 2
+        },
+        {
+          "word": "九日",
+          "reading": "kokonoka",
+          "english": "ninth day of the month",
+          "score": 2
+        },
+        {
+          "word": "十日",
+          "reading": "tooka",
+          "english": "tenth day of the month",
+          "score": 2
+        },
+        {
+          "word": "二十日",
+          "reading": "hatsuka",
+          "english": "twentieth day of the month",
+          "score": 2
+        },
+        {
+          "word": "万",
+          "reading": "man",
+          "english": "10000; ten thousand",
+          "score": 2
+        },
+        {
+          "word": "千",
+          "reading": "sen",
+          "english": "1000; thousand",
+          "score": 2
+        },
+        {
+          "word": "億",
+          "reading": "oku",
+          "english": "10^8; 100000000; hundred million",
+          "score": 2
+        },
         {
           "word": "電話",
           "reading": "denwa",
@@ -4299,6 +4815,12 @@
           "reading": "okane",
           "english": "money",
           "score": 2
+        },
+        {
+          "word": "ガソリン",
+          "reading": "gasorin",
+          "english": "gasoline; petrol",
+          "score": 2
         }
       ]
     },
@@ -4452,6 +4974,12 @@
           "word": "湯",
           "reading": "yu",
           "english": "hot water",
+          "score": 2
+        },
+        {
+          "word": "アルコール",
+          "reading": "arukooru",
+          "english": "alcohol",
           "score": 2
         }
       ]
@@ -4891,6 +5419,30 @@
           "reading": "bangou",
           "english": "number; series of digits",
           "score": 2
+        },
+        {
+          "word": "方",
+          "reading": "hou",
+          "english": "direction; way; side; area (in a particular direction)",
+          "score": 2
+        },
+        {
+          "word": "医学",
+          "reading": "igaku",
+          "english": "medical science; medicine",
+          "score": 2
+        },
+        {
+          "word": "文法",
+          "reading": "bunpou",
+          "english": "grammar",
+          "score": 2
+        },
+        {
+          "word": "地理",
+          "reading": "chiri",
+          "english": "geography",
+          "score": 2
         }
       ]
     },
@@ -5082,6 +5634,66 @@
           "word": "はがき",
           "reading": "hagaki",
           "english": "postcard",
+          "score": 2
+        },
+        {
+          "word": "一",
+          "reading": "ichi",
+          "english": "one",
+          "score": 2
+        },
+        {
+          "word": "二",
+          "reading": "ni",
+          "english": "two",
+          "score": 2
+        },
+        {
+          "word": "三",
+          "reading": "san",
+          "english": "three",
+          "score": 2
+        },
+        {
+          "word": "四",
+          "reading": "shi",
+          "english": "four",
+          "score": 2
+        },
+        {
+          "word": "五",
+          "reading": "go",
+          "english": "five",
+          "score": 2
+        },
+        {
+          "word": "六",
+          "reading": "roku",
+          "english": "six",
+          "score": 2
+        },
+        {
+          "word": "七",
+          "reading": "shichi",
+          "english": "seven",
+          "score": 2
+        },
+        {
+          "word": "八",
+          "reading": "hachi",
+          "english": "eight",
+          "score": 2
+        },
+        {
+          "word": "九",
+          "reading": "kyuu",
+          "english": "nine",
+          "score": 2
+        },
+        {
+          "word": "十",
+          "reading": "juu",
+          "english": "ten",
           "score": 2
         }
       ]
@@ -5461,6 +6073,30 @@
           "reading": "shikata",
           "english": "way; method; means; resource; course",
           "score": 2
+        },
+        {
+          "word": "方",
+          "reading": "hou",
+          "english": "direction; way; side; area (in a particular direction)",
+          "score": 2
+        },
+        {
+          "word": "文法",
+          "reading": "bunpou",
+          "english": "grammar",
+          "score": 2
+        },
+        {
+          "word": "地理",
+          "reading": "chiri",
+          "english": "geography",
+          "score": 2
+        },
+        {
+          "word": "医学",
+          "reading": "igaku",
+          "english": "medical science; medicine",
+          "score": 2
         }
       ]
     },
@@ -5486,6 +6122,12 @@
           "word": "料理",
           "reading": "ryouri",
           "english": "cooking; cookery; cuisine",
+          "score": 2
+        },
+        {
+          "word": "踊り",
+          "reading": "odori",
+          "english": "dance",
           "score": 2
         }
       ]
@@ -5957,6 +6599,12 @@
           "reading": "karada",
           "english": "body",
           "score": 2
+        },
+        {
+          "word": "茶碗",
+          "reading": "chawan",
+          "english": "rice bowl; tea cup; teacup",
+          "score": 2
         }
       ]
     },
@@ -6070,6 +6718,12 @@
           "word": "写真",
           "reading": "shashin",
           "english": "photograph; photo; picture; snapshot; snap",
+          "score": 2
+        },
+        {
+          "word": "電報",
+          "reading": "denpou",
+          "english": "telegram",
           "score": 2
         }
       ]
@@ -8865,6 +9519,30 @@
           "reading": "dai",
           "english": "charge; cost; price",
           "score": 3
+        },
+        {
+          "word": "円",
+          "reading": "en",
+          "english": "yen (Japanese monetary unit)",
+          "score": 2
+        },
+        {
+          "word": "万",
+          "reading": "man",
+          "english": "10000; ten thousand",
+          "score": 2
+        },
+        {
+          "word": "千",
+          "reading": "sen",
+          "english": "1000; thousand",
+          "score": 2
+        },
+        {
+          "word": "億",
+          "reading": "oku",
+          "english": "10^8; 100000000; hundred million",
+          "score": 2
         }
       ]
     },

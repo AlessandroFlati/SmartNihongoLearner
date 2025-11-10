@@ -2,7 +2,7 @@
   "version": "2.0.0",
   "generatedAt": "2025-11-09",
   "totalPairs": 1950,
-  "totalWords": 1093,
+  "totalWords": 1159,
   "words": {
     "する": {
       "word": "する",
@@ -472,6 +472,24 @@
             "reading": "nioi",
             "english": "odour; odor; scent; smell; stench",
             "score": 2
+          },
+          {
+            "word": "パート",
+            "reading": "paato",
+            "english": "part",
+            "score": 2
+          },
+          {
+            "word": "格好",
+            "reading": "kakkou",
+            "english": "shape; form; figure; posture; pose",
+            "score": 2
+          },
+          {
+            "word": "気",
+            "reading": "ki",
+            "english": "spirit; mind; heart",
+            "score": 2
           }
         ]
       }
@@ -781,6 +799,18 @@
             "word": "小鳥",
             "reading": "kotori",
             "english": "small bird; little bird",
+            "score": 2
+          },
+          {
+            "word": "一人",
+            "reading": "hitori",
+            "english": "one person",
+            "score": 2
+          },
+          {
+            "word": "二人",
+            "reading": "futari",
+            "english": "two persons; two people; pair; couple",
             "score": 2
           }
         ]
@@ -1614,6 +1644,126 @@
             "reading": "gochisou",
             "english": "feast; treating (someone)",
             "score": 2
+          },
+          {
+            "word": "一つ",
+            "reading": "hitotsu",
+            "english": "one",
+            "score": 2
+          },
+          {
+            "word": "二つ",
+            "reading": "futatsu",
+            "english": "two",
+            "score": 2
+          },
+          {
+            "word": "三つ",
+            "reading": "mittsu",
+            "english": "three",
+            "score": 2
+          },
+          {
+            "word": "四つ",
+            "reading": "yottsu",
+            "english": "four",
+            "score": 2
+          },
+          {
+            "word": "五つ",
+            "reading": "itsutsu",
+            "english": "five",
+            "score": 2
+          },
+          {
+            "word": "六つ",
+            "reading": "muttsu",
+            "english": "six",
+            "score": 2
+          },
+          {
+            "word": "七つ",
+            "reading": "nanatsu",
+            "english": "seven",
+            "score": 2
+          },
+          {
+            "word": "八つ",
+            "reading": "yattsu",
+            "english": "eight",
+            "score": 2
+          },
+          {
+            "word": "九つ",
+            "reading": "kokonotsu",
+            "english": "nine",
+            "score": 2
+          },
+          {
+            "word": "台",
+            "reading": "dai",
+            "english": "stand; rack; table; bench; podium; pedestal; platform; stage",
+            "score": 2
+          },
+          {
+            "word": "番",
+            "reading": "ban",
+            "english": "number (in a series)",
+            "score": 2
+          },
+          {
+            "word": "ため",
+            "reading": "tame",
+            "english": "good; advantage; benefit; welfare",
+            "score": 2
+          },
+          {
+            "word": "テーブル",
+            "reading": "teeburu",
+            "english": "table",
+            "score": 2
+          },
+          {
+            "word": "灰皿",
+            "reading": "haizara",
+            "english": "ashtray",
+            "score": 2
+          },
+          {
+            "word": "カーテン",
+            "reading": "kaaten",
+            "english": "curtain; curtains",
+            "score": 2
+          },
+          {
+            "word": "ステレオ",
+            "reading": "sutereo",
+            "english": "stereo",
+            "score": 2
+          },
+          {
+            "word": "戸",
+            "reading": "to",
+            "english": "door (esp. Japanese-style)",
+            "score": 2
+          },
+          {
+            "word": "レジ",
+            "reading": "reji",
+            "english": "(cash) register",
+            "score": 2
+          },
+          {
+            "word": "けが",
+            "reading": "kega",
+            "english": "injury (to animate object); hurt",
+            "score": 2
+          },
+          {
+            "word": "ひげ",
+            "reading": "hige",
+            "english": "moustache; beard; whiskers",
+            "score": 2
           }
         ]
       }
@@ -1827,6 +1977,66 @@
             "word": "名前",
             "reading": "namae",
             "english": "name",
+            "score": 2
+          },
+          {
+            "word": "一",
+            "reading": "ichi",
+            "english": "one",
+            "score": 2
+          },
+          {
+            "word": "二",
+            "reading": "ni",
+            "english": "two",
+            "score": 2
+          },
+          {
+            "word": "三",
+            "reading": "san",
+            "english": "three",
+            "score": 2
+          },
+          {
+            "word": "四",
+            "reading": "shi",
+            "english": "four",
+            "score": 2
+          },
+          {
+            "word": "五",
+            "reading": "go",
+            "english": "five",
+            "score": 2
+          },
+          {
+            "word": "六",
+            "reading": "roku",
+            "english": "six",
+            "score": 2
+          },
+          {
+            "word": "七",
+            "reading": "shichi",
+            "english": "seven",
+            "score": 2
+          },
+          {
+            "word": "八",
+            "reading": "hachi",
+            "english": "eight",
+            "score": 2
+          },
+          {
+            "word": "九",
+            "reading": "kyuu",
+            "english": "nine",
+            "score": 2
+          },
+          {
+            "word": "十",
+            "reading": "juu",
+            "english": "ten",
             "score": 2
           }
         ]
@@ -2352,6 +2562,12 @@
             "score": 2
           },
           {
+            "word": "大使館",
+            "reading": "taishikan",
+            "english": "embassy",
+            "score": 2
+          },
+          {
             "word": "お祭り",
             "reading": "omatsuri",
             "english": "festival; feast; carnival",
@@ -2552,6 +2768,18 @@
             "reading": "omote",
             "english": "surface",
             "score": 2
+          },
+          {
+            "word": "スクリーン",
+            "reading": "sukuriin",
+            "english": "screen",
+            "score": 2
+          },
+          {
+            "word": "踊り",
+            "reading": "odori",
+            "english": "dance",
+            "score": 2
           }
         ]
       }
@@ -2696,6 +2924,30 @@
             "reading": "kagaku",
             "english": "science",
             "score": 2
+          },
+          {
+            "word": "方",
+            "reading": "hou",
+            "english": "direction; way; side; area (in a particular direction)",
+            "score": 2
+          },
+          {
+            "word": "医学",
+            "reading": "igaku",
+            "english": "medical science; medicine",
+            "score": 2
+          },
+          {
+            "word": "文法",
+            "reading": "bunpou",
+            "english": "grammar",
+            "score": 2
+          },
+          {
+            "word": "地理",
+            "reading": "chiri",
+            "english": "geography",
+            "score": 2
           }
         ]
       }
@@ -2707,6 +2959,54 @@
       "type": "verb",
       "matches": {
         "nouns": [
+          {
+            "word": "家",
+            "reading": "ie",
+            "english": "house; residence; dwelling",
+            "score": 2
+          },
+          {
+            "word": "部屋",
+            "reading": "heya",
+            "english": "room; chamber",
+            "score": 2
+          },
+          {
+            "word": "学校",
+            "reading": "gakkou",
+            "english": "school",
+            "score": 2
+          },
+          {
+            "word": "会社",
+            "reading": "kaisha",
+            "english": "company; corporation",
+            "score": 2
+          },
+          {
+            "word": "血",
+            "reading": "chi",
+            "english": "blood",
+            "score": 2
+          },
+          {
+            "word": "熱",
+            "reading": "netsu",
+            "english": "heat",
+            "score": 2
+          },
+          {
+            "word": "駅",
+            "reading": "eki",
+            "english": "railway station; train station",
+            "score": 2
+          },
+          {
+            "word": "店",
+            "reading": "mise",
+            "english": "store; shop; establishment; restaurant",
+            "score": 2
+          },
           {
             "word": "風呂",
             "reading": "furo",
@@ -2859,6 +3159,18 @@
             "word": "味噌",
             "reading": "miso",
             "english": "miso; fermented condiment usu. made from soybeans",
+            "score": 2
+          },
+          {
+            "word": "茶碗",
+            "reading": "chawan",
+            "english": "rice bowl; tea cup; teacup",
+            "score": 2
+          },
+          {
+            "word": "字引",
+            "reading": "jibiki",
+            "english": "dictionary",
             "score": 2
           }
         ]
@@ -3424,6 +3736,36 @@
       "matches": {
         "nouns": [
           {
+            "word": "部屋",
+            "reading": "heya",
+            "english": "room; chamber",
+            "score": 3
+          },
+          {
+            "word": "家",
+            "reading": "ie",
+            "english": "house; residence; dwelling",
+            "score": 2
+          },
+          {
+            "word": "店",
+            "reading": "mise",
+            "english": "store; shop; establishment; restaurant",
+            "score": 2
+          },
+          {
+            "word": "大学",
+            "reading": "daigaku",
+            "english": "university; college",
+            "score": 2
+          },
+          {
+            "word": "会社",
+            "reading": "kaisha",
+            "english": "company; corporation",
+            "score": 2
+          },
+          {
             "word": "風呂",
             "reading": "furo",
             "english": "bath; bathing; bathtub; bathroom",
@@ -3433,6 +3775,48 @@
             "word": "お風呂",
             "reading": "ofuro",
             "english": "bath",
+            "score": 2
+          },
+          {
+            "word": "トイレ",
+            "reading": "toire",
+            "english": "toilet; restroom; bathroom; lavatory",
+            "score": 3
+          },
+          {
+            "word": "教室",
+            "reading": "kyoushitsu",
+            "english": "classroom",
+            "score": 2
+          },
+          {
+            "word": "会場",
+            "reading": "kaijou",
+            "english": "assembly hall; meeting place; venue; grounds",
+            "score": 2
+          },
+          {
+            "word": "高校",
+            "reading": "koukou",
+            "english": "senior high school; high school",
+            "score": 2
+          },
+          {
+            "word": "内",
+            "reading": "uchi",
+            "english": "inside; within",
+            "score": 2
+          },
+          {
+            "word": "泥棒",
+            "reading": "dorobou",
+            "english": "thief; burglar; robber",
+            "score": 2
+          },
+          {
+            "word": "学部",
+            "reading": "gakubu",
+            "english": "department of a university",
             "score": 2
           }
         ]
@@ -3900,6 +4284,18 @@
             "reading": "miso",
             "english": "miso; fermented condiment usu. made from soybeans",
             "score": 2
+          },
+          {
+            "word": "茶碗",
+            "reading": "chawan",
+            "english": "rice bowl; tea cup; teacup",
+            "score": 2
+          },
+          {
+            "word": "字引",
+            "reading": "jibiki",
+            "english": "dictionary",
+            "score": 2
           }
         ]
       }
@@ -4003,6 +4399,126 @@
       "type": "verb",
       "matches": {
         "nouns": [
+          {
+            "word": "時間",
+            "reading": "jikan",
+            "english": "time",
+            "score": 3
+          },
+          {
+            "word": "お金",
+            "reading": "okane",
+            "english": "money",
+            "score": 3
+          },
+          {
+            "word": "分",
+            "reading": "fun",
+            "english": "minute (unit of time)",
+            "score": 3
+          },
+          {
+            "word": "週間",
+            "reading": "shuukan",
+            "english": "week",
+            "score": 2
+          },
+          {
+            "word": "一月",
+            "reading": "hitotsuki",
+            "english": "one month",
+            "score": 2
+          },
+          {
+            "word": "円",
+            "reading": "en",
+            "english": "yen (Japanese monetary unit)",
+            "score": 2
+          },
+          {
+            "word": "一日",
+            "reading": "ichinichi",
+            "english": "one day",
+            "score": 2
+          },
+          {
+            "word": "二日",
+            "reading": "futsuka",
+            "english": "second day of the month",
+            "score": 2
+          },
+          {
+            "word": "三日",
+            "reading": "mikka",
+            "english": "third day of the month",
+            "score": 2
+          },
+          {
+            "word": "四日",
+            "reading": "yokka",
+            "english": "fourth day of the month",
+            "score": 2
+          },
+          {
+            "word": "五日",
+            "reading": "itsuka",
+            "english": "fifth day of the month",
+            "score": 2
+          },
+          {
+            "word": "六日",
+            "reading": "muika",
+            "english": "sixth day of the month",
+            "score": 2
+          },
+          {
+            "word": "七日",
+            "reading": "nanoka",
+            "english": "seventh day of the month",
+            "score": 2
+          },
+          {
+            "word": "八日",
+            "reading": "youka",
+            "english": "eighth day of the month",
+            "score": 2
+          },
+          {
+            "word": "九日",
+            "reading": "kokonoka",
+            "english": "ninth day of the month",
+            "score": 2
+          },
+          {
+            "word": "十日",
+            "reading": "tooka",
+            "english": "tenth day of the month",
+            "score": 2
+          },
+          {
+            "word": "二十日",
+            "reading": "hatsuka",
+            "english": "twentieth day of the month",
+            "score": 2
+          },
+          {
+            "word": "万",
+            "reading": "man",
+            "english": "10000; ten thousand",
+            "score": 2
+          },
+          {
+            "word": "千",
+            "reading": "sen",
+            "english": "1000; thousand",
+            "score": 2
+          },
+          {
+            "word": "億",
+            "reading": "oku",
+            "english": "10^8; 100000000; hundred million",
+            "score": 2
+          },
           {
             "word": "電話",
             "reading": "denwa",
@@ -4360,6 +4876,12 @@
             "reading": "okane",
             "english": "money",
             "score": 2
+          },
+          {
+            "word": "ガソリン",
+            "reading": "gasorin",
+            "english": "gasoline; petrol",
+            "score": 2
           }
         ]
       }
@@ -4517,6 +5039,12 @@
             "word": "湯",
             "reading": "yu",
             "english": "hot water",
+            "score": 2
+          },
+          {
+            "word": "アルコール",
+            "reading": "arukooru",
+            "english": "alcohol",
             "score": 2
           }
         ]
@@ -4974,6 +5502,30 @@
             "reading": "bangou",
             "english": "number; series of digits",
             "score": 2
+          },
+          {
+            "word": "方",
+            "reading": "hou",
+            "english": "direction; way; side; area (in a particular direction)",
+            "score": 2
+          },
+          {
+            "word": "医学",
+            "reading": "igaku",
+            "english": "medical science; medicine",
+            "score": 2
+          },
+          {
+            "word": "文法",
+            "reading": "bunpou",
+            "english": "grammar",
+            "score": 2
+          },
+          {
+            "word": "地理",
+            "reading": "chiri",
+            "english": "geography",
+            "score": 2
           }
         ]
       }
@@ -5171,6 +5723,66 @@
             "word": "はがき",
             "reading": "hagaki",
             "english": "postcard",
+            "score": 2
+          },
+          {
+            "word": "一",
+            "reading": "ichi",
+            "english": "one",
+            "score": 2
+          },
+          {
+            "word": "二",
+            "reading": "ni",
+            "english": "two",
+            "score": 2
+          },
+          {
+            "word": "三",
+            "reading": "san",
+            "english": "three",
+            "score": 2
+          },
+          {
+            "word": "四",
+            "reading": "shi",
+            "english": "four",
+            "score": 2
+          },
+          {
+            "word": "五",
+            "reading": "go",
+            "english": "five",
+            "score": 2
+          },
+          {
+            "word": "六",
+            "reading": "roku",
+            "english": "six",
+            "score": 2
+          },
+          {
+            "word": "七",
+            "reading": "shichi",
+            "english": "seven",
+            "score": 2
+          },
+          {
+            "word": "八",
+            "reading": "hachi",
+            "english": "eight",
+            "score": 2
+          },
+          {
+            "word": "九",
+            "reading": "kyuu",
+            "english": "nine",
+            "score": 2
+          },
+          {
+            "word": "十",
+            "reading": "juu",
+            "english": "ten",
             "score": 2
           }
         ]
@@ -5574,6 +6186,30 @@
             "reading": "shikata",
             "english": "way; method; means; resource; course",
             "score": 2
+          },
+          {
+            "word": "方",
+            "reading": "hou",
+            "english": "direction; way; side; area (in a particular direction)",
+            "score": 2
+          },
+          {
+            "word": "文法",
+            "reading": "bunpou",
+            "english": "grammar",
+            "score": 2
+          },
+          {
+            "word": "地理",
+            "reading": "chiri",
+            "english": "geography",
+            "score": 2
+          },
+          {
+            "word": "医学",
+            "reading": "igaku",
+            "english": "medical science; medicine",
+            "score": 2
           }
         ]
       }
@@ -5601,6 +6237,12 @@
             "word": "料理",
             "reading": "ryouri",
             "english": "cooking; cookery; cuisine",
+            "score": 2
+          },
+          {
+            "word": "踊り",
+            "reading": "odori",
+            "english": "dance",
             "score": 2
           }
         ]
@@ -6098,6 +6740,12 @@
             "reading": "karada",
             "english": "body",
             "score": 2
+          },
+          {
+            "word": "茶碗",
+            "reading": "chawan",
+            "english": "rice bowl; tea cup; teacup",
+            "score": 2
           }
         ]
       }
@@ -6217,6 +6865,12 @@
             "word": "写真",
             "reading": "shashin",
             "english": "photograph; photo; picture; snapshot; snap",
+            "score": 2
+          },
+          {
+            "word": "電報",
+            "reading": "denpou",
+            "english": "telegram",
             "score": 2
           }
         ]
@@ -9196,6 +9850,30 @@
             "reading": "dai",
             "english": "charge; cost; price",
             "score": 3
+          },
+          {
+            "word": "円",
+            "reading": "en",
+            "english": "yen (Japanese monetary unit)",
+            "score": 2
+          },
+          {
+            "word": "万",
+            "reading": "man",
+            "english": "10000; ten thousand",
+            "score": 2
+          },
+          {
+            "word": "千",
+            "reading": "sen",
+            "english": "1000; thousand",
+            "score": 2
+          },
+          {
+            "word": "億",
+            "reading": "oku",
+            "english": "10^8; 100000000; hundred million",
+            "score": 2
           }
         ]
       }
@@ -18766,6 +19444,57 @@
         "adjectives": []
       }
     },
+    "パート": {
+      "word": "パート",
+      "reading": "paato",
+      "english": "part",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "する",
+            "reading": "suru",
+            "english": "to do; to carry out; to perform",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "格好": {
+      "word": "格好",
+      "reading": "kakkou",
+      "english": "shape; form; figure; posture; pose",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "する",
+            "reading": "suru",
+            "english": "to do; to carry out; to perform",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "気": {
+      "word": "気",
+      "reading": "ki",
+      "english": "spirit; mind; heart",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "する",
+            "reading": "suru",
+            "english": "to do; to carry out; to perform",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
     "人": {
       "word": "人",
       "reading": "hito",
@@ -19428,6 +20157,18 @@
             "score": 3
           },
           {
+            "word": "出る",
+            "reading": "deru",
+            "english": "to leave; to exit; to go out; to come out; to get out",
+            "score": 2
+          },
+          {
+            "word": "入る",
+            "reading": "hairu",
+            "english": "to enter; to go into",
+            "score": 2
+          },
+          {
             "word": "つく",
             "reading": "tsuku",
             "english": "to be lit (e.g. electricity comes on); to be lighted",
@@ -19596,10 +20337,22 @@
             "score": 3
           },
           {
+            "word": "入る",
+            "reading": "hairu",
+            "english": "to enter; to go into",
+            "score": 3
+          },
+          {
             "word": "片付ける",
             "reading": "katadukeru",
             "english": "to tidy up; to put in order; to straighten up; to put away",
             "score": 3
+          },
+          {
+            "word": "出る",
+            "reading": "deru",
+            "english": "to leave; to exit; to go out; to come out; to get out",
+            "score": 2
           },
           {
             "word": "寝る",
@@ -19997,6 +20750,12 @@
             "score": 2
           },
           {
+            "word": "出る",
+            "reading": "deru",
+            "english": "to leave; to exit; to go out; to come out; to get out",
+            "score": 2
+          },
+          {
             "word": "つく",
             "reading": "tsuku",
             "english": "to be lit (e.g. electricity comes on); to be lighted",
@@ -20090,6 +20849,18 @@
             "word": "いる",
             "reading": "iru",
             "english": "to be (of animate objects); to exist",
+            "score": 2
+          },
+          {
+            "word": "出る",
+            "reading": "deru",
+            "english": "to leave; to exit; to go out; to come out; to get out",
+            "score": 2
+          },
+          {
+            "word": "入る",
+            "reading": "hairu",
+            "english": "to enter; to go into",
             "score": 2
           },
           {
@@ -21128,6 +21899,40 @@
         "adjectives": []
       }
     },
+    "一人": {
+      "word": "一人",
+      "reading": "hitori",
+      "english": "one person",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "いる",
+            "reading": "iru",
+            "english": "to be (of animate objects); to exist",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "二人": {
+      "word": "二人",
+      "reading": "futari",
+      "english": "two persons; two people; pair; couple",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "いる",
+            "reading": "iru",
+            "english": "to be (of animate objects); to exist",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
     "こと": {
       "word": "こと",
       "reading": "koto",
@@ -21711,6 +22516,12 @@
             "score": 3
           },
           {
+            "word": "かかる",
+            "reading": "kakaru",
+            "english": "to take (a resource e.g. time or money)",
+            "score": 3
+          },
+          {
             "word": "間に合う",
             "reading": "maniau",
             "english": "to be in time (for)",
@@ -21945,6 +22756,18 @@
             "score": 2
           },
           {
+            "word": "出る",
+            "reading": "deru",
+            "english": "to leave; to exit; to go out; to come out; to get out",
+            "score": 2
+          },
+          {
+            "word": "入る",
+            "reading": "hairu",
+            "english": "to enter; to go into",
+            "score": 2
+          },
+          {
             "word": "閉める",
             "reading": "shimeru",
             "english": "to close; to shut",
@@ -22110,6 +22933,12 @@
             "word": "ある",
             "reading": "aru",
             "english": "to be; to exist; to live",
+            "score": 2
+          },
+          {
+            "word": "出る",
+            "reading": "deru",
+            "english": "to leave; to exit; to go out; to come out; to get out",
             "score": 2
           },
           {
@@ -22733,6 +23562,12 @@
             "reading": "aru",
             "english": "to be; to exist; to live",
             "score": 2
+          },
+          {
+            "word": "かかる",
+            "reading": "kakaru",
+            "english": "to take (a resource e.g. time or money)",
+            "score": 2
           }
         ],
         "adjectives": []
@@ -22909,6 +23744,12 @@
             "word": "ある",
             "reading": "aru",
             "english": "to be; to exist; to live",
+            "score": 2
+          },
+          {
+            "word": "入る",
+            "reading": "hairu",
+            "english": "to enter; to go into",
             "score": 2
           }
         ],
@@ -23854,6 +24695,12 @@
             "reading": "aru",
             "english": "to be; to exist; to live",
             "score": 2
+          },
+          {
+            "word": "出る",
+            "reading": "deru",
+            "english": "to leave; to exit; to go out; to come out; to get out",
+            "score": 2
           }
         ],
         "adjectives": []
@@ -24048,6 +24895,12 @@
             "word": "ある",
             "reading": "aru",
             "english": "to be; to exist; to live",
+            "score": 2
+          },
+          {
+            "word": "入る",
+            "reading": "hairu",
+            "english": "to enter; to go into",
             "score": 2
           }
         ],
@@ -24710,6 +25563,346 @@
             "score": 2
           }
         ]
+      }
+    },
+    "一つ": {
+      "word": "一つ",
+      "reading": "hitotsu",
+      "english": "one",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "ある",
+            "reading": "aru",
+            "english": "to be; to exist; to live",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "二つ": {
+      "word": "二つ",
+      "reading": "futatsu",
+      "english": "two",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "ある",
+            "reading": "aru",
+            "english": "to be; to exist; to live",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "三つ": {
+      "word": "三つ",
+      "reading": "mittsu",
+      "english": "three",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "ある",
+            "reading": "aru",
+            "english": "to be; to exist; to live",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "四つ": {
+      "word": "四つ",
+      "reading": "yottsu",
+      "english": "four",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "ある",
+            "reading": "aru",
+            "english": "to be; to exist; to live",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "五つ": {
+      "word": "五つ",
+      "reading": "itsutsu",
+      "english": "five",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "ある",
+            "reading": "aru",
+            "english": "to be; to exist; to live",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "六つ": {
+      "word": "六つ",
+      "reading": "muttsu",
+      "english": "six",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "ある",
+            "reading": "aru",
+            "english": "to be; to exist; to live",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "七つ": {
+      "word": "七つ",
+      "reading": "nanatsu",
+      "english": "seven",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "ある",
+            "reading": "aru",
+            "english": "to be; to exist; to live",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "八つ": {
+      "word": "八つ",
+      "reading": "yattsu",
+      "english": "eight",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "ある",
+            "reading": "aru",
+            "english": "to be; to exist; to live",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "九つ": {
+      "word": "九つ",
+      "reading": "kokonotsu",
+      "english": "nine",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "ある",
+            "reading": "aru",
+            "english": "to be; to exist; to live",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "台": {
+      "word": "台",
+      "reading": "dai",
+      "english": "stand; rack; table; bench; podium; pedestal; platform; stage",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "ある",
+            "reading": "aru",
+            "english": "to be; to exist; to live",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "番": {
+      "word": "番",
+      "reading": "ban",
+      "english": "number (in a series)",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "ある",
+            "reading": "aru",
+            "english": "to be; to exist; to live",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "ため": {
+      "word": "ため",
+      "reading": "tame",
+      "english": "good; advantage; benefit; welfare",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "ある",
+            "reading": "aru",
+            "english": "to be; to exist; to live",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "テーブル": {
+      "word": "テーブル",
+      "reading": "teeburu",
+      "english": "table",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "ある",
+            "reading": "aru",
+            "english": "to be; to exist; to live",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "灰皿": {
+      "word": "灰皿",
+      "reading": "haizara",
+      "english": "ashtray",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "ある",
+            "reading": "aru",
+            "english": "to be; to exist; to live",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "カーテン": {
+      "word": "カーテン",
+      "reading": "kaaten",
+      "english": "curtain; curtains",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "ある",
+            "reading": "aru",
+            "english": "to be; to exist; to live",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "ステレオ": {
+      "word": "ステレオ",
+      "reading": "sutereo",
+      "english": "stereo",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "ある",
+            "reading": "aru",
+            "english": "to be; to exist; to live",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "戸": {
+      "word": "戸",
+      "reading": "to",
+      "english": "door (esp. Japanese-style)",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "ある",
+            "reading": "aru",
+            "english": "to be; to exist; to live",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "レジ": {
+      "word": "レジ",
+      "reading": "reji",
+      "english": "(cash) register",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "ある",
+            "reading": "aru",
+            "english": "to be; to exist; to live",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "けが": {
+      "word": "けが",
+      "reading": "kega",
+      "english": "injury (to animate object); hurt",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "ある",
+            "reading": "aru",
+            "english": "to be; to exist; to live",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "ひげ": {
+      "word": "ひげ",
+      "reading": "hige",
+      "english": "moustache; beard; whiskers",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "ある",
+            "reading": "aru",
+            "english": "to be; to exist; to live",
+            "score": 2
+          }
+        ],
+        "adjectives": []
       }
     },
     "大人": {
@@ -25454,6 +26647,236 @@
         ]
       }
     },
+    "一": {
+      "word": "一",
+      "reading": "ichi",
+      "english": "one",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "言う",
+            "reading": "iu",
+            "english": "to say; to utter; to declare",
+            "score": 2
+          },
+          {
+            "word": "書く",
+            "reading": "kaku",
+            "english": "to write; to compose; to pen",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "二": {
+      "word": "二",
+      "reading": "ni",
+      "english": "two",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "言う",
+            "reading": "iu",
+            "english": "to say; to utter; to declare",
+            "score": 2
+          },
+          {
+            "word": "書く",
+            "reading": "kaku",
+            "english": "to write; to compose; to pen",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "三": {
+      "word": "三",
+      "reading": "san",
+      "english": "three",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "言う",
+            "reading": "iu",
+            "english": "to say; to utter; to declare",
+            "score": 2
+          },
+          {
+            "word": "書く",
+            "reading": "kaku",
+            "english": "to write; to compose; to pen",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "四": {
+      "word": "四",
+      "reading": "shi",
+      "english": "four",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "言う",
+            "reading": "iu",
+            "english": "to say; to utter; to declare",
+            "score": 2
+          },
+          {
+            "word": "書く",
+            "reading": "kaku",
+            "english": "to write; to compose; to pen",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "五": {
+      "word": "五",
+      "reading": "go",
+      "english": "five",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "言う",
+            "reading": "iu",
+            "english": "to say; to utter; to declare",
+            "score": 2
+          },
+          {
+            "word": "書く",
+            "reading": "kaku",
+            "english": "to write; to compose; to pen",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "六": {
+      "word": "六",
+      "reading": "roku",
+      "english": "six",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "言う",
+            "reading": "iu",
+            "english": "to say; to utter; to declare",
+            "score": 2
+          },
+          {
+            "word": "書く",
+            "reading": "kaku",
+            "english": "to write; to compose; to pen",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "七": {
+      "word": "七",
+      "reading": "shichi",
+      "english": "seven",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "言う",
+            "reading": "iu",
+            "english": "to say; to utter; to declare",
+            "score": 2
+          },
+          {
+            "word": "書く",
+            "reading": "kaku",
+            "english": "to write; to compose; to pen",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "八": {
+      "word": "八",
+      "reading": "hachi",
+      "english": "eight",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "言う",
+            "reading": "iu",
+            "english": "to say; to utter; to declare",
+            "score": 2
+          },
+          {
+            "word": "書く",
+            "reading": "kaku",
+            "english": "to write; to compose; to pen",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "九": {
+      "word": "九",
+      "reading": "kyuu",
+      "english": "nine",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "言う",
+            "reading": "iu",
+            "english": "to say; to utter; to declare",
+            "score": 2
+          },
+          {
+            "word": "書く",
+            "reading": "kaku",
+            "english": "to write; to compose; to pen",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "十": {
+      "word": "十",
+      "reading": "juu",
+      "english": "ten",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "言う",
+            "reading": "iu",
+            "english": "to say; to utter; to declare",
+            "score": 2
+          },
+          {
+            "word": "書く",
+            "reading": "kaku",
+            "english": "to write; to compose; to pen",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
     "プレゼント": {
       "word": "プレゼント",
       "reading": "purezento",
@@ -25955,6 +27378,12 @@
             "reading": "iku",
             "english": "to go; to move (in a direction or towards a specific location); to head (towards); to be transported (towards); to reach",
             "score": 3
+          },
+          {
+            "word": "入る",
+            "reading": "hairu",
+            "english": "to enter; to go into",
+            "score": 3
           }
         ],
         "adjectives": []
@@ -26040,6 +27469,12 @@
             "reading": "iku",
             "english": "to go; to move (in a direction or towards a specific location); to head (towards); to be transported (towards); to reach",
             "score": 2
+          },
+          {
+            "word": "入る",
+            "reading": "hairu",
+            "english": "to enter; to go into",
+            "score": 2
           }
         ],
         "adjectives": []
@@ -26056,6 +27491,12 @@
             "word": "行く",
             "reading": "iku",
             "english": "to go; to move (in a direction or towards a specific location); to head (towards); to be transported (towards); to reach",
+            "score": 2
+          },
+          {
+            "word": "入る",
+            "reading": "hairu",
+            "english": "to enter; to go into",
             "score": 2
           },
           {
@@ -26104,6 +27545,12 @@
             "reading": "iku",
             "english": "to go; to move (in a direction or towards a specific location); to head (towards); to be transported (towards); to reach",
             "score": 2
+          },
+          {
+            "word": "入る",
+            "reading": "hairu",
+            "english": "to enter; to go into",
+            "score": 2
           }
         ],
         "adjectives": []
@@ -26137,6 +27584,12 @@
             "word": "行く",
             "reading": "iku",
             "english": "to go; to move (in a direction or towards a specific location); to head (towards); to be transported (towards); to reach",
+            "score": 2
+          },
+          {
+            "word": "入る",
+            "reading": "hairu",
+            "english": "to enter; to go into",
             "score": 2
           }
         ],
@@ -26658,6 +28111,23 @@
       "word": "コンサート",
       "reading": "konsaato",
       "english": "concert",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "行く",
+            "reading": "iku",
+            "english": "to go; to move (in a direction or towards a specific location); to head (towards); to be transported (towards); to reach",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "大使館": {
+      "word": "大使館",
+      "reading": "taishikan",
+      "english": "embassy",
       "type": "noun",
       "matches": {
         "verbs": [
@@ -27274,6 +28744,46 @@
         "adjectives": []
       }
     },
+    "スクリーン": {
+      "word": "スクリーン",
+      "reading": "sukuriin",
+      "english": "screen",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "見る",
+            "reading": "miru",
+            "english": "to see; to look; to watch; to view; to observe",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "踊り": {
+      "word": "踊り",
+      "reading": "odori",
+      "english": "dance",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "見る",
+            "reading": "miru",
+            "english": "to see; to look; to watch; to view; to observe",
+            "score": 2
+          },
+          {
+            "word": "習う",
+            "reading": "narau",
+            "english": "to take lessons in; to be taught; to learn (from a teacher); to study (under a teacher); to get training in",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
     "ドア": {
       "word": "ドア",
       "reading": "doa",
@@ -27579,6 +29089,139 @@
         ]
       }
     },
+    "方": {
+      "word": "方",
+      "reading": "hou",
+      "english": "direction; way; side; area (in a particular direction)",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "わかる",
+            "reading": "wakaru",
+            "english": "to understand; to comprehend; to grasp; to see; to get; to follow",
+            "score": 2
+          },
+          {
+            "word": "知る",
+            "reading": "shiru",
+            "english": "to be aware of; to know; to be conscious of; to cognize; to cognise",
+            "score": 2
+          },
+          {
+            "word": "教える",
+            "reading": "oshieru",
+            "english": "to teach; to instruct",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "医学": {
+      "word": "医学",
+      "reading": "igaku",
+      "english": "medical science; medicine",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "わかる",
+            "reading": "wakaru",
+            "english": "to understand; to comprehend; to grasp; to see; to get; to follow",
+            "score": 2
+          },
+          {
+            "word": "知る",
+            "reading": "shiru",
+            "english": "to be aware of; to know; to be conscious of; to cognize; to cognise",
+            "score": 2
+          },
+          {
+            "word": "教える",
+            "reading": "oshieru",
+            "english": "to teach; to instruct",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "文法": {
+      "word": "文法",
+      "reading": "bunpou",
+      "english": "grammar",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "わかる",
+            "reading": "wakaru",
+            "english": "to understand; to comprehend; to grasp; to see; to get; to follow",
+            "score": 2
+          },
+          {
+            "word": "知る",
+            "reading": "shiru",
+            "english": "to be aware of; to know; to be conscious of; to cognize; to cognise",
+            "score": 2
+          },
+          {
+            "word": "教える",
+            "reading": "oshieru",
+            "english": "to teach; to instruct",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "地理": {
+      "word": "地理",
+      "reading": "chiri",
+      "english": "geography",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "わかる",
+            "reading": "wakaru",
+            "english": "to understand; to comprehend; to grasp; to see; to get; to follow",
+            "score": 2
+          },
+          {
+            "word": "知る",
+            "reading": "shiru",
+            "english": "to be aware of; to know; to be conscious of; to cognize; to cognise",
+            "score": 2
+          },
+          {
+            "word": "教える",
+            "reading": "oshieru",
+            "english": "to teach; to instruct",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "血": {
+      "word": "血",
+      "reading": "chi",
+      "english": "blood",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "出る",
+            "reading": "deru",
+            "english": "to leave; to exit; to go out; to come out; to get out",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
     "風呂": {
       "word": "風呂",
       "reading": "furo",
@@ -27642,6 +29285,12 @@
             "word": "使う",
             "reading": "tsukau",
             "english": "to use (a thing method etc.); to make use of; to put to use",
+            "score": 3
+          },
+          {
+            "word": "かかる",
+            "reading": "kakaru",
+            "english": "to take (a resource e.g. time or money)",
             "score": 3
           },
           {
@@ -28307,6 +29956,58 @@
       "word": "味噌",
       "reading": "miso",
       "english": "miso; fermented condiment usu. made from soybeans",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "使う",
+            "reading": "tsukau",
+            "english": "to use (a thing method etc.); to make use of; to put to use",
+            "score": 2
+          },
+          {
+            "word": "買う",
+            "reading": "kau",
+            "english": "to buy; to purchase",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "茶碗": {
+      "word": "茶碗",
+      "reading": "chawan",
+      "english": "rice bowl; tea cup; teacup",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "使う",
+            "reading": "tsukau",
+            "english": "to use (a thing method etc.); to make use of; to put to use",
+            "score": 2
+          },
+          {
+            "word": "買う",
+            "reading": "kau",
+            "english": "to buy; to purchase",
+            "score": 2
+          },
+          {
+            "word": "洗う",
+            "reading": "arau",
+            "english": "to wash; to cleanse; to rinse",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "字引": {
+      "word": "字引",
+      "reading": "jibiki",
+      "english": "dictionary",
       "type": "noun",
       "matches": {
         "verbs": [
@@ -29271,6 +30972,23 @@
             "score": 2
           }
         ]
+      }
+    },
+    "学部": {
+      "word": "学部",
+      "reading": "gakubu",
+      "english": "department of a university",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "入る",
+            "reading": "hairu",
+            "english": "to enter; to go into",
+            "score": 2
+          }
+        ],
+        "adjectives": []
       }
     },
     "本": {
@@ -31210,6 +32928,319 @@
         ]
       }
     },
+    "分": {
+      "word": "分",
+      "reading": "fun",
+      "english": "minute (unit of time)",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "かかる",
+            "reading": "kakaru",
+            "english": "to take (a resource e.g. time or money)",
+            "score": 3
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "週間": {
+      "word": "週間",
+      "reading": "shuukan",
+      "english": "week",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "かかる",
+            "reading": "kakaru",
+            "english": "to take (a resource e.g. time or money)",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "円": {
+      "word": "円",
+      "reading": "en",
+      "english": "yen (Japanese monetary unit)",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "かかる",
+            "reading": "kakaru",
+            "english": "to take (a resource e.g. time or money)",
+            "score": 2
+          },
+          {
+            "word": "払う",
+            "reading": "harau",
+            "english": "to pay (e.g. money bill)",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "一日": {
+      "word": "一日",
+      "reading": "ichinichi",
+      "english": "one day",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "かかる",
+            "reading": "kakaru",
+            "english": "to take (a resource e.g. time or money)",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "二日": {
+      "word": "二日",
+      "reading": "futsuka",
+      "english": "second day of the month",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "かかる",
+            "reading": "kakaru",
+            "english": "to take (a resource e.g. time or money)",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "三日": {
+      "word": "三日",
+      "reading": "mikka",
+      "english": "third day of the month",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "かかる",
+            "reading": "kakaru",
+            "english": "to take (a resource e.g. time or money)",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "四日": {
+      "word": "四日",
+      "reading": "yokka",
+      "english": "fourth day of the month",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "かかる",
+            "reading": "kakaru",
+            "english": "to take (a resource e.g. time or money)",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "五日": {
+      "word": "五日",
+      "reading": "itsuka",
+      "english": "fifth day of the month",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "かかる",
+            "reading": "kakaru",
+            "english": "to take (a resource e.g. time or money)",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "六日": {
+      "word": "六日",
+      "reading": "muika",
+      "english": "sixth day of the month",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "かかる",
+            "reading": "kakaru",
+            "english": "to take (a resource e.g. time or money)",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "七日": {
+      "word": "七日",
+      "reading": "nanoka",
+      "english": "seventh day of the month",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "かかる",
+            "reading": "kakaru",
+            "english": "to take (a resource e.g. time or money)",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "八日": {
+      "word": "八日",
+      "reading": "youka",
+      "english": "eighth day of the month",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "かかる",
+            "reading": "kakaru",
+            "english": "to take (a resource e.g. time or money)",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "九日": {
+      "word": "九日",
+      "reading": "kokonoka",
+      "english": "ninth day of the month",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "かかる",
+            "reading": "kakaru",
+            "english": "to take (a resource e.g. time or money)",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "十日": {
+      "word": "十日",
+      "reading": "tooka",
+      "english": "tenth day of the month",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "かかる",
+            "reading": "kakaru",
+            "english": "to take (a resource e.g. time or money)",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "二十日": {
+      "word": "二十日",
+      "reading": "hatsuka",
+      "english": "twentieth day of the month",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "かかる",
+            "reading": "kakaru",
+            "english": "to take (a resource e.g. time or money)",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "万": {
+      "word": "万",
+      "reading": "man",
+      "english": "10000; ten thousand",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "かかる",
+            "reading": "kakaru",
+            "english": "to take (a resource e.g. time or money)",
+            "score": 2
+          },
+          {
+            "word": "払う",
+            "reading": "harau",
+            "english": "to pay (e.g. money bill)",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "千": {
+      "word": "千",
+      "reading": "sen",
+      "english": "1000; thousand",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "かかる",
+            "reading": "kakaru",
+            "english": "to take (a resource e.g. time or money)",
+            "score": 2
+          },
+          {
+            "word": "払う",
+            "reading": "harau",
+            "english": "to pay (e.g. money bill)",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "億": {
+      "word": "億",
+      "reading": "oku",
+      "english": "10^8; 100000000; hundred million",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "かかる",
+            "reading": "kakaru",
+            "english": "to take (a resource e.g. time or money)",
+            "score": 2
+          },
+          {
+            "word": "払う",
+            "reading": "harau",
+            "english": "to pay (e.g. money bill)",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
     "ご飯": {
       "word": "ご飯",
       "reading": "gohan",
@@ -31686,6 +33717,23 @@
         "adjectives": []
       }
     },
+    "ガソリン": {
+      "word": "ガソリン",
+      "reading": "gasorin",
+      "english": "gasoline; petrol",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "入れる",
+            "reading": "ireru",
+            "english": "to put in; to let in; to take in; to bring in; to insert; to install (e.g. software); to set (a jewel etc.); to ink in (e.g. tattoo)",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
     "新聞": {
       "word": "新聞",
       "reading": "shinbun",
@@ -31983,6 +34031,23 @@
             "score": 2
           }
         ]
+      }
+    },
+    "アルコール": {
+      "word": "アルコール",
+      "reading": "arukooru",
+      "english": "alcohol",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "飲む",
+            "reading": "nomu",
+            "english": "to drink; to gulp; to swallow; to take (medicine)",
+            "score": 2
+          }
+        ],
+        "adjectives": []
       }
     },
     "テスト": {
@@ -33844,6 +35909,23 @@
             "word": "切る",
             "reading": "kiru",
             "english": "to cut; to cut through; to perform (surgery)",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "電報": {
+      "word": "電報",
+      "reading": "denpou",
+      "english": "telegram",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "送る",
+            "reading": "okuru",
+            "english": "to send (a thing); to dispatch; to despatch; to transmit",
             "score": 2
           }
         ],

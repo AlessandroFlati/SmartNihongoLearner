@@ -1,82 +1,16 @@
-Non-collocated nouns: 79
+Non-collocated nouns: 13
 ================================================================================
 
-  1. ため                   (freq: 6.11) - good; advantage; benefit; welfare
-  2. 一                    (freq: 6.08) - one
-  3. 方                    (freq: 6.07) - direction; way; side; area (in a particular direction)
-  4. 気                    (freq: 5.96) - spirit; mind; heart
-  5. 一人                   (freq: 5.96) - one person
-  6. 一日                   (freq: 5.90) - one day
-  7. 分                    (freq: 5.82) - minute (unit of time)
-  8. 円                    (freq: 5.80) - yen (Japanese monetary unit)
-  9. 二                    (freq: 5.77) - two
- 10. 万                    (freq: 5.72) - 10000; ten thousand
- 11. 二人                   (freq: 5.71) - two persons; two people; pair; couple
- 12. 二日                   (freq: 5.67) - second day of the month
- 13. ０                    (freq: 5.66) - zero; nought
- 14. 度                    (freq: 5.64) - degree (angle temperature scale etc.)
- 15. 三                    (freq: 5.60) - three
- 16. 三日                   (freq: 5.53) - third day of the month
- 17. 十                    (freq: 5.43) - ten
- 18. 一番                   (freq: 5.39) - number one; first; first place
- 19. 十日                   (freq: 5.38) - tenth day of the month
- 20. 番                    (freq: 5.32) - number (in a series)
- 21. 一つ                   (freq: 5.27) - one
- 22. 二十日                  (freq: 5.24) - twentieth day of the month
- 23. め                    (freq: 5.15) - eye; eyeball
- 24. 台                    (freq: 5.10) - stand; rack; table; bench; podium; pedestal; platform; stage
- 25. 週間                   (freq: 5.09) - week
- 26. 千                    (freq: 5.08) - 1000; thousand
- 27. 億                    (freq: 5.03) - 10^8; 100000000; hundred million
- 28. 四                    (freq: 4.93) - four
- 29. 四日                   (freq: 4.91) - fourth day of the month
- 30. 半                    (freq: 4.89) - half; semi-
- 31. 五                    (freq: 4.86) - five
- 32. 五日                   (freq: 4.85) - fifth day of the month
- 33. 八                    (freq: 4.79) - eight
- 34. 八日                   (freq: 4.78) - eighth day of the month
- 35. 血                    (freq: 4.73) - blood
- 36. 新聞社                  (freq: 4.66) - newspaper company
- 37. 六                    (freq: 4.66) - six
- 38. 七                    (freq: 4.66) - seven
- 39. 六日                   (freq: 4.65) - sixth day of the month
- 40. 七日                   (freq: 4.65) - seventh day of the month
- 41. 二つ                   (freq: 4.60) - two
- 42. 九                    (freq: 4.55) - nine
- 43. 九日                   (freq: 4.54) - ninth day of the month
- 44. メートル                 (freq: 4.47) - metre; meter
- 45. パート                  (freq: 4.41) - part
- 46. ひげ                   (freq: 4.41) - moustache; beard; whiskers
- 47. テーブル                 (freq: 4.40) - table
- 48. 格好                   (freq: 4.40) - shape; form; figure; posture; pose
- 49. 医学                   (freq: 4.31) - medical science; medicine
- 50. 縦                    (freq: 4.29) - the vertical; height
- 51. アルコール                (freq: 4.27) - alcohol
- 52. 踊り                   (freq: 4.26) - dance
- 53. 戸                    (freq: 4.23) - door (esp. Japanese-style)
- 54. 零                    (freq: 4.13) - zero; nought
- 55. レジ                   (freq: 4.10) - (cash) register
- 56. ガソリン                 (freq: 4.10) - gasoline; petrol
- 57. 学部                   (freq: 4.09) - department of a university
- 58. 三つ                   (freq: 4.08) - three
- 59. 大使館                  (freq: 4.06) - embassy
- 60. スクリーン                (freq: 4.04) - screen
- 61. １００                  (freq: 3.89) - 100; hundred
- 62. 文法                   (freq: 3.87) - grammar
- 63. グラム                  (freq: 3.87) - gram; gramme
- 64. 拝見                   (freq: 3.86) - seeing; looking at
- 65. カーテン                 (freq: 3.84) - curtain; curtains
- 66. 地理                   (freq: 3.74) - geography
- 67. ステレオ                 (freq: 3.68) - stereo
- 68. ご存じ                  (freq: 3.65) - knowing
- 69. 七つ                   (freq: 3.59) - seven
- 70. けが                   (freq: 3.58) - injury (to animate object); hurt
- 71. 四つ                   (freq: 3.58) - four
- 72. 八つ                   (freq: 3.42) - eight
- 73. 茶碗                   (freq: 3.41) - rice bowl; tea cup; teacup
- 74. 電報                   (freq: 3.38) - telegram
- 75. 灰皿                   (freq: 3.37) - ashtray
- 76. 五つ                   (freq: 3.28) - five
- 77. 六つ                   (freq: 3.13) - six
- 78. 九つ                   (freq: 2.64) - nine
- 79. 字引                   (freq: 1.24) - dictionary
+  1. ０                    (freq: 5.66) - zero; nought
+  2. 度                    (freq: 5.64) - degree (angle temperature scale etc.)
+  3. 一番                   (freq: 5.39) - number one; first; first place
+  4. め                    (freq: 5.15) - eye; eyeball
+  5. 半                    (freq: 4.89) - half; semi-
+  6. 新聞社                  (freq: 4.66) - newspaper company
+  7. メートル                 (freq: 4.47) - metre; meter
+  8. 縦                    (freq: 4.29) - the vertical; height
+  9. 零                    (freq: 4.13) - zero; nought
+ 10. １００                  (freq: 3.89) - 100; hundred
+ 11. グラム                  (freq: 3.87) - gram; gramme
+ 12. 拝見                   (freq: 3.86) - seeing; looking at
+ 13. ご存じ                  (freq: 3.65) - knowing
