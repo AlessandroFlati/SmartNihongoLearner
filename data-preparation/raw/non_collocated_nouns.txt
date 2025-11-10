@@ -1,6 +1,5 @@
-Non-collocated nouns: 3
+Non-collocated nouns: 2
 ================================================================================
 
-  1. 縦                    (freq: 4.29) - the vertical; height
-  2. 拝見                   (freq: 3.86) - seeing; looking at
-  3. ご存じ                  (freq: 3.65) - knowing
+  1. 拝見                   (freq: 3.86) - seeing; looking at
+  2. ご存じ                  (freq: 3.65) - knowing

@@ -2,7 +2,7 @@
   "version": "2.0.0",
   "generatedAt": "2025-11-09",
   "totalPairs": 1950,
-  "totalWords": 1169,
+  "totalWords": 1170,
   "words": {
     "する": {
       "word": "する",
@@ -483,12 +483,6 @@
             "word": "格好",
             "reading": "kakkou",
             "english": "shape; form; figure; posture; pose",
-            "score": 2
-          },
-          {
-            "word": "気",
-            "reading": "ki",
-            "english": "spirit; mind; heart",
             "score": 2
           }
         ]
@@ -5162,6 +5156,12 @@
             "reading": "iro",
             "english": "colour; color; hue; tint; tinge; shade",
             "score": 2
+          },
+          {
+            "word": "気",
+            "reading": "ki",
+            "english": "spirit; mind; heart",
+            "score": 3
           }
         ]
       }
@@ -7364,6 +7364,12 @@
             "reading": "kaze",
             "english": "(common) cold; influenza; flu; ague; inflammatory respiratory system illness (in general)",
             "score": 3
+          },
+          {
+            "word": "縦",
+            "reading": "tate",
+            "english": "the vertical; height",
+            "score": 2
           }
         ]
       }
@@ -19549,23 +19555,6 @@
       "word": "格好",
       "reading": "kakkou",
       "english": "shape; form; figure; posture; pose",
-      "type": "noun",
-      "matches": {
-        "verbs": [
-          {
-            "word": "する",
-            "reading": "suru",
-            "english": "to do; to carry out; to perform",
-            "score": 2
-          }
-        ],
-        "adjectives": []
-      }
-    },
-    "気": {
-      "word": "気",
-      "reading": "ki",
-      "english": "spirit; mind; heart",
       "type": "noun",
       "matches": {
         "verbs": [
@@ -34619,6 +34608,23 @@
         ]
       }
     },
+    "気": {
+      "word": "気",
+      "reading": "ki",
+      "english": "spirit; mind; heart",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "変わる",
+            "reading": "kawaru",
+            "english": "to change; to be transformed; to be altered; to vary",
+            "score": 3
+          }
+        ],
+        "adjectives": []
+      }
+    },
     "夏休み": {
       "word": "夏休み",
       "reading": "natsuyasumi",
@@ -36873,6 +36879,23 @@
             "word": "治す",
             "reading": "naosu",
             "english": "to cure; to heal",
+            "score": 2
+          }
+        ],
+        "adjectives": []
+      }
+    },
+    "縦": {
+      "word": "縦",
+      "reading": "tate",
+      "english": "the vertical; height",
+      "type": "noun",
+      "matches": {
+        "verbs": [
+          {
+            "word": "引く",
+            "reading": "hiku",
+            "english": "to pull; to tug; to lead (e.g. a horse)",
             "score": 2
           }
         ],

@@ -483,12 +483,6 @@
           "reading": "kakkou",
           "english": "shape; form; figure; posture; pose",
           "score": 2
-        },
-        {
-          "word": "気",
-          "reading": "ki",
-          "english": "spirit; mind; heart",
-          "score": 2
         }
       ]
     },
@@ -5093,6 +5087,12 @@
           "reading": "iro",
           "english": "colour; color; hue; tint; tinge; shade",
           "score": 2
+        },
+        {
+          "word": "気",
+          "reading": "ki",
+          "english": "spirit; mind; heart",
+          "score": 3
         }
       ]
     },
@@ -7193,6 +7193,12 @@
           "reading": "kaze",
           "english": "(common) cold; influenza; flu; ague; inflammatory respiratory system illness (in general)",
           "score": 3
+        },
+        {
+          "word": "縦",
+          "reading": "tate",
+          "english": "the vertical; height",
+          "score": 2
         }
       ]
     },
