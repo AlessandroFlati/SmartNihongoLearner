@@ -141,15 +141,24 @@ function WhatCouldMatch({ word, onComplete, mode = 'verb-to-noun', matchCount = 
     // Convert answer to romaji if it's kana (readings in DB are romaji)
     const answerRomaji = wanakana.isKana(answer) ? wanakana.toRomaji(answer) : answer;
 
-    // Validate against ALL matches (including ones outside limited set)
-    // Accept kanji (word) or romaji/hiragana (reading)
-    const allMatches = getMatchesForMode(collocation);
-
-    const match = allMatches.find(m => {
+    // IMPORTANT: Search TARGET matches first to avoid homophone collisions
+    // Example: うち could match both 家 (house) and 中 (inside)
+    // We want to prioritize 家 if it's in the target list
+    let match = limitedMatches.find(m => {
       const wordMatch = m.word === answer; // Match kanji directly
       const readingMatch = m.reading === answerRomaji; // Match romaji reading
       return wordMatch || readingMatch;
     });
+
+    // Only if not found in target matches, check bonus matches
+    if (!match) {
+      const allMatches = getMatchesForMode(collocation);
+      match = allMatches.find(m => {
+        const wordMatch = m.word === answer; // Match kanji directly
+        const readingMatch = m.reading === answerRomaji; // Match romaji reading
+        return wordMatch || readingMatch;
+      });
+    }
 
     const isCorrect = !!match;
 
