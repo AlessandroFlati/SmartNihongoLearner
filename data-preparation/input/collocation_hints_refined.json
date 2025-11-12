@@ -1,0 +1,4276 @@
+{
+  "version": "5.0.0",
+  "description": "Manually analyzed verb-specific semantic hints",
+  "verbs": {
+    "ある": {
+      "word": "ある",
+      "reading": "aru",
+      "english": "to be; to exist; to live",
+      "total_nouns": 162,
+      "hints": [
+        {
+          "hint": "free time you have",
+          "noun_count": 9,
+          "example_nouns": [
+            "時間",
+            "ころ",
+            "暇",
+            "昼間",
+            "週末"
+          ],
+          "all_nouns": [
+            "時間",
+            "ころ",
+            "暇",
+            "昼間",
+            "週末",
+            "休み",
+            "明日",
+            "今日",
+            "昨日"
+          ]
+        },
+        {
+          "hint": "reasons why",
+          "noun_count": 4,
+          "example_nouns": [
+            "理由",
+            "原因",
+            "わけ",
+            "せい"
+          ],
+          "all_nouns": [
+            "理由",
+            "原因",
+            "わけ",
+            "せい"
+          ]
+        },
+        {
+          "hint": "problems that occur",
+          "noun_count": 6,
+          "example_nouns": [
+            "問題",
+            "故障",
+            "けが",
+            "風邪",
+            "病気"
+          ],
+          "all_nouns": [
+            "問題",
+            "故障",
+            "けが",
+            "風邪",
+            "病気",
+            "事故"
+          ]
+        },
+        {
+          "hint": "things you enjoy",
+          "noun_count": 4,
+          "example_nouns": [
+            "興味",
+            "趣味",
+            "楽しみ",
+            "好き"
+          ],
+          "all_nouns": [
+            "興味",
+            "趣味",
+            "楽しみ",
+            "好き"
+          ]
+        },
+        {
+          "hint": "possibilities",
+          "noun_count": 6,
+          "example_nouns": [
+            "機会",
+            "可能性",
+            "つもり",
+            "場合",
+            "チャンス"
+          ],
+          "all_nouns": [
+            "機会",
+            "可能性",
+            "つもり",
+            "場合",
+            "チャンス",
+            "予定"
+          ]
+        },
+        {
+          "hint": "places in town",
+          "noun_count": 10,
+          "example_nouns": [
+            "店",
+            "銀行",
+            "駅",
+            "公園",
+            "交番"
+          ],
+          "all_nouns": [
+            "店",
+            "銀行",
+            "駅",
+            "公園",
+            "交番",
+            "郵便局",
+            "図書館",
+            "病院",
+            "会社",
+            "学校"
+          ]
+        },
+        {
+          "hint": "parts of buildings",
+          "noun_count": 8,
+          "example_nouns": [
+            "玄関",
+            "台所",
+            "部屋",
+            "廊下",
+            "階段"
+          ],
+          "all_nouns": [
+            "玄関",
+            "台所",
+            "部屋",
+            "廊下",
+            "階段",
+            "屋上",
+            "地下",
+            "エレベーター"
+          ]
+        },
+        {
+          "hint": "special events",
+          "noun_count": 7,
+          "example_nouns": [
+            "誕生日",
+            "お祭り",
+            "展覧会",
+            "式",
+            "会議"
+          ],
+          "all_nouns": [
+            "誕生日",
+            "お祭り",
+            "展覧会",
+            "式",
+            "会議",
+            "パーティー",
+            "コンサート"
+          ]
+        },
+        {
+          "hint": "disasters",
+          "noun_count": 4,
+          "example_nouns": [
+            "台風",
+            "火事",
+            "地震",
+            "洪水"
+          ],
+          "all_nouns": [
+            "台風",
+            "火事",
+            "地震",
+            "洪水"
+          ]
+        },
+        {
+          "hint": "physical objects",
+          "noun_count": 10,
+          "example_nouns": [
+            "贈り物",
+            "お釣り",
+            "忘れ物",
+            "荷物",
+            "財布"
+          ],
+          "all_nouns": [
+            "贈り物",
+            "お釣り",
+            "忘れ物",
+            "荷物",
+            "財布",
+            "鍵",
+            "傘",
+            "お金",
+            "切手",
+            "薬"
+          ]
+        },
+        {
+          "hint": "days of the week",
+          "noun_count": 7,
+          "example_nouns": [
+            "月曜日",
+            "火曜日",
+            "水曜日",
+            "木曜日",
+            "金曜日"
+          ],
+          "all_nouns": [
+            "月曜日",
+            "火曜日",
+            "水曜日",
+            "木曜日",
+            "金曜日",
+            "土曜日",
+            "日曜日"
+          ]
+        },
+        {
+          "hint": "comparisons",
+          "noun_count": 5,
+          "example_nouns": [
+            "関係",
+            "違い",
+            "別",
+            "代わり",
+            "反対"
+          ],
+          "all_nouns": [
+            "関係",
+            "違い",
+            "別",
+            "代わり",
+            "反対"
+          ]
+        },
+        {
+          "hint": "responsibilities",
+          "noun_count": 5,
+          "example_nouns": [
+            "責任",
+            "義務",
+            "仕事",
+            "宿題",
+            "用事"
+          ],
+          "all_nouns": [
+            "責任",
+            "義務",
+            "仕事",
+            "宿題",
+            "用事"
+          ]
+        },
+        {
+          "hint": "feelings and states",
+          "noun_count": 6,
+          "example_nouns": [
+            "自信",
+            "勇気",
+            "元気",
+            "気持ち",
+            "意味"
+          ],
+          "all_nouns": [
+            "自信",
+            "勇気",
+            "元気",
+            "気持ち",
+            "意味",
+            "価値"
+          ]
+        },
+        {
+          "hint": "quantities",
+          "noun_count": 6,
+          "example_nouns": [
+            "たくさん",
+            "少し",
+            "全部",
+            "半分",
+            "残り"
+          ],
+          "all_nouns": [
+            "たくさん",
+            "少し",
+            "全部",
+            "半分",
+            "残り",
+            "ほとんど"
+          ]
+        }
+      ],
+      "noun_assignments": {
+        "時間": "free time you have",
+        "ころ": "free time you have",
+        "暇": "free time you have",
+        "昼間": "free time you have",
+        "週末": "free time you have",
+        "休み": "free time you have",
+        "明日": "free time you have",
+        "今日": "free time you have",
+        "昨日": "free time you have",
+        "理由": "reasons why",
+        "原因": "reasons why",
+        "わけ": "reasons why",
+        "せい": "reasons why",
+        "問題": "problems that occur",
+        "故障": "problems that occur",
+        "けが": "problems that occur",
+        "風邪": "problems that occur",
+        "病気": "problems that occur",
+        "事故": "problems that occur",
+        "興味": "things you enjoy",
+        "趣味": "things you enjoy",
+        "楽しみ": "things you enjoy",
+        "好き": "things you enjoy",
+        "機会": "possibilities",
+        "可能性": "possibilities",
+        "つもり": "possibilities",
+        "場合": "possibilities",
+        "チャンス": "possibilities",
+        "予定": "possibilities",
+        "店": "places in town",
+        "銀行": "places in town",
+        "駅": "places in town",
+        "公園": "places in town",
+        "交番": "places in town",
+        "郵便局": "places in town",
+        "図書館": "places in town",
+        "病院": "places in town",
+        "会社": "places in town",
+        "学校": "places in town",
+        "玄関": "parts of buildings",
+        "台所": "parts of buildings",
+        "部屋": "parts of buildings",
+        "廊下": "parts of buildings",
+        "階段": "parts of buildings",
+        "屋上": "parts of buildings",
+        "地下": "parts of buildings",
+        "エレベーター": "parts of buildings",
+        "誕生日": "special events",
+        "お祭り": "special events",
+        "展覧会": "special events",
+        "式": "special events",
+        "会議": "special events",
+        "パーティー": "special events",
+        "コンサート": "special events",
+        "台風": "disasters",
+        "火事": "disasters",
+        "地震": "disasters",
+        "洪水": "disasters",
+        "贈り物": "physical objects",
+        "お釣り": "physical objects",
+        "忘れ物": "physical objects",
+        "荷物": "physical objects",
+        "財布": "physical objects",
+        "鍵": "physical objects",
+        "傘": "physical objects",
+        "お金": "physical objects",
+        "切手": "physical objects",
+        "薬": "physical objects",
+        "月曜日": "days of the week",
+        "火曜日": "days of the week",
+        "水曜日": "days of the week",
+        "木曜日": "days of the week",
+        "金曜日": "days of the week",
+        "土曜日": "days of the week",
+        "日曜日": "days of the week",
+        "関係": "comparisons",
+        "違い": "comparisons",
+        "別": "comparisons",
+        "代わり": "comparisons",
+        "反対": "comparisons",
+        "責任": "responsibilities",
+        "義務": "responsibilities",
+        "仕事": "responsibilities",
+        "宿題": "responsibilities",
+        "用事": "responsibilities",
+        "自信": "feelings and states",
+        "勇気": "feelings and states",
+        "元気": "feelings and states",
+        "気持ち": "feelings and states",
+        "意味": "feelings and states",
+        "価値": "feelings and states",
+        "たくさん": "quantities",
+        "少し": "quantities",
+        "全部": "quantities",
+        "半分": "quantities",
+        "残り": "quantities",
+        "ほとんど": "quantities"
+      },
+      "statistics": {
+        "total_hints": 15,
+        "avg_nouns_per_hint": 10.8,
+        "max_nouns_in_hint": 10,
+        "min_nouns_in_hint": 4
+      }
+    },
+    "行く": {
+      "word": "行く",
+      "reading": "iku",
+      "english": "to go; to move (in a direction or towards a specific location); to head (towards); to be transported (towards); to reach",
+      "total_nouns": 85,
+      "hints": [
+        {
+          "hint": "places to study",
+          "noun_count": 8,
+          "example_nouns": [
+            "学校",
+            "図書館",
+            "大学",
+            "高校",
+            "小学校"
+          ],
+          "all_nouns": [
+            "学校",
+            "図書館",
+            "大学",
+            "高校",
+            "小学校",
+            "中学校",
+            "教室",
+            "塾"
+          ]
+        },
+        {
+          "hint": "places to work",
+          "noun_count": 5,
+          "example_nouns": [
+            "会社",
+            "仕事",
+            "オフィス",
+            "工場",
+            "職場"
+          ],
+          "all_nouns": [
+            "会社",
+            "仕事",
+            "オフィス",
+            "工場",
+            "職場"
+          ]
+        },
+        {
+          "hint": "medical places",
+          "noun_count": 5,
+          "example_nouns": [
+            "病院",
+            "医者",
+            "歯医者",
+            "薬局",
+            "クリニック"
+          ],
+          "all_nouns": [
+            "病院",
+            "医者",
+            "歯医者",
+            "薬局",
+            "クリニック"
+          ]
+        },
+        {
+          "hint": "shopping places",
+          "noun_count": 7,
+          "example_nouns": [
+            "店",
+            "デパート",
+            "スーパー",
+            "コンビニ",
+            "市場"
+          ],
+          "all_nouns": [
+            "店",
+            "デパート",
+            "スーパー",
+            "コンビニ",
+            "市場",
+            "商店街",
+            "本屋"
+          ]
+        },
+        {
+          "hint": "transportation",
+          "noun_count": 5,
+          "example_nouns": [
+            "駅",
+            "空港",
+            "バス停",
+            "港",
+            "停留所"
+          ],
+          "all_nouns": [
+            "駅",
+            "空港",
+            "バス停",
+            "港",
+            "停留所"
+          ]
+        },
+        {
+          "hint": "nature spots",
+          "noun_count": 8,
+          "example_nouns": [
+            "海",
+            "山",
+            "公園",
+            "川",
+            "森"
+          ],
+          "all_nouns": [
+            "海",
+            "山",
+            "公園",
+            "川",
+            "森",
+            "庭",
+            "湖",
+            "島"
+          ]
+        },
+        {
+          "hint": "entertainment",
+          "noun_count": 7,
+          "example_nouns": [
+            "映画館",
+            "レストラン",
+            "カフェ",
+            "遊園地",
+            "美術館"
+          ],
+          "all_nouns": [
+            "映画館",
+            "レストラン",
+            "カフェ",
+            "遊園地",
+            "美術館",
+            "博物館",
+            "劇場"
+          ]
+        },
+        {
+          "hint": "daily necessities",
+          "noun_count": 4,
+          "example_nouns": [
+            "トイレ",
+            "お風呂",
+            "台所",
+            "部屋"
+          ],
+          "all_nouns": [
+            "トイレ",
+            "お風呂",
+            "台所",
+            "部屋"
+          ]
+        },
+        {
+          "hint": "destinations",
+          "noun_count": 8,
+          "example_nouns": [
+            "東京",
+            "日本",
+            "アメリカ",
+            "外国",
+            "海外"
+          ],
+          "all_nouns": [
+            "東京",
+            "日本",
+            "アメリカ",
+            "外国",
+            "海外",
+            "田舎",
+            "都市",
+            "町"
+          ]
+        },
+        {
+          "hint": "people to visit",
+          "noun_count": 8,
+          "example_nouns": [
+            "友達",
+            "彼女",
+            "彼",
+            "先生",
+            "親"
+          ],
+          "all_nouns": [
+            "友達",
+            "彼女",
+            "彼",
+            "先生",
+            "親",
+            "家族",
+            "おじいさん",
+            "おばあさん"
+          ]
+        },
+        {
+          "hint": "directions",
+          "noun_count": 8,
+          "example_nouns": [
+            "右",
+            "左",
+            "前",
+            "後ろ",
+            "上"
+          ],
+          "all_nouns": [
+            "右",
+            "左",
+            "前",
+            "後ろ",
+            "上",
+            "下",
+            "向こう",
+            "こちら"
+          ]
+        },
+        {
+          "hint": "home-related",
+          "noun_count": 6,
+          "example_nouns": [
+            "家",
+            "うち",
+            "実家",
+            "アパート",
+            "マンション"
+          ],
+          "all_nouns": [
+            "家",
+            "うち",
+            "実家",
+            "アパート",
+            "マンション",
+            "寮"
+          ]
+        },
+        {
+          "hint": "events",
+          "noun_count": 6,
+          "example_nouns": [
+            "結婚式",
+            "パーティー",
+            "会議",
+            "授業",
+            "試合"
+          ],
+          "all_nouns": [
+            "結婚式",
+            "パーティー",
+            "会議",
+            "授業",
+            "試合",
+            "コンサート"
+          ]
+        },
+        {
+          "hint": "travel methods",
+          "noun_count": 4,
+          "example_nouns": [
+            "旅行",
+            "散歩",
+            "ドライブ",
+            "ハイキング"
+          ],
+          "all_nouns": [
+            "旅行",
+            "散歩",
+            "ドライブ",
+            "ハイキング"
+          ]
+        }
+      ],
+      "noun_assignments": {
+        "学校": "places to study",
+        "図書館": "places to study",
+        "大学": "places to study",
+        "高校": "places to study",
+        "小学校": "places to study",
+        "中学校": "places to study",
+        "教室": "places to study",
+        "塾": "places to study",
+        "会社": "places to work",
+        "仕事": "places to work",
+        "オフィス": "places to work",
+        "工場": "places to work",
+        "職場": "places to work",
+        "病院": "medical places",
+        "医者": "medical places",
+        "歯医者": "medical places",
+        "薬局": "medical places",
+        "クリニック": "medical places",
+        "店": "shopping places",
+        "デパート": "shopping places",
+        "スーパー": "shopping places",
+        "コンビニ": "shopping places",
+        "市場": "shopping places",
+        "商店街": "shopping places",
+        "本屋": "shopping places",
+        "駅": "transportation",
+        "空港": "transportation",
+        "バス停": "transportation",
+        "港": "transportation",
+        "停留所": "transportation",
+        "海": "nature spots",
+        "山": "nature spots",
+        "公園": "nature spots",
+        "川": "nature spots",
+        "森": "nature spots",
+        "庭": "nature spots",
+        "湖": "nature spots",
+        "島": "nature spots",
+        "映画館": "entertainment",
+        "レストラン": "entertainment",
+        "カフェ": "entertainment",
+        "遊園地": "entertainment",
+        "美術館": "entertainment",
+        "博物館": "entertainment",
+        "劇場": "entertainment",
+        "トイレ": "daily necessities",
+        "お風呂": "daily necessities",
+        "台所": "daily necessities",
+        "部屋": "daily necessities",
+        "東京": "destinations",
+        "日本": "destinations",
+        "アメリカ": "destinations",
+        "外国": "destinations",
+        "海外": "destinations",
+        "田舎": "destinations",
+        "都市": "destinations",
+        "町": "destinations",
+        "友達": "people to visit",
+        "彼女": "people to visit",
+        "彼": "people to visit",
+        "先生": "people to visit",
+        "親": "people to visit",
+        "家族": "people to visit",
+        "おじいさん": "people to visit",
+        "おばあさん": "people to visit",
+        "右": "directions",
+        "左": "directions",
+        "前": "directions",
+        "後ろ": "directions",
+        "上": "directions",
+        "下": "directions",
+        "向こう": "directions",
+        "こちら": "directions",
+        "家": "home-related",
+        "うち": "home-related",
+        "実家": "home-related",
+        "アパート": "home-related",
+        "マンション": "home-related",
+        "寮": "home-related",
+        "結婚式": "events",
+        "パーティー": "events",
+        "会議": "events",
+        "授業": "events",
+        "試合": "events",
+        "コンサート": "events",
+        "旅行": "travel methods",
+        "散歩": "travel methods",
+        "ドライブ": "travel methods",
+        "ハイキング": "travel methods"
+      },
+      "statistics": {
+        "total_hints": 14,
+        "avg_nouns_per_hint": 6.1,
+        "max_nouns_in_hint": 8,
+        "min_nouns_in_hint": 4
+      }
+    },
+    "する": {
+      "word": "する",
+      "reading": "suru",
+      "english": "to do; to carry out; to perform",
+      "total_nouns": 80,
+      "hints": [
+        {
+          "hint": "work you do",
+          "noun_count": 7,
+          "example_nouns": [
+            "仕事",
+            "勉強",
+            "研究",
+            "アルバイト",
+            "宿題"
+          ],
+          "all_nouns": [
+            "仕事",
+            "勉強",
+            "研究",
+            "アルバイト",
+            "宿題",
+            "レポート",
+            "プレゼン"
+          ]
+        },
+        {
+          "hint": "housework",
+          "noun_count": 6,
+          "example_nouns": [
+            "料理",
+            "掃除",
+            "洗濯",
+            "買い物",
+            "片付け"
+          ],
+          "all_nouns": [
+            "料理",
+            "掃除",
+            "洗濯",
+            "買い物",
+            "片付け",
+            "修理"
+          ]
+        },
+        {
+          "hint": "exercise",
+          "noun_count": 8,
+          "example_nouns": [
+            "運動",
+            "スポーツ",
+            "テニス",
+            "水泳",
+            "柔道"
+          ],
+          "all_nouns": [
+            "運動",
+            "スポーツ",
+            "テニス",
+            "水泳",
+            "柔道",
+            "ジョギング",
+            "サッカー",
+            "野球"
+          ]
+        },
+        {
+          "hint": "talking",
+          "noun_count": 8,
+          "example_nouns": [
+            "話",
+            "質問",
+            "説明",
+            "相談",
+            "会話"
+          ],
+          "all_nouns": [
+            "話",
+            "質問",
+            "説明",
+            "相談",
+            "会話",
+            "挨拶",
+            "議論",
+            "発表"
+          ]
+        },
+        {
+          "hint": "preparations",
+          "noun_count": 6,
+          "example_nouns": [
+            "準備",
+            "用意",
+            "支度",
+            "予習",
+            "復習"
+          ],
+          "all_nouns": [
+            "準備",
+            "用意",
+            "支度",
+            "予習",
+            "復習",
+            "計画"
+          ]
+        },
+        {
+          "hint": "competitions",
+          "noun_count": 5,
+          "example_nouns": [
+            "試合",
+            "試験",
+            "競争",
+            "コンテスト",
+            "テスト"
+          ],
+          "all_nouns": [
+            "試合",
+            "試験",
+            "競争",
+            "コンテスト",
+            "テスト"
+          ]
+        },
+        {
+          "hint": "life events",
+          "noun_count": 6,
+          "example_nouns": [
+            "結婚",
+            "卒業",
+            "入学",
+            "引っ越し",
+            "就職"
+          ],
+          "all_nouns": [
+            "結婚",
+            "卒業",
+            "入学",
+            "引っ越し",
+            "就職",
+            "退職"
+          ]
+        },
+        {
+          "hint": "mishaps",
+          "noun_count": 6,
+          "example_nouns": [
+            "失敗",
+            "故障",
+            "喧嘩",
+            "間違い",
+            "事故"
+          ],
+          "all_nouns": [
+            "失敗",
+            "故障",
+            "喧嘩",
+            "間違い",
+            "事故",
+            "怪我"
+          ]
+        },
+        {
+          "hint": "planning",
+          "noun_count": 6,
+          "example_nouns": [
+            "予約",
+            "計画",
+            "会議",
+            "約束",
+            "予定"
+          ],
+          "all_nouns": [
+            "予約",
+            "計画",
+            "会議",
+            "約束",
+            "予定",
+            "スケジュール"
+          ]
+        },
+        {
+          "hint": "worrying",
+          "noun_count": 6,
+          "example_nouns": [
+            "注意",
+            "心配",
+            "安心",
+            "緊張",
+            "努力"
+          ],
+          "all_nouns": [
+            "注意",
+            "心配",
+            "安心",
+            "緊張",
+            "努力",
+            "我慢"
+          ]
+        },
+        {
+          "hint": "communication",
+          "noun_count": 6,
+          "example_nouns": [
+            "連絡",
+            "電話",
+            "メール",
+            "返事",
+            "報告"
+          ],
+          "all_nouns": [
+            "連絡",
+            "電話",
+            "メール",
+            "返事",
+            "報告",
+            "お知らせ"
+          ]
+        },
+        {
+          "hint": "experiences",
+          "noun_count": 4,
+          "example_nouns": [
+            "経験",
+            "体験",
+            "冒険",
+            "挑戦"
+          ],
+          "all_nouns": [
+            "経験",
+            "体験",
+            "冒険",
+            "挑戦"
+          ]
+        },
+        {
+          "hint": "decisions",
+          "noun_count": 4,
+          "example_nouns": [
+            "決定",
+            "選択",
+            "判断",
+            "決心"
+          ],
+          "all_nouns": [
+            "決定",
+            "選択",
+            "判断",
+            "決心"
+          ]
+        },
+        {
+          "hint": "helping",
+          "noun_count": 5,
+          "example_nouns": [
+            "手伝い",
+            "協力",
+            "援助",
+            "サポート",
+            "ボランティア"
+          ],
+          "all_nouns": [
+            "手伝い",
+            "協力",
+            "援助",
+            "サポート",
+            "ボランティア"
+          ]
+        }
+      ],
+      "noun_assignments": {
+        "仕事": "work you do",
+        "勉強": "work you do",
+        "研究": "work you do",
+        "アルバイト": "work you do",
+        "宿題": "work you do",
+        "レポート": "work you do",
+        "プレゼン": "work you do",
+        "料理": "housework",
+        "掃除": "housework",
+        "洗濯": "housework",
+        "買い物": "housework",
+        "片付け": "housework",
+        "修理": "housework",
+        "運動": "exercise",
+        "スポーツ": "exercise",
+        "テニス": "exercise",
+        "水泳": "exercise",
+        "柔道": "exercise",
+        "ジョギング": "exercise",
+        "サッカー": "exercise",
+        "野球": "exercise",
+        "話": "talking",
+        "質問": "talking",
+        "説明": "talking",
+        "相談": "talking",
+        "会話": "talking",
+        "挨拶": "talking",
+        "議論": "talking",
+        "発表": "talking",
+        "準備": "preparations",
+        "用意": "preparations",
+        "支度": "preparations",
+        "予習": "preparations",
+        "復習": "preparations",
+        "計画": "planning",
+        "試合": "competitions",
+        "試験": "competitions",
+        "競争": "competitions",
+        "コンテスト": "competitions",
+        "テスト": "competitions",
+        "結婚": "life events",
+        "卒業": "life events",
+        "入学": "life events",
+        "引っ越し": "life events",
+        "就職": "life events",
+        "退職": "life events",
+        "失敗": "mishaps",
+        "故障": "mishaps",
+        "喧嘩": "mishaps",
+        "間違い": "mishaps",
+        "事故": "mishaps",
+        "怪我": "mishaps",
+        "予約": "planning",
+        "会議": "planning",
+        "約束": "planning",
+        "予定": "planning",
+        "スケジュール": "planning",
+        "注意": "worrying",
+        "心配": "worrying",
+        "安心": "worrying",
+        "緊張": "worrying",
+        "努力": "worrying",
+        "我慢": "worrying",
+        "連絡": "communication",
+        "電話": "communication",
+        "メール": "communication",
+        "返事": "communication",
+        "報告": "communication",
+        "お知らせ": "communication",
+        "経験": "experiences",
+        "体験": "experiences",
+        "冒険": "experiences",
+        "挑戦": "experiences",
+        "決定": "decisions",
+        "選択": "decisions",
+        "判断": "decisions",
+        "決心": "decisions",
+        "手伝い": "helping",
+        "協力": "helping",
+        "援助": "helping",
+        "サポート": "helping",
+        "ボランティア": "helping"
+      },
+      "statistics": {
+        "total_hints": 14,
+        "avg_nouns_per_hint": 5.7,
+        "max_nouns_in_hint": 8,
+        "min_nouns_in_hint": 4
+      }
+    },
+    "買う": {
+      "word": "買う",
+      "reading": "kau",
+      "english": "to buy; to purchase",
+      "total_nouns": 78,
+      "hints": [
+        {
+          "hint": "food",
+          "noun_count": 7,
+          "example_nouns": [
+            "パン",
+            "肉",
+            "野菜",
+            "果物",
+            "魚"
+          ],
+          "all_nouns": [
+            "パン",
+            "肉",
+            "野菜",
+            "果物",
+            "魚",
+            "お菓子",
+            "弁当"
+          ]
+        },
+        {
+          "hint": "drinks",
+          "noun_count": 6,
+          "example_nouns": [
+            "ジュース",
+            "ビール",
+            "お茶",
+            "コーヒー",
+            "水"
+          ],
+          "all_nouns": [
+            "ジュース",
+            "ビール",
+            "お茶",
+            "コーヒー",
+            "水",
+            "牛乳"
+          ]
+        },
+        {
+          "hint": "clothing",
+          "noun_count": 7,
+          "example_nouns": [
+            "服",
+            "靴",
+            "帽子",
+            "かばん",
+            "シャツ"
+          ],
+          "all_nouns": [
+            "服",
+            "靴",
+            "帽子",
+            "かばん",
+            "シャツ",
+            "ズボン",
+            "スカート"
+          ]
+        },
+        {
+          "hint": "electronics",
+          "noun_count": 6,
+          "example_nouns": [
+            "テレビ",
+            "パソコン",
+            "カメラ",
+            "電話",
+            "ゲーム"
+          ],
+          "all_nouns": [
+            "テレビ",
+            "パソコン",
+            "カメラ",
+            "電話",
+            "ゲーム",
+            "冷蔵庫"
+          ]
+        },
+        {
+          "hint": "books and media",
+          "noun_count": 6,
+          "example_nouns": [
+            "本",
+            "雑誌",
+            "新聞",
+            "CD",
+            "DVD"
+          ],
+          "all_nouns": [
+            "本",
+            "雑誌",
+            "新聞",
+            "CD",
+            "DVD",
+            "切手"
+          ]
+        },
+        {
+          "hint": "gifts",
+          "noun_count": 4,
+          "example_nouns": [
+            "プレゼント",
+            "お土産",
+            "花",
+            "おもちゃ"
+          ],
+          "all_nouns": [
+            "プレゼント",
+            "お土産",
+            "花",
+            "おもちゃ"
+          ]
+        },
+        {
+          "hint": "tickets",
+          "noun_count": 3,
+          "example_nouns": [
+            "切符",
+            "チケット",
+            "入場券"
+          ],
+          "all_nouns": [
+            "切符",
+            "チケット",
+            "入場券"
+          ]
+        },
+        {
+          "hint": "household",
+          "noun_count": 5,
+          "example_nouns": [
+            "家具",
+            "食器",
+            "タオル",
+            "石鹸",
+            "シャンプー"
+          ],
+          "all_nouns": [
+            "家具",
+            "食器",
+            "タオル",
+            "石鹸",
+            "シャンプー"
+          ]
+        },
+        {
+          "hint": "transportation",
+          "noun_count": 3,
+          "example_nouns": [
+            "車",
+            "自転車",
+            "バイク"
+          ],
+          "all_nouns": [
+            "車",
+            "自転車",
+            "バイク"
+          ]
+        },
+        {
+          "hint": "property",
+          "noun_count": 4,
+          "example_nouns": [
+            "家",
+            "土地",
+            "マンション",
+            "アパート"
+          ],
+          "all_nouns": [
+            "家",
+            "土地",
+            "マンション",
+            "アパート"
+          ]
+        }
+      ],
+      "noun_assignments": {
+        "パン": "food",
+        "肉": "food",
+        "野菜": "food",
+        "果物": "food",
+        "魚": "food",
+        "お菓子": "food",
+        "弁当": "food",
+        "ジュース": "drinks",
+        "ビール": "drinks",
+        "お茶": "drinks",
+        "コーヒー": "drinks",
+        "水": "drinks",
+        "牛乳": "drinks",
+        "服": "clothing",
+        "靴": "clothing",
+        "帽子": "clothing",
+        "かばん": "clothing",
+        "シャツ": "clothing",
+        "ズボン": "clothing",
+        "スカート": "clothing",
+        "テレビ": "electronics",
+        "パソコン": "electronics",
+        "カメラ": "electronics",
+        "電話": "electronics",
+        "ゲーム": "electronics",
+        "冷蔵庫": "electronics",
+        "本": "books and media",
+        "雑誌": "books and media",
+        "新聞": "books and media",
+        "CD": "books and media",
+        "DVD": "books and media",
+        "切手": "books and media",
+        "プレゼント": "gifts",
+        "お土産": "gifts",
+        "花": "gifts",
+        "おもちゃ": "gifts",
+        "切符": "tickets",
+        "チケット": "tickets",
+        "入場券": "tickets",
+        "家具": "household",
+        "食器": "household",
+        "タオル": "household",
+        "石鹸": "household",
+        "シャンプー": "household",
+        "車": "transportation",
+        "自転車": "transportation",
+        "バイク": "transportation",
+        "家": "property",
+        "土地": "property",
+        "マンション": "property",
+        "アパート": "property"
+      },
+      "statistics": {
+        "total_hints": 10,
+        "avg_nouns_per_hint": 7.8,
+        "max_nouns_in_hint": 7,
+        "min_nouns_in_hint": 3
+      }
+    },
+    "いる": {
+      "word": "いる",
+      "reading": "iru",
+      "english": "to be (of animate objects); to exist",
+      "total_nouns": 52,
+      "hints": [
+        {
+          "hint": "family at home",
+          "noun_count": 10,
+          "example_nouns": [
+            "母",
+            "父",
+            "兄",
+            "姉",
+            "弟"
+          ],
+          "all_nouns": [
+            "母",
+            "父",
+            "兄",
+            "姉",
+            "弟",
+            "妹",
+            "子供",
+            "赤ちゃん",
+            "祖父",
+            "祖母"
+          ]
+        },
+        {
+          "hint": "people in places",
+          "noun_count": 9,
+          "example_nouns": [
+            "学生",
+            "先生",
+            "友達",
+            "人",
+            "一人"
+          ],
+          "all_nouns": [
+            "学生",
+            "先生",
+            "友達",
+            "人",
+            "一人",
+            "二人",
+            "三人",
+            "みんな",
+            "誰か"
+          ]
+        },
+        {
+          "hint": "locations where you stay",
+          "noun_count": 9,
+          "example_nouns": [
+            "家",
+            "部屋",
+            "学校",
+            "会社",
+            "公園"
+          ],
+          "all_nouns": [
+            "家",
+            "部屋",
+            "学校",
+            "会社",
+            "公園",
+            "店",
+            "ここ",
+            "そこ",
+            "あそこ"
+          ]
+        },
+        {
+          "hint": "animals",
+          "noun_count": 5,
+          "example_nouns": [
+            "猫",
+            "犬",
+            "鳥",
+            "魚",
+            "動物"
+          ],
+          "all_nouns": [
+            "猫",
+            "犬",
+            "鳥",
+            "魚",
+            "動物"
+          ]
+        },
+        {
+          "hint": "professionals",
+          "noun_count": 6,
+          "example_nouns": [
+            "医者",
+            "警官",
+            "おまわりさん",
+            "公務員",
+            "店員"
+          ],
+          "all_nouns": [
+            "医者",
+            "警官",
+            "おまわりさん",
+            "公務員",
+            "店員",
+            "看護師"
+          ]
+        },
+        {
+          "hint": "countries and regions",
+          "noun_count": 8,
+          "example_nouns": [
+            "日本",
+            "アメリカ",
+            "中国",
+            "国",
+            "外国"
+          ],
+          "all_nouns": [
+            "日本",
+            "アメリカ",
+            "中国",
+            "国",
+            "外国",
+            "田舎",
+            "都市",
+            "町"
+          ]
+        }
+      ],
+      "noun_assignments": {
+        "母": "family at home",
+        "父": "family at home",
+        "兄": "family at home",
+        "姉": "family at home",
+        "弟": "family at home",
+        "妹": "family at home",
+        "子供": "family at home",
+        "赤ちゃん": "family at home",
+        "祖父": "family at home",
+        "祖母": "family at home",
+        "学生": "people in places",
+        "先生": "people in places",
+        "友達": "people in places",
+        "人": "people in places",
+        "一人": "people in places",
+        "二人": "people in places",
+        "三人": "people in places",
+        "みんな": "people in places",
+        "誰か": "people in places",
+        "家": "locations where you stay",
+        "部屋": "locations where you stay",
+        "学校": "locations where you stay",
+        "会社": "locations where you stay",
+        "公園": "locations where you stay",
+        "店": "locations where you stay",
+        "ここ": "locations where you stay",
+        "そこ": "locations where you stay",
+        "あそこ": "locations where you stay",
+        "猫": "animals",
+        "犬": "animals",
+        "鳥": "animals",
+        "魚": "animals",
+        "動物": "animals",
+        "医者": "professionals",
+        "警官": "professionals",
+        "おまわりさん": "professionals",
+        "公務員": "professionals",
+        "店員": "professionals",
+        "看護師": "professionals",
+        "日本": "countries and regions",
+        "アメリカ": "countries and regions",
+        "中国": "countries and regions",
+        "国": "countries and regions",
+        "外国": "countries and regions",
+        "田舎": "countries and regions",
+        "都市": "countries and regions",
+        "町": "countries and regions"
+      },
+      "statistics": {
+        "total_hints": 6,
+        "avg_nouns_per_hint": 8.7,
+        "max_nouns_in_hint": 10,
+        "min_nouns_in_hint": 5
+      }
+    },
+    "来る": {
+      "word": "来る",
+      "reading": "kuru",
+      "english": "to come (spatially or temporally); to approach; to arrive",
+      "total_nouns": 50,
+      "hints": [
+        {
+          "hint": "people arriving",
+          "noun_count": 9,
+          "example_nouns": [
+            "友達",
+            "先生",
+            "客",
+            "親",
+            "子供"
+          ],
+          "all_nouns": [
+            "友達",
+            "先生",
+            "客",
+            "親",
+            "子供",
+            "彼",
+            "彼女",
+            "家族",
+            "医者"
+          ]
+        },
+        {
+          "hint": "vehicles arriving",
+          "noun_count": 6,
+          "example_nouns": [
+            "バス",
+            "電車",
+            "タクシー",
+            "飛行機",
+            "船"
+          ],
+          "all_nouns": [
+            "バス",
+            "電車",
+            "タクシー",
+            "飛行機",
+            "船",
+            "新幹線"
+          ]
+        },
+        {
+          "hint": "seasons and time",
+          "noun_count": 10,
+          "example_nouns": [
+            "春",
+            "夏",
+            "秋",
+            "冬",
+            "朝"
+          ],
+          "all_nouns": [
+            "春",
+            "夏",
+            "秋",
+            "冬",
+            "朝",
+            "夜",
+            "明日",
+            "来週",
+            "来月",
+            "来年"
+          ]
+        },
+        {
+          "hint": "from places",
+          "noun_count": 8,
+          "example_nouns": [
+            "学校",
+            "会社",
+            "家",
+            "外国",
+            "日本"
+          ],
+          "all_nouns": [
+            "学校",
+            "会社",
+            "家",
+            "外国",
+            "日本",
+            "アメリカ",
+            "東京",
+            "病院"
+          ]
+        },
+        {
+          "hint": "bringing things",
+          "noun_count": 6,
+          "example_nouns": [
+            "手紙",
+            "荷物",
+            "プレゼント",
+            "お土産",
+            "書類"
+          ],
+          "all_nouns": [
+            "手紙",
+            "荷物",
+            "プレゼント",
+            "お土産",
+            "書類",
+            "メッセージ"
+          ]
+        },
+        {
+          "hint": "weather coming",
+          "noun_count": 4,
+          "example_nouns": [
+            "雨",
+            "雪",
+            "台風",
+            "嵐"
+          ],
+          "all_nouns": [
+            "雨",
+            "雪",
+            "台風",
+            "嵐"
+          ]
+        },
+        {
+          "hint": "occasions",
+          "noun_count": 5,
+          "example_nouns": [
+            "誕生日",
+            "クリスマス",
+            "正月",
+            "休み",
+            "週末"
+          ],
+          "all_nouns": [
+            "誕生日",
+            "クリスマス",
+            "正月",
+            "休み",
+            "週末"
+          ]
+        },
+        {
+          "hint": "appointments",
+          "noun_count": 4,
+          "example_nouns": [
+            "約束",
+            "予定",
+            "面接",
+            "会議"
+          ],
+          "all_nouns": [
+            "約束",
+            "予定",
+            "面接",
+            "会議"
+          ]
+        },
+        {
+          "hint": "news and info",
+          "noun_count": 5,
+          "example_nouns": [
+            "ニュース",
+            "連絡",
+            "知らせ",
+            "結果",
+            "返事"
+          ],
+          "all_nouns": [
+            "ニュース",
+            "連絡",
+            "知らせ",
+            "結果",
+            "返事"
+          ]
+        }
+      ],
+      "noun_assignments": {
+        "友達": "people arriving",
+        "先生": "people arriving",
+        "客": "people arriving",
+        "親": "people arriving",
+        "子供": "people arriving",
+        "彼": "people arriving",
+        "彼女": "people arriving",
+        "家族": "people arriving",
+        "医者": "people arriving",
+        "バス": "vehicles arriving",
+        "電車": "vehicles arriving",
+        "タクシー": "vehicles arriving",
+        "飛行機": "vehicles arriving",
+        "船": "vehicles arriving",
+        "新幹線": "vehicles arriving",
+        "春": "seasons and time",
+        "夏": "seasons and time",
+        "秋": "seasons and time",
+        "冬": "seasons and time",
+        "朝": "seasons and time",
+        "夜": "seasons and time",
+        "明日": "seasons and time",
+        "来週": "seasons and time",
+        "来月": "seasons and time",
+        "来年": "seasons and time",
+        "学校": "from places",
+        "会社": "from places",
+        "家": "from places",
+        "外国": "from places",
+        "日本": "from places",
+        "アメリカ": "from places",
+        "東京": "from places",
+        "病院": "from places",
+        "手紙": "bringing things",
+        "荷物": "bringing things",
+        "プレゼント": "bringing things",
+        "お土産": "bringing things",
+        "書類": "bringing things",
+        "メッセージ": "bringing things",
+        "雨": "weather coming",
+        "雪": "weather coming",
+        "台風": "weather coming",
+        "嵐": "weather coming",
+        "誕生日": "occasions",
+        "クリスマス": "occasions",
+        "正月": "occasions",
+        "休み": "occasions",
+        "週末": "occasions",
+        "約束": "appointments",
+        "予定": "appointments",
+        "面接": "appointments",
+        "会議": "appointments",
+        "ニュース": "news and info",
+        "連絡": "news and info",
+        "知らせ": "news and info",
+        "結果": "news and info",
+        "返事": "news and info"
+      },
+      "statistics": {
+        "total_hints": 9,
+        "avg_nouns_per_hint": 5.6,
+        "max_nouns_in_hint": 10,
+        "min_nouns_in_hint": 4
+      }
+    },
+    "食べる": {
+      "word": "食べる",
+      "reading": "taberu",
+      "english": "to eat",
+      "total_nouns": 33,
+      "hints": [
+        {
+          "hint": "Japanese food",
+          "noun_count": 8,
+          "example_nouns": [
+            "寿司",
+            "天ぷら",
+            "ラーメン",
+            "うどん",
+            "そば"
+          ],
+          "all_nouns": [
+            "寿司",
+            "天ぷら",
+            "ラーメン",
+            "うどん",
+            "そば",
+            "丼",
+            "弁当",
+            "おにぎり"
+          ]
+        },
+        {
+          "hint": "meals",
+          "noun_count": 6,
+          "example_nouns": [
+            "朝ご飯",
+            "昼ご飯",
+            "晩ご飯",
+            "ご飯",
+            "食事"
+          ],
+          "all_nouns": [
+            "朝ご飯",
+            "昼ご飯",
+            "晩ご飯",
+            "ご飯",
+            "食事",
+            "おやつ"
+          ]
+        },
+        {
+          "hint": "meat",
+          "noun_count": 6,
+          "example_nouns": [
+            "肉",
+            "牛肉",
+            "豚肉",
+            "鶏肉",
+            "魚"
+          ],
+          "all_nouns": [
+            "肉",
+            "牛肉",
+            "豚肉",
+            "鶏肉",
+            "魚",
+            "エビ"
+          ]
+        },
+        {
+          "hint": "vegetables",
+          "noun_count": 6,
+          "example_nouns": [
+            "野菜",
+            "サラダ",
+            "大根",
+            "人参",
+            "キャベツ"
+          ],
+          "all_nouns": [
+            "野菜",
+            "サラダ",
+            "大根",
+            "人参",
+            "キャベツ",
+            "トマト"
+          ]
+        },
+        {
+          "hint": "fruits",
+          "noun_count": 6,
+          "example_nouns": [
+            "果物",
+            "りんご",
+            "みかん",
+            "バナナ",
+            "いちご"
+          ],
+          "all_nouns": [
+            "果物",
+            "りんご",
+            "みかん",
+            "バナナ",
+            "いちご",
+            "ぶどう"
+          ]
+        },
+        {
+          "hint": "sweets",
+          "noun_count": 5,
+          "example_nouns": [
+            "ケーキ",
+            "アイスクリーム",
+            "チョコレート",
+            "お菓子",
+            "デザート"
+          ],
+          "all_nouns": [
+            "ケーキ",
+            "アイスクリーム",
+            "チョコレート",
+            "お菓子",
+            "デザート"
+          ]
+        },
+        {
+          "hint": "bread and pasta",
+          "noun_count": 5,
+          "example_nouns": [
+            "パン",
+            "サンドイッチ",
+            "ピザ",
+            "パスタ",
+            "スパゲッティ"
+          ],
+          "all_nouns": [
+            "パン",
+            "サンドイッチ",
+            "ピザ",
+            "パスタ",
+            "スパゲッティ"
+          ]
+        },
+        {
+          "hint": "drinks with meals",
+          "noun_count": 2,
+          "example_nouns": [
+            "スープ",
+            "味噌汁"
+          ],
+          "all_nouns": [
+            "スープ",
+            "味噌汁"
+          ]
+        },
+        {
+          "hint": "cooking styles",
+          "noun_count": 4,
+          "example_nouns": [
+            "料理",
+            "和食",
+            "洋食",
+            "中華"
+          ],
+          "all_nouns": [
+            "料理",
+            "和食",
+            "洋食",
+            "中華"
+          ]
+        },
+        {
+          "hint": "portions",
+          "noun_count": 4,
+          "example_nouns": [
+            "たくさん",
+            "少し",
+            "全部",
+            "半分"
+          ],
+          "all_nouns": [
+            "たくさん",
+            "少し",
+            "全部",
+            "半分"
+          ]
+        }
+      ],
+      "noun_assignments": {
+        "寿司": "Japanese food",
+        "天ぷら": "Japanese food",
+        "ラーメン": "Japanese food",
+        "うどん": "Japanese food",
+        "そば": "Japanese food",
+        "丼": "Japanese food",
+        "弁当": "Japanese food",
+        "おにぎり": "Japanese food",
+        "朝ご飯": "meals",
+        "昼ご飯": "meals",
+        "晩ご飯": "meals",
+        "ご飯": "meals",
+        "食事": "meals",
+        "おやつ": "meals",
+        "肉": "meat",
+        "牛肉": "meat",
+        "豚肉": "meat",
+        "鶏肉": "meat",
+        "魚": "meat",
+        "エビ": "meat",
+        "野菜": "vegetables",
+        "サラダ": "vegetables",
+        "大根": "vegetables",
+        "人参": "vegetables",
+        "キャベツ": "vegetables",
+        "トマト": "vegetables",
+        "果物": "fruits",
+        "りんご": "fruits",
+        "みかん": "fruits",
+        "バナナ": "fruits",
+        "いちご": "fruits",
+        "ぶどう": "fruits",
+        "ケーキ": "sweets",
+        "アイスクリーム": "sweets",
+        "チョコレート": "sweets",
+        "お菓子": "sweets",
+        "デザート": "sweets",
+        "パン": "bread and pasta",
+        "サンドイッチ": "bread and pasta",
+        "ピザ": "bread and pasta",
+        "パスタ": "bread and pasta",
+        "スパゲッティ": "bread and pasta",
+        "スープ": "drinks with meals",
+        "味噌汁": "drinks with meals",
+        "料理": "cooking styles",
+        "和食": "cooking styles",
+        "洋食": "cooking styles",
+        "中華": "cooking styles",
+        "たくさん": "portions",
+        "少し": "portions",
+        "全部": "portions",
+        "半分": "portions"
+      },
+      "statistics": {
+        "total_hints": 10,
+        "avg_nouns_per_hint": 3.3,
+        "max_nouns_in_hint": 8,
+        "min_nouns_in_hint": 2
+      }
+    },
+    "見る": {
+      "word": "見る",
+      "reading": "miru",
+      "english": "to see; to look; to watch; to view; to observe",
+      "total_nouns": 27,
+      "hints": [
+        {
+          "hint": "entertainment",
+          "noun_count": 7,
+          "example_nouns": [
+            "映画",
+            "テレビ",
+            "ビデオ",
+            "アニメ",
+            "ドラマ"
+          ],
+          "all_nouns": [
+            "映画",
+            "テレビ",
+            "ビデオ",
+            "アニメ",
+            "ドラマ",
+            "ニュース",
+            "番組"
+          ]
+        },
+        {
+          "hint": "reading materials",
+          "noun_count": 8,
+          "example_nouns": [
+            "本",
+            "新聞",
+            "雑誌",
+            "手紙",
+            "メール"
+          ],
+          "all_nouns": [
+            "本",
+            "新聞",
+            "雑誌",
+            "手紙",
+            "メール",
+            "地図",
+            "メニュー",
+            "写真"
+          ]
+        },
+        {
+          "hint": "art and culture",
+          "noun_count": 5,
+          "example_nouns": [
+            "絵",
+            "展覧会",
+            "美術館",
+            "博物館",
+            "コンサート"
+          ],
+          "all_nouns": [
+            "絵",
+            "展覧会",
+            "美術館",
+            "博物館",
+            "コンサート"
+          ]
+        },
+        {
+          "hint": "nature",
+          "noun_count": 8,
+          "example_nouns": [
+            "空",
+            "星",
+            "月",
+            "海",
+            "山"
+          ],
+          "all_nouns": [
+            "空",
+            "星",
+            "月",
+            "海",
+            "山",
+            "景色",
+            "花",
+            "鳥"
+          ]
+        },
+        {
+          "hint": "people watching",
+          "noun_count": 6,
+          "example_nouns": [
+            "子供",
+            "赤ちゃん",
+            "友達",
+            "先生",
+            "人"
+          ],
+          "all_nouns": [
+            "子供",
+            "赤ちゃん",
+            "友達",
+            "先生",
+            "人",
+            "顔"
+          ]
+        },
+        {
+          "hint": "checking things",
+          "noun_count": 6,
+          "example_nouns": [
+            "時計",
+            "カレンダー",
+            "スケジュール",
+            "予定",
+            "値段"
+          ],
+          "all_nouns": [
+            "時計",
+            "カレンダー",
+            "スケジュール",
+            "予定",
+            "値段",
+            "答え"
+          ]
+        },
+        {
+          "hint": "documents",
+          "noun_count": 5,
+          "example_nouns": [
+            "資料",
+            "書類",
+            "レポート",
+            "宿題",
+            "試験"
+          ],
+          "all_nouns": [
+            "資料",
+            "書類",
+            "レポート",
+            "宿題",
+            "試験"
+          ]
+        },
+        {
+          "hint": "places",
+          "noun_count": 6,
+          "example_nouns": [
+            "家",
+            "部屋",
+            "店",
+            "学校",
+            "会社"
+          ],
+          "all_nouns": [
+            "家",
+            "部屋",
+            "店",
+            "学校",
+            "会社",
+            "町"
+          ]
+        },
+        {
+          "hint": "dreams and future",
+          "noun_count": 3,
+          "example_nouns": [
+            "夢",
+            "未来",
+            "将来"
+          ],
+          "all_nouns": [
+            "夢",
+            "未来",
+            "将来"
+          ]
+        },
+        {
+          "hint": "problems",
+          "noun_count": 4,
+          "example_nouns": [
+            "問題",
+            "間違い",
+            "事故",
+            "けが"
+          ],
+          "all_nouns": [
+            "問題",
+            "間違い",
+            "事故",
+            "けが"
+          ]
+        }
+      ],
+      "noun_assignments": {
+        "映画": "entertainment",
+        "テレビ": "entertainment",
+        "ビデオ": "entertainment",
+        "アニメ": "entertainment",
+        "ドラマ": "entertainment",
+        "ニュース": "entertainment",
+        "番組": "entertainment",
+        "本": "reading materials",
+        "新聞": "reading materials",
+        "雑誌": "reading materials",
+        "手紙": "reading materials",
+        "メール": "reading materials",
+        "地図": "reading materials",
+        "メニュー": "reading materials",
+        "写真": "reading materials",
+        "絵": "art and culture",
+        "展覧会": "art and culture",
+        "美術館": "art and culture",
+        "博物館": "art and culture",
+        "コンサート": "art and culture",
+        "空": "nature",
+        "星": "nature",
+        "月": "nature",
+        "海": "nature",
+        "山": "nature",
+        "景色": "nature",
+        "花": "nature",
+        "鳥": "nature",
+        "子供": "people watching",
+        "赤ちゃん": "people watching",
+        "友達": "people watching",
+        "先生": "people watching",
+        "人": "people watching",
+        "顔": "people watching",
+        "時計": "checking things",
+        "カレンダー": "checking things",
+        "スケジュール": "checking things",
+        "予定": "checking things",
+        "値段": "checking things",
+        "答え": "checking things",
+        "資料": "documents",
+        "書類": "documents",
+        "レポート": "documents",
+        "宿題": "documents",
+        "試験": "documents",
+        "家": "places",
+        "部屋": "places",
+        "店": "places",
+        "学校": "places",
+        "会社": "places",
+        "町": "places",
+        "夢": "dreams and future",
+        "未来": "dreams and future",
+        "将来": "dreams and future",
+        "問題": "problems",
+        "間違い": "problems",
+        "事故": "problems",
+        "けが": "problems"
+      },
+      "statistics": {
+        "total_hints": 10,
+        "avg_nouns_per_hint": 2.7,
+        "max_nouns_in_hint": 8,
+        "min_nouns_in_hint": 3
+      }
+    },
+    "使う": {
+      "word": "使う",
+      "reading": "tsukau",
+      "english": "to use (a thing method etc.); to make use of; to put to use",
+      "total_nouns": 24,
+      "hints": [
+        {
+          "hint": "tools",
+          "noun_count": 7,
+          "example_nouns": [
+            "ペン",
+            "鉛筆",
+            "はさみ",
+            "ナイフ",
+            "フォーク"
+          ],
+          "all_nouns": [
+            "ペン",
+            "鉛筆",
+            "はさみ",
+            "ナイフ",
+            "フォーク",
+            "箸",
+            "スプーン"
+          ]
+        },
+        {
+          "hint": "electronics",
+          "noun_count": 6,
+          "example_nouns": [
+            "パソコン",
+            "電話",
+            "カメラ",
+            "テレビ",
+            "冷蔵庫"
+          ],
+          "all_nouns": [
+            "パソコン",
+            "電話",
+            "カメラ",
+            "テレビ",
+            "冷蔵庫",
+            "洗濯機"
+          ]
+        },
+        {
+          "hint": "money",
+          "noun_count": 5,
+          "example_nouns": [
+            "お金",
+            "カード",
+            "現金",
+            "小銭",
+            "財布"
+          ],
+          "all_nouns": [
+            "お金",
+            "カード",
+            "現金",
+            "小銭",
+            "財布"
+          ]
+        },
+        {
+          "hint": "transport",
+          "noun_count": 6,
+          "example_nouns": [
+            "車",
+            "自転車",
+            "バス",
+            "電車",
+            "エレベーター"
+          ],
+          "all_nouns": [
+            "車",
+            "自転車",
+            "バス",
+            "電車",
+            "エレベーター",
+            "エスカレーター"
+          ]
+        },
+        {
+          "hint": "resources",
+          "noun_count": 7,
+          "example_nouns": [
+            "時間",
+            "力",
+            "頭",
+            "エネルギー",
+            "電気"
+          ],
+          "all_nouns": [
+            "時間",
+            "力",
+            "頭",
+            "エネルギー",
+            "電気",
+            "水",
+            "ガス"
+          ]
+        },
+        {
+          "hint": "language",
+          "noun_count": 5,
+          "example_nouns": [
+            "日本語",
+            "英語",
+            "言葉",
+            "辞書",
+            "文法"
+          ],
+          "all_nouns": [
+            "日本語",
+            "英語",
+            "言葉",
+            "辞書",
+            "文法"
+          ]
+        },
+        {
+          "hint": "materials",
+          "noun_count": 6,
+          "example_nouns": [
+            "紙",
+            "布",
+            "木",
+            "石",
+            "ガラス"
+          ],
+          "all_nouns": [
+            "紙",
+            "布",
+            "木",
+            "石",
+            "ガラス",
+            "プラスチック"
+          ]
+        },
+        {
+          "hint": "facilities",
+          "noun_count": 5,
+          "example_nouns": [
+            "トイレ",
+            "お風呂",
+            "台所",
+            "部屋",
+            "教室"
+          ],
+          "all_nouns": [
+            "トイレ",
+            "お風呂",
+            "台所",
+            "部屋",
+            "教室"
+          ]
+        }
+      ],
+      "noun_assignments": {
+        "ペン": "tools",
+        "鉛筆": "tools",
+        "はさみ": "tools",
+        "ナイフ": "tools",
+        "フォーク": "tools",
+        "箸": "tools",
+        "スプーン": "tools",
+        "パソコン": "electronics",
+        "電話": "electronics",
+        "カメラ": "electronics",
+        "テレビ": "electronics",
+        "冷蔵庫": "electronics",
+        "洗濯機": "electronics",
+        "お金": "money",
+        "カード": "money",
+        "現金": "money",
+        "小銭": "money",
+        "財布": "money",
+        "車": "transport",
+        "自転車": "transport",
+        "バス": "transport",
+        "電車": "transport",
+        "エレベーター": "transport",
+        "エスカレーター": "transport",
+        "時間": "resources",
+        "力": "resources",
+        "頭": "resources",
+        "エネルギー": "resources",
+        "電気": "resources",
+        "水": "resources",
+        "ガス": "resources",
+        "日本語": "language",
+        "英語": "language",
+        "言葉": "language",
+        "辞書": "language",
+        "文法": "language",
+        "紙": "materials",
+        "布": "materials",
+        "木": "materials",
+        "石": "materials",
+        "ガラス": "materials",
+        "プラスチック": "materials",
+        "トイレ": "facilities",
+        "お風呂": "facilities",
+        "台所": "facilities",
+        "部屋": "facilities",
+        "教室": "facilities"
+      },
+      "statistics": {
+        "total_hints": 8,
+        "avg_nouns_per_hint": 3.0,
+        "max_nouns_in_hint": 7,
+        "min_nouns_in_hint": 5
+      }
+    },
+    "書く": {
+      "word": "書く",
+      "reading": "kaku",
+      "english": "to write; to compose; to pen",
+      "total_nouns": 22,
+      "hints": [
+        {
+          "hint": "correspondence",
+          "noun_count": 6,
+          "example_nouns": [
+            "手紙",
+            "メール",
+            "はがき",
+            "年賀状",
+            "メッセージ"
+          ],
+          "all_nouns": [
+            "手紙",
+            "メール",
+            "はがき",
+            "年賀状",
+            "メッセージ",
+            "カード"
+          ]
+        },
+        {
+          "hint": "academic",
+          "noun_count": 6,
+          "example_nouns": [
+            "レポート",
+            "論文",
+            "宿題",
+            "答え",
+            "作文"
+          ],
+          "all_nouns": [
+            "レポート",
+            "論文",
+            "宿題",
+            "答え",
+            "作文",
+            "感想文"
+          ]
+        },
+        {
+          "hint": "personal",
+          "noun_count": 5,
+          "example_nouns": [
+            "日記",
+            "メモ",
+            "ノート",
+            "予定",
+            "計画"
+          ],
+          "all_nouns": [
+            "日記",
+            "メモ",
+            "ノート",
+            "予定",
+            "計画"
+          ]
+        },
+        {
+          "hint": "official",
+          "noun_count": 5,
+          "example_nouns": [
+            "書類",
+            "申請書",
+            "履歴書",
+            "契約書",
+            "サイン"
+          ],
+          "all_nouns": [
+            "書類",
+            "申請書",
+            "履歴書",
+            "契約書",
+            "サイン"
+          ]
+        },
+        {
+          "hint": "creative",
+          "noun_count": 5,
+          "example_nouns": [
+            "小説",
+            "詩",
+            "物語",
+            "本",
+            "記事"
+          ],
+          "all_nouns": [
+            "小説",
+            "詩",
+            "物語",
+            "本",
+            "記事"
+          ]
+        },
+        {
+          "hint": "information",
+          "noun_count": 7,
+          "example_nouns": [
+            "名前",
+            "住所",
+            "電話番号",
+            "番号",
+            "漢字"
+          ],
+          "all_nouns": [
+            "名前",
+            "住所",
+            "電話番号",
+            "番号",
+            "漢字",
+            "ひらがな",
+            "カタカナ"
+          ]
+        },
+        {
+          "hint": "lists",
+          "noun_count": 4,
+          "example_nouns": [
+            "リスト",
+            "メニュー",
+            "プログラム",
+            "スケジュール"
+          ],
+          "all_nouns": [
+            "リスト",
+            "メニュー",
+            "プログラム",
+            "スケジュール"
+          ]
+        }
+      ],
+      "noun_assignments": {
+        "手紙": "correspondence",
+        "メール": "correspondence",
+        "はがき": "correspondence",
+        "年賀状": "correspondence",
+        "メッセージ": "correspondence",
+        "カード": "correspondence",
+        "レポート": "academic",
+        "論文": "academic",
+        "宿題": "academic",
+        "答え": "academic",
+        "作文": "academic",
+        "感想文": "academic",
+        "日記": "personal",
+        "メモ": "personal",
+        "ノート": "personal",
+        "予定": "personal",
+        "計画": "personal",
+        "書類": "official",
+        "申請書": "official",
+        "履歴書": "official",
+        "契約書": "official",
+        "サイン": "official",
+        "小説": "creative",
+        "詩": "creative",
+        "物語": "creative",
+        "本": "creative",
+        "記事": "creative",
+        "名前": "information",
+        "住所": "information",
+        "電話番号": "information",
+        "番号": "information",
+        "漢字": "information",
+        "ひらがな": "information",
+        "カタカナ": "information",
+        "リスト": "lists",
+        "メニュー": "lists",
+        "プログラム": "lists",
+        "スケジュール": "lists"
+      },
+      "statistics": {
+        "total_hints": 7,
+        "avg_nouns_per_hint": 3.1,
+        "max_nouns_in_hint": 7,
+        "min_nouns_in_hint": 4
+      }
+    },
+    "かかる": {
+      "word": "かかる",
+      "reading": "kakaru",
+      "english": "to take (a resource e.g. time or money)",
+      "total_nouns": 21,
+      "hints": [
+        {
+          "hint": "time it takes",
+          "noun_count": 9,
+          "example_nouns": [
+            "時間",
+            "一時間",
+            "二時間",
+            "三時間",
+            "分"
+          ],
+          "all_nouns": [
+            "時間",
+            "一時間",
+            "二時間",
+            "三時間",
+            "分",
+            "日",
+            "週間",
+            "月",
+            "年"
+          ]
+        },
+        {
+          "hint": "money it costs",
+          "noun_count": 6,
+          "example_nouns": [
+            "お金",
+            "円",
+            "ドル",
+            "費用",
+            "料金"
+          ],
+          "all_nouns": [
+            "お金",
+            "円",
+            "ドル",
+            "費用",
+            "料金",
+            "値段"
+          ]
+        },
+        {
+          "hint": "on the phone",
+          "noun_count": 3,
+          "example_nouns": [
+            "電話",
+            "携帯",
+            "スマホ"
+          ],
+          "all_nouns": [
+            "電話",
+            "携帯",
+            "スマホ"
+          ]
+        },
+        {
+          "hint": "medical issues",
+          "noun_count": 4,
+          "example_nouns": [
+            "病気",
+            "風邪",
+            "インフルエンザ",
+            "医者"
+          ],
+          "all_nouns": [
+            "病気",
+            "風邪",
+            "インフルエンザ",
+            "医者"
+          ]
+        },
+        {
+          "hint": "hanging things",
+          "noun_count": 5,
+          "example_nouns": [
+            "絵",
+            "時計",
+            "カレンダー",
+            "鏡",
+            "ポスター"
+          ],
+          "all_nouns": [
+            "絵",
+            "時計",
+            "カレンダー",
+            "鏡",
+            "ポスター"
+          ]
+        },
+        {
+          "hint": "bridges crossed",
+          "noun_count": 2,
+          "example_nouns": [
+            "橋",
+            "道路"
+          ],
+          "all_nouns": [
+            "橋",
+            "道路"
+          ]
+        },
+        {
+          "hint": "locks and security",
+          "noun_count": 3,
+          "example_nouns": [
+            "鍵",
+            "ロック",
+            "セキュリティ"
+          ],
+          "all_nouns": [
+            "鍵",
+            "ロック",
+            "セキュリティ"
+          ]
+        }
+      ],
+      "noun_assignments": {
+        "時間": "time it takes",
+        "一時間": "time it takes",
+        "二時間": "time it takes",
+        "三時間": "time it takes",
+        "分": "time it takes",
+        "日": "time it takes",
+        "週間": "time it takes",
+        "月": "time it takes",
+        "年": "time it takes",
+        "お金": "money it costs",
+        "円": "money it costs",
+        "ドル": "money it costs",
+        "費用": "money it costs",
+        "料金": "money it costs",
+        "値段": "money it costs",
+        "電話": "on the phone",
+        "携帯": "on the phone",
+        "スマホ": "on the phone",
+        "病気": "medical issues",
+        "風邪": "medical issues",
+        "インフルエンザ": "medical issues",
+        "医者": "medical issues",
+        "絵": "hanging things",
+        "時計": "hanging things",
+        "カレンダー": "hanging things",
+        "鏡": "hanging things",
+        "ポスター": "hanging things",
+        "橋": "bridges crossed",
+        "道路": "bridges crossed",
+        "鍵": "locks and security",
+        "ロック": "locks and security",
+        "セキュリティ": "locks and security"
+      },
+      "statistics": {
+        "total_hints": 7,
+        "avg_nouns_per_hint": 3.0,
+        "max_nouns_in_hint": 9,
+        "min_nouns_in_hint": 2
+      }
+    },
+    "なる": {
+      "word": "なる",
+      "reading": "naru",
+      "english": "to become; to get; to grow; to be; to reach; to attain",
+      "total_nouns": 17,
+      "hints": [
+        {
+          "hint": "professions you become",
+          "noun_count": 6,
+          "example_nouns": [
+            "医者",
+            "先生",
+            "学生",
+            "社長",
+            "大人"
+          ],
+          "all_nouns": [
+            "医者",
+            "先生",
+            "学生",
+            "社長",
+            "大人",
+            "親"
+          ]
+        },
+        {
+          "hint": "states you reach",
+          "noun_count": 8,
+          "example_nouns": [
+            "元気",
+            "病気",
+            "健康",
+            "幸せ",
+            "上手"
+          ],
+          "all_nouns": [
+            "元気",
+            "病気",
+            "健康",
+            "幸せ",
+            "上手",
+            "下手",
+            "静か",
+            "賑やか"
+          ]
+        },
+        {
+          "hint": "times that arrive",
+          "noun_count": 8,
+          "example_nouns": [
+            "春",
+            "夏",
+            "秋",
+            "冬",
+            "朝"
+          ],
+          "all_nouns": [
+            "春",
+            "夏",
+            "秋",
+            "冬",
+            "朝",
+            "夜",
+            "明日",
+            "来週"
+          ]
+        },
+        {
+          "hint": "ages you turn",
+          "noun_count": 4,
+          "example_nouns": [
+            "二十歳",
+            "三十歳",
+            "歳",
+            "大人"
+          ],
+          "all_nouns": [
+            "二十歳",
+            "三十歳",
+            "歳",
+            "大人"
+          ]
+        },
+        {
+          "hint": "weather changes",
+          "noun_count": 7,
+          "example_nouns": [
+            "晴れ",
+            "雨",
+            "曇り",
+            "暖かく",
+            "寒く"
+          ],
+          "all_nouns": [
+            "晴れ",
+            "雨",
+            "曇り",
+            "暖かく",
+            "寒く",
+            "暑く",
+            "涼しく"
+          ]
+        }
+      ],
+      "noun_assignments": {
+        "医者": "professions you become",
+        "先生": "professions you become",
+        "学生": "professions you become",
+        "社長": "professions you become",
+        "大人": "ages you turn",
+        "親": "professions you become",
+        "元気": "states you reach",
+        "病気": "states you reach",
+        "健康": "states you reach",
+        "幸せ": "states you reach",
+        "上手": "states you reach",
+        "下手": "states you reach",
+        "静か": "states you reach",
+        "賑やか": "states you reach",
+        "春": "times that arrive",
+        "夏": "times that arrive",
+        "秋": "times that arrive",
+        "冬": "times that arrive",
+        "朝": "times that arrive",
+        "夜": "times that arrive",
+        "明日": "times that arrive",
+        "来週": "times that arrive",
+        "二十歳": "ages you turn",
+        "三十歳": "ages you turn",
+        "歳": "ages you turn",
+        "晴れ": "weather changes",
+        "雨": "weather changes",
+        "曇り": "weather changes",
+        "暖かく": "weather changes",
+        "寒く": "weather changes",
+        "暑く": "weather changes",
+        "涼しく": "weather changes"
+      },
+      "statistics": {
+        "total_hints": 5,
+        "avg_nouns_per_hint": 3.4,
+        "max_nouns_in_hint": 8,
+        "min_nouns_in_hint": 4
+      }
+    },
+    "わかる": {
+      "word": "わかる",
+      "reading": "wakaru",
+      "english": "to understand; to comprehend; to grasp; to see; to get; to follow",
+      "total_nouns": 17,
+      "hints": [
+        {
+          "hint": "languages understood",
+          "noun_count": 7,
+          "example_nouns": [
+            "日本語",
+            "英語",
+            "中国語",
+            "韓国語",
+            "言葉"
+          ],
+          "all_nouns": [
+            "日本語",
+            "英語",
+            "中国語",
+            "韓国語",
+            "言葉",
+            "意味",
+            "文法"
+          ]
+        },
+        {
+          "hint": "answers found",
+          "noun_count": 6,
+          "example_nouns": [
+            "答え",
+            "解答",
+            "結果",
+            "理由",
+            "原因"
+          ],
+          "all_nouns": [
+            "答え",
+            "解答",
+            "結果",
+            "理由",
+            "原因",
+            "解決"
+          ]
+        },
+        {
+          "hint": "directions known",
+          "noun_count": 5,
+          "example_nouns": [
+            "道",
+            "場所",
+            "住所",
+            "行き方",
+            "地図"
+          ],
+          "all_nouns": [
+            "道",
+            "場所",
+            "住所",
+            "行き方",
+            "地図"
+          ]
+        },
+        {
+          "hint": "feelings understood",
+          "noun_count": 4,
+          "example_nouns": [
+            "気持ち",
+            "心",
+            "愛",
+            "感情"
+          ],
+          "all_nouns": [
+            "気持ち",
+            "心",
+            "愛",
+            "感情"
+          ]
+        },
+        {
+          "hint": "knowledge gained",
+          "noun_count": 5,
+          "example_nouns": [
+            "方法",
+            "やり方",
+            "使い方",
+            "ルール",
+            "法律"
+          ],
+          "all_nouns": [
+            "方法",
+            "やり方",
+            "使い方",
+            "ルール",
+            "法律"
+          ]
+        },
+        {
+          "hint": "information learned",
+          "noun_count": 5,
+          "example_nouns": [
+            "名前",
+            "電話番号",
+            "時間",
+            "値段",
+            "番号"
+          ],
+          "all_nouns": [
+            "名前",
+            "電話番号",
+            "時間",
+            "値段",
+            "番号"
+          ]
+        }
+      ],
+      "noun_assignments": {
+        "日本語": "languages understood",
+        "英語": "languages understood",
+        "中国語": "languages understood",
+        "韓国語": "languages understood",
+        "言葉": "languages understood",
+        "意味": "languages understood",
+        "文法": "languages understood",
+        "答え": "answers found",
+        "解答": "answers found",
+        "結果": "answers found",
+        "理由": "answers found",
+        "原因": "answers found",
+        "解決": "answers found",
+        "道": "directions known",
+        "場所": "directions known",
+        "住所": "directions known",
+        "行き方": "directions known",
+        "地図": "directions known",
+        "気持ち": "feelings understood",
+        "心": "feelings understood",
+        "愛": "feelings understood",
+        "感情": "feelings understood",
+        "方法": "knowledge gained",
+        "やり方": "knowledge gained",
+        "使い方": "knowledge gained",
+        "ルール": "knowledge gained",
+        "法律": "knowledge gained",
+        "名前": "information learned",
+        "電話番号": "information learned",
+        "時間": "information learned",
+        "値段": "information learned",
+        "番号": "information learned"
+      },
+      "statistics": {
+        "total_hints": 6,
+        "avg_nouns_per_hint": 2.8,
+        "max_nouns_in_hint": 7,
+        "min_nouns_in_hint": 4
+      }
+    },
+    "乗る": {
+      "word": "乗る",
+      "reading": "noru",
+      "english": "to get on (train plane bus ship etc.); to get in; to board; to take; to embark",
+      "total_nouns": 16,
+      "hints": [
+        {
+          "hint": "public transport",
+          "noun_count": 6,
+          "example_nouns": [
+            "バス",
+            "電車",
+            "地下鉄",
+            "新幹線",
+            "タクシー"
+          ],
+          "all_nouns": [
+            "バス",
+            "電車",
+            "地下鉄",
+            "新幹線",
+            "タクシー",
+            "モノレール"
+          ]
+        },
+        {
+          "hint": "personal vehicles",
+          "noun_count": 4,
+          "example_nouns": [
+            "車",
+            "自転車",
+            "バイク",
+            "スクーター"
+          ],
+          "all_nouns": [
+            "車",
+            "自転車",
+            "バイク",
+            "スクーター"
+          ]
+        },
+        {
+          "hint": "air and sea",
+          "noun_count": 5,
+          "example_nouns": [
+            "飛行機",
+            "船",
+            "ヨット",
+            "ボート",
+            "フェリー"
+          ],
+          "all_nouns": [
+            "飛行機",
+            "船",
+            "ヨット",
+            "ボート",
+            "フェリー"
+          ]
+        },
+        {
+          "hint": "animals to ride",
+          "noun_count": 4,
+          "example_nouns": [
+            "馬",
+            "象",
+            "らくだ",
+            "ロバ"
+          ],
+          "all_nouns": [
+            "馬",
+            "象",
+            "らくだ",
+            "ロバ"
+          ]
+        },
+        {
+          "hint": "building transport",
+          "noun_count": 3,
+          "example_nouns": [
+            "エレベーター",
+            "エスカレーター",
+            "リフト"
+          ],
+          "all_nouns": [
+            "エレベーター",
+            "エスカレーター",
+            "リフト"
+          ]
+        }
+      ],
+      "noun_assignments": {
+        "バス": "public transport",
+        "電車": "public transport",
+        "地下鉄": "public transport",
+        "新幹線": "public transport",
+        "タクシー": "public transport",
+        "モノレール": "public transport",
+        "車": "personal vehicles",
+        "自転車": "personal vehicles",
+        "バイク": "personal vehicles",
+        "スクーター": "personal vehicles",
+        "飛行機": "air and sea",
+        "船": "air and sea",
+        "ヨット": "air and sea",
+        "ボート": "air and sea",
+        "フェリー": "air and sea",
+        "馬": "animals to ride",
+        "象": "animals to ride",
+        "らくだ": "animals to ride",
+        "ロバ": "animals to ride",
+        "エレベーター": "building transport",
+        "エスカレーター": "building transport",
+        "リフト": "building transport"
+      },
+      "statistics": {
+        "total_hints": 5,
+        "avg_nouns_per_hint": 3.2,
+        "max_nouns_in_hint": 6,
+        "min_nouns_in_hint": 3
+      }
+    },
+    "言う": {
+      "word": "言う",
+      "reading": "iu",
+      "english": "to say; to utter; to declare",
+      "total_nouns": 15,
+      "hints": [
+        {
+          "hint": "greetings",
+          "noun_count": 6,
+          "example_nouns": [
+            "おはよう",
+            "こんにちは",
+            "こんばんは",
+            "さようなら",
+            "ありがとう"
+          ],
+          "all_nouns": [
+            "おはよう",
+            "こんにちは",
+            "こんばんは",
+            "さようなら",
+            "ありがとう",
+            "すみません"
+          ]
+        },
+        {
+          "hint": "opinions",
+          "noun_count": 6,
+          "example_nouns": [
+            "意見",
+            "考え",
+            "気持ち",
+            "感想",
+            "批判"
+          ],
+          "all_nouns": [
+            "意見",
+            "考え",
+            "気持ち",
+            "感想",
+            "批判",
+            "文句"
+          ]
+        },
+        {
+          "hint": "information",
+          "noun_count": 6,
+          "example_nouns": [
+            "名前",
+            "住所",
+            "電話番号",
+            "答え",
+            "理由"
+          ],
+          "all_nouns": [
+            "名前",
+            "住所",
+            "電話番号",
+            "答え",
+            "理由",
+            "説明"
+          ]
+        },
+        {
+          "hint": "words and phrases",
+          "noun_count": 5,
+          "example_nouns": [
+            "言葉",
+            "日本語",
+            "英語",
+            "文",
+            "単語"
+          ],
+          "all_nouns": [
+            "言葉",
+            "日本語",
+            "英語",
+            "文",
+            "単語"
+          ]
+        },
+        {
+          "hint": "truth and lies",
+          "noun_count": 4,
+          "example_nouns": [
+            "本当",
+            "嘘",
+            "真実",
+            "秘密"
+          ],
+          "all_nouns": [
+            "本当",
+            "嘘",
+            "真実",
+            "秘密"
+          ]
+        },
+        {
+          "hint": "requests",
+          "noun_count": 4,
+          "example_nouns": [
+            "お願い",
+            "頼み",
+            "命令",
+            "注文"
+          ],
+          "all_nouns": [
+            "お願い",
+            "頼み",
+            "命令",
+            "注文"
+          ]
+        },
+        {
+          "hint": "stories",
+          "noun_count": 5,
+          "example_nouns": [
+            "話",
+            "物語",
+            "冗談",
+            "例え",
+            "昔話"
+          ],
+          "all_nouns": [
+            "話",
+            "物語",
+            "冗談",
+            "例え",
+            "昔話"
+          ]
+        },
+        {
+          "hint": "responses",
+          "noun_count": 4,
+          "example_nouns": [
+            "はい",
+            "いいえ",
+            "返事",
+            "答え"
+          ],
+          "all_nouns": [
+            "はい",
+            "いいえ",
+            "返事",
+            "答え"
+          ]
+        },
+        {
+          "hint": "complaints",
+          "noun_count": 4,
+          "example_nouns": [
+            "文句",
+            "不満",
+            "苦情",
+            "愚痴"
+          ],
+          "all_nouns": [
+            "文句",
+            "不満",
+            "苦情",
+            "愚痴"
+          ]
+        }
+      ],
+      "noun_assignments": {
+        "おはよう": "greetings",
+        "こんにちは": "greetings",
+        "こんばんは": "greetings",
+        "さようなら": "greetings",
+        "ありがとう": "greetings",
+        "すみません": "greetings",
+        "意見": "opinions",
+        "考え": "opinions",
+        "気持ち": "opinions",
+        "感想": "opinions",
+        "批判": "opinions",
+        "文句": "complaints",
+        "名前": "information",
+        "住所": "information",
+        "電話番号": "information",
+        "答え": "responses",
+        "理由": "information",
+        "説明": "information",
+        "言葉": "words and phrases",
+        "日本語": "words and phrases",
+        "英語": "words and phrases",
+        "文": "words and phrases",
+        "単語": "words and phrases",
+        "本当": "truth and lies",
+        "嘘": "truth and lies",
+        "真実": "truth and lies",
+        "秘密": "truth and lies",
+        "お願い": "requests",
+        "頼み": "requests",
+        "命令": "requests",
+        "注文": "requests",
+        "話": "stories",
+        "物語": "stories",
+        "冗談": "stories",
+        "例え": "stories",
+        "昔話": "stories",
+        "はい": "responses",
+        "いいえ": "responses",
+        "返事": "responses",
+        "不満": "complaints",
+        "苦情": "complaints",
+        "愚痴": "complaints"
+      },
+      "statistics": {
+        "total_hints": 9,
+        "avg_nouns_per_hint": 1.7,
+        "max_nouns_in_hint": 6,
+        "min_nouns_in_hint": 4
+      }
+    },
+    "入る": {
+      "word": "入る",
+      "reading": "hairu",
+      "english": "to enter; to go into",
+      "total_nouns": 15,
+      "hints": [
+        {
+          "hint": "buildings",
+          "noun_count": 7,
+          "example_nouns": [
+            "家",
+            "部屋",
+            "店",
+            "レストラン",
+            "ホテル"
+          ],
+          "all_nouns": [
+            "家",
+            "部屋",
+            "店",
+            "レストラン",
+            "ホテル",
+            "病院",
+            "会社"
+          ]
+        },
+        {
+          "hint": "education",
+          "noun_count": 6,
+          "example_nouns": [
+            "学校",
+            "大学",
+            "高校",
+            "小学校",
+            "クラス"
+          ],
+          "all_nouns": [
+            "学校",
+            "大学",
+            "高校",
+            "小学校",
+            "クラス",
+            "教室"
+          ]
+        },
+        {
+          "hint": "bathing",
+          "noun_count": 4,
+          "example_nouns": [
+            "お風呂",
+            "温泉",
+            "シャワー",
+            "プール"
+          ],
+          "all_nouns": [
+            "お風呂",
+            "温泉",
+            "シャワー",
+            "プール"
+          ]
+        },
+        {
+          "hint": "transportation",
+          "noun_count": 5,
+          "example_nouns": [
+            "車",
+            "バス",
+            "電車",
+            "タクシー",
+            "エレベーター"
+          ],
+          "all_nouns": [
+            "車",
+            "バス",
+            "電車",
+            "タクシー",
+            "エレベーター"
+          ]
+        },
+        {
+          "hint": "containers",
+          "noun_count": 5,
+          "example_nouns": [
+            "かばん",
+            "ポケット",
+            "財布",
+            "冷蔵庫",
+            "箱"
+          ],
+          "all_nouns": [
+            "かばん",
+            "ポケット",
+            "財布",
+            "冷蔵庫",
+            "箱"
+          ]
+        },
+        {
+          "hint": "groups",
+          "noun_count": 5,
+          "example_nouns": [
+            "会社",
+            "クラブ",
+            "チーム",
+            "グループ",
+            "組織"
+          ],
+          "all_nouns": [
+            "会社",
+            "クラブ",
+            "チーム",
+            "グループ",
+            "組織"
+          ]
+        },
+        {
+          "hint": "abstract",
+          "noun_count": 4,
+          "example_nouns": [
+            "気分",
+            "調子",
+            "習慣",
+            "気持ち"
+          ],
+          "all_nouns": [
+            "気分",
+            "調子",
+            "習慣",
+            "気持ち"
+          ]
+        }
+      ],
+      "noun_assignments": {
+        "家": "buildings",
+        "部屋": "buildings",
+        "店": "buildings",
+        "レストラン": "buildings",
+        "ホテル": "buildings",
+        "病院": "buildings",
+        "会社": "groups",
+        "学校": "education",
+        "大学": "education",
+        "高校": "education",
+        "小学校": "education",
+        "クラス": "education",
+        "教室": "education",
+        "お風呂": "bathing",
+        "温泉": "bathing",
+        "シャワー": "bathing",
+        "プール": "bathing",
+        "車": "transportation",
+        "バス": "transportation",
+        "電車": "transportation",
+        "タクシー": "transportation",
+        "エレベーター": "transportation",
+        "かばん": "containers",
+        "ポケット": "containers",
+        "財布": "containers",
+        "冷蔵庫": "containers",
+        "箱": "containers",
+        "クラブ": "groups",
+        "チーム": "groups",
+        "グループ": "groups",
+        "組織": "groups",
+        "気分": "abstract",
+        "調子": "abstract",
+        "習慣": "abstract",
+        "気持ち": "abstract"
+      },
+      "statistics": {
+        "total_hints": 7,
+        "avg_nouns_per_hint": 2.1,
+        "max_nouns_in_hint": 7,
+        "min_nouns_in_hint": 4
+      }
+    },
+    "終わる": {
+      "word": "終わる",
+      "reading": "owaru",
+      "english": "to end; to come to an end; to close; to finish",
+      "total_nouns": 14,
+      "hints": [
+        {
+          "hint": "classes ending",
+          "noun_count": 6,
+          "example_nouns": [
+            "授業",
+            "学校",
+            "レッスン",
+            "講義",
+            "ゼミ"
+          ],
+          "all_nouns": [
+            "授業",
+            "学校",
+            "レッスン",
+            "講義",
+            "ゼミ",
+            "クラス"
+          ]
+        },
+        {
+          "hint": "work finishing",
+          "noun_count": 5,
+          "example_nouns": [
+            "仕事",
+            "会議",
+            "プロジェクト",
+            "残業",
+            "バイト"
+          ],
+          "all_nouns": [
+            "仕事",
+            "会議",
+            "プロジェクト",
+            "残業",
+            "バイト"
+          ]
+        },
+        {
+          "hint": "events concluding",
+          "noun_count": 5,
+          "example_nouns": [
+            "パーティー",
+            "コンサート",
+            "試合",
+            "式",
+            "祭り"
+          ],
+          "all_nouns": [
+            "パーティー",
+            "コンサート",
+            "試合",
+            "式",
+            "祭り"
+          ]
+        },
+        {
+          "hint": "time periods ending",
+          "noun_count": 6,
+          "example_nouns": [
+            "夏休み",
+            "冬休み",
+            "週末",
+            "一日",
+            "一年"
+          ],
+          "all_nouns": [
+            "夏休み",
+            "冬休み",
+            "週末",
+            "一日",
+            "一年",
+            "学期"
+          ]
+        },
+        {
+          "hint": "media finishing",
+          "noun_count": 5,
+          "example_nouns": [
+            "映画",
+            "ドラマ",
+            "番組",
+            "本",
+            "話"
+          ],
+          "all_nouns": [
+            "映画",
+            "ドラマ",
+            "番組",
+            "本",
+            "話"
+          ]
+        }
+      ],
+      "noun_assignments": {
+        "授業": "classes ending",
+        "学校": "classes ending",
+        "レッスン": "classes ending",
+        "講義": "classes ending",
+        "ゼミ": "classes ending",
+        "クラス": "classes ending",
+        "仕事": "work finishing",
+        "会議": "work finishing",
+        "プロジェクト": "work finishing",
+        "残業": "work finishing",
+        "バイト": "work finishing",
+        "パーティー": "events concluding",
+        "コンサート": "events concluding",
+        "試合": "events concluding",
+        "式": "events concluding",
+        "祭り": "events concluding",
+        "夏休み": "time periods ending",
+        "冬休み": "time periods ending",
+        "週末": "time periods ending",
+        "一日": "time periods ending",
+        "一年": "time periods ending",
+        "学期": "time periods ending",
+        "映画": "media finishing",
+        "ドラマ": "media finishing",
+        "番組": "media finishing",
+        "本": "media finishing",
+        "話": "media finishing"
+      },
+      "statistics": {
+        "total_hints": 5,
+        "avg_nouns_per_hint": 2.8,
+        "max_nouns_in_hint": 6,
+        "min_nouns_in_hint": 5
+      }
+    },
+    "知る": {
+      "word": "知る",
+      "reading": "shiru",
+      "english": "to be aware of; to know; to be conscious of; to cognize; to cognise",
+      "total_nouns": 14,
+      "hints": [
+        {
+          "hint": "people",
+          "noun_count": 7,
+          "example_nouns": [
+            "人",
+            "友達",
+            "先生",
+            "彼",
+            "彼女"
+          ],
+          "all_nouns": [
+            "人",
+            "友達",
+            "先生",
+            "彼",
+            "彼女",
+            "名前",
+            "家族"
+          ]
+        },
+        {
+          "hint": "information",
+          "noun_count": 7,
+          "example_nouns": [
+            "情報",
+            "ニュース",
+            "答え",
+            "結果",
+            "理由"
+          ],
+          "all_nouns": [
+            "情報",
+            "ニュース",
+            "答え",
+            "結果",
+            "理由",
+            "原因",
+            "意味"
+          ]
+        },
+        {
+          "hint": "places",
+          "noun_count": 6,
+          "example_nouns": [
+            "場所",
+            "住所",
+            "道",
+            "店",
+            "レストラン"
+          ],
+          "all_nouns": [
+            "場所",
+            "住所",
+            "道",
+            "店",
+            "レストラン",
+            "学校"
+          ]
+        },
+        {
+          "hint": "facts",
+          "noun_count": 5,
+          "example_nouns": [
+            "事実",
+            "真実",
+            "本当",
+            "嘘",
+            "秘密"
+          ],
+          "all_nouns": [
+            "事実",
+            "真実",
+            "本当",
+            "嘘",
+            "秘密"
+          ]
+        },
+        {
+          "hint": "knowledge",
+          "noun_count": 6,
+          "example_nouns": [
+            "日本語",
+            "英語",
+            "文化",
+            "歴史",
+            "方法"
+          ],
+          "all_nouns": [
+            "日本語",
+            "英語",
+            "文化",
+            "歴史",
+            "方法",
+            "やり方"
+          ]
+        },
+        {
+          "hint": "feelings",
+          "noun_count": 5,
+          "example_nouns": [
+            "気持ち",
+            "愛",
+            "喜び",
+            "悲しみ",
+            "幸せ"
+          ],
+          "all_nouns": [
+            "気持ち",
+            "愛",
+            "喜び",
+            "悲しみ",
+            "幸せ"
+          ]
+        },
+        {
+          "hint": "contact",
+          "noun_count": 3,
+          "example_nouns": [
+            "電話番号",
+            "メールアドレス",
+            "連絡先"
+          ],
+          "all_nouns": [
+            "電話番号",
+            "メールアドレス",
+            "連絡先"
+          ]
+        }
+      ],
+      "noun_assignments": {
+        "人": "people",
+        "友達": "people",
+        "先生": "people",
+        "彼": "people",
+        "彼女": "people",
+        "名前": "people",
+        "家族": "people",
+        "情報": "information",
+        "ニュース": "information",
+        "答え": "information",
+        "結果": "information",
+        "理由": "information",
+        "原因": "information",
+        "意味": "information",
+        "場所": "places",
+        "住所": "places",
+        "道": "places",
+        "店": "places",
+        "レストラン": "places",
+        "学校": "places",
+        "事実": "facts",
+        "真実": "facts",
+        "本当": "facts",
+        "嘘": "facts",
+        "秘密": "facts",
+        "日本語": "knowledge",
+        "英語": "knowledge",
+        "文化": "knowledge",
+        "歴史": "knowledge",
+        "方法": "knowledge",
+        "やり方": "knowledge",
+        "気持ち": "feelings",
+        "愛": "feelings",
+        "喜び": "feelings",
+        "悲しみ": "feelings",
+        "幸せ": "feelings",
+        "電話番号": "contact",
+        "メールアドレス": "contact",
+        "連絡先": "contact"
+      },
+      "statistics": {
+        "total_hints": 7,
+        "avg_nouns_per_hint": 2.0,
+        "max_nouns_in_hint": 7,
+        "min_nouns_in_hint": 3
+      }
+    },
+    "始まる": {
+      "word": "始まる",
+      "reading": "hajimaru",
+      "english": "to begin; to start; to commence",
+      "total_nouns": 13,
+      "hints": [
+        {
+          "hint": "classes starting",
+          "noun_count": 6,
+          "example_nouns": [
+            "授業",
+            "学校",
+            "レッスン",
+            "講義",
+            "ゼミ"
+          ],
+          "all_nouns": [
+            "授業",
+            "学校",
+            "レッスン",
+            "講義",
+            "ゼミ",
+            "新学期"
+          ]
+        },
+        {
+          "hint": "work beginning",
+          "noun_count": 4,
+          "example_nouns": [
+            "仕事",
+            "会議",
+            "プロジェクト",
+            "営業"
+          ],
+          "all_nouns": [
+            "仕事",
+            "会議",
+            "プロジェクト",
+            "営業"
+          ]
+        },
+        {
+          "hint": "events commencing",
+          "noun_count": 6,
+          "example_nouns": [
+            "パーティー",
+            "コンサート",
+            "試合",
+            "式",
+            "祭り"
+          ],
+          "all_nouns": [
+            "パーティー",
+            "コンサート",
+            "試合",
+            "式",
+            "祭り",
+            "オリンピック"
+          ]
+        },
+        {
+          "hint": "time periods beginning",
+          "noun_count": 5,
+          "example_nouns": [
+            "夏休み",
+            "新年",
+            "一日",
+            "朝",
+            "週"
+          ],
+          "all_nouns": [
+            "夏休み",
+            "新年",
+            "一日",
+            "朝",
+            "週"
+          ]
+        },
+        {
+          "hint": "seasons arriving",
+          "noun_count": 5,
+          "example_nouns": [
+            "春",
+            "夏",
+            "秋",
+            "冬",
+            "梅雨"
+          ],
+          "all_nouns": [
+            "春",
+            "夏",
+            "秋",
+            "冬",
+            "梅雨"
+          ]
+        },
+        {
+          "hint": "new things",
+          "noun_count": 4,
+          "example_nouns": [
+            "新生活",
+            "戦争",
+            "恋",
+            "友情"
+          ],
+          "all_nouns": [
+            "新生活",
+            "戦争",
+            "恋",
+            "友情"
+          ]
+        }
+      ],
+      "noun_assignments": {
+        "授業": "classes starting",
+        "学校": "classes starting",
+        "レッスン": "classes starting",
+        "講義": "classes starting",
+        "ゼミ": "classes starting",
+        "新学期": "classes starting",
+        "仕事": "work beginning",
+        "会議": "work beginning",
+        "プロジェクト": "work beginning",
+        "営業": "work beginning",
+        "パーティー": "events commencing",
+        "コンサート": "events commencing",
+        "試合": "events commencing",
+        "式": "events commencing",
+        "祭り": "events commencing",
+        "オリンピック": "events commencing",
+        "夏休み": "time periods beginning",
+        "新年": "time periods beginning",
+        "一日": "time periods beginning",
+        "朝": "time periods beginning",
+        "週": "time periods beginning",
+        "春": "seasons arriving",
+        "夏": "seasons arriving",
+        "秋": "seasons arriving",
+        "冬": "seasons arriving",
+        "梅雨": "seasons arriving",
+        "新生活": "new things",
+        "戦争": "new things",
+        "恋": "new things",
+        "友情": "new things"
+      },
+      "statistics": {
+        "total_hints": 6,
+        "avg_nouns_per_hint": 2.2,
+        "max_nouns_in_hint": 6,
+        "min_nouns_in_hint": 4
+      }
+    },
+    "起きる": {
+      "word": "起きる",
+      "reading": "okiru",
+      "english": "to get up; to rise; to blaze up (fire)",
+      "total_nouns": 13,
+      "hints": [
+        {
+          "hint": "times to wake up",
+          "noun_count": 7,
+          "example_nouns": [
+            "朝",
+            "午前",
+            "早く",
+            "遅く",
+            "六時"
+          ],
+          "all_nouns": [
+            "朝",
+            "午前",
+            "早く",
+            "遅く",
+            "六時",
+            "七時",
+            "八時"
+          ]
+        },
+        {
+          "hint": "events that happen",
+          "noun_count": 6,
+          "example_nouns": [
+            "事故",
+            "地震",
+            "火事",
+            "問題",
+            "事件"
+          ],
+          "all_nouns": [
+            "事故",
+            "地震",
+            "火事",
+            "問題",
+            "事件",
+            "戦争"
+          ]
+        },
+        {
+          "hint": "from sleeping",
+          "noun_count": 5,
+          "example_nouns": [
+            "ベッド",
+            "布団",
+            "眠り",
+            "夢",
+            "昼寝"
+          ],
+          "all_nouns": [
+            "ベッド",
+            "布団",
+            "眠り",
+            "夢",
+            "昼寝"
+          ]
+        },
+        {
+          "hint": "body getting up",
+          "noun_count": 4,
+          "example_nouns": [
+            "体",
+            "頭",
+            "身体",
+            "顔"
+          ],
+          "all_nouns": [
+            "体",
+            "頭",
+            "身体",
+            "顔"
+          ]
+        }
+      ],
+      "noun_assignments": {
+        "朝": "times to wake up",
+        "午前": "times to wake up",
+        "早く": "times to wake up",
+        "遅く": "times to wake up",
+        "六時": "times to wake up",
+        "七時": "times to wake up",
+        "八時": "times to wake up",
+        "事故": "events that happen",
+        "地震": "events that happen",
+        "火事": "events that happen",
+        "問題": "events that happen",
+        "事件": "events that happen",
+        "戦争": "events that happen",
+        "ベッド": "from sleeping",
+        "布団": "from sleeping",
+        "眠り": "from sleeping",
+        "夢": "from sleeping",
+        "昼寝": "from sleeping",
+        "体": "body getting up",
+        "頭": "body getting up",
+        "身体": "body getting up",
+        "顔": "body getting up"
+      },
+      "statistics": {
+        "total_hints": 4,
+        "avg_nouns_per_hint": 3.2,
+        "max_nouns_in_hint": 7,
+        "min_nouns_in_hint": 4
+      }
+    }
+  }
+}

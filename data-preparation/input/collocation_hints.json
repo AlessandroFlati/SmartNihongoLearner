@@ -1,0 +1,3034 @@
+{
+  "version": "1.0.0",
+  "generated_date": "2025-11-11",
+  "total_words": 390,
+  "total_nouns_with_hints": 2246,
+  "hints": {
+    "する": {
+      "仕事": "work and study",
+      "勉強": "work and study",
+      "話": "communication",
+      "質問": "communication",
+      "買い物": "daily activities",
+      "料理": "daily activities",
+      "運動": "work and study",
+      "練習": "work and study",
+      "準備": "daily activities",
+      "旅行": "actions and events",
+      "経験": "general",
+      "連絡": "general",
+      "紹介": "general",
+      "説明": "communication",
+      "研究": "work and study",
+      "計画": "work and study",
+      "会議": "actions and events",
+      "試合": "entertainment",
+      "試験": "general",
+      "結婚": "general",
+      "失敗": "general",
+      "相談": "communication",
+      "用意": "daily activities",
+      "予約": "reading materials",
+      "招待": "general",
+      "挨拶": "body parts",
+      "翻訳": "general",
+      "注意": "transportation",
+      "心配": "body parts",
+      "安心": "general",
+      "利用": "general",
+      "放送": "general",
+      "教育": "beverages",
+      "卒業": "general",
+      "生産": "information and knowledge",
+      "掃除": "daily activities",
+      "案内": "entertainment",
+      "邪魔": "general",
+      "散歩": "general",
+      "洗濯": "daily activities",
+      "出発": "general",
+      "入学": "places",
+      "入院": "places",
+      "出席": "body parts",
+      "競争": "general",
+      "喧嘩": "general",
+      "反対": "general",
+      "遠慮": "transportation",
+      "会話": "communication",
+      "アルバイト": "work and study",
+      "世話": "general",
+      "復習": "body parts",
+      "予習": "daily activities",
+      "チェック": "general",
+      "失礼": "general",
+      "輸入": "general",
+      "輸出": "general",
+      "貿易": "general",
+      "承知": "information and knowledge",
+      "注射": "general",
+      "水泳": "general",
+      "柔道": "general",
+      "花見": "general",
+      "支度": "daily activities",
+      "退院": "places",
+      "見物": "objects and tools",
+      "寝坊": "general",
+      "下宿": "places",
+      "お礼": "general",
+      "お祝い": "actions and events",
+      "テニス": "general",
+      "マッチ": "general",
+      "故障": "general",
+      "発音": "general",
+      "ご馳走": "general",
+      "代わり": "places",
+      "匂い": "general",
+      "パート": "general",
+      "格好": "general",
+      "拝見": "general"
+    },
+    "いる": {
+      "人": "people and relationships",
+      "家": "places",
+      "部屋": "places",
+      "場所": "places",
+      "中": "general",
+      "学校": "places",
+      "会社": "general",
+      "国": "abstract concepts",
+      "所": "places",
+      "母": "people and relationships",
+      "父": "people and relationships",
+      "息子": "general",
+      "娘": "general",
+      "妻": "general",
+      "夫": "general",
+      "兄": "people and relationships",
+      "姉": "people and relationships",
+      "弟": "people and relationships",
+      "妹": "people and relationships",
+      "両親": "people and relationships",
+      "兄弟": "people and relationships",
+      "男": "general",
+      "女": "general",
+      "男の子": "general",
+      "女の子": "general",
+      "運転手": "general",
+      "社長": "general",
+      "生徒": "places",
+      "先輩": "work and study",
+      "高校生": "places",
+      "大学生": "body parts",
+      "市民": "general",
+      "パパ": "general",
+      "ご主人": "general",
+      "奥さん": "general",
+      "部長": "body parts",
+      "校長": "body parts",
+      "看護婦": "general",
+      "公務員": "work and study",
+      "課長": "general",
+      "留学生": "people and relationships",
+      "警官": "places",
+      "お嬢さん": "general",
+      "赤ん坊": "general",
+      "お子さん": "people and relationships",
+      "家内": "general",
+      "おまわりさん": "places",
+      "すり": "general",
+      "アナウンサー": "work and study",
+      "小鳥": "general",
+      "一人": "people and relationships",
+      "二人": "people and relationships"
+    },
+    "ある": {
+      "こと": "abstract concepts",
+      "問題": "communication",
+      "理由": "reading materials",
+      "関係": "general",
+      "時間": "time periods",
+      "場所": "places",
+      "店": "places",
+      "公園": "places",
+      "駅": "transportation",
+      "興味": "abstract concepts",
+      "趣味": "time periods",
+      "機会": "general",
+      "原因": "abstract concepts",
+      "楽しみ": "emotions and feelings",
+      "つもり": "information and knowledge",
+      "場合": "abstract concepts",
+      "帰り": "general",
+      "仕方": "general",
+      "専門": "work and study",
+      "クラス": "general",
+      "後": "body parts",
+      "間": "general",
+      "ころ": "time periods",
+      "この頃": "time periods",
+      "この間": "time periods",
+      "途中": "general",
+      "晩": "time periods",
+      "夕方": "time periods",
+      "昼間": "time periods",
+      "今月": "time periods",
+      "毎年": "body parts",
+      "毎週": "time periods",
+      "毎月": "time periods",
+      "一昨日": "time periods",
+      "一昨年": "body parts",
+      "一月": "time periods",
+      "夕べ": "time periods",
+      "正月": "body parts",
+      "昼休み": "food items",
+      "再来年": "body parts",
+      "再来週": "time periods",
+      "再来月": "time periods",
+      "上": "general",
+      "下": "general",
+      "内": "general",
+      "外": "general",
+      "側": "abstract concepts",
+      "後ろ": "body parts",
+      "横": "general",
+      "裏": "body parts",
+      "表": "body parts",
+      "通り": "general",
+      "近く": "body parts",
+      "そば": "body parts",
+      "向こう": "general",
+      "辺": "places",
+      "真ん中": "body parts",
+      "出口": "general",
+      "入口": "body parts",
+      "交差点": "general",
+      "海岸": "general",
+      "屋上": "general",
+      "郊外": "clothing items",
+      "廊下": "general",
+      "玄関": "places",
+      "台所": "general",
+      "門": "general",
+      "受付": "information and knowledge",
+      "交番": "places",
+      "売り場": "places",
+      "隅": "general",
+      "区": "general",
+      "都": "transportation",
+      "田舎": "places",
+      "林": "general",
+      "砂": "general",
+      "警察": "general",
+      "暇": "time periods",
+      "ポスト": "reading materials",
+      "誕生日": "time periods",
+      "半分": "general",
+      "家庭": "places",
+      "ガス": "abstract concepts",
+      "交通": "information and knowledge",
+      "湖": "general",
+      "晴れ": "body parts",
+      "工業": "information and knowledge",
+      "水道": "beverages",
+      "故障": "general",
+      "湯": "beverages",
+      "台風": "general",
+      "匂い": "general",
+      "熱": "general",
+      "草": "clothing items",
+      "お祭り": "transportation",
+      "展覧会": "general",
+      "留守": "places",
+      "火事": "general",
+      "お釣り": "general",
+      "贈り物": "general",
+      "特急": "transportation",
+      "泥棒": "general",
+      "天気予報": "work and study",
+      "引き出し": "general",
+      "畳": "school subjects",
+      "棚": "general",
+      "本棚": "reading materials",
+      "ポケット": "general",
+      "曇り": "weather and nature",
+      "式": "general",
+      "忘れ物": "reading materials",
+      "押し入れ": "general",
+      "講堂": "general",
+      "以上": "general",
+      "以下": "general",
+      "以外": "general",
+      "以内": "general",
+      "日曜日": "time periods",
+      "月曜日": "time periods",
+      "火曜日": "time periods",
+      "水曜日": "time periods",
+      "木曜日": "time periods",
+      "金曜日": "time periods",
+      "土曜日": "time periods",
+      "わけ": "body parts",
+      "うち": "places",
+      "別": "general",
+      "代わり": "places",
+      "おかげ": "general",
+      "一杯": "beverages",
+      "久しぶり": "time periods",
+      "両方": "clothing items",
+      "タイプ": "general",
+      "倍": "general",
+      "終わり": "general",
+      "割合": "general",
+      "ご馳走": "general",
+      "一つ": "general",
+      "二つ": "general",
+      "三つ": "general",
+      "四つ": "general",
+      "五つ": "general",
+      "六つ": "general",
+      "七つ": "general",
+      "八つ": "general",
+      "九つ": "general",
+      "台": "objects and tools",
+      "番": "general",
+      "ため": "general",
+      "テーブル": "objects and tools",
+      "灰皿": "general",
+      "カーテン": "general",
+      "ステレオ": "general",
+      "戸": "school subjects",
+      "レジ": "general",
+      "けが": "medical and health",
+      "ひげ": "body parts",
+      "０": "general",
+      "零": "general",
+      "１００": "general",
+      "メートル": "general",
+      "グラム": "general"
+    },
+    "なる": {
+      "大人": "general",
+      "先生": "beverages",
+      "友達": "people and relationships",
+      "医者": "medical and health",
+      "最後": "general",
+      "最初": "general",
+      "始め": "objects and tools",
+      "お金持ち": "people and relationships",
+      "部長": "body parts",
+      "校長": "body parts",
+      "看護婦": "general",
+      "公務員": "work and study",
+      "課長": "general",
+      "留学生": "people and relationships",
+      "アナウンサー": "work and study",
+      "二十歳": "body parts",
+      "一番": "places"
+    },
+    "できる": {
+      "こと": "abstract concepts",
+      "料理": "daily activities",
+      "仕事": "work and study",
+      "スポーツ": "exercise and training",
+      "運転": "general"
+    },
+    "思う": {
+      "こと": "abstract concepts",
+      "気持ち": "emotions and feelings",
+      "意見": "information and knowledge"
+    },
+    "言う": {
+      "こと": "abstract concepts",
+      "言葉": "general",
+      "話": "communication",
+      "意見": "information and knowledge",
+      "名前": "general",
+      "一": "general",
+      "二": "general",
+      "三": "general",
+      "四": "general",
+      "五": "general",
+      "六": "general",
+      "七": "general",
+      "八": "general",
+      "九": "general",
+      "十": "general"
+    },
+    "くれる": {
+      "プレゼント": "general",
+      "お土産": "actions and events"
+    },
+    "やる": {
+      "仕事": "work and study",
+      "宿題": "work and study",
+      "スポーツ": "exercise and training"
+    },
+    "行く": {
+      "学校": "places",
+      "会社": "general",
+      "家": "places",
+      "駅": "transportation",
+      "店": "places",
+      "レストラン": "places",
+      "映画館": "entertainment",
+      "病院": "places",
+      "銀行": "general",
+      "公園": "places",
+      "図書館": "places",
+      "海": "beverages",
+      "山": "general",
+      "旅行": "actions and events",
+      "国": "abstract concepts",
+      "外国": "general",
+      "市": "general",
+      "村": "general",
+      "島": "general",
+      "トイレ": "places",
+      "スーパー": "general",
+      "教会": "general",
+      "動物園": "general",
+      "神社": "general",
+      "高校": "places",
+      "大学": "body parts",
+      "小学校": "places",
+      "教室": "places",
+      "事務所": "places",
+      "会場": "places",
+      "森": "general",
+      "近所": "people and relationships",
+      "研究室": "work and study",
+      "会議室": "places",
+      "駐車場": "transportation",
+      "池": "general",
+      "港": "general",
+      "庭": "general",
+      "郵便局": "places",
+      "喫茶店": "beverages",
+      "食堂": "places",
+      "美術館": "general",
+      "デパート": "places",
+      "北": "general",
+      "南": "general",
+      "東": "general",
+      "西": "general",
+      "アメリカ": "general",
+      "上": "general",
+      "下": "general",
+      "外": "general",
+      "先": "body parts",
+      "向こう": "general",
+      "警察": "general",
+      "湖": "general",
+      "出口": "general",
+      "入口": "body parts",
+      "海岸": "general",
+      "屋上": "general",
+      "郊外": "clothing items",
+      "廊下": "general",
+      "台所": "general",
+      "うち": "places",
+      "田舎": "places",
+      "林": "general",
+      "アジア": "general",
+      "アフリカ": "general",
+      "西洋": "general",
+      "中学校": "places",
+      "交番": "places",
+      "飛行場": "general",
+      "ガソリンスタンド": "places",
+      "お手洗い": "places",
+      "床屋": "places",
+      "八百屋": "food items",
+      "歯医者": "general",
+      "コンサート": "entertainment",
+      "大使館": "general",
+      "お祭り": "transportation",
+      "展覧会": "general",
+      "お見舞い": "communication",
+      "花見": "general",
+      "明後日": "time periods",
+      "一昨日": "time periods",
+      "講義": "general"
+    },
+    "見る": {
+      "映画": "entertainment",
+      "テレビ": "entertainment",
+      "写真": "general",
+      "景色": "general",
+      "夢": "abstract concepts",
+      "ニュース": "information and knowledge",
+      "試合": "entertainment",
+      "海": "beverages",
+      "空": "weather and nature",
+      "医者": "medical and health",
+      "月": "general",
+      "番組": "entertainment",
+      "ページ": "general",
+      "地図": "general",
+      "鏡": "general",
+      "雲": "weather and nature",
+      "庭": "general",
+      "池": "general",
+      "森": "general",
+      "右": "body parts",
+      "左": "body parts",
+      "周り": "general",
+      "物": "reading materials",
+      "天気予報": "work and study",
+      "表": "body parts",
+      "スクリーン": "general",
+      "踊り": "general"
+    },
+    "しまう": {
+      "こと": "abstract concepts",
+      "ドア": "transportation",
+      "窓": "weather and nature"
+    },
+    "違う": {
+      "意見": "information and knowledge",
+      "国": "abstract concepts",
+      "文化": "general"
+    },
+    "わかる": {
+      "こと": "abstract concepts",
+      "意味": "general",
+      "気持ち": "emotions and feelings",
+      "理由": "reading materials",
+      "問題": "communication",
+      "話": "communication",
+      "本当": "information and knowledge",
+      "仕方": "general",
+      "語": "general",
+      "法律": "general",
+      "経済": "general",
+      "政治": "general",
+      "科学": "school subjects",
+      "方": "places",
+      "医学": "school subjects",
+      "文法": "general",
+      "地理": "school subjects"
+    },
+    "出る": {
+      "家": "places",
+      "部屋": "places",
+      "学校": "places",
+      "会社": "general",
+      "血": "general",
+      "熱": "general",
+      "駅": "transportation",
+      "店": "places",
+      "風呂": "places",
+      "お風呂": "general"
+    },
+    "使う": {
+      "お金": "money and finance",
+      "時間": "time periods",
+      "パソコン": "people and relationships",
+      "電話": "communication",
+      "道具": "objects and tools",
+      "言葉": "general",
+      "英語": "school subjects",
+      "箸": "general",
+      "電車": "transportation",
+      "ガス": "abstract concepts",
+      "水道": "beverages",
+      "コンピュータ": "objects and tools",
+      "テープ": "general",
+      "ナイフ": "general",
+      "フォーク": "general",
+      "消しゴム": "general",
+      "万年筆": "objects and tools",
+      "ワープロ": "general",
+      "石鹸": "general",
+      "スプーン": "general",
+      "糸": "general",
+      "味噌": "general",
+      "茶碗": "beverages",
+      "字引": "general"
+    },
+    "来る": {
+      "人": "people and relationships",
+      "友達": "people and relationships",
+      "先生": "beverages",
+      "客": "general",
+      "手紙": "reading materials",
+      "季節": "body parts",
+      "春": "time periods",
+      "明日": "time periods",
+      "今日": "time periods",
+      "昨日": "time periods",
+      "母": "people and relationships",
+      "父": "people and relationships",
+      "息子": "general",
+      "娘": "general",
+      "兄": "people and relationships",
+      "姉": "people and relationships",
+      "弟": "people and relationships",
+      "妹": "people and relationships",
+      "来年": "body parts",
+      "来週": "time periods",
+      "来月": "time periods",
+      "今度": "time periods",
+      "おじさん": "general",
+      "おばさん": "general",
+      "お姉さん": "people and relationships",
+      "お兄さん": "people and relationships",
+      "おじいさん": "people and relationships",
+      "おばあさん": "people and relationships",
+      "今": "time periods",
+      "後": "body parts",
+      "次": "general",
+      "夕方": "time periods",
+      "今朝": "time periods",
+      "今月": "time periods",
+      "毎年": "body parts",
+      "毎週": "time periods",
+      "毎月": "time periods",
+      "明後日": "time periods",
+      "一昨日": "time periods",
+      "今晩": "time periods",
+      "台風": "general",
+      "大勢": "people and relationships",
+      "ころ": "time periods",
+      "日曜日": "time periods",
+      "月曜日": "time periods",
+      "火曜日": "time periods",
+      "水曜日": "time periods",
+      "木曜日": "time periods",
+      "金曜日": "time periods",
+      "土曜日": "time periods"
+    },
+    "見える": {
+      "山": "general",
+      "海": "beverages",
+      "景色": "general",
+      "空": "weather and nature",
+      "星": "body parts"
+    },
+    "考える": {
+      "こと": "abstract concepts",
+      "問題": "communication",
+      "将来": "body parts",
+      "意味": "general",
+      "理由": "reading materials"
+    },
+    "作る": {
+      "料理": "daily activities",
+      "パン": "food items",
+      "お菓子": "general",
+      "ケーキ": "general",
+      "計画": "work and study",
+      "友達": "people and relationships",
+      "朝ご飯": "food items",
+      "昼ご飯": "food items",
+      "夕飯": "food items",
+      "お弁当": "food items",
+      "サラダ": "general"
+    },
+    "持つ": {
+      "お金": "money and finance",
+      "時間": "time periods",
+      "力": "general",
+      "経験": "general",
+      "意見": "information and knowledge",
+      "傘": "objects and tools",
+      "カメラ": "objects and tools",
+      "カップ": "beverages",
+      "興味": "abstract concepts"
+    },
+    "死ぬ": {
+      "人": "people and relationships",
+      "動物": "general"
+    },
+    "入る": {
+      "部屋": "places",
+      "家": "places",
+      "店": "places",
+      "大学": "body parts",
+      "会社": "general",
+      "風呂": "places",
+      "お風呂": "general",
+      "トイレ": "places",
+      "教室": "places",
+      "会場": "places",
+      "高校": "places",
+      "内": "general",
+      "泥棒": "general",
+      "学部": "places",
+      "新聞社": "reading materials"
+    },
+    "買う": {
+      "本": "reading materials",
+      "服": "clothing items",
+      "車": "transportation",
+      "食べ物": "food items",
+      "パン": "food items",
+      "野菜": "food items",
+      "肉": "general",
+      "魚": "food items",
+      "果物": "food items",
+      "靴": "clothing items",
+      "お土産": "actions and events",
+      "卵": "food items",
+      "カメラ": "objects and tools",
+      "スーツ": "clothing items",
+      "ノート": "reading materials",
+      "鉛筆": "objects and tools",
+      "ボールペン": "objects and tools",
+      "辞典": "general",
+      "切符": "general",
+      "指輪": "body parts",
+      "時計": "time periods",
+      "ズボン": "clothing items",
+      "食料品": "food items",
+      "バター": "general",
+      "ナイフ": "general",
+      "フォーク": "general",
+      "人形": "general",
+      "ペット": "general",
+      "コンピュータ": "objects and tools",
+      "テープ": "general",
+      "洋服": "clothing items",
+      "靴下": "clothing items",
+      "手袋": "general",
+      "セーター": "general",
+      "ワイシャツ": "clothing items",
+      "下着": "clothing items",
+      "オーバー": "clothing items",
+      "上着": "clothing items",
+      "背広": "clothing items",
+      "おもちゃ": "abstract concepts",
+      "糸": "general",
+      "お皿": "general",
+      "フィルム": "entertainment",
+      "冷蔵庫": "general",
+      "レコード": "general",
+      "カレンダー": "general",
+      "アクセサリー": "general",
+      "ジャム": "general",
+      "スプーン": "general",
+      "たばこ": "general",
+      "封筒": "general",
+      "かばん": "objects and tools",
+      "石鹸": "general",
+      "スーツケース": "clothing items",
+      "ＦＡＸ": "general",
+      "電灯": "general",
+      "ハンカチ": "body parts",
+      "ストーブ": "places",
+      "絹": "general",
+      "品物": "reading materials",
+      "はがき": "transportation",
+      "めがね": "body parts",
+      "木綿": "general",
+      "花瓶": "general",
+      "万年筆": "objects and tools",
+      "ワープロ": "general",
+      "ラジカセ": "entertainment",
+      "テープレコーダー": "general",
+      "自動車": "transportation",
+      "オートバイ": "general",
+      "地下鉄": "transportation",
+      "汽車": "transportation",
+      "乗り物": "transportation",
+      "急行": "general",
+      "ぶどう": "general",
+      "味噌": "general",
+      "茶碗": "beverages",
+      "字引": "general"
+    },
+    "出す": {
+      "手紙": "reading materials",
+      "宿題": "work and study",
+      "ごみ": "objects and tools",
+      "お金": "money and finance",
+      "声": "general",
+      "答え": "communication"
+    },
+    "もらう": {
+      "プレゼント": "general",
+      "お金": "money and finance",
+      "お土産": "actions and events",
+      "手紙": "reading materials",
+      "贈り物": "general",
+      "お釣り": "general"
+    },
+    "かかる": {
+      "時間": "time periods",
+      "お金": "money and finance",
+      "分": "time periods",
+      "週間": "time periods",
+      "一月": "time periods",
+      "円": "school subjects",
+      "一日": "time periods",
+      "二日": "time periods",
+      "三日": "time periods",
+      "四日": "time periods",
+      "五日": "time periods",
+      "六日": "time periods",
+      "七日": "time periods",
+      "八日": "time periods",
+      "九日": "time periods",
+      "十日": "time periods",
+      "二十日": "clothing items",
+      "万": "general",
+      "千": "general",
+      "億": "general",
+      "電話": "communication"
+    },
+    "食べる": {
+      "食べ物": "food items",
+      "料理": "daily activities",
+      "パン": "food items",
+      "肉": "general",
+      "魚": "food items",
+      "野菜": "food items",
+      "果物": "food items",
+      "ケーキ": "general",
+      "お菓子": "general",
+      "朝ご飯": "food items",
+      "夕飯": "food items",
+      "ご飯": "food items",
+      "お弁当": "food items",
+      "サラダ": "general",
+      "ステーキ": "beverages",
+      "ハンバーグ": "beverages",
+      "サンドイッチ": "general",
+      "米": "food items",
+      "牛肉": "general",
+      "豚肉": "general",
+      "鶏肉": "food items",
+      "バター": "general",
+      "ジャム": "general",
+      "飴": "general",
+      "ぶどう": "general",
+      "今朝": "time periods",
+      "毎朝": "time periods",
+      "晩": "time periods",
+      "毎晩": "time periods",
+      "今晩": "time periods",
+      "晩御飯": "food items",
+      "半分": "general",
+      "一杯": "beverages"
+    },
+    "続ける": {
+      "勉強": "work and study",
+      "仕事": "work and study",
+      "運動": "work and study",
+      "練習": "work and study"
+    },
+    "聞く": {
+      "音楽": "entertainment",
+      "話": "communication",
+      "声": "general",
+      "質問": "communication",
+      "意見": "information and knowledge",
+      "ニュース": "information and knowledge",
+      "ラジオ": "entertainment",
+      "先生": "beverages",
+      "天気予報": "work and study"
+    },
+    "入れる": {
+      "お茶": "beverages",
+      "コーヒー": "beverages",
+      "砂糖": "general",
+      "塩": "objects and tools",
+      "醤油": "general",
+      "お金": "money and finance",
+      "ガソリン": "general"
+    },
+    "読む": {
+      "本": "reading materials",
+      "新聞": "reading materials",
+      "雑誌": "reading materials",
+      "小説": "reading materials",
+      "漫画": "transportation",
+      "手紙": "reading materials",
+      "文章": "reading materials",
+      "文学": "general",
+      "ひらがな": "school subjects",
+      "かたかな": "school subjects",
+      "テキスト": "reading materials",
+      "はがき": "transportation"
+    },
+    "飲む": {
+      "水": "beverages",
+      "お茶": "beverages",
+      "コーヒー": "beverages",
+      "牛乳": "beverages",
+      "お酒": "beverages",
+      "紅茶": "beverages",
+      "飲み物": "beverages",
+      "薬": "body parts",
+      "半分": "general",
+      "一杯": "beverages",
+      "湯": "beverages",
+      "アルコール": "general"
+    },
+    "受ける": {
+      "試験": "general",
+      "テスト": "general",
+      "授業": "beverages"
+    },
+    "変わる": {
+      "気持ち": "emotions and feelings",
+      "天気": "weather and nature",
+      "季節": "body parts",
+      "生活": "general",
+      "世界": "general",
+      "色": "general",
+      "気": "body parts"
+    },
+    "始める": {
+      "勉強": "work and study",
+      "仕事": "work and study",
+      "練習": "work and study",
+      "運動": "work and study"
+    },
+    "終わる": {
+      "仕事": "work and study",
+      "授業": "beverages",
+      "試験": "general",
+      "会議": "actions and events",
+      "試合": "entertainment",
+      "映画": "entertainment",
+      "夏休み": "time periods",
+      "今日": "time periods",
+      "今週": "time periods",
+      "今年": "body parts",
+      "戦争": "general",
+      "去年": "body parts",
+      "先週": "time periods",
+      "先月": "time periods"
+    },
+    "続く": {
+      "雨": "weather and nature",
+      "天気": "weather and nature",
+      "時間": "time periods"
+    },
+    "取る": {
+      "写真": "general",
+      "休み": "general",
+      "塩": "objects and tools",
+      "醤油": "general",
+      "お金": "money and finance",
+      "点": "general"
+    },
+    "呼ぶ": {
+      "人": "people and relationships",
+      "友達": "people and relationships",
+      "先生": "beverages",
+      "名前": "general",
+      "医者": "medical and health",
+      "タクシー": "transportation",
+      "警察": "general"
+    },
+    "つける": {
+      "電気": "general",
+      "テレビ": "entertainment",
+      "ラジオ": "entertainment",
+      "名前": "general",
+      "塩": "objects and tools",
+      "醤油": "general",
+      "暖房": "general",
+      "冷房": "abstract concepts"
+    },
+    "知る": {
+      "こと": "abstract concepts",
+      "人": "people and relationships",
+      "場所": "places",
+      "理由": "reading materials",
+      "名前": "general",
+      "意味": "general",
+      "本当": "information and knowledge",
+      "仕方": "general",
+      "語": "general",
+      "番号": "general",
+      "方": "places",
+      "医学": "school subjects",
+      "文法": "general",
+      "地理": "school subjects"
+    },
+    "始まる": {
+      "授業": "beverages",
+      "会議": "actions and events",
+      "試合": "entertainment",
+      "映画": "entertainment",
+      "仕事": "work and study",
+      "夏休み": "time periods",
+      "今日": "time periods",
+      "今週": "time periods",
+      "今年": "body parts",
+      "明日": "time periods",
+      "戦争": "general",
+      "来年": "body parts",
+      "来週": "time periods"
+    },
+    "探す": {
+      "人": "people and relationships",
+      "仕事": "work and study",
+      "場所": "places"
+    },
+    "書く": {
+      "手紙": "reading materials",
+      "レポート": "work and study",
+      "作文": "general",
+      "日記": "general",
+      "名前": "general",
+      "住所": "clothing items",
+      "漢字": "general",
+      "番号": "general",
+      "文章": "reading materials",
+      "ひらがな": "school subjects",
+      "かたかな": "school subjects",
+      "はがき": "transportation",
+      "一": "general",
+      "二": "general",
+      "三": "general",
+      "四": "general",
+      "五": "general",
+      "六": "general",
+      "七": "general",
+      "八": "general",
+      "九": "general",
+      "十": "general"
+    },
+    "かける": {
+      "時間": "time periods",
+      "お金": "money and finance"
+    },
+    "合う": {
+      "人": "people and relationships",
+      "友達": "people and relationships",
+      "服": "clothing items",
+      "色": "general",
+      "意見": "information and knowledge"
+    },
+    "ございます": {
+      "こと": "abstract concepts",
+      "時間": "time periods"
+    },
+    "行う": {
+      "仕事": "work and study",
+      "研究": "work and study",
+      "会議": "actions and events",
+      "試験": "general"
+    },
+    "つく": {
+      "駅": "transportation",
+      "家": "places",
+      "学校": "places",
+      "会社": "general",
+      "嘘": "general"
+    },
+    "見せる": {
+      "写真": "general",
+      "映画": "entertainment",
+      "本": "reading materials",
+      "手紙": "reading materials",
+      "顔": "body parts"
+    },
+    "立つ": {
+      "人": "people and relationships",
+      "前": "places",
+      "隣": "general"
+    },
+    "座る": {
+      "椅子": "body parts",
+      "席": "general",
+      "隣": "general"
+    },
+    "歩く": {
+      "道": "general",
+      "公園": "places",
+      "駅": "transportation",
+      "通り": "general",
+      "廊下": "general"
+    },
+    "走る": {
+      "道": "general",
+      "公園": "places",
+      "車": "transportation",
+      "電車": "transportation"
+    },
+    "泳ぐ": {
+      "海": "beverages",
+      "プール": "general",
+      "川": "general"
+    },
+    "教える": {
+      "英語": "school subjects",
+      "数学": "school subjects",
+      "歴史": "communication",
+      "道": "general",
+      "番号": "general",
+      "仕方": "general",
+      "方": "places",
+      "文法": "general",
+      "地理": "school subjects",
+      "医学": "school subjects"
+    },
+    "習う": {
+      "英語": "school subjects",
+      "ピアノ": "general",
+      "料理": "daily activities",
+      "踊り": "general"
+    },
+    "覚える": {
+      "言葉": "general",
+      "名前": "general",
+      "漢字": "general",
+      "道": "general"
+    },
+    "忘れる": {
+      "こと": "abstract concepts",
+      "約束": "general",
+      "名前": "general",
+      "場所": "places",
+      "時間": "time periods"
+    },
+    "待つ": {
+      "人": "people and relationships",
+      "友達": "people and relationships",
+      "電車": "transportation",
+      "バス": "transportation",
+      "時間": "time periods",
+      "返事": "communication"
+    },
+    "開ける": {
+      "ドア": "transportation",
+      "窓": "weather and nature",
+      "箱": "general",
+      "本": "reading materials",
+      "め": "body parts",
+      "口": "body parts",
+      "引き出し": "general"
+    },
+    "閉める": {
+      "ドア": "transportation",
+      "窓": "weather and nature",
+      "め": "body parts",
+      "店": "places",
+      "口": "body parts",
+      "引き出し": "general"
+    },
+    "消す": {
+      "電気": "general",
+      "テレビ": "entertainment",
+      "火": "general",
+      "暖房": "general",
+      "冷房": "abstract concepts"
+    },
+    "選ぶ": {
+      "本": "reading materials",
+      "服": "clothing items",
+      "料理": "daily activities",
+      "道": "general"
+    },
+    "決める": {
+      "こと": "abstract concepts",
+      "時間": "time periods",
+      "場所": "places",
+      "日": "time periods"
+    },
+    "答える": {
+      "質問": "communication",
+      "電話": "communication",
+      "手紙": "reading materials"
+    },
+    "借りる": {
+      "本": "reading materials",
+      "お金": "money and finance",
+      "傘": "objects and tools",
+      "ペン": "objects and tools",
+      "自転車": "transportation"
+    },
+    "貸す": {
+      "本": "reading materials",
+      "お金": "money and finance",
+      "傘": "objects and tools",
+      "ペン": "objects and tools"
+    },
+    "返す": {
+      "本": "reading materials",
+      "お金": "money and finance",
+      "手紙": "reading materials",
+      "言葉": "general"
+    },
+    "洗う": {
+      "手": "body parts",
+      "顔": "body parts",
+      "服": "clothing items",
+      "車": "transportation",
+      "髪": "body parts",
+      "体": "body parts",
+      "茶碗": "beverages"
+    },
+    "磨く": {
+      "歯": "body parts",
+      "靴": "clothing items",
+      "技術": "general"
+    },
+    "切る": {
+      "髪": "body parts",
+      "野菜": "food items",
+      "肉": "general",
+      "パン": "food items",
+      "紙": "objects and tools",
+      "電話": "communication",
+      "毛": "body parts",
+      "草": "clothing items"
+    },
+    "送る": {
+      "手紙": "reading materials",
+      "プレゼント": "general",
+      "お金": "money and finance",
+      "写真": "general",
+      "電報": "body parts"
+    },
+    "落とす": {
+      "お金": "money and finance",
+      "鍵": "objects and tools",
+      "財布": "body parts"
+    },
+    "拾う": {
+      "お金": "money and finance",
+      "ごみ": "objects and tools"
+    },
+    "壊れる": {
+      "車": "transportation",
+      "パソコン": "people and relationships",
+      "時計": "time periods"
+    },
+    "怒る": {
+      "人": "people and relationships",
+      "先生": "beverages",
+      "お母さん": "people and relationships",
+      "お父さん": "people and relationships"
+    },
+    "笑う": {
+      "人": "people and relationships",
+      "話": "communication"
+    },
+    "泣く": {
+      "人": "people and relationships",
+      "子供": "people and relationships",
+      "赤ちゃん": "general"
+    },
+    "起きる": {
+      "朝": "time periods",
+      "時間": "time periods",
+      "事故": "abstract concepts",
+      "問題": "communication",
+      "地震": "body parts",
+      "今日": "time periods",
+      "明日": "time periods",
+      "毎日": "time periods",
+      "昨日": "time periods",
+      "午前": "time periods",
+      "今朝": "time periods",
+      "毎朝": "time periods",
+      "火事": "general"
+    },
+    "寝る": {
+      "夜": "time periods",
+      "ベッド": "general",
+      "部屋": "places",
+      "今夜": "time periods",
+      "昼": "time periods",
+      "毎日": "time periods",
+      "午後": "time periods",
+      "晩": "time periods",
+      "毎晩": "time periods",
+      "今晩": "time periods"
+    },
+    "起こす": {
+      "人": "people and relationships",
+      "子供": "people and relationships",
+      "友達": "people and relationships",
+      "問題": "communication",
+      "事故": "abstract concepts"
+    },
+    "触る": {
+      "手": "body parts",
+      "花": "general"
+    },
+    "押す": {
+      "ボタン": "general",
+      "ドア": "transportation",
+      "ベル": "general"
+    },
+    "引く": {
+      "ドア": "transportation",
+      "線": "actions and events",
+      "風邪": "medical and health",
+      "縦": "general"
+    },
+    "着る": {
+      "服": "clothing items",
+      "シャツ": "clothing items",
+      "コート": "clothing items",
+      "着物": "school subjects"
+    },
+    "脱ぐ": {
+      "服": "clothing items",
+      "靴": "clothing items",
+      "コート": "clothing items",
+      "帽子": "clothing items"
+    },
+    "履く": {
+      "靴": "clothing items",
+      "サンダル": "general",
+      "スリッパ": "general"
+    },
+    "置く": {
+      "本": "reading materials",
+      "時計": "time periods",
+      "花": "general",
+      "机": "objects and tools",
+      "上": "general",
+      "下": "general"
+    },
+    "並ぶ": {
+      "人": "people and relationships",
+      "店": "places"
+    },
+    "並べる": {
+      "椅子": "body parts",
+      "机": "objects and tools",
+      "本": "reading materials"
+    },
+    "集まる": {
+      "人": "people and relationships",
+      "学生": "places",
+      "友達": "people and relationships",
+      "家族": "people and relationships"
+    },
+    "集める": {
+      "お金": "money and finance",
+      "切手": "body parts"
+    },
+    "別れる": {
+      "人": "people and relationships",
+      "友達": "people and relationships",
+      "家族": "people and relationships"
+    },
+    "生まれる": {
+      "人": "people and relationships",
+      "子供": "people and relationships",
+      "赤ちゃん": "general"
+    },
+    "育てる": {
+      "子供": "people and relationships",
+      "花": "general",
+      "野菜": "food items",
+      "動物": "general",
+      "犬": "general",
+      "猫": "general"
+    },
+    "働く": {
+      "会社": "general",
+      "店": "places",
+      "病院": "places",
+      "工場": "work and study",
+      "レストラン": "places",
+      "新聞社": "reading materials"
+    },
+    "休む": {
+      "仕事": "work and study",
+      "学校": "places",
+      "会社": "general",
+      "授業": "beverages",
+      "日": "time periods"
+    },
+    "疲れる": {
+      "体": "body parts",
+      "め": "body parts",
+      "足": "body parts"
+    },
+    "困る": {
+      "こと": "abstract concepts",
+      "問題": "communication",
+      "お金": "money and finance"
+    },
+    "喜ぶ": {
+      "人": "people and relationships",
+      "こと": "abstract concepts",
+      "ニュース": "information and knowledge",
+      "プレゼント": "general"
+    },
+    "驚く": {
+      "こと": "abstract concepts",
+      "ニュース": "information and knowledge"
+    },
+    "似る": {
+      "人": "people and relationships",
+      "親": "people and relationships",
+      "お母さん": "people and relationships",
+      "お父さん": "people and relationships"
+    },
+    "増える": {
+      "人": "people and relationships",
+      "お金": "money and finance",
+      "問題": "communication",
+      "仕事": "work and study"
+    },
+    "上がる": {
+      "値段": "food items",
+      "階段": "general",
+      "度": "weather and nature"
+    },
+    "下がる": {
+      "値段": "food items",
+      "度": "weather and nature"
+    },
+    "上げる": {
+      "手": "body parts",
+      "声": "general",
+      "値段": "food items"
+    },
+    "下げる": {
+      "頭": "body parts",
+      "声": "general",
+      "値段": "food items"
+    },
+    "動く": {
+      "人": "people and relationships",
+      "車": "transportation",
+      "時計": "time periods",
+      "心": "body parts"
+    },
+    "止まる": {
+      "車": "transportation",
+      "電車": "transportation",
+      "時計": "time periods",
+      "雨": "weather and nature"
+    },
+    "止める": {
+      "車": "transportation",
+      "時計": "time periods",
+      "人": "people and relationships"
+    },
+    "曲がる": {
+      "道": "general",
+      "角": "general",
+      "右": "body parts",
+      "左": "body parts"
+    },
+    "渡る": {
+      "道": "general",
+      "橋": "general",
+      "川": "general",
+      "海": "beverages"
+    },
+    "通る": {
+      "道": "general",
+      "駅": "transportation",
+      "店": "places"
+    },
+    "過ぎる": {
+      "時間": "time periods",
+      "駅": "transportation",
+      "店": "places",
+      "半": "general"
+    },
+    "乗る": {
+      "電車": "transportation",
+      "バス": "transportation",
+      "車": "transportation",
+      "自転車": "transportation",
+      "飛行機": "transportation",
+      "船": "beverages",
+      "タクシー": "transportation",
+      "特急": "transportation",
+      "自動車": "transportation",
+      "地下鉄": "transportation",
+      "エレベーター": "general",
+      "エスカレーター": "general",
+      "乗り物": "transportation",
+      "急行": "general",
+      "汽車": "transportation",
+      "オートバイ": "general"
+    },
+    "降りる": {
+      "電車": "transportation",
+      "バス": "transportation",
+      "車": "transportation",
+      "階段": "general",
+      "駅": "transportation",
+      "地下鉄": "transportation",
+      "エレベーター": "general",
+      "エスカレーター": "general"
+    },
+    "乗り換える": {
+      "電車": "transportation",
+      "バス": "transportation"
+    },
+    "運ぶ": {
+      "荷物": "objects and tools",
+      "箱": "general"
+    },
+    "連れる": {
+      "人": "people and relationships",
+      "子供": "people and relationships",
+      "友達": "people and relationships"
+    },
+    "迎える": {
+      "人": "people and relationships",
+      "友達": "people and relationships",
+      "客": "general",
+      "朝": "time periods",
+      "年": "body parts"
+    },
+    "訪ねる": {
+      "人": "people and relationships",
+      "家": "places",
+      "場所": "places"
+    },
+    "遊ぶ": {
+      "友達": "people and relationships",
+      "子供": "people and relationships",
+      "公園": "places"
+    },
+    "楽しむ": {
+      "こと": "abstract concepts",
+      "時間": "time periods",
+      "パーティー": "actions and events",
+      "旅行": "actions and events",
+      "音楽": "entertainment"
+    },
+    "住む": {
+      "家": "places",
+      "町": "people and relationships",
+      "国": "abstract concepts",
+      "場所": "places",
+      "アパート": "places",
+      "近く": "body parts",
+      "そば": "body parts",
+      "郊外": "clothing items"
+    },
+    "引っ越す": {
+      "家": "places",
+      "町": "people and relationships",
+      "国": "abstract concepts",
+      "アパート": "places"
+    },
+    "建てる": {
+      "家": "places",
+      "建物": "places",
+      "ビル": "places"
+    },
+    "壊す": {
+      "建物": "places",
+      "家": "places"
+    },
+    "直る": {
+      "車": "transportation",
+      "パソコン": "people and relationships",
+      "病気": "medical and health"
+    },
+    "治る": {
+      "病気": "medical and health",
+      "風邪": "medical and health"
+    },
+    "治す": {
+      "病気": "medical and health",
+      "風邪": "medical and health"
+    },
+    "太る": {
+      "体": "body parts",
+      "人": "people and relationships"
+    },
+    "痩せる": {
+      "体": "body parts",
+      "人": "people and relationships"
+    },
+    "調べる": {
+      "こと": "abstract concepts",
+      "言葉": "general",
+      "意味": "general",
+      "辞書": "general",
+      "問題": "communication"
+    },
+    "片付ける": {
+      "部屋": "places",
+      "机": "objects and tools"
+    },
+    "捨てる": {
+      "ごみ": "objects and tools",
+      "紙": "objects and tools",
+      "箱": "general"
+    },
+    "鳴る": {
+      "電話": "communication",
+      "ベル": "general",
+      "時計": "time periods"
+    },
+    "光る": {
+      "光": "general",
+      "星": "body parts",
+      "電気": "general"
+    },
+    "消える": {
+      "電気": "general",
+      "光": "general",
+      "人": "people and relationships"
+    },
+    "見つかる": {
+      "人": "people and relationships",
+      "場所": "places",
+      "仕事": "work and study"
+    },
+    "見つける": {
+      "人": "people and relationships",
+      "場所": "places",
+      "仕事": "work and study"
+    },
+    "祈る": {
+      "こと": "abstract concepts"
+    },
+    "比べる": {
+      "値段": "food items"
+    },
+    "変える": {
+      "こと": "abstract concepts",
+      "意見": "information and knowledge",
+      "服": "clothing items",
+      "予定": "information and knowledge",
+      "計画": "work and study"
+    },
+    "帰る": {
+      "家": "places",
+      "国": "abstract concepts",
+      "部屋": "places",
+      "会社": "general",
+      "学校": "places"
+    },
+    "生きる": {
+      "人": "people and relationships",
+      "世界": "general",
+      "時代": "general",
+      "社会": "general"
+    },
+    "残る": {
+      "時間": "time periods",
+      "お金": "money and finance",
+      "仕事": "work and study",
+      "問題": "communication"
+    },
+    "話す": {
+      "こと": "abstract concepts",
+      "英語": "school subjects",
+      "言葉": "general",
+      "話": "communication",
+      "電話": "communication",
+      "語": "general",
+      "政治": "general",
+      "昔": "time periods"
+    },
+    "会う": {
+      "人": "people and relationships",
+      "友達": "people and relationships",
+      "先生": "beverages",
+      "家族": "people and relationships"
+    },
+    "頼む": {
+      "人": "people and relationships",
+      "友達": "people and relationships",
+      "こと": "abstract concepts",
+      "仕事": "work and study"
+    },
+    "売る": {
+      "本": "reading materials",
+      "車": "transportation",
+      "家": "places",
+      "服": "clothing items"
+    },
+    "進む": {
+      "道": "general",
+      "計画": "work and study",
+      "仕事": "work and study",
+      "研究": "work and study"
+    },
+    "向かう": {
+      "駅": "transportation",
+      "家": "places",
+      "学校": "places",
+      "場所": "places"
+    },
+    "戻る": {
+      "家": "places",
+      "部屋": "places",
+      "場所": "places",
+      "駅": "transportation"
+    },
+    "伝える": {
+      "こと": "abstract concepts",
+      "気持ち": "emotions and feelings",
+      "言葉": "general"
+    },
+    "落ちる": {
+      "雨": "weather and nature",
+      "雪": "weather and nature",
+      "葉": "general",
+      "花": "general",
+      "試験": "general"
+    },
+    "思い出す": {
+      "こと": "abstract concepts",
+      "人": "people and relationships",
+      "名前": "general",
+      "場所": "places"
+    },
+    "開く": {
+      "ドア": "transportation",
+      "窓": "weather and nature",
+      "本": "reading materials",
+      "店": "places",
+      "会": "actions and events",
+      "パーティー": "actions and events"
+    },
+    "済む": {
+      "仕事": "work and study",
+      "用事": "work and study",
+      "こと": "abstract concepts"
+    },
+    "勝つ": {
+      "試合": "entertainment"
+    },
+    "歌う": {
+      "歌": "entertainment"
+    },
+    "逃げる": {
+      "人": "people and relationships",
+      "場所": "places",
+      "危険": "emotions and feelings"
+    },
+    "やめる": {
+      "仕事": "work and study",
+      "会社": "general",
+      "勉強": "work and study",
+      "練習": "work and study"
+    },
+    "なくなる": {
+      "お金": "money and finance",
+      "時間": "time periods",
+      "人": "people and relationships"
+    },
+    "払う": {
+      "お金": "money and finance",
+      "代": "food items",
+      "円": "school subjects",
+      "万": "general",
+      "千": "general",
+      "億": "general"
+    },
+    "飛ぶ": {
+      "鳥": "general",
+      "飛行機": "transportation",
+      "虫": "general"
+    },
+    "聞こえる": {
+      "音": "work and study",
+      "声": "general",
+      "音楽": "entertainment"
+    },
+    "負ける": {
+      "試合": "entertainment"
+    },
+    "いただく": {
+      "プレゼント": "general",
+      "食べ物": "food items"
+    },
+    "通う": {
+      "学校": "places",
+      "会社": "general",
+      "大学": "body parts",
+      "病院": "places"
+    },
+    "撮る": {
+      "写真": "general",
+      "映画": "entertainment"
+    },
+    "打つ": {
+      "手": "body parts"
+    },
+    "立てる": {
+      "計画": "work and study"
+    },
+    "踊る": {
+      "音楽": "entertainment",
+      "パーティー": "actions and events"
+    },
+    "回る": {
+      "時計": "time periods",
+      "店": "places"
+    },
+    "渡す": {
+      "お金": "money and finance",
+      "プレゼント": "general",
+      "手紙": "reading materials"
+    },
+    "決まる": {
+      "こと": "abstract concepts",
+      "予定": "information and knowledge",
+      "計画": "work and study",
+      "日": "time periods",
+      "時間": "time periods"
+    },
+    "役に立つ": {
+      "人": "people and relationships",
+      "道具": "objects and tools"
+    },
+    "投げる": {
+      "ごみ": "objects and tools"
+    },
+    "着く": {
+      "駅": "transportation",
+      "空港": "general",
+      "家": "places",
+      "学校": "places",
+      "場所": "places"
+    },
+    "降る": {
+      "雨": "weather and nature",
+      "雪": "weather and nature"
+    },
+    "くださる": {
+      "プレゼント": "general"
+    },
+    "吸う": {
+      "空気": "general"
+    },
+    "出かける": {
+      "場所": "places",
+      "買い物": "daily activities",
+      "旅行": "actions and events"
+    },
+    "焼く": {
+      "肉": "general",
+      "魚": "food items",
+      "パン": "food items",
+      "ケーキ": "general",
+      "野菜": "food items"
+    },
+    "塗る": {
+      "色": "general",
+      "絵": "emotions and feelings",
+      "壁": "general"
+    },
+    "眠る": {
+      "人": "people and relationships",
+      "赤ちゃん": "general"
+    },
+    "いらっしゃる": {
+      "人": "people and relationships"
+    },
+    "間に合う": {
+      "時間": "time periods",
+      "授業": "beverages",
+      "電車": "transportation",
+      "会議": "actions and events"
+    },
+    "慣れる": {
+      "こと": "abstract concepts",
+      "仕事": "work and study",
+      "生活": "general",
+      "場所": "places"
+    },
+    "遅れる": {
+      "時間": "time periods",
+      "電車": "transportation",
+      "授業": "beverages",
+      "会議": "actions and events"
+    },
+    "咲く": {
+      "花": "general"
+    },
+    "揺れる": {
+      "地震": "body parts",
+      "船": "beverages",
+      "電車": "transportation"
+    },
+    "騒ぐ": {
+      "人": "people and relationships",
+      "子供": "people and relationships"
+    },
+    "飾る": {
+      "花": "general",
+      "部屋": "places"
+    },
+    "謝る": {
+      "人": "people and relationships",
+      "こと": "abstract concepts"
+    },
+    "吹く": {
+      "風": "weather and nature"
+    },
+    "倒れる": {
+      "人": "people and relationships",
+      "木": "transportation",
+      "建物": "places"
+    },
+    "移る": {
+      "場所": "places",
+      "家": "places",
+      "部屋": "places",
+      "会社": "general"
+    },
+    "届ける": {
+      "荷物": "objects and tools",
+      "手紙": "reading materials",
+      "プレゼント": "general"
+    },
+    "間違える": {
+      "こと": "abstract concepts",
+      "答え": "communication",
+      "道": "general",
+      "時間": "time periods",
+      "場所": "places"
+    },
+    "おっしゃる": {
+      "こと": "abstract concepts",
+      "言葉": "general"
+    },
+    "浴びる": {
+      "シャワー": "entertainment",
+      "風呂": "places"
+    },
+    "弾く": {
+      "ピアノ": "general",
+      "ギター": "general"
+    },
+    "込む": {
+      "電車": "transportation",
+      "店": "places",
+      "道": "general"
+    },
+    "なくす": {
+      "お金": "money and finance",
+      "鍵": "objects and tools",
+      "財布": "body parts"
+    },
+    "噛む": {
+      "食べ物": "food items"
+    },
+    "張る": {
+      "紙": "objects and tools"
+    },
+    "上る": {
+      "山": "general",
+      "階段": "general",
+      "坂": "general"
+    },
+    "亡くなる": {
+      "人": "people and relationships",
+      "家族": "people and relationships",
+      "祖父": "people and relationships",
+      "祖母": "people and relationships"
+    },
+    "知らせる": {
+      "こと": "abstract concepts",
+      "ニュース": "information and knowledge"
+    },
+    "折れる": {
+      "枝": "general",
+      "木": "transportation"
+    },
+    "泊まる": {
+      "ホテル": "general",
+      "旅館": "school subjects",
+      "家": "places"
+    },
+    "尋ねる": {
+      "こと": "abstract concepts",
+      "質問": "communication",
+      "道": "general",
+      "人": "people and relationships"
+    },
+    "盗む": {
+      "お金": "money and finance",
+      "財布": "body parts"
+    },
+    "寄る": {
+      "店": "places",
+      "場所": "places",
+      "駅": "transportation"
+    },
+    "かぶる": {
+      "帽子": "clothing items"
+    },
+    "捕まえる": {
+      "人": "people and relationships",
+      "虫": "general",
+      "魚": "food items"
+    },
+    "急ぐ": {
+      "人": "people and relationships",
+      "仕事": "work and study"
+    },
+    "手伝う": {
+      "人": "people and relationships",
+      "仕事": "work and study",
+      "宿題": "work and study"
+    },
+    "足りる": {
+      "お金": "money and finance",
+      "時間": "time periods"
+    },
+    "折る": {
+      "紙": "objects and tools",
+      "枝": "general"
+    },
+    "鳴く": {
+      "鳥": "general",
+      "犬": "general",
+      "猫": "general",
+      "虫": "general"
+    },
+    "褒める": {
+      "人": "people and relationships",
+      "子供": "people and relationships",
+      "仕事": "work and study"
+    },
+    "割れる": {
+      "ガラス": "general",
+      "コップ": "beverages"
+    },
+    "滑る": {
+      "人": "people and relationships",
+      "雪": "weather and nature"
+    },
+    "乾く": {
+      "服": "clothing items",
+      "髪": "body parts"
+    },
+    "晴れる": {
+      "天気": "weather and nature",
+      "空": "weather and nature"
+    },
+    "勤める": {
+      "会社": "general",
+      "銀行": "general",
+      "病院": "places"
+    },
+    "足す": {
+      "砂糖": "general",
+      "塩": "objects and tools"
+    },
+    "濡れる": {
+      "服": "clothing items",
+      "髪": "body parts",
+      "体": "body parts",
+      "手": "body parts"
+    },
+    "いじめる": {
+      "人": "people and relationships",
+      "子供": "people and relationships"
+    },
+    "冷える": {
+      "体": "body parts",
+      "部屋": "places",
+      "天気": "weather and nature"
+    },
+    "焼ける": {
+      "肉": "general",
+      "パン": "food items",
+      "家": "places"
+    },
+    "汚れる": {
+      "服": "clothing items",
+      "手": "body parts",
+      "部屋": "places"
+    },
+    "包む": {
+      "プレゼント": "general",
+      "花": "general"
+    },
+    "止む": {
+      "雨": "weather and nature",
+      "雪": "weather and nature",
+      "風": "weather and nature"
+    },
+    "ご覧になる": {
+      "テレビ": "entertainment",
+      "映画": "entertainment",
+      "写真": "general",
+      "本": "reading materials"
+    },
+    "おる": {
+      "家": "places",
+      "部屋": "places"
+    },
+    "おいでになる": {
+      "家": "places",
+      "部屋": "places"
+    },
+    "なさる": {
+      "仕事": "work and study",
+      "勉強": "work and study",
+      "こと": "abstract concepts",
+      "スポーツ": "exercise and training"
+    },
+    "申し上げる": {
+      "こと": "abstract concepts",
+      "話": "communication"
+    },
+    "申す": {
+      "こと": "abstract concepts",
+      "名前": "general"
+    },
+    "伺う": {
+      "こと": "abstract concepts",
+      "話": "communication",
+      "家": "places",
+      "お宅": "places"
+    },
+    "差し上げる": {
+      "プレゼント": "general",
+      "花": "general"
+    },
+    "まいる": {
+      "家": "places",
+      "部屋": "places",
+      "お宅": "places"
+    },
+    "いたす": {
+      "仕事": "work and study",
+      "こと": "abstract concepts",
+      "準備": "daily activities"
+    },
+    "召し上がる": {
+      "食事": "food items",
+      "お茶": "beverages"
+    },
+    "締める": {
+      "ネクタイ": "clothing items",
+      "ドア": "transportation",
+      "窓": "weather and nature"
+    },
+    "空く": {
+      "席": "general",
+      "部屋": "places",
+      "時間": "time periods",
+      "お腹": "general"
+    },
+    "しかる": {
+      "子供": "people and relationships",
+      "子": "people and relationships",
+      "人": "people and relationships"
+    },
+    "釣る": {
+      "魚": "food items"
+    },
+    "差す": {
+      "日": "time periods",
+      "光": "general"
+    },
+    "植える": {
+      "花": "general",
+      "木": "transportation",
+      "野菜": "food items"
+    },
+    "沸く": {
+      "水": "beverages"
+    },
+    "暮れる": {
+      "日": "time periods",
+      "空": "weather and nature"
+    },
+    "閉まる": {
+      "ドア": "transportation",
+      "窓": "weather and nature",
+      "店": "places"
+    },
+    "写す": {
+      "写真": "general",
+      "絵": "emotions and feelings"
+    },
+    "構う": {
+      "こと": "abstract concepts",
+      "人": "people and relationships"
+    },
+    "取り替える": {
+      "服": "clothing items",
+      "部屋": "places"
+    },
+    "沸かす": {
+      "水": "beverages"
+    },
+    "漬ける": {
+      "野菜": "food items"
+    },
+    "曇る": {
+      "空": "weather and nature",
+      "天気": "weather and nature"
+    },
+    "いい": {
+      "人": "people and relationships",
+      "天気": "weather and nature",
+      "気持ち": "emotions and feelings",
+      "友達": "people and relationships",
+      "先生": "beverages",
+      "学校": "places",
+      "仕事": "work and study",
+      "会社": "general",
+      "料理": "daily activities",
+      "レストラン": "places",
+      "都合": "abstract concepts",
+      "具合": "abstract concepts"
+    },
+    "好き": {
+      "人": "people and relationships",
+      "食べ物": "food items",
+      "料理": "daily activities",
+      "音楽": "entertainment",
+      "映画": "entertainment",
+      "スポーツ": "exercise and training",
+      "色": "general",
+      "動物": "general",
+      "本": "reading materials",
+      "旅行": "actions and events",
+      "科学": "school subjects",
+      "遊び": "general",
+      "白": "general",
+      "黒": "general",
+      "赤": "transportation",
+      "語": "general",
+      "青": "general",
+      "緑": "general",
+      "黄色": "general",
+      "茶色": "general"
+    },
+    "必要": {
+      "時間": "time periods",
+      "お金": "money and finance",
+      "こと": "abstract concepts"
+    },
+    "同じ": {
+      "人": "people and relationships",
+      "こと": "abstract concepts",
+      "学校": "places",
+      "会社": "general",
+      "国": "abstract concepts",
+      "意見": "information and knowledge",
+      "気持ち": "emotions and feelings"
+    },
+    "多い": {
+      "人": "people and relationships",
+      "学生": "places",
+      "外国人": "school subjects",
+      "車": "transportation",
+      "問題": "communication",
+      "仕事": "work and study",
+      "人口": "general",
+      "割合": "general"
+    },
+    "欲しい": {
+      "お金": "money and finance",
+      "時間": "time periods",
+      "本": "reading materials",
+      "服": "clothing items",
+      "車": "transportation"
+    },
+    "悪い": {
+      "人": "people and relationships",
+      "天気": "weather and nature",
+      "習慣": "general",
+      "気分": "emotions and feelings",
+      "都合": "abstract concepts",
+      "具合": "abstract concepts"
+    },
+    "高い": {
+      "山": "general",
+      "建物": "places",
+      "値段": "food items",
+      "レストラン": "places",
+      "ホテル": "general",
+      "車": "transportation",
+      "服": "clothing items",
+      "靴": "clothing items",
+      "背": "general"
+    },
+    "大丈夫": {
+      "人": "people and relationships",
+      "こと": "abstract concepts",
+      "体": "body parts",
+      "気持ち": "emotions and feelings"
+    },
+    "すごい": {
+      "人": "people and relationships",
+      "こと": "abstract concepts",
+      "力": "general",
+      "技術": "general",
+      "景色": "general",
+      "映画": "entertainment"
+    },
+    "簡単": {
+      "問題": "communication",
+      "質問": "communication",
+      "仕事": "work and study",
+      "料理": "daily activities",
+      "テスト": "general"
+    },
+    "新しい": {
+      "家": "places",
+      "車": "transportation",
+      "服": "clothing items",
+      "靴": "clothing items",
+      "本": "reading materials",
+      "パソコン": "people and relationships",
+      "仕事": "work and study",
+      "友達": "people and relationships",
+      "先生": "beverages",
+      "学校": "places"
+    },
+    "強い": {
+      "人": "people and relationships",
+      "力": "general",
+      "風": "weather and nature",
+      "雨": "weather and nature",
+      "地震": "body parts"
+    },
+    "大きな": {
+      "家": "places",
+      "建物": "places",
+      "木": "transportation",
+      "公園": "places",
+      "問題": "communication",
+      "会社": "general"
+    },
+    "特別": {
+      "人": "people and relationships",
+      "日": "time periods",
+      "こと": "abstract concepts",
+      "料理": "daily activities",
+      "プレゼント": "general"
+    },
+    "面白い": {
+      "人": "people and relationships",
+      "映画": "entertainment",
+      "本": "reading materials",
+      "話": "communication",
+      "授業": "beverages",
+      "先生": "beverages"
+    },
+    "嫌": {
+      "人": "people and relationships",
+      "こと": "abstract concepts",
+      "仕事": "work and study",
+      "食べ物": "food items"
+    },
+    "難しい": {
+      "問題": "communication",
+      "質問": "communication",
+      "仕事": "work and study",
+      "漢字": "general",
+      "テスト": "general",
+      "試験": "general"
+    },
+    "元気": {
+      "人": "people and relationships",
+      "子供": "people and relationships",
+      "学生": "places",
+      "赤ちゃん": "general"
+    },
+    "変": {
+      "人": "people and relationships",
+      "こと": "abstract concepts",
+      "話": "communication",
+      "天気": "weather and nature"
+    },
+    "嫌い": {
+      "人": "people and relationships",
+      "食べ物": "food items",
+      "野菜": "food items",
+      "仕事": "work and study"
+    },
+    "楽しい": {
+      "時間": "time periods",
+      "旅行": "actions and events",
+      "パーティー": "actions and events",
+      "授業": "beverages",
+      "話": "communication"
+    },
+    "嬉しい": {
+      "気持ち": "emotions and feelings",
+      "こと": "abstract concepts",
+      "ニュース": "information and knowledge",
+      "プレゼント": "general"
+    },
+    "大好き": {
+      "人": "people and relationships",
+      "食べ物": "food items",
+      "料理": "daily activities",
+      "音楽": "entertainment",
+      "動物": "general"
+    },
+    "少ない": {
+      "人": "people and relationships",
+      "時間": "time periods",
+      "お金": "money and finance",
+      "学生": "places",
+      "人口": "general",
+      "割合": "general"
+    },
+    "近い": {
+      "駅": "transportation",
+      "店": "places",
+      "学校": "places",
+      "家": "places",
+      "公園": "places",
+      "場所": "places"
+    },
+    "長い": {
+      "時間": "time periods",
+      "休み": "general",
+      "夏休み": "time periods",
+      "髪": "body parts",
+      "川": "general",
+      "道": "general",
+      "橋": "general",
+      "話": "communication"
+    },
+    "有名": {
+      "人": "people and relationships",
+      "場所": "places",
+      "レストラン": "places",
+      "ホテル": "general",
+      "大学": "body parts"
+    },
+    "若い": {
+      "人": "people and relationships",
+      "学生": "places",
+      "女性": "general",
+      "男性": "general",
+      "先生": "beverages"
+    },
+    "大きい": {
+      "家": "places",
+      "部屋": "places",
+      "建物": "places",
+      "車": "transportation",
+      "木": "transportation",
+      "声": "general"
+    },
+    "美しい": {
+      "景色": "general",
+      "女性": "general",
+      "花": "general",
+      "山": "general",
+      "海": "beverages",
+      "空": "weather and nature",
+      "音楽": "entertainment"
+    },
+    "早い": {
+      "時間": "time periods",
+      "朝": "time periods",
+      "電車": "transportation",
+      "車": "transportation",
+      "返事": "communication"
+    },
+    "正しい": {
+      "答え": "communication",
+      "意見": "information and knowledge",
+      "道": "general"
+    },
+    "小さい": {
+      "家": "places",
+      "部屋": "places",
+      "子供": "people and relationships",
+      "赤ちゃん": "general",
+      "声": "general",
+      "字": "reading materials"
+    },
+    "小さな": {
+      "家": "places",
+      "部屋": "places",
+      "子供": "people and relationships",
+      "町": "people and relationships",
+      "店": "places"
+    },
+    "安い": {
+      "レストラン": "places",
+      "ホテル": "general",
+      "店": "places",
+      "値段": "food items",
+      "服": "clothing items",
+      "本": "reading materials"
+    },
+    "古い": {
+      "家": "places",
+      "建物": "places",
+      "車": "transportation",
+      "本": "reading materials",
+      "服": "clothing items",
+      "友達": "people and relationships",
+      "町": "people and relationships",
+      "寺": "general"
+    },
+    "低い": {
+      "山": "general",
+      "建物": "places",
+      "値段": "food items",
+      "声": "general",
+      "背": "general"
+    },
+    "痛い": {
+      "頭": "body parts",
+      "お腹": "general",
+      "歯": "body parts",
+      "足": "body parts",
+      "手": "body parts",
+      "耳": "body parts",
+      "鼻": "body parts",
+      "首": "general",
+      "腕": "body parts",
+      "背中": "body parts",
+      "のど": "general"
+    },
+    "きれい": {
+      "人": "people and relationships",
+      "女性": "general",
+      "景色": "general",
+      "花": "general",
+      "海": "beverages",
+      "空": "weather and nature",
+      "部屋": "places",
+      "字": "reading materials"
+    },
+    "便利": {
+      "場所": "places",
+      "駅": "transportation",
+      "店": "places",
+      "道具": "objects and tools"
+    },
+    "おいしい": {
+      "料理": "daily activities",
+      "食べ物": "food items",
+      "レストラン": "places",
+      "肉": "general",
+      "魚": "food items"
+    },
+    "辛い": {
+      "料理": "daily activities",
+      "カレー": "school subjects",
+      "気持ち": "emotions and feelings",
+      "仕事": "work and study",
+      "生活": "general"
+    },
+    "優しい": {
+      "人": "people and relationships",
+      "先生": "beverages",
+      "お母さん": "people and relationships",
+      "お父さん": "people and relationships",
+      "友達": "people and relationships",
+      "声": "general",
+      "母": "people and relationships",
+      "父": "people and relationships",
+      "息子": "general",
+      "娘": "general",
+      "男": "general",
+      "女": "general"
+    },
+    "寒い": {
+      "天気": "weather and nature",
+      "日": "time periods",
+      "冬": "weather and nature",
+      "朝": "time periods",
+      "部屋": "places",
+      "国": "abstract concepts"
+    },
+    "白い": {
+      "服": "clothing items",
+      "紙": "objects and tools",
+      "雪": "weather and nature",
+      "花": "general",
+      "猫": "general",
+      "犬": "general"
+    },
+    "赤い": {
+      "服": "clothing items",
+      "花": "general",
+      "色": "general",
+      "顔": "body parts"
+    },
+    "青い": {
+      "空": "weather and nature",
+      "海": "beverages",
+      "服": "clothing items",
+      "色": "general"
+    },
+    "黒い": {
+      "服": "clothing items",
+      "髪": "body parts",
+      "猫": "general",
+      "犬": "general",
+      "色": "general"
+    },
+    "黄色い": {
+      "花": "general",
+      "色": "general"
+    },
+    "明るい": {
+      "部屋": "places",
+      "人": "people and relationships",
+      "声": "general",
+      "色": "general"
+    },
+    "暗い": {
+      "部屋": "places",
+      "道": "general",
+      "夜": "time periods",
+      "色": "general",
+      "顔": "body parts"
+    },
+    "熱い": {
+      "コーヒー": "beverages",
+      "お茶": "beverages",
+      "夏": "weather and nature"
+    },
+    "冷たい": {
+      "水": "beverages",
+      "風": "weather and nature"
+    },
+    "暑い": {
+      "天気": "weather and nature",
+      "日": "time periods",
+      "夏": "weather and nature",
+      "部屋": "places",
+      "国": "abstract concepts"
+    },
+    "涼しい": {
+      "天気": "weather and nature",
+      "日": "time periods",
+      "秋": "weather and nature",
+      "部屋": "places",
+      "風": "weather and nature"
+    },
+    "暖かい": {
+      "天気": "weather and nature",
+      "日": "time periods",
+      "春": "time periods",
+      "部屋": "places",
+      "服": "clothing items",
+      "気持ち": "emotions and feelings"
+    },
+    "重い": {
+      "荷物": "objects and tools",
+      "箱": "general",
+      "気持ち": "emotions and feelings"
+    },
+    "軽い": {
+      "荷物": "objects and tools",
+      "服": "clothing items",
+      "気持ち": "emotions and feelings"
+    },
+    "太い": {
+      "木": "transportation",
+      "線": "actions and events",
+      "体": "body parts"
+    },
+    "細い": {
+      "道": "general",
+      "線": "actions and events",
+      "体": "body parts",
+      "指": "body parts"
+    },
+    "広い": {
+      "部屋": "places",
+      "家": "places",
+      "公園": "places",
+      "道": "general",
+      "海": "beverages",
+      "世界": "general"
+    },
+    "狭い": {
+      "部屋": "places",
+      "道": "general",
+      "家": "places",
+      "電車": "transportation"
+    },
+    "厚い": {
+      "本": "reading materials",
+      "服": "clothing items",
+      "コート": "clothing items",
+      "壁": "general"
+    },
+    "薄い": {
+      "本": "reading materials",
+      "服": "clothing items",
+      "紙": "objects and tools",
+      "壁": "general",
+      "色": "general"
+    },
+    "深い": {
+      "海": "beverages",
+      "川": "general",
+      "プール": "general",
+      "関係": "general",
+      "意味": "general"
+    },
+    "浅い": {
+      "海": "beverages",
+      "川": "general",
+      "プール": "general"
+    },
+    "丸い": {
+      "形": "general",
+      "顔": "body parts"
+    },
+    "柔らかい": {
+      "布団": "school subjects",
+      "ベッド": "general",
+      "肉": "general",
+      "パン": "food items"
+    },
+    "硬い": {
+      "石": "general",
+      "ベッド": "general",
+      "肉": "general",
+      "パン": "food items"
+    },
+    "甘い": {
+      "味": "general",
+      "ケーキ": "general",
+      "お菓子": "general",
+      "果物": "food items",
+      "コーヒー": "beverages"
+    },
+    "苦い": {
+      "味": "general",
+      "コーヒー": "beverages",
+      "薬": "body parts",
+      "経験": "general"
+    },
+    "忙しい": {
+      "人": "people and relationships",
+      "日": "time periods",
+      "時間": "time periods",
+      "仕事": "work and study",
+      "生活": "general"
+    },
+    "眠い": {
+      "人": "people and relationships",
+      "時": "time periods",
+      "朝": "time periods"
+    },
+    "恥ずかしい": {
+      "気持ち": "emotions and feelings",
+      "こと": "abstract concepts",
+      "経験": "general",
+      "話": "communication"
+    },
+    "寂しい": {
+      "気持ち": "emotions and feelings",
+      "人": "people and relationships",
+      "夜": "time periods",
+      "場所": "places"
+    },
+    "危ない": {
+      "場所": "places",
+      "道": "general",
+      "人": "people and relationships",
+      "こと": "abstract concepts"
+    },
+    "上手": {
+      "人": "people and relationships",
+      "料理": "daily activities",
+      "スポーツ": "exercise and training",
+      "歌": "entertainment",
+      "絵": "emotions and feelings"
+    },
+    "下手": {
+      "人": "people and relationships",
+      "料理": "daily activities",
+      "スポーツ": "exercise and training",
+      "歌": "entertainment",
+      "絵": "emotions and feelings"
+    },
+    "丁寧": {
+      "説明": "communication",
+      "仕事": "work and study",
+      "言葉": "general",
+      "人": "people and relationships"
+    },
+    "親切": {
+      "人": "people and relationships",
+      "先生": "beverages",
+      "店員": "places",
+      "母": "people and relationships",
+      "父": "people and relationships",
+      "両親": "people and relationships"
+    },
+    "真面目": {
+      "人": "people and relationships",
+      "学生": "places"
+    },
+    "立派": {
+      "人": "people and relationships",
+      "建物": "places",
+      "家": "places",
+      "仕事": "work and study"
+    },
+    "賑やか": {
+      "町": "people and relationships",
+      "店": "places",
+      "場所": "places",
+      "パーティー": "actions and events"
+    },
+    "静か": {
+      "場所": "places",
+      "部屋": "places",
+      "町": "people and relationships",
+      "人": "people and relationships",
+      "夜": "time periods",
+      "図書館": "places"
+    },
+    "うるさい": {
+      "音": "work and study",
+      "声": "general",
+      "人": "people and relationships",
+      "場所": "places"
+    },
+    "汚い": {
+      "部屋": "places",
+      "服": "clothing items",
+      "手": "body parts",
+      "川": "general",
+      "町": "people and relationships"
+    },
+    "珍しい": {
+      "動物": "general",
+      "花": "general",
+      "経験": "general",
+      "名前": "general"
+    },
+    "丈夫": {
+      "体": "body parts",
+      "建物": "places"
+    },
+    "不便": {
+      "場所": "places",
+      "駅": "transportation",
+      "生活": "general"
+    },
+    "つまらない": {
+      "映画": "entertainment",
+      "本": "reading materials",
+      "授業": "beverages",
+      "話": "communication",
+      "人": "people and relationships"
+    },
+    "ひどい": {
+      "天気": "weather and nature",
+      "経験": "general",
+      "人": "people and relationships",
+      "話": "communication"
+    },
+    "残念": {
+      "こと": "abstract concepts",
+      "ニュース": "information and knowledge",
+      "気持ち": "emotions and feelings"
+    },
+    "熱心": {
+      "人": "people and relationships",
+      "学生": "places",
+      "先生": "beverages"
+    },
+    "やさしい": {
+      "問題": "communication",
+      "質問": "communication",
+      "テスト": "general",
+      "本": "reading materials"
+    },
+    "易い": {
+      "問題": "communication",
+      "質問": "communication",
+      "仕事": "work and study"
+    },
+    "無理": {
+      "こと": "abstract concepts",
+      "話": "communication"
+    },
+    "普通": {
+      "人": "people and relationships",
+      "生活": "general",
+      "日": "time periods",
+      "話": "communication",
+      "こと": "abstract concepts"
+    },
+    "十分": {
+      "時間": "time periods",
+      "お金": "money and finance",
+      "準備": "daily activities"
+    },
+    "確か": {
+      "こと": "abstract concepts"
+    },
+    "かわいい": {
+      "子供": "people and relationships",
+      "赤ちゃん": "general",
+      "犬": "general",
+      "猫": "general",
+      "服": "clothing items",
+      "顔": "body parts",
+      "娘": "general",
+      "息子": "general",
+      "女の子": "general",
+      "男の子": "general",
+      "妹": "people and relationships",
+      "弟": "people and relationships"
+    },
+    "大事": {
+      "こと": "abstract concepts",
+      "人": "people and relationships",
+      "話": "communication",
+      "仕事": "work and study",
+      "時間": "time periods",
+      "安全": "general",
+      "自由": "general"
+    },
+    "結構": {
+      "こと": "abstract concepts",
+      "人": "people and relationships"
+    },
+    "怖い": {
+      "映画": "entertainment",
+      "話": "communication",
+      "夢": "abstract concepts",
+      "顔": "body parts",
+      "人": "people and relationships",
+      "こと": "abstract concepts"
+    },
+    "いろいろ": {
+      "こと": "abstract concepts",
+      "人": "people and relationships",
+      "話": "communication",
+      "経験": "general",
+      "問題": "communication"
+    },
+    "大切": {
+      "こと": "abstract concepts",
+      "人": "people and relationships",
+      "時間": "time periods",
+      "家族": "people and relationships",
+      "友達": "people and relationships",
+      "安全": "general",
+      "自由": "general"
+    },
+    "素晴らしい": {
+      "景色": "general",
+      "経験": "general",
+      "人": "people and relationships",
+      "こと": "abstract concepts",
+      "映画": "entertainment",
+      "音楽": "entertainment",
+      "天気": "weather and nature"
+    },
+    "国際": {
+      "空港": "general",
+      "会議": "actions and events",
+      "関係": "general",
+      "社会": "general"
+    },
+    "ソフト": {
+      "声": "general"
+    },
+    "おかしい": {
+      "話": "communication",
+      "こと": "abstract concepts",
+      "人": "people and relationships",
+      "顔": "body parts"
+    },
+    "だめ": {
+      "こと": "abstract concepts",
+      "人": "people and relationships"
+    },
+    "急": {
+      "用": "work and study",
+      "用事": "work and study",
+      "仕事": "work and study",
+      "話": "communication",
+      "電話": "communication"
+    },
+    "うまい": {
+      "料理": "daily activities",
+      "人": "people and relationships",
+      "話": "communication"
+    },
+    "厳しい": {
+      "先生": "beverages",
+      "人": "people and relationships",
+      "親": "people and relationships",
+      "規則": "general",
+      "練習": "work and study",
+      "冬": "weather and nature",
+      "天気": "weather and nature"
+    },
+    "弱い": {
+      "人": "people and relationships",
+      "子": "people and relationships",
+      "体": "body parts",
+      "力": "general"
+    },
+    "悲しい": {
+      "話": "communication",
+      "こと": "abstract concepts",
+      "映画": "entertainment",
+      "顔": "body parts",
+      "気持ち": "emotions and feelings"
+    },
+    "適当": {
+      "こと": "abstract concepts",
+      "人": "people and relationships",
+      "時間": "time periods"
+    },
+    "複雑": {
+      "問題": "communication",
+      "話": "communication",
+      "気持ち": "emotions and feelings",
+      "関係": "general"
+    },
+    "遅い": {
+      "時間": "time periods",
+      "電車": "transportation",
+      "返事": "communication"
+    },
+    "短い": {
+      "時間": "time periods",
+      "話": "communication",
+      "髪": "body parts",
+      "スカート": "clothing items"
+    },
+    "遠い": {
+      "場所": "places",
+      "国": "abstract concepts",
+      "家": "places",
+      "学校": "places",
+      "駅": "transportation",
+      "道": "general"
+    },
+    "まずい": {
+      "料理": "daily activities",
+      "味": "general",
+      "こと": "abstract concepts"
+    },
+    "よろしい": {
+      "こと": "abstract concepts",
+      "時間": "time periods",
+      "日": "time periods"
+    },
+    "細かい": {
+      "字": "reading materials",
+      "話": "communication",
+      "お金": "money and finance"
+    },
+    "盛ん": {
+      "スポーツ": "exercise and training",
+      "産業": "general"
+    },
+    "ぬるい": {
+      "お茶": "beverages",
+      "コーヒー": "beverages"
+    }
+  }
+}

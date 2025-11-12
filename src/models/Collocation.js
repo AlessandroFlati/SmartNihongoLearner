@@ -21,6 +21,20 @@ export class Collocation {
   }
 
   /**
+   * Get all verb matches for this word (for nouns)
+   */
+  getVerbMatches() {
+    return this.matches.verbs || [];
+  }
+
+  /**
+   * Get all adjective matches for this word (for nouns)
+   */
+  getAdjectiveMatches() {
+    return this.matches.adjectives || [];
+  }
+
+  /**
    * Get noun matches filtered by score
    */
   getNounMatchesByScore(minScore) {
@@ -61,6 +75,44 @@ export class Collocation {
    */
   getTotalMatches() {
     return this.getNounMatches().length;
+  }
+
+  /**
+   * Get limited noun matches for gameplay
+   *
+   * Applies smart limiting based on total match count:
+   * - 30+ matches → limit to 15 best matches
+   * - 20-29 matches → limit to 20 best matches
+   * - 15-19 matches → keep all
+   * - <15 matches → keep all
+   *
+   * Prioritizes higher scores: score 3, then 2, then 1
+   */
+  getLimitedNounMatches() {
+    const allMatches = this.getNounMatches();
+    const total = allMatches.length;
+
+    // Determine limit based on total count
+    let limit;
+    if (total >= 30) {
+      limit = 15;
+    } else if (total >= 20) {
+      limit = 20;
+    } else {
+      // Keep all for reasonable counts
+      return allMatches;
+    }
+
+    // Sort by score (descending), then alphabetically for consistency
+    const sorted = [...allMatches].sort((a, b) => {
+      if (b.score !== a.score) {
+        return b.score - a.score; // Higher score first
+      }
+      return a.word.localeCompare(b.word); // Alphabetical for same score
+    });
+
+    // Return top N matches
+    return sorted.slice(0, limit);
   }
 
   /**

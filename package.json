@@ -9,15 +9,16 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "@mui/material": "^6.3.0",
     "@emotion/react": "^11.13.5",
     "@emotion/styled": "^11.13.5",
     "@mui/icons-material": "^6.3.0",
-    "dexie": "^4.0.11",
+    "@mui/material": "^6.3.0",
     "crypto-js": "^4.2.0",
-    "openai": "^4.74.1"
+    "dexie": "^4.0.11",
+    "openai": "^4.74.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "wanakana": "^5.3.1"
   },
   "devDependencies": {
     "@types/react": "^18.3.12",

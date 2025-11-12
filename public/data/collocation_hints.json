@@ -1,0 +1,3035 @@
+{
+  "version": "9.0.0",
+  "generator": "claude-api-specialized",
+  "model": "claude-sonnet-4-5-20250929",
+  "generatedAt": "2025-11-11 19:44:41",
+  "totalPairs": 2246,
+  "hints": {
+    "する": {
+      "仕事": "employment or task; together means 'to work'",
+      "勉強": "learning; becomes 'to study'",
+      "話": "Exchange of words; becomes 'to converse'",
+      "質問": "inquiry seeking information; together means 'to ask'",
+      "買い物": "Retail activity; together means 'to shop'",
+      "料理": "culinary art; together means 'to cook'",
+      "運動": "Physical activity; together means 'to exercise'",
+      "練習": "repetitive drills; together means 'to practice'",
+      "準備": "advance arrangements; together means 'to prepare'",
+      "旅行": "Journey to another place; means \"to travel'",
+      "経験": "lived moments; together means 'to experience'",
+      "連絡": "Communication exchange; together means \"to contact'",
+      "紹介": "Making connections between people; means 'to introduce'",
+      "説明": "clarifying details; becomes 'to explain'",
+      "研究": "Academic investigation; becomes 'to research'",
+      "計画": "blueprint for future; becomes 'to plan'",
+      "会議": "Formal gathering for decisions; means \"to meet'",
+      "試合": "Competitive sporting event; becomes 'to compete'",
+      "試験": "Formal assessment; together means 'to take exam'",
+      "結婚": "lifelong union; together means 'to marry'",
+      "失敗": "Unwanted outcome; together means 'to fail'",
+      "相談": "Seeking guidance from others; means \"to consult'",
+      "用意": "advance arrangements; together means 'to prepare'",
+      "予約": "advance arrangement; together means 'to book/reserve'",
+      "招待": "formal request to attend; means 'to invite'",
+      "挨拶": "polite words exchanged when meeting; means \"to greet'",
+      "翻訳": "Converting text between languages; means \"to translate'",
+      "注意": "Vigilance or warning; becomes \"to be careful",
+      "心配": "Mental distress; together means \"to worry'",
+      "安心": "Mental calm after worry; means \"to feel relieved",
+      "利用": "resource or service; together means 'to utilize'",
+      "放送": "radio/TV transmission; together means 'to air'",
+      "教育": "systematic instruction; together means 'to educate'",
+      "卒業": "Academic milestone; together means 'to graduate'",
+      "生産": "Manufacturing output; together means 'to produce/manufacture'",
+      "掃除": "household chore; together means 'to clean'",
+      "案内": "Showing someone around; becomes 'to guide'",
+      "邪魔": "blocking presence; combined means 'to disturb/interrupt'",
+      "散歩": "leisurely outdoor walk; together means 'to stroll'",
+      "洗濯": "Dirty clothes and linens; means \"to do laundry",
+      "出発": "leaving point; together means 'to depart'",
+      "入学": "beginning academic journey; means 'to enroll'",
+      "入院": "Medical stay as patient; means \"to be hospitalized",
+      "出席": "being present at events; means 'to attend'",
+      "競争": "Striving against others; means 'to compete'",
+      "喧嘩": "Heated dispute; together means \"to quarrel'",
+      "反対": "contrary stance; together means 'to oppose'",
+      "遠慮": "Polite holding back; means \"to refrain'",
+      "会話": "spoken exchange; together means 'to converse'",
+      "アルバイト": "supplemental work for students; means 'work part-time'",
+      "世話": "caring for others; becomes 'to look after'",
+      "復習": "Looking back at old lessons; means \"to review'",
+      "予習": "Looking ahead material; becomes 'to preview'",
+      "チェック": "Verification process; together means \"to inspect'",
+      "失礼": "rudeness; together means 'to excuse oneself'",
+      "輸入": "Bringing foreign goods in; means \"to import'",
+      "輸出": "Goods sent abroad; becomes 'to export'",
+      "貿易": "International commerce; together means 'to trade'",
+      "承知": "understanding/acknowledgment; together means 'to consent/agree'",
+      "注射": "Medical needle procedure; means \"to inject/vaccinate",
+      "水泳": "pool sport; together means 'to swim'",
+      "柔道": "Japanese martial art; means \"to practice judo",
+      "花見": "springtime picnic tradition; means 'to go'",
+      "支度": "Getting ready actions; makes 'to prepare/get ready'",
+      "退院": "Medical stay ending; means \"to be discharged",
+      "見物": "Attractions or spectacles; becomes 'to sightsee'",
+      "寝坊": "morning failure; waking up too late",
+      "下宿": "rented room with meals; means 'to lodge'",
+      "お礼": "expression of appreciation; becomes 'to thank'",
+      "お祝い": "festive occasion; together means 'to celebrate'",
+      "テニス": "Racket sport; together means 'to play tennis'",
+      "マッチ": "competitive contest; together means 'to compete'",
+      "故障": "malfunction of machines; means 'to break down'",
+      "発音": "Sound of syllables; means \"to pronounce'",
+      "ご馳走": "Lavish meal; together means \"to treat someone",
+      "代わり": "stand-in person/thing; means 'to substitute for'",
+      "匂い": "Aroma or stink; together means 'to smell/reek'",
+      "パート": "Part-time employment; means 'to work part-time'",
+      "格好": "appearance or posture; means 'to pose/look cool'",
+      "拝見": "Humble viewing; makes \"to humbly see"
+    },
+    "いる": {
+      "人": "individual human; confirms animate presence",
+      "家": "Building where one stays; means 'to be home'",
+      "部屋": "Indoor space where someone stays/is present",
+      "場所": "Where someone/something exists or is present",
+      "中": "Interior space; means 'to be inside'",
+      "学校": "Educational institution; means \"to be at school",
+      "会社": "workplace organization; means 'to be employed'",
+      "国": "homeland or nation; together means 'to stay/live'",
+      "所": "location where someone/something exists",
+      "母": "Female parent; having one present/alive",
+      "父": "Male parent; indicates family presence/existence",
+      "息子": "Male child; indicates having offspring",
+      "娘": "Female child; means \"to have a daughter",
+      "妻": "**\"Life partner; means 'to be married' (male speaker)\"**",
+      "夫": "**\"Married woman's male spouse; indicates being married\"**'",
+      "兄": "Male sibling who's senior; means \"have'",
+      "姉": "Female sibling born before you; having one",
+      "弟": "Male sibling born after you; \"have",
+      "妹": "Female sibling; means \"to have\" family",
+      "両親": "Mother and father; \"have living parents",
+      "兄弟": "Family members sharing parents; \"to have siblings",
+      "男": "Adult human male; presence or existence",
+      "女": "Romantic partner; implies having a girlfriend",
+      "男の子": "Young male child; signals presence/existence",
+      "女の子": "Young female child; presence or existence",
+      "運転手": "Professional vehicle operator; means \"have a driver",
+      "社長": "Top executive; means \"there's a president'",
+      "生徒": "Young learners present in classroom",
+      "先輩": "Experienced person above you; means \"have a mentor",
+      "高校生": "Teenager in grades 10-12; their presence",
+      "大学生": "Young adult pursuing higher education; presence",
+      "市民": "residents of a city; implies civic presence",
+      "パパ": "Male parent; indicates his presence/existence",
+      "ご主人": "Respectful term for someone's spouse; asking'",
+      "奥さん": "married woman; indicates 'to be married'",
+      "部長": "Department boss; signals their presence/existence",
+      "校長": "School's top authority figure; their presence'",
+      "看護婦": "Hospital caregiver; means \"nurse is present/available",
+      "公務員": "stable career serving the state",
+      "課長": "Middle management boss; their presence matters",
+      "留学生": "foreign student studying here temporarily",
+      "警官": "Uniformed law enforcer present at scene",
+      "お嬢さん": "Polite term for someone's daughter; indicates presence'",
+      "赤ん坊": "Newborn needing constant care; signals presence",
+      "お子さん": "Polite term for offspring; means \"have children",
+      "家内": "Spouse at home; humble term for \"my wife",
+      "おまわりさん": "uniformed patrol officer; means 'officer present/around'",
+      "すり": "Stealthy thief; warns of their presence",
+      "アナウンサー": "TV/radio voice professional; means \"work as",
+      "小鳥": "Tiny feathered creature, exists/lives naturally",
+      "一人": "**\"solitary individual; means 'to be alone'\"**",
+      "二人": "A pair together; means 'there are two'"
+    },
+    "ある": {
+      "こと": "Abstract matter or occurrence; means \"to happen'",
+      "問題": "Issue or difficulty; means 'there's a problem",
+      "理由": "justification or motive; means 'there's a reason",
+      "関係": "bond between people/things; means 'to be related/connected'",
+      "時間": "duration available; means 'to have free time'",
+      "場所": "Physical space; means 'there's room/space available",
+      "店": "Commercial building; means \"there's a shop/restaurant'",
+      "公園": "Green space with swings; means \"there's a park'",
+      "駅": "Transport hub; means \"there's a station nearby'",
+      "興味": "Curiosity or fascination; together means \"to be interested",
+      "趣味": "Personal interests; means \"to have hobbies",
+      "機会": "favorable opening; means 'to have opportunity'",
+      "原因": "reason/root behind events; means 'there's a cause",
+      "楽しみ": "anticipated joy; together means 'to look forward to'",
+      "つもり": "Mental plan; signals firm intention exists",
+      "場合": "circumstance or condition; means 'in cases when'",
+      "帰り": "homeward journey; means 'on the way back'",
+      "仕方": "method or option; together means 'unavoidable'",
+      "専門": "Your field of expertise; means \"to specialize'",
+      "クラス": "Educational group session; means 'have class/lesson'",
+      "後": "Remaining time/space; means 'to be left'",
+      "間": "Physical or temporal gap; means 'be apart'",
+      "ころ": "Vague time period; together means 'once'",
+      "この頃": "recent time period; together means 'lately'",
+      "この間": "recent past time; means 'recently happened'",
+      "途中": "midpoint or journey segment; means 'in progress'",
+      "晩": "Time period; together means 'one day/once'",
+      "夕方": "Time between afternoon and night; means \"later today",
+      "昼間": "daylight hours; means 'it's still daytime",
+      "今月": "Current 30-day period; means \"remaining/left",
+      "毎年": "recurring annual pattern; means 'happens yearly'",
+      "毎週": "recurring seven-day interval; means 'happens weekly'",
+      "毎月": "recurring calendar period; means 'happens monthly'",
+      "一昨日": "Two days back; indicates past occurrence",
+      "一昨年": "Two years back; indicates past events occurred",
+      "一月": "thirty-day span; indicates time remaining",
+      "夕べ": "last night; together means 'yesterday evening'",
+      "正月": "First three days celebration; means 'approaching'",
+      "昼休み": "Midday pause from work; means \"have/get",
+      "再来年": "**\"distant future timepoint; expresses something planned/existing ahead\"**",
+      "再来週": "Two weeks ahead; expressing future schedule",
+      "再来月": "two months ahead; upcoming future time",
+      "上": "spatial/hierarchical position; means 'there is more/remaining'",
+      "下": "subordinate position; implies being ranked lower",
+      "内": "interior space; together means 'within/during'",
+      "外": "Beyond the walls; means 'to have/be possible'",
+      "側": "**\"Position or perspective; means 'to have a side/aspect'\"**",
+      "後ろ": "spatial area behind you; suggests backing/support",
+      "横": "Sideways position; means 'to lie down'",
+      "裏": "Hidden side; implies \"there's more to it'",
+      "表": "outer layer; together means 'to appear publicly'",
+      "通り": "Linear public passage; means \"there are ways/options",
+      "近く": "spatial closeness; means 'to be nearby'",
+      "そば": "physical nearness; together means 'to be nearby'",
+      "向こう": "far side; means 'from now on/ahead'",
+      "辺": "surrounding zone; together means 'thereabouts'",
+      "真ん中": "Central position; means \"to be in the middle",
+      "出口": "Opening to escape; means 'there's a way out",
+      "入口": "Opening where you enter; exists/is located",
+      "交差点": "Streets meet here; indicates a location exists",
+      "海岸": "Sandy shoreline where land meets sea",
+      "屋上": "Top floor exterior space; means \"to have'",
+      "郊外": "Residential area beyond city center; indicates location",
+      "廊下": "Long connecting space between rooms; exists in buildings",
+      "玄関": "Space where guests arrive, shoes removed",
+      "台所": "Room where meals are prepared; having one",
+      "門": "Traditional entrance structure; suggests specialization/aptitude",
+      "受付": "Service desk where receptionists help visitors",
+      "交番": "Small police station nearby; means \"there's one'",
+      "売り場": "Store section/department; means \"be stocked/available",
+      "隅": "Secluded edge space; implies thoroughness when existing",
+      "区": "Administrative district; means \"to live in",
+      "都": "Tokyo's administrative district; indicates location/existence there'",
+      "田舎": "Remote hometown; means 'to be from countryside'",
+      "林": "Dense tree grouping; indicates natural presence",
+      "砂": "Fine granular particles; suggests gritty texture",
+      "警察": "Law enforcement presence; means \"police exist/are there",
+      "暇": "unscheduled hours; together means 'to be free'",
+      "ポスト": "Red street cylinder; means \"there's a mailbox'",
+      "誕生日": "Annual celebration marking your birth; means \"to have/be",
+      "半分": "Remaining portion; suggests 'there's half left",
+      "家庭": "domestic life unit; means 'to have family'",
+      "ガス": "Invisible fuel; means utility is available",
+      "交通": "vehicle flow; means 'accessible by transit'",
+      "湖": "Large natural water body; indicates existence/presence",
+      "晴れ": "Cloudless sky condition; means 'occasion/event'",
+      "工業": "factories and production; means 'industrialized'",
+      "水道": "Infrastructure bringing water to homes; means \"has plumbing",
+      "故障": "Machine malfunction; means \"is broken/malfunctioning",
+      "湯": "Heated water; means \"bath is ready/available",
+      "台風": "Rotating storm system; indicates occurrence/presence",
+      "匂い": "Aroma or stench; indicates presence detected",
+      "熱": "body temperature; indicates having a fever",
+      "草": "Green ground cover; implies something fishy",
+      "お祭り": "Cultural celebration event; means \"taking place",
+      "展覧会": "Public art/museum event; means \"being held/on",
+      "留守": "empty home state; means 'be away/out'",
+      "火事": "Destructive blaze; means \"a fire breaks out",
+      "お釣り": "Coins/bills returned; means \"to get change",
+      "贈り物": "Thoughtfully wrapped offering; means \"to have/receive",
+      "特急": "Fast train; implies one is available/running",
+      "泥棒": "Criminal intruder; means 'a burglary occurred'",
+      "天気予報": "Meteorological prediction; means \"forecast exists/available",
+      "引き出し": "Storage compartment that slides; suggests having repertoire/resources",
+      "畳": "Traditional straw flooring; counted when present",
+      "棚": "Storage furniture; means \"to be postponed/shelved",
+      "本棚": "Furniture storing books; indicates possession/presence",
+      "ポケット": "Clothing pouch; means \"to have money/resources",
+      "曇り": "Sky condition without sun; indicates cloudiness exists",
+      "式": "Mathematical notation; indicates existence/availability of method",
+      "忘れ物": "Item left behind; means \"there's something forgotten'",
+      "押し入れ": "Japanese sliding-door storage space for futons",
+      "講堂": "Large campus building where lectures occur",
+      "以上": "Minimum threshold or quantity; signals \"at least",
+      "以下": "threshold/limit marker; means 'as follows'",
+      "以外": "exclusion marker; together means 'other than exist'",
+      "以内": "boundary or limit; expresses 'being within range'",
+      "日曜日": "Weekly rest day; means \"to have off",
+      "月曜日": "Week's first day; means \"it's Monday",
+      "火曜日": "Second weekday; means \"have/there is",
+      "水曜日": "Midweek day; means \"have/be scheduled",
+      "木曜日": "Fourth weekday; means \"have/scheduled on Thursday",
+      "金曜日": "End-of-workweek day; means 'it's Friday",
+      "土曜日": "Weekend day; means \"there's a Saturday (upcoming)'",
+      "わけ": "logical reason/circumstance; means 'it makes sense'",
+      "うち": "**\"one's home/dwelling; means 'to have/own'\"**'",
+      "別": "Categorical separation; together means 'there's a difference",
+      "代わり": "Stand-in option; together means 'there's an alternative",
+      "おかげ": "Divine favor; means \"thanks to; because of",
+      "一杯": "Full container's worth; means 'plentiful/abundant",
+      "久しぶり": "Time gap since reunion; means \"it's'",
+      "両方": "dual aspects; together means 'both exist/available'",
+      "タイプ": "category/classification; together means 'to be someone's type",
+      "倍": "Multiplication factor; indicates comparison exists",
+      "終わり": "conclusion or finale; means 'to come'",
+      "割合": "Statistical measure; means \"fairly/rather/quite",
+      "ご馳走": "Luxurious meal spread; means 'to treat someone'",
+      "一つ": "Single unit; together means 'there is one'",
+      "二つ": "Counting word for small objects; means",
+      "三つ": "Counting word; together means 'to be three'",
+      "四つ": "Cardinal number; together means 'to be four'",
+      "五つ": "Counter for small objects; means 'there are five'",
+      "六つ": "Age counter for young children; means",
+      "七つ": "Number indicating young age; means 'seven years old'",
+      "八つ": "age of childhood; means 'to be'",
+      "九つ": "Age counted in childhood years; turns nine",
+      "台": "Counter for machines/vehicles; means 'to have/own'",
+      "番": "Sequential position; means \"it's your turn'",
+      "ため": "purpose or benefit; together means 'for'",
+      "テーブル": "Flat furniture surface; means \"to have table",
+      "灰皿": "Receptacle for cigarette ash; indicates smoking-friendly place",
+      "カーテン": "Window covering fabric; indicates presence/installation",
+      "ステレオ": "Audio equipment; means 'to have/own one'",
+      "戸": "Traditional sliding panel; means \"there's an opening/way'",
+      "レジ": "Payment counter; meaning \"there's a checkout available'",
+      "けが": "Physical damage; means \"to be injured",
+      "ひげ": "Facial hair; indicates having/growing one",
+      "０": "Nothing; means 'there isn't any/none",
+      "零": "Nothing; collocation means 'to have none left'",
+      "１００": "Round number; together means 'many/plenty'",
+      "メートル": "unit of distance/height; expresses measurement",
+      "グラム": "Unit of weight; means \"to weigh'"
+    },
+    "なる": {
+      "大人": "Mature person; means \"to grow up",
+      "先生": "Educator profession; means \"to become a teacher",
+      "友達": "close companion; together means 'befriend someone'",
+      "医者": "Professional who heals patients; career aspiration",
+      "最後": "Final point reached; means \"to end up",
+      "最初": "Starting point; together means \"for starters",
+      "始め": "initial point; together means 'at first'",
+      "お金持ち": "wealthy person; means 'to get rich'",
+      "部長": "management position; means 'get promoted' to lead",
+      "校長": "School leader; attaining this leadership position",
+      "看護婦": "Healthcare professional in white uniform; career goal",
+      "公務員": "State employee; means \"join civil service",
+      "課長": "Middle management position; career promotion achievement",
+      "留学生": "Student studying abroad; means \"to become one",
+      "アナウンサー": "TV/radio news voice; career aspiration",
+      "二十歳": "Legal adulthood age in Japan; coming-of-age milestone",
+      "一番": "Top position; means \"to come in first"
+    },
+    "できる": {
+      "こと": "Abstract matter/action; together means \"can do",
+      "料理": "Preparing meals; means \"can cook\" skillfully",
+      "仕事": "employment duties; together means 'to be capable/competent'",
+      "スポーツ": "Athletic activities; together means \"to play/do sports",
+      "運転": "Controlling vehicles/machines; means \"can drive/operate"
+    },
+    "思う": {
+      "こと": "Abstract matter; forms \"to believe/feel that",
+      "気持ち": "inner emotions; together means 'to care/empathize'",
+      "意見": "personal viewpoint; together means 'to have/express opinion'"
+    },
+    "言う": {
+      "こと": "abstract matter; together means 'to mention/express'",
+      "言葉": "verbal expression; together means 'to speak/express'",
+      "話": "narrative or story; together means 'to tell'",
+      "意見": "Personal viewpoint; means \"to express opinion",
+      "名前": "personal identifier; together means 'to name/identify'",
+      "一": "Cardinal number; together means 'to say something/comment'",
+      "二": "One plus one; means 'object/complain'",
+      "三": "Number after two; means 'complain/grumble repeatedly'",
+      "四": "Number sound-alike; means 'to complain/grumble'",
+      "五": "Number after four; means 'to complain/grumble'",
+      "六": "Difficult things; saying it means complaining",
+      "七": "Lucky number; saying it means complaining/grumbling",
+      "八": "Number symbolizing anger or venting frustration",
+      "九": "Single digit number; together means 'to complain'",
+      "十": "Number after nine; means to talk back/retort"
+    },
+    "くれる": {
+      "プレゼント": "wrapped offering; emphasizes giver's kindness'",
+      "お土産": "Travel gift given to you upon return"
+    },
+    "やる": {
+      "仕事": "employment or tasks; means 'to work'",
+      "宿題": "Student tasks done at home after class",
+      "スポーツ": "Physical games and athletics; means \"to play sports"
+    },
+    "行く": {
+      "学校": "Educational institution; daily student destination",
+      "会社": "workplace organization; means \"commute to work",
+      "家": "One's dwelling; means 'to go/return home",
+      "駅": "Platform destination for catching trains",
+      "店": "Commercial establishment you visit for goods/services",
+      "レストラン": "Western dining establishment; to dine out",
+      "映画館": "Dark venue with big screens; \"to",
+      "病院": "Medical facility you visit when ill",
+      "銀行": "Money institution you visit for transactions",
+      "公園": "Green space for recreation and relaxation",
+      "図書館": "Quiet building with books; destination for studying",
+      "海": "Vast salty waters; summer vacation destination",
+      "山": "Tall natural peak; together means \"to climb/hike",
+      "旅行": "Journey away from home; means \"to travel'",
+      "国": "nation with borders; means 'go abroad'",
+      "外国": "Land beyond your borders; means abroad",
+      "市": "Urban administrative area; means \"go downtown/shopping",
+      "村": "Small rural settlement, destination for visiting",
+      "島": "Land surrounded by water; vacation destination",
+      "トイレ": "Porcelain throne room; common euphemism destination",
+      "スーパー": "Grocery store; everyday shopping destination",
+      "教会": "Sacred building with pews; attend services",
+      "動物園": "animal exhibits behind fences; destination for visiting",
+      "神社": "Sacred gate place; visit for prayers/blessings",
+      "高校": "Educational institution for ages 15-18; attending",
+      "大学": "Higher education institution; means \"attend college",
+      "小学校": "Place of childhood education, ages 6-12",
+      "教室": "Room with desks; destination for lessons",
+      "事務所": "Workplace building where business matters are handled",
+      "会場": "Event space where crowds gather; heading there",
+      "森": "Dense woodland destination for nature walks",
+      "近所": "Local area nearby; means casual errands",
+      "研究室": "Academic workspace where professors/researchers meet students",
+      "会議室": "Professional meeting space; heading there for business",
+      "駐車場": "Paved vehicle storage area; destination for parking",
+      "池": "Small artificial water body; destination for outings",
+      "港": "Waterside docking place for ships and boats",
+      "庭": "outdoor space at home; often backyard",
+      "郵便局": "Building where you mail letters and packages",
+      "喫茶店": "Cozy spot for coffee and conversation",
+      "食堂": "Communal eating space; destination for meals",
+      "美術館": "Building where paintings and sculptures are displayed",
+      "デパート": "Multi-floor retail destination for shopping trips",
+      "北": "Cardinal direction; means \"go north/head northward",
+      "南": "Cardinal direction; means \"to head southward",
+      "東": "cardinal direction; means 'head eastward'",
+      "西": "Cardinal direction; means \"to pass away",
+      "アメリカ": "Western superpower; destination requiring long travel",
+      "上": "Higher direction; together means \"to go up",
+      "下": "Downward direction; together means \"to descend'",
+      "外": "Open air space; means \"to go out",
+      "先": "ahead point; creates 'to go forward/onward'",
+      "向こう": "far side; together means 'go over there'",
+      "警察": "Law enforcement station; means \"report to authorities",
+      "湖": "Peaceful freshwater body, scenic destination trip",
+      "出口": "Portal to leave; heading toward escape route",
+      "入口": "Portal you head toward; means \"approach/reach",
+      "海岸": "Sandy shoreline destination for outings",
+      "屋上": "Building's highest outdoor floor; destination upward'",
+      "郊外": "City outskirts; means escaping urban center",
+      "廊下": "Indoor pathway connecting rooms; means \"walk down",
+      "台所": "Room where meals are prepared daily",
+      "うち": "home/residence; together means 'to go home'",
+      "田舎": "Remote farmlands; returning to one's roots'",
+      "林": "Natural place with many trees, venture into",
+      "アジア": "Earth's largest continent, travel destination'",
+      "アフリカ": "Second-largest continent; distant travel destination",
+      "西洋": "Europe and Americas; means modernize/westernize",
+      "中学校": "Educational institution for ages 12-15; means \"attend",
+      "交番": "Small police station where you report trouble",
+      "飛行場": "Runway facility; means heading there for flights",
+      "ガソリンスタンド": "Fuel refilling stop for vehicles",
+      "お手洗い": "Polite room for natural needs; euphemistic destination",
+      "床屋": "Men's haircut shop; means \"get haircut'",
+      "八百屋": "Fresh produce shop, routine destination",
+      "歯医者": "Tooth specialist; means \"visit/see the dentist",
+      "コンサート": "Live music event you attend",
+      "大使館": "Foreign government's office for visa matters'",
+      "お祭り": "Cultural celebration with food stalls and crowds",
+      "展覧会": "Art display venue you visit purposefully",
+      "お見舞い": "visit to sick/injured person; becomes 'hospital visit'",
+      "花見": "Springtime picnic tradition under blooming sakura trees",
+      "明後日": "Two days ahead; means absurd/wrong direction",
+      "一昨日": "two days back; means 'dates to'",
+      "講義": "Academic class session you attend regularly"
+    },
+    "見る": {
+      "映画": "projected entertainment on theater screens",
+      "テレビ": "Electronic screen for shows and entertainment",
+      "写真": "Captured moment on paper; view memories",
+      "景色": "Natural vista admired while traveling or sightseeing",
+      "夢": "nighttime visions during sleep; literally 'see'",
+      "ニュース": "Current events broadcast; means \"to watch news",
+      "試合": "Competitive sporting event you attend or spectate",
+      "海": "Vast blue waters; leisure trip destination",
+      "空": "Blue expanse above; means daydreaming/spacing out",
+      "医者": "Healthcare professional; means 'to consult/see doctor'",
+      "月": "Celestial orb; romantic viewing tradition",
+      "番組": "Scheduled TV show; means \"to watch'",
+      "ページ": "Book or website sheet you browse through",
+      "地図": "Paper guide showing roads and locations",
+      "鏡": "Reflective surface; checking your own appearance",
+      "雲": "White fluffy sky formations; means daydreaming",
+      "庭": "Landscaped outdoor space admired for contemplation",
+      "池": "Small water body; tranquil garden viewing spot",
+      "森": "Dense trees; means \"miss the forest",
+      "右": "rightward direction; means 'look right'",
+      "左": "Direction opposite of right; means 'look left'",
+      "周り": "surroundings; together means 'look around'",
+      "物": "Generic entity; together means 'sightseeing/touring'",
+      "天気予報": "Tomorrow's rain or shine prediction'",
+      "表": "outer layer; together means 'judge superficially'",
+      "スクリーン": "large viewing surface for movies/presentations",
+      "踊り": "Rhythmic performance art watched for entertainment"
+    },
+    "しまう": {
+      "こと": "Abstract matter; expresses regrettable completion",
+      "ドア": "Western-style barrier; close it shut",
+      "窓": "Glass opening you close for security"
+    },
+    "違う": {
+      "意見": "Personal viewpoint; together means \"to disagree'",
+      "国": "nation-state; means 'foreign' or 'different country'",
+      "文化": "Societal customs and traditions; implies comparison"
+    },
+    "わかる": {
+      "こと": "Abstract matter; together means \"to know'",
+      "意味": "semantic content; together means 'to comprehend'",
+      "気持ち": "Internal emotions; together means \"to empathize'",
+      "理由": "why\" behind actions; grasping someone's motives'",
+      "問題": "Challenge or puzzle; together means \"to solve'",
+      "話": "Spoken exchange; together means \"makes sense",
+      "本当": "Reality beneath surface; means \"to truly grasp",
+      "仕方": "method or procedure; together means 'inevitable'",
+      "語": "Communication system; means \"to speak/know",
+      "法律": "Rules and regulations; means \"to know the law",
+      "経済": "Market forces and financial systems; grasp",
+      "政治": "Governance systems; means \"to grasp politics",
+      "科学": "Physics, chemistry, biology—becoming knowledgeable in them",
+      "方": "method or manner; together means 'to know how'",
+      "医学": "healthcare science; means 'to know medicine'",
+      "文法": "**\"sentence rules; means 'to grasp how language works'\"**",
+      "地理": "Maps, locations, terrain; means \"to know'"
+    },
+    "出る": {
+      "家": "dwelling you depart from; means 'leave home'",
+      "部屋": "enclosed living space; means 'to leave/exit'",
+      "学校": "Educational institution; means \"to graduate'",
+      "会社": "workplace organization; means \"to quit/resign",
+      "血": "Red fluid that flows from wounds",
+      "熱": "Body temperature rise; means \"to run a fever",
+      "駅": "Transport hub; exiting means leaving the building",
+      "店": "Business premises; together means 'to open shop'",
+      "風呂": "Soaking place you exit when finished",
+      "お風呂": "Soaking place you finish using; getting out"
+    },
+    "使う": {
+      "お金": "Currency for transactions; means \"to spend'",
+      "時間": "Hours and minutes; means \"to spend time",
+      "パソコン": "Desktop or laptop machine for computing tasks",
+      "電話": "Communication device; means \"to make a call",
+      "道具": "Physical implements wielded for tasks",
+      "言葉": "Words, phrases, vocabulary; careful expression choice",
+      "英語": "Global lingua franca; to communicate in",
+      "箸": "Asian utensil pair; skill-based eating tool",
+      "電車": "Rails commuter; means \"to take/ride trains",
+      "ガス": "Invisible fuel for cooking and heating",
+      "水道": "Municipal piped water system; means \"use tap water",
+      "コンピュータ": "Electronic device for processing data and tasks",
+      "テープ": "Adhesive strip for sticking or recording",
+      "ナイフ": "Sharp cutting utensil for dining or cooking",
+      "フォーク": "Western utensil with prongs for eating",
+      "消しゴム": "Pink rubber that removes pencil mistakes",
+      "万年筆": "Elegant ink-filled writing instrument, refillable",
+      "ワープロ": "Electronic typing device for document creation",
+      "石鹸": "Cleansing bar that lathers for washing",
+      "スプーン": "Curved utensil for soup and desserts",
+      "糸": "Thin strand for sewing or puppeteering",
+      "味噌": "Salty fermented soybean paste for cooking",
+      "茶碗": "Rounded dish for rice; daily mealtime essential",
+      "字引": "Reference book for looking up word meanings"
+    },
+    "来る": {
+      "人": "individual; together means 'visitor arrives'",
+      "友達": "companion who visits or shows up",
+      "先生": "Educator who arrives to visit/help you",
+      "客": "**\"Person who arrives at your establishment\"**",
+      "手紙": "Written message that arrives by mail",
+      "季節": "Spring/summer/fall/winter arrives; natural cycle approaching",
+      "春": "Warm season after winter; naturally arrives",
+      "明日": "the day after today; arrives naturally",
+      "今日": "this present day; means 'until now'",
+      "昨日": "the day before today; forms 'it became yesterday'",
+      "母": "Female parent; visiting your place",
+      "父": "Male parent; suggests he'll visit/arrive'",
+      "息子": "Male child; suggests visiting one's parents'",
+      "娘": "Female child; means \"to get married (leave home)",
+      "兄": "Male sibling; his arrival/visit expected",
+      "姉": "Female sibling; visiting your place",
+      "弟": "Male sibling; visiting or joining you",
+      "妹": "Female sibling visiting or stopping by",
+      "来年": "The calendar's next cycle; approaching ahead'",
+      "来週": "Seven days after this one arrives",
+      "来月": "the month approaching after this one",
+      "今度": "next occasion or turn; means 'next time'",
+      "おじさん": "Male relative visits; older generation caller",
+      "おばさん": "Mother's or father's sister visiting home",
+      "お姉さん": "Female sibling; means \"arrive at puberty",
+      "お兄さん": "Male sibling who visits or joins you",
+      "おじいさん": "elderly male relative; means \"to age/grow old",
+      "おばあさん": "elderly female relative; visiting or arriving",
+      "今": "This moment; together means 'from now on'",
+      "後": "temporal position; together means 'from now on'",
+      "次": "Sequential moment; together means \"next time",
+      "夕方": "twilight hour; signals day's arrival'",
+      "今朝": "dawn's arrival; temporal arrival of today'",
+      "今月": "Current 30-day period arriving/passing",
+      "毎年": "Annual recurrence; means \"to come around",
+      "毎週": "Regular seven-day interval; means \"to recur'",
+      "毎月": "Regular temporal cycle; means \"to recur'",
+      "明後日": "Two days ahead; time approaching soon",
+      "一昨日": "Two days back; means \"to have passed",
+      "今晩": "approaching nighttime period; time arriving",
+      "台風": "Powerful storm spiraling toward land; approaching",
+      "大勢": "Large gathering; means \"many people come/show up",
+      "ころ": "approximate moment; together means 'to approach/near (time)'",
+      "日曜日": "Weekend's final day; means \"arriving/upcoming'",
+      "月曜日": "Week's first workday; signals arrival/approaching'",
+      "火曜日": "Second weekday; means 'next Tuesday arrives'",
+      "水曜日": "Midweek day; means \"when it arrives",
+      "木曜日": "Day after Wednesday; means \"to arrive/occur",
+      "金曜日": "End-of-workweek day; arrival means waiting ends",
+      "土曜日": "Weekend's first day; means \"approaching/arriving'"
+    },
+    "見える": {
+      "山": "Tall natural landmark visible from distance",
+      "海": "Vast blue waters visible from shore",
+      "景色": "Natural vista visible from a location",
+      "空": "Blue expanse above; implies visibility/weather clarity",
+      "星": "Twinkling celestial bodies visible at night"
+    },
+    "考える": {
+      "こと": "abstract matter; creates 'to consider/ponder'",
+      "問題": "Challenge requiring deep thought or solution",
+      "将来": "Tomorrow's possibilities; means \"contemplate one's future",
+      "意味": "Deep significance pondered; becomes \"consider carefully",
+      "理由": "why\" behind actions; ponder motivations/causes"
+    },
+    "作る": {
+      "料理": "culinary art; together means 'to cook'",
+      "パン": "Yeast-risen dough; means \"to bake'",
+      "お菓子": "Sweet treats, often homemade baking",
+      "ケーキ": "Sweet layered dessert, often baked at home",
+      "計画": "Blueprint for action; means \"to formulate'",
+      "友達": "People you bond with; means \"befriend",
+      "朝ご飯": "Morning meal; together means 'to cook/prepare breakfast'",
+      "昼ご飯": "Midday meal; together means \"to cook lunch",
+      "夕飯": "day's final meal, cooked at home'",
+      "お弁当": "Packed lunch box; means \"prepare lunch",
+      "サラダ": "Cold mixed vegetables, freshly tossed dish"
+    },
+    "持つ": {
+      "お金": "Currency; together means \"to have/possess wealth",
+      "時間": "duration or moment; together means 'to'",
+      "力": "Physical power; together means 'to possess ability'",
+      "経験": "Past events lived through; means \"to have experience",
+      "意見": "Personal viewpoint; together means \"to have an opinion",
+      "傘": "Rain shield you carry when going out",
+      "カメラ": "Photo-taking device; means \"to own/have",
+      "カップ": "Drinking vessel; holding means possessing one",
+      "興味": "Curiosity or fascination; together means \"to be interested"
+    },
+    "死ぬ": {
+      "人": "Individual human being; casualty or victim",
+      "動物": "Living creatures; can die or perish naturally"
+    },
+    "入る": {
+      "部屋": "Indoor space with walls; entering private quarters",
+      "家": "Building you live in; means 'to arrive home'",
+      "店": "Commercial building you step inside to",
+      "大学": "Higher education institution; means \"to enroll'",
+      "会社": "**\"Organization you join for employment\"** This",
+      "風呂": "Hot water for soaking; means \"to bathe'",
+      "お風呂": "hot water for soaking; means 'to bathe'",
+      "トイレ": "Private room for nature's call; means \"use restroom'",
+      "教室": "Room where students learn; entering for lessons",
+      "会場": "Event space where gatherings happen; entering to attend",
+      "高校": "Pre-university institution; means 'to enroll'",
+      "内": "interior space; together means 'to contain'",
+      "泥棒": "Criminal who breaks into homes illegally",
+      "学部": "Academic division; means \"to enroll/matriculate",
+      "新聞社": "Media organization; means \"to join/get hired"
+    },
+    "買う": {
+      "本": "Reading material with bound pages",
+      "服": "Wearable items, often for fashion shopping",
+      "車": "expensive motorized transportation, major purchase",
+      "食べ物": "Groceries, nourishment; shopping for sustenance",
+      "パン": "Baked goods from bakery or store",
+      "野菜": "Fresh greens from the produce section",
+      "肉": "Animal protein; butcher shop staple",
+      "魚": "Scaly swimming creature, often bought fresh",
+      "果物": "Nature's sweet produce, often gift-worthy'",
+      "靴": "Footwear worn outside, protects feet daily",
+      "お土産": "Travel gift representing a place visited",
+      "卵": "Fragile protein spheres from chickens, sold by dozen",
+      "カメラ": "Optical device for capturing photographs",
+      "スーツ": "Formal business attire, jacket and trousers",
+      "ノート": "Lined pages for students' writing and notes'",
+      "鉛筆": "Writing tool with graphite, needs sharpening",
+      "ボールペン": "Writing tool with rolling ink tip",
+      "辞典": "Reference book for word definitions and meanings",
+      "切符": "Paper slip for trains or buses",
+      "指輪": "Circular jewelry symbolizing commitment or engagement",
+      "時計": "Wrist or wall device showing time",
+      "ズボン": "Leg garment, often needs trying on",
+      "食料品": "Supermarket essentials; means grocery shopping",
+      "バター": "Creamy yellow spread for toast and cooking",
+      "ナイフ": "Sharp cutting tool, often paired purchase",
+      "フォーク": "Utensil with prongs for Western dining",
+      "人形": "Toy replica of human or character",
+      "ペット": "Companion animal you acquire, not adopt",
+      "コンピュータ": "Electronic machine; significant purchase investment",
+      "テープ": "Adhesive strip for sticking or recording",
+      "洋服": "Shirts, pants, dresses—not kimono—for everyday wear",
+      "靴下": "Foot garments that wear out frequently",
+      "手袋": "Hand warmers worn in winter weather",
+      "セーター": "Knitted winter garment, keeps you warm",
+      "ワイシャツ": "Formal collared garment for office wear",
+      "下着": "intimate garments worn beneath clothing",
+      "オーバー": "Heavy winter coat worn over clothes",
+      "上着": "Outerwear worn over clothes, weather protection",
+      "背広": "Formal men's jacket-and-trousers office attire'",
+      "おもちゃ": "Children's playthings; often gifts for kids'",
+      "糸": "thin strand for sewing or knitting",
+      "お皿": "Flat tableware holding food servings",
+      "フィルム": "Photography's light-sensitive celluloid roll'",
+      "冷蔵庫": "Large kitchen appliance that keeps food cold",
+      "レコード": "Vinyl disc, nostalgic analog music format",
+      "カレンダー": "Wall-hung date tracker, bought yearly",
+      "アクセサリー": "Decorative items worn to enhance outfits",
+      "ジャム": "Sweet fruit spread for toast",
+      "スプーン": "Curved utensil for soup and dessert",
+      "たばこ": "Addictive smokeable sold in packs",
+      "封筒": "Paper holder for mailing letters",
+      "かばん": "Portable carrier for belongings, school/work essential",
+      "石鹸": "Cleansing bar for washing hands and body",
+      "スーツケース": "Large wheeled luggage for extended travel",
+      "ＦＡＸ": "Office machine that sends paper documents",
+      "電灯": "Illumination fixture; means buying/installing household lighting",
+      "ハンカチ": "Small cloth square for tears, sweat",
+      "ストーブ": "Warmth appliance for cold winter months",
+      "絹": "Luxurious fabric from silkworms, expensive textile",
+      "品物": "Merchandise or articles for sale/trade",
+      "はがき": "Brief written greeting card, mailed without envelope",
+      "めがね": "Vision-correcting frames worn on face",
+      "木綿": "Natural fabric for clothing and textiles",
+      "花瓶": "Decorative container for displaying cut flowers",
+      "万年筆": "Elegant writing instrument with liquid ink",
+      "ワープロ": "Electronic typing machine for documents",
+      "ラジカセ": "Retro boombox combining radio and cassette",
+      "テープレコーダー": "Vintage magnetic audio device, retro purchase",
+      "自動車": "Major motorized vehicle; significant purchase",
+      "オートバイ": "Two-wheeled motor vehicle, major purchase decision",
+      "地下鉄": "Underground transport; means \"to buy a ticket",
+      "汽車": "Long-distance railway transport; means 'to board'",
+      "乗り物": "car, bus, bike - rideable transport",
+      "急行": "express service; together means 'to take express train'",
+      "ぶどう": "Purple clusters, wine's origin fruit'",
+      "味噌": "Salty fermented soybean paste for soup",
+      "茶碗": "Ceramic dish for rice or tea",
+      "字引": "reference book for looking up words"
+    },
+    "出す": {
+      "手紙": "Written correspondence; together means \"to mail'",
+      "宿題": "School tasks; together means 'to submit'",
+      "ごみ": "Unwanted waste; means \"to put out trash",
+      "お金": "Currency; together means \"to pay/spend",
+      "声": "Sound from throat; means \"to speak up",
+      "答え": "solution or response; means 'to give/produce answer'"
+    },
+    "もらう": {
+      "プレゼント": "Wrapped surprise for celebrations, given voluntarily",
+      "お金": "Currency; receiving payment or compensation",
+      "お土産": "Travel gift from someone's trip'",
+      "手紙": "Written correspondence; getting it brings connection",
+      "贈り物": "Wrapped item given on special occasions",
+      "お釣り": "Coins and bills returned after overpaying"
+    },
+    "かかる": {
+      "時間": "duration needed; together means 'to take time'",
+      "お金": "Currency required; means \"to cost'",
+      "分": "Time unit; expresses duration needed",
+      "週間": "Seven-day period; expresses duration needed",
+      "一月": "30-day duration; means 'takes a month'",
+      "円": "Japanese currency; together means \"to cost'",
+      "一日": "Twenty-four hour period; duration required",
+      "二日": "48-hour duration; means 'takes two days'",
+      "三日": "three-day duration; forms 'takes three days'",
+      "四日": "Duration of four days; time passage",
+      "五日": "Five-day duration; expresses time span needed",
+      "六日": "Duration: six days to complete something",
+      "七日": "Week-long duration; means \"takes a week",
+      "八日": "Duration of eight days; measures time needed",
+      "九日": "Nine days' duration; time span elapsed'",
+      "十日": "Ten-day duration; expresses time span needed",
+      "二十日": "Three-week duration; time span of process",
+      "万": "Large sum unit; implies significant expense",
+      "千": "Large round number; implies significant cost",
+      "億": "astronomical sum; implies massive expense",
+      "電話": "incoming call; means 'to receive call'"
+    },
+    "食べる": {
+      "食べ物": "Nourishment; sustenance for survival and pleasure",
+      "料理": "prepared dishes; enjoying someone's culinary creation'",
+      "パン": "Western baked staple, morning meal classic",
+      "肉": "Animal protein; beef, pork, chicken",
+      "魚": "Scaly swimmer, protein from water",
+      "野菜": "Green produce, healthy eating essential",
+      "果物": "Sweet, healthy produce; nature's dessert option'",
+      "ケーキ": "Sweet celebration dessert, often with frosting",
+      "お菓子": "Sweet treats, indulgent snacks between meals",
+      "朝ご飯": "first meal of the day, morning nourishment",
+      "夕飯": "Day's final meal, eaten with family'",
+      "ご飯": "staple grain; together means 'to have a meal'",
+      "お弁当": "Packed compartment lunch, often homemade or convenient",
+      "サラダ": "Green vegetables, healthy meal choice",
+      "ステーキ": "Grilled beef cut, restaurant luxury treat",
+      "ハンバーグ": "Ground meat patty, Western comfort food",
+      "サンドイッチ": "Layered bread meal, quick lunch classic",
+      "米": "Japan's staple grain, eaten daily'",
+      "牛肉": "Red meat from cattle, protein-rich staple",
+      "豚肉": "Red meat from oink animals, savory protein",
+      "鶏肉": "White poultry protein, versatile everyday meat",
+      "バター": "Creamy yellow spread melts on toast",
+      "ジャム": "Sweet fruit spread for toast",
+      "飴": "Sweet hard treat you suck slowly",
+      "ぶどう": "Wine's fruit, eaten in small clusters'",
+      "今朝": "early daypart; specifies *when* you ate",
+      "毎朝": "daily dawn routine; regular breakfast habit",
+      "晩": "Evening time; together means 'dinner/supper'",
+      "毎晩": "**\"Nightly time period; creates habitual routine\"**",
+      "今晩": "Meal time period after sunset",
+      "晩御飯": "Evening's main meal, family gathering time'",
+      "半分": "portion; eating partway or sharing equally",
+      "一杯": "Full container's worth; means 'have a drink"
+    },
+    "続ける": {
+      "勉強": "learning; together means 'to keep studying'",
+      "仕事": "employment or career; means staying employed",
+      "運動": "Physical activity; means maintaining fitness regimen",
+      "練習": "Repetitive drills; together means \"keep practicing"
+    },
+    "聞く": {
+      "音楽": "Melodies and rhythms; means \"to listen to",
+      "話": "spoken words; together means 'to listen'",
+      "声": "vocal sound from throat; means 'to hear someone'",
+      "質問": "Inquiry seeking information; together means 'to ask'",
+      "意見": "someone's viewpoint; means 'to consult/ask",
+      "ニュース": "Current events; broadcasted or told updates",
+      "ラジオ": "Broadcast device; together means 'to listen'",
+      "先生": "Authority figure; together means 'to ask'",
+      "天気予報": "Meteorological broadcast; check to plan tomorrow"
+    },
+    "入れる": {
+      "お茶": "Green beverage; together means \"to brew/make",
+      "コーヒー": "Brewed hot beverage; means \"to make coffee",
+      "砂糖": "White crystals that sweeten coffee or tea",
+      "塩": "White crystals that season and flavor food",
+      "醤油": "Dark salty seasoning added while cooking",
+      "お金": "Currency or bills; means \"to deposit/invest",
+      "ガソリン": "Fuel liquid; filling up your vehicle's tank'"
+    },
+    "読む": {
+      "本": "Bound pages with stories or information",
+      "新聞": "Daily printed news sheets, morning routine",
+      "雑誌": "Glossy periodical with articles and photos",
+      "小説": "Fictional narrative with chapters and characters",
+      "漫画": "Japanese illustrated stories with sequential panels",
+      "手紙": "Written correspondence, often heartfelt or personal",
+      "文章": "Structured prose or passages, not single words",
+      "文学": "Novels, poetry, classic written works of art",
+      "ひらがな": "Japanese cursive script, foundational literacy skill",
+      "かたかな": "Angular script for foreign words, studied early",
+      "テキスト": "Written material, especially for studying or learning",
+      "はがき": "Brief written message, no envelope needed"
+    },
+    "飲む": {
+      "水": "Clear, refreshing liquid essential for hydration",
+      "お茶": "Japanese beverage; also means \"tea break",
+      "コーヒー": "Dark caffeinated beverage, morning energizer",
+      "牛乳": "White dairy beverage, childhood nutrition essential",
+      "お酒": "Intoxicating beverages; social drinking ritual",
+      "紅茶": "British-style steeped beverage, often afternoon drink",
+      "飲み物": "Liquid refreshment; any drinkable beverage",
+      "薬": "Pills or tablets taken for healing",
+      "半分": "Partial amount; suggests accepting/believing partway",
+      "一杯": "One full cup/glass; suggests having a drink",
+      "湯": "Heated water, plain or for tea",
+      "アルコール": "intoxicating beverage; means 'to drink alcohol'"
+    },
+    "受ける": {
+      "試験": "Formal academic assessment; means \"to take'",
+      "テスト": "Academic evaluation; means \"to take/sit exam",
+      "授業": "Formal instruction period; together means \"to attend'"
+    },
+    "変わる": {
+      "気持ち": "Internal emotional state; means mood shift",
+      "天気": "Atmospheric conditions; shifts frequently or suddenly",
+      "季節": "Spring, summer, fall, winter cycling naturally",
+      "生活": "Daily routine and circumstances; undergo lifestyle transformation",
+      "世界": "Everything around you; perspective shifts completely",
+      "色": "Visual property; together means 'to change appearance/complexion'",
+      "気": "Inner mood/feeling; together means \"to change one's mind'"
+    },
+    "始める": {
+      "勉強": "Learning activities; together means \"to begin studying",
+      "仕事": "employment or task; means 'start working'",
+      "練習": "Repetitive drills for skill improvement; commencing training",
+      "運動": "Physical activity regimen; means \"start exercising"
+    },
+    "終わる": {
+      "仕事": "daily labor; completing means 'getting off work'",
+      "授業": "Scheduled educational session; means \"class ends",
+      "試験": "Academic assessment; means \"to finish/complete exam",
+      "会議": "Formal gathering of people; session concludes",
+      "試合": "Competitive sporting event that concludes with outcome",
+      "映画": "theater entertainment; ends when credits roll",
+      "夏休み": "Long break when school's out; sadly concluding'",
+      "今日": "current 24-hour period; means day concludes",
+      "今週": "Current seven-day period drawing to close",
+      "今年": "Current twelve-month period drawing to close",
+      "戦争": "Armed conflict between nations; ceases at last",
+      "去年": "the previous twelve months; wrapping up",
+      "先週": "previous seven days; recently concluded period",
+      "先月": "30-day period that just concluded recently"
+    },
+    "続く": {
+      "雨": "Precipitation that falls for prolonged periods",
+      "天気": "Atmospheric conditions; means \"to stay fine/clear",
+      "時間": "duration measured by clocks; means 'to last'"
+    },
+    "取る": {
+      "写真": "Visual memory captured by camera; means \"to photograph'",
+      "休み": "Time off from work or school;",
+      "塩": "White crystals that season; means \"pass",
+      "醤油": "Dark salty condiment; means \"to pass'",
+      "お金": "Currency; together means \"to charge/receive payment",
+      "点": "score or mark; together means 'earn points'"
+    },
+    "呼ぶ": {
+      "人": "individual summoned; means 'to summon someone'",
+      "友達": "close companion summoned to join you",
+      "先生": "Educator summoned for help or advice",
+      "名前": "identifier; together means 'to address/call someone'",
+      "医者": "Professional you summon when sick or injured",
+      "タクシー": "Yellow cab you hail/summon for rides",
+      "警察": "Law enforcement; summon when trouble strikes"
+    },
+    "つける": {
+      "電気": "Power source; together means \"turn on lights",
+      "テレビ": "Screen appliance; means \"to turn on",
+      "ラジオ": "Audio broadcast device; means \"tune in",
+      "名前": "identifier; together means 'to name/christen'",
+      "塩": "White seasoning crystals; means \"to sprinkle on",
+      "醤油": "Dark salty condiment; means \"to dip'",
+      "暖房": "Indoor warmth system; means \"to turn heating on",
+      "冷房": "Climate control system that cools rooms"
+    },
+    "知る": {
+      "こと": "Abstract fact or matter; means \"to learn/find out",
+      "人": "acquaintance; someone in your social circle",
+      "場所": "Geographic point; together means \"to be familiar with",
+      "理由": "Explanation or cause; together means 'to'",
+      "名前": "Personal identifier; knowing means being acquainted",
+      "意味": "what words/symbols represent; to understand/comprehend",
+      "本当": "Reality beyond appearances; means \"to learn the truth",
+      "仕方": "procedure or technique; together means 'can't be helped",
+      "語": "communication system; together means 'to understand/speak'",
+      "番号": "Digits to contact or identify someone/something",
+      "方": "method or manner; together means 'to know how'",
+      "医学": "Doctors' scientific field of expertise'",
+      "文法": "Rules of language structure; being familiar with",
+      "地理": "Maps, terrain, locations; means \"to know'"
+    },
+    "始まる": {
+      "授業": "Structured learning period; means \"class starts",
+      "会議": "Formal gathering where decisions are made",
+      "試合": "Competitive sporting event that kicks off",
+      "映画": "Screen entertainment that starts at showtime",
+      "仕事": "employment or task; means 'start working/job'",
+      "夏休み": "School's out! Long hot-season break begins'",
+      "今日": "this present day; marks fresh beginning",
+      "今週": "Current seven-day period now commencing",
+      "今年": "Current 365-day period commencing now",
+      "明日": "the next day; something starts then",
+      "戦争": "Armed conflict between nations or groups",
+      "来年": "the 12 months after this one",
+      "来週": "seven days ahead; when something commences"
+    },
+    "探す": {
+      "人": "individual sought for relationship or employment",
+      "仕事": "Employment position; means 'job hunting'",
+      "場所": "Physical spot or site; means 'find location'"
+    },
+    "書く": {
+      "手紙": "Written correspondence sent through mail",
+      "レポート": "Academic or work document with findings",
+      "作文": "Student essay or prose piece",
+      "日記": "Personal record of daily thoughts and events",
+      "名前": "Your identity label; written for forms and signatures",
+      "住所": "Where you live; fill in forms",
+      "漢字": "Complex characters borrowed from China; writing them",
+      "番号": "Sequential digits; means \"to fill in/enter number",
+      "文章": "Structured prose text; means \"to compose'",
+      "ひらがな": "Japanese curvy script; basic writing system",
+      "かたかな": "Angular script for foreign words and emphasis",
+      "はがき": "Brief mail card for casual greetings",
+      "一": "The numeral 1; together means 'write briefly'",
+      "二": "Number after one; means 'copy/duplicate'",
+      "三": "Numeric character; together means 'write number three'",
+      "四": "Chinese character, means death when said",
+      "五": "Numerical digit; together means 'write the'",
+      "六": "Difficult kanji stroke; means 'to write six'",
+      "七": "Lucky number; together means 'to celebrate'",
+      "八": "Lucky number; together means 'to ostracize'",
+      "九": "Single digit number; creates 'to draw' meaning",
+      "十": "Number symbol marking completion or perfection"
+    },
+    "かける": {
+      "時間": "duration invested; means 'to spend/take time'",
+      "お金": "Currency; together means \"to spend/invest"
+    },
+    "合う": {
+      "人": "individual; together means 'to socialize/interact'",
+      "友達": "companion whose personality meshes with yours",
+      "服": "Western garments; together means \"to suit/match",
+      "色": "Visual harmony; tones that match well",
+      "意見": "personal viewpoint; merging means 'to agree'"
+    },
+    "ございます": {
+      "こと": "abstract matter or fact; formal existence",
+      "時間": "moments passing; together means 'have time/availability'"
+    },
+    "行う": {
+      "仕事": "tasks or duties; together means 'to work'",
+      "研究": "systematic investigation; becomes 'to conduct research'",
+      "会議": "Formal gathering where decisions are made",
+      "試験": "Formal assessment; together means \"to administer/conduct"
+    },
+    "つく": {
+      "駅": "Transport hub; together means 'to arrive'",
+      "家": "building where you live; means 'to settle down'",
+      "学校": "Educational institution; means \"to enroll/enter school",
+      "会社": "workplace organization; means 'to get employed'",
+      "嘘": "Dishonest words; together means \"to tell lies"
+    },
+    "見せる": {
+      "写真": "Captured memories on paper or screen",
+      "映画": "projected entertainment; means 'to screen/show films'",
+      "本": "Bound pages; together means \"to show/prove",
+      "手紙": "Written correspondence; sharing its contents with someone",
+      "顔": "Body part revealing emotion or presence"
+    },
+    "立つ": {
+      "人": "Individual; together means 'to become independent/adult'",
+      "前": "spatial position; together means 'to confront/face'",
+      "隣": "Position beside something; together means 'to'"
+    },
+    "座る": {
+      "椅子": "Furniture with legs and backrest for sitting",
+      "席": "designated spot; means 'take a seat'",
+      "隣": "Neighboring space; sit beside someone"
+    },
+    "歩く": {
+      "道": "paved or unpaved route for traveling",
+      "公園": "Green space for strolling and leisure",
+      "駅": "Transportation hub; means \"walk to the station",
+      "通り": "Paved pathway; means \"to walk along/down",
+      "廊下": "Indoor passage connecting rooms; often walked through"
+    },
+    "走る": {
+      "道": "Linear surface where vehicles or runners travel",
+      "公園": "Green space for jogging and exercise",
+      "車": "Wheeled machine; literally means 'to run/drive'",
+      "電車": "Rail vehicle; together means 'trains operate'"
+    },
+    "泳ぐ": {
+      "海": "Vast saltwater expanse; natural swimming destination",
+      "プール": "Chlorinated rectangle for lap swimming practice",
+      "川": "Natural flowing waterway, often for swimming"
+    },
+    "教える": {
+      "英語": "Global language, commonly instructed subject",
+      "数学": "Numbers, equations, and calculations subject",
+      "歴史": "Past events and civilizations; classroom subject",
+      "道": "route or method; together means 'to guide'",
+      "番号": "Digits for contact or identification",
+      "仕方": "procedure or technique; means 'show how'",
+      "方": "method or procedure; together means 'teach how'",
+      "文法": "Rules of language structure; instructing syntax",
+      "地理": "Maps, capitals, landforms; academic subject taught",
+      "医学": "Academic field of doctors and healing"
+    },
+    "習う": {
+      "英語": "Global language requiring formal instruction",
+      "ピアノ": "Keyboard instrument requiring formal instruction",
+      "料理": "Culinary skills; together means 'take cooking lessons'",
+      "踊り": "Rhythmic movement art requiring instruction"
+    },
+    "覚える": {
+      "言葉": "Vocabulary, expressions; learning to use them",
+      "名前": "Personal identifier you commit to memory",
+      "漢字": "Complex Chinese-origin characters requiring memorization",
+      "道": "Route traveled; together means 'to learn/memorize'"
+    },
+    "忘れる": {
+      "こと": "Abstract matter; creates \"to fail to do",
+      "約束": "Commitment made to someone; breaking trust",
+      "名前": "Personal identifier often blanked on in introductions",
+      "場所": "**\"Where you put something; means misplace\"**",
+      "時間": "precious hours; means 'to lose track of time'"
+    },
+    "待つ": {
+      "人": "individual; means awaiting someone's arrival'",
+      "友達": "companion you anticipate meeting up with",
+      "電車": "Platform commuter; awaiting its arrival",
+      "バス": "Public transport vehicle; often running late",
+      "時間": "duration or moment; means 'to wait patiently'",
+      "返事": "Communication back after a question; awaiting confirmation"
+    },
+    "開ける": {
+      "ドア": "Western-style hinged entrance, swings to open",
+      "窓": "Glass pane; open for fresh air",
+      "箱": "Container with lid; lifting to reveal contents",
+      "本": "Bound pages; together means \"to open/start reading",
+      "め": "Organ of sight; together means \"to wake up",
+      "口": "Body part that speaks; means \"to start talking",
+      "引き出し": "Sliding furniture compartment for storage items"
+    },
+    "閉める": {
+      "ドア": "Western-style hinged entry you shut",
+      "窓": "Glass opening in walls, keeps out cold",
+      "め": "organ for seeing; means 'to close eyes'",
+      "店": "Business establishment; means \"to close shop",
+      "口": "Body opening for speech; means \"shut up",
+      "引き出し": "Sliding furniture compartment for storage"
+    },
+    "消す": {
+      "電気": "Power source; together means \"turn off lights",
+      "テレビ": "Screen device; together means \"to turn off",
+      "火": "Burning element you extinguish, not erase",
+      "暖房": "Indoor warmth system; means \"turn off heat",
+      "冷房": "climate control system; means 'turn off AC'"
+    },
+    "選ぶ": {
+      "本": "Reading material you pick from shelves",
+      "服": "Wardrobe items you pick for outfit",
+      "料理": "culinary style or dishes; picking cuisine type",
+      "道": "Life direction; together means \"make choices"
+    },
+    "決める": {
+      "こと": "Abstract matter; together means \"to decide on",
+      "時間": "duration measured by clocks; schedule/appoint it",
+      "場所": "Physical spot where something will happen",
+      "日": "calendar unit; together means 'to set a date'"
+    },
+    "答える": {
+      "質問": "inquiry seeking information; answering provides response",
+      "電話": "Ringing device; together means \"answer phone",
+      "手紙": "Written correspondence; replying back to sender"
+    },
+    "借りる": {
+      "本": "Bound pages from library or friend",
+      "お金": "Currency; makes it mean \"take out loan",
+      "傘": "Rain shield; commonly borrowed, rarely returned",
+      "ペン": "Writing tool, often temporarily needed",
+      "自転車": "Two-wheeled transport, often borrowed short-term"
+    },
+    "貸す": {
+      "本": "Bound pages you share temporarily with friends",
+      "お金": "Currency/cash; together means \"to lend money",
+      "傘": "Rain shield; often borrowed, rarely returned",
+      "ペン": "Writing instrument, commonly borrowed at school"
+    },
+    "返す": {
+      "本": "Borrowed reading material from library",
+      "お金": "Currency borrowed; repaying debts or loans",
+      "手紙": "Written correspondence; means \"to reply'",
+      "言葉": "spoken words; together means 'to reply'"
+    },
+    "洗う": {
+      "手": "Body part washed before meals, hygiene ritual",
+      "顔": "Front of your head; morning ritual",
+      "服": "Fabric garments needing regular cleaning",
+      "車": "Four-wheeled machine needing regular exterior cleaning",
+      "髪": "Crown strands; shampooing routine",
+      "体": "Your physical self; means \"to bathe'",
+      "茶碗": "ceramic bowl for rice; means dishwashing"
+    },
+    "磨く": {
+      "歯": "White enamel in mouth; brushed daily",
+      "靴": "Footwear polished to a professional shine",
+      "技術": "Professional skills; together means \"to hone'"
+    },
+    "切る": {
+      "髪": "Head strands; means \"get a haircut",
+      "野菜": "Carrots, onions—chopped for cooking prep",
+      "肉": "Animal tissue; means slicing for cooking",
+      "パン": "Sliced loaf, prepared for serving",
+      "紙": "Thin sheets for writing, often scissored",
+      "電話": "Communication link; means \"to hang up",
+      "毛": "Body strands; together means \"haircut",
+      "草": "Lawn growth needing regular mowing maintenance"
+    },
+    "送る": {
+      "手紙": "Written correspondence; means \"to mail/write to",
+      "プレゼント": "Wrapped surprise for celebrations; means \"send/give gift",
+      "お金": "Currency sent to support/help someone",
+      "写真": "Visual memory captured; share digitally or physically",
+      "電報": "urgent wired message from bygone era"
+    },
+    "落とす": {
+      "お金": "Currency; often means accidentally losing it",
+      "鍵": "Metal object that unlocks doors; easily misplaced",
+      "財布": "pocket item holding money; means 'to lose'"
+    },
+    "拾う": {
+      "お金": "Currency found on ground, lucky discovery",
+      "ごみ": "Litter or waste picked up for cleaning"
+    },
+    "壊れる": {
+      "車": "Motorized transport; mechanical parts malfunction",
+      "パソコン": "Electronic device prone to malfunctions and crashes",
+      "時計": "Mechanical device with moving parts, stops working"
+    },
+    "怒る": {
+      "人": "individual; together means 'to scold someone'",
+      "先生": "Authority figure who scolds misbehaving students",
+      "お母さん": "Female parent who scolds you often",
+      "お父さん": "Male parent; often gets angry/scolds children"
+    },
+    "笑う": {
+      "人": "individual; together means 'to ridicule/mock'",
+      "話": "amusing anecdote or tale that entertains"
+    },
+    "泣く": {
+      "人": "human being; together means 'to weep for/mourn someone'",
+      "子供": "Young humans; prone to tears and tantrums",
+      "赤ちゃん": "Newborn who cries frequently and loudly"
+    },
+    "起きる": {
+      "朝": "Early daylight hours; means \"to wake up",
+      "時間": "moment on the clock; means 'to wake up'",
+      "事故": "Unexpected mishap that occurs or happens",
+      "問題": "Issue or trouble that arises unexpectedly",
+      "地震": "Natural disaster; ground shakes and rises",
+      "今日": "this very day; something happens/occurs",
+      "明日": "the day after today; means 'to'",
+      "毎日": "Regular routine timeframe; makes \"wake up daily",
+      "昨日": "The day before today; means 'happened yesterday'",
+      "午前": "Early daylight hours; means \"wake up",
+      "今朝": "Early hours of today; waking time",
+      "毎朝": "Daily dawn ritual time; wake-up routine",
+      "火事": "Destructive blaze; together means \"fire breaks out"
+    },
+    "寝る": {
+      "夜": "dark hours for rest and sleep",
+      "ベッド": "Furniture for sleeping, western-style resting place",
+      "部屋": "Private sleeping space; means 'to stay in'",
+      "今夜": "Tonight's bedtime; implies going to sleep early'",
+      "昼": "midday hours; together means 'to nap'",
+      "毎日": "recurring time unit; describes sleep routine",
+      "午後": "Post-lunch hours; together means 'afternoon nap'",
+      "晩": "late hours; together means 'to oversleep'",
+      "毎晩": "nightly routine time; creates habitual meaning",
+      "今晩": "upcoming nighttime; means 'go to bed tonight'"
+    },
+    "起こす": {
+      "人": "someone sleeping; means 'to wake someone'",
+      "子供": "Young sleeper needing morning awakening",
+      "友達": "close companion; wake them from sleep",
+      "問題": "Trouble or issue; together means 'to cause'",
+      "事故": "Unwanted mishap; collocation means \"to cause'"
+    },
+    "触る": {
+      "手": "Body part; means \"to meddle/interfere",
+      "花": "Delicate petals, better admired untouched"
+    },
+    "押す": {
+      "ボタン": "Interface control; press to activate something",
+      "ドア": "Western-style hinged barrier you push open",
+      "ベル": "Chiming device at doors; means \"to ring'"
+    },
+    "引く": {
+      "ドア": "Western-style entrance; pull to open",
+      "線": "Pencil mark; together means 'to draw'",
+      "風邪": "Illness you 'catch' or 'come down with'",
+      "縦": "Vertical direction; together means 'lengthwise'"
+    },
+    "着る": {
+      "服": "Western garments; creates \"to get dressed",
+      "シャツ": "Lightweight top worn close to skin",
+      "コート": "Outerwear for cold weather protection",
+      "着物": "Traditional silk robe; Japan's formal garment'"
+    },
+    "脱ぐ": {
+      "服": "Western-style garments you remove when changing",
+      "靴": "Footwear removed when entering Japanese homes",
+      "コート": "Outerwear removed when entering indoors",
+      "帽子": "Head covering removed when entering indoors"
+    },
+    "履く": {
+      "靴": "Footwear protecting feet; worn for walking outside",
+      "サンダル": "Open-toed casual footwear for warm weather",
+      "スリッパ": "Indoor footwear, easy slip-on style"
+    },
+    "置く": {
+      "本": "Printed pages bound together; setting aside/down",
+      "時計": "Ticking device; setting/installing to track time",
+      "花": "Decorative blooms displayed to beautify spaces",
+      "机": "Flat workspace furniture; means \"to set down",
+      "上": "Higher position; together means 'to place on top'",
+      "下": "Lower position; together means 'to leave behind'"
+    },
+    "並ぶ": {
+      "人": "individuals; together means 'queue forms/crowds gather'",
+      "店": "Popular business with waiting customers"
+    },
+    "並べる": {
+      "椅子": "Furniture you sit on; setting up seating",
+      "机": "Classroom furniture; arranging for seating/meetings",
+      "本": "Bound pages; arranging them on shelves"
+    },
+    "集まる": {
+      "人": "individuals; creates 'people gather/assemble'",
+      "学生": "University-aged learners convening together",
+      "友達": "Close companions; meet up socially together",
+      "家族": "Blood relatives; reunite for occasions"
+    },
+    "集める": {
+      "お金": "Currency; raising funds or saving up",
+      "切手": "Small adhesive squares; popular hobby item"
+    },
+    "別れる": {
+      "人": "Individual you separate from; ending relationship",
+      "友達": "close companion you drift apart from",
+      "家族": "Close relatives; means losing them forever"
+    },
+    "生まれる": {
+      "人": "human being; creates noun 'birth/nativity'",
+      "子供": "Young offspring; makes \"to have a baby",
+      "赤ちゃん": "Newborn human, fresh into the world"
+    },
+    "育てる": {
+      "子供": "Young human requiring years of nurturing care",
+      "花": "Garden blooms requiring careful cultivation",
+      "野菜": "Garden crops grown from seeds or seedlings",
+      "動物": "Living creatures kept as pets or livestock",
+      "犬": "Loyal pet, raised from puppy to companion",
+      "猫": "Furry household pet, kept from kitten"
+    },
+    "働く": {
+      "会社": "Organization where salaries are earned daily",
+      "店": "Commercial establishment where you're employed'",
+      "病院": "Medical facility where nurses and doctors work",
+      "工場": "Industrial building where laborers are employed",
+      "レストラン": "Western dining establishment; workplace for service staff",
+      "新聞社": "Media organization; employment in journalism"
+    },
+    "休む": {
+      "仕事": "Employment or daily labor; means \"take day off",
+      "学校": "Educational institution; means \"skip/miss class",
+      "会社": "workplace; together means 'take off work'",
+      "授業": "Scheduled educational session; means \"to skip class",
+      "日": "weekend day; together means 'take Sunday off'"
+    },
+    "疲れる": {
+      "体": "Physical form; means \"body gets tired/exhausted",
+      "め": "Vision organ; means eyestrain from use",
+      "足": "Body parts for walking; means leg-weary"
+    },
+    "困る": {
+      "こと": "Abstract matter; together means \"to be in trouble",
+      "問題": "Difficult issue causing trouble or perplexity",
+      "お金": "Currency; lacking it causes trouble"
+    },
+    "喜ぶ": {
+      "人": "individual who feels joy; makes passive 'pleasing others'",
+      "こと": "Abstract matter/event that brings happiness; glad about",
+      "ニュース": "Information/reports that bring happiness or joy",
+      "プレゼント": "Wrapped surprise that delights the receiver"
+    },
+    "驚く": {
+      "こと": "abstract matter; creates 'surprising fact/situation'",
+      "ニュース": "Information broadcasts that shock or amaze you"
+    },
+    "似る": {
+      "人": "someone resembled; means 'look alike'",
+      "親": "Those who gave you your genes",
+      "お母さん": "Female parent; inheriting her features",
+      "お父さん": "Male parent; means \"to take after"
+    },
+    "増える": {
+      "人": "human beings; means population grows",
+      "お金": "Currency; grows through savings or investment",
+      "問題": "Difficulties or issues; troubles mounting up",
+      "仕事": "Tasks and duties; becoming busier or overloaded"
+    },
+    "上がる": {
+      "値段": "monetary amount; together means 'to increase'",
+      "階段": "Steps connecting floors; means \"to climb up",
+      "度": "Temperature measurement unit; means \"to increase'"
+    },
+    "下がる": {
+      "値段": "Monetary amount on a tag; decreases",
+      "度": "Temperature measurement; means \"to drop/cool"
+    },
+    "上げる": {
+      "手": "Body part raised to volunteer or help",
+      "声": "Vocal sound; together means 'to shout/speak up'",
+      "値段": "monetary amount; together means 'to increase prices'"
+    },
+    "下げる": {
+      "頭": "Body part you bow to apologize",
+      "声": "sound from vocal cords; lowers volume/pitch",
+      "値段": "monetary amount; together means 'to lower/reduce'"
+    },
+    "動く": {
+      "人": "human being; together means 'mobilize/deploy workforce'",
+      "車": "Four-wheeled machine that runs or operates",
+      "時計": "Ticking device; means \"to work/run\" (functioning)",
+      "心": "emotional core; becomes 'to be moved/touched'"
+    },
+    "止まる": {
+      "車": "Motorized vehicle that comes to a halt",
+      "電車": "Rail vehicle that pulls into stations",
+      "時計": "Ticking device; when paired means \"malfunction",
+      "雨": "Water falling from clouds; means \"to stop raining"
+    },
+    "止める": {
+      "車": "Four-wheeled vehicle you park or halt",
+      "時計": "Ticking device that can break or stop",
+      "人": "human being; means 'to detain/restrain someone'"
+    },
+    "曲がる": {
+      "道": "Linear surface where travelers turn",
+      "角": "Street intersection; means \"to turn'",
+      "右": "Direction opposite of left; means \"turn right",
+      "左": "Direction opposite of right; means \"turn left"
+    },
+    "渡る": {
+      "道": "Street or pathway crossed from side to side",
+      "橋": "Structure spanning water; literal crossing action",
+      "川": "Natural water barrier you traverse",
+      "海": "Vast waters crossed for distant lands"
+    },
+    "通る": {
+      "道": "Physical route or thoroughfare for travel",
+      "駅": "Transport hub; means \"to go via/through",
+      "店": "Commercial establishment; together means \"to frequent/patronize"
+    },
+    "過ぎる": {
+      "時間": "duration that flows; becomes 'time passes'",
+      "駅": "Transit stop you don't get off at'",
+      "店": "Commercial building you walk/drive past",
+      "半": "Midpoint marker; together means 'to exceed halfway'"
+    },
+    "乗る": {
+      "電車": "Rail vehicle you commute on daily",
+      "バス": "Large public road vehicle you board",
+      "車": "Personal motorized transport you enter/drive",
+      "自転車": "Two-wheeled vehicle you pedal and ride",
+      "飛行機": "Flying machine; together means \"to fly'",
+      "船": "Watercraft you board for travel",
+      "タクシー": "Yellow cab you hail and ride in",
+      "特急": "Fast train skipping stops; requires premium ticket",
+      "自動車": "Four-wheeled vehicle you drive yourself",
+      "地下鉄": "Underground rail transport; means \"take the subway",
+      "エレベーター": "Vertical transport box; ride up/down buildings",
+      "エスカレーター": "Moving stairs; you ride/board them upward",
+      "乗り物": "wheeled or motorized transportation; means 'vehicle/ride'",
+      "急行": "express train skipping most stops",
+      "汽車": "Long-distance railway vehicle; classic travel option",
+      "オートバイ": "Two-wheeled engine vehicle you ride/drive"
+    },
+    "降りる": {
+      "電車": "Rail vehicle; together means \"to disembark'",
+      "バス": "Large public vehicle you exit/disembark from",
+      "車": "motorized transport you exit/disembark from",
+      "階段": "Steps connecting floors; means \"go downstairs",
+      "駅": "Platform stop where you disembark trains",
+      "地下鉄": "Underground rail transport; disembark/get off",
+      "エレベーター": "Vertical transport box; means \"to exit/get off",
+      "エスカレーター": "Moving stairs; ride down to lower floor"
+    },
+    "乗り換える": {
+      "電車": "Rail vehicle you switch between at stations",
+      "バス": "Large public vehicle; switching between routes"
+    },
+    "運ぶ": {
+      "荷物": "Suitcases, boxes; burden you transport physically",
+      "箱": "Container for carrying/moving belongings or goods"
+    },
+    "連れる": {
+      "人": "human companion you bring along somewhere",
+      "子供": "Young dependent needing supervision when going out",
+      "友達": "companion you bring along somewhere"
+    },
+    "迎える": {
+      "人": "guest or visitor arriving at destination",
+      "友達": "companion you greet upon arrival",
+      "客": "**\"Person welcomed into your home/business\"** This",
+      "朝": "Dawn's arrival; together means 'to greet/welcome the day",
+      "年": "Time unit; together means 'celebrate New Year'"
+    },
+    "訪ねる": {
+      "人": "Individual you seek out to meet",
+      "家": "Someone's residence you formally call upon'",
+      "場所": "Physical spot or site you seek out"
+    },
+    "遊ぶ": {
+      "友達": "Close companion; spend fun leisure time together",
+      "子供": "Young ones; means \"to play with children",
+      "公園": "Green space with swings; recreational hangout spot"
+    },
+    "楽しむ": {
+      "こと": "Abstract matters; means \"enjoy life itself",
+      "時間": "moments or hours; means 'have a good time'",
+      "パーティー": "Social gathering with food, drinks, celebration",
+      "旅行": "Going somewhere for pleasure and sightseeing",
+      "音楽": "Melodies and rhythms; listening brings joy"
+    },
+    "住む": {
+      "家": "Building where one makes their home",
+      "町": "Small community area where locals settle",
+      "国": "Nation with borders; means \"to reside in",
+      "場所": "geographical area or site of residence",
+      "アパート": "Multi-unit rental building, common residence type",
+      "近く": "nearby area; together means 'live nearby'",
+      "そば": "nearby location; means 'live close to'",
+      "郊外": "Quieter zone outside city center"
+    },
+    "引っ越す": {
+      "家": "Physical dwelling you relocate between",
+      "町": "Small district; relocating within same city",
+      "国": "sovereign territory; means emigrating/immigrating",
+      "アパート": "Multi-unit rental housing, common moving destination"
+    },
+    "建てる": {
+      "家": "Dwelling with walls and roof; construct permanently",
+      "建物": "Physical structure with walls and roof",
+      "ビル": "Tall urban structure, commercial construction project"
+    },
+    "壊す": {
+      "建物": "Concrete structure; demolished or torn down",
+      "家": "Building where family lives; means 'demolish'"
+    },
+    "直る": {
+      "車": "Motorized vehicle; gets fixed when broken",
+      "パソコン": "Electronic device that crashes and needs fixing",
+      "病気": "serious ailment; together means 'to recover'"
+    },
+    "治る": {
+      "病気": "Serious ailment that recovers/heals naturally",
+      "風邪": "Sniffles and sneezes that recover naturally"
+    },
+    "治す": {
+      "病気": "**\"serious medical condition requiring treatment\"** This",
+      "風邪": "Sniffles and sneezes; recovering from illness"
+    },
+    "太る": {
+      "体": "physical frame; specifically where weight shows",
+      "人": "Individual human being who gains weight"
+    },
+    "痩せる": {
+      "体": "Your physical form; what gets slimmer",
+      "人": "individual whose body becomes leaner"
+    },
+    "調べる": {
+      "こと": "abstract matter; together means 'to investigate/research'",
+      "言葉": "unfamiliar word needing dictionary lookup",
+      "意味": "definition found in dictionaries or references",
+      "辞書": "Reference book for word meanings and spellings",
+      "問題": "Issue requiring investigation or research"
+    },
+    "片付ける": {
+      "部屋": "Personal space; clean to make orderly",
+      "机": "Workspace surface needing organizing and clearing"
+    },
+    "捨てる": {
+      "ごみ": "Unwanted waste; literally means \"to dispose'",
+      "紙": "Thin disposable material, often scrap or waste",
+      "箱": "Container you empty then discard completely"
+    },
+    "鳴る": {
+      "電話": "ringing device; means 'phone rings'",
+      "ベル": "Alert chime; signals class changes, doorbells",
+      "時計": "Timepiece that rings or chimes aloud"
+    },
+    "光る": {
+      "光": "radiance itself; the noun form of shining",
+      "星": "Celestial point twinkling in night sky",
+      "電気": "power source; means 'lights are on'"
+    },
+    "消える": {
+      "電気": "Power source; means 'lights go out'",
+      "光": "Radiance that can fade into darkness",
+      "人": "Individual who vanishes without trace"
+    },
+    "見つかる": {
+      "人": "individual; together means 'get caught/busted'",
+      "場所": "Physical spot or position that gets secured/obtained",
+      "仕事": "Employment opportunity; means \"to land/find a job"
+    },
+    "見つける": {
+      "人": "Individual sought for relationship or role",
+      "場所": "**\"spot or site; means 'to secure/find space'\"**",
+      "仕事": "Employment opportunity; means \"to find/get a job"
+    },
+    "祈る": {
+      "こと": "Abstract wish or hope; makes sincere prayer"
+    },
+    "比べる": {
+      "値段": "monetary cost; together means 'comparison shopping'"
+    },
+    "変える": {
+      "こと": "Abstract matter; together means 'to change one's mind",
+      "意見": "Personal viewpoint; means \"to change one's mind'",
+      "服": "Wardrobe items; together means \"to change outfit",
+      "予定": "calendar items; together means 'reschedule'",
+      "計画": "Strategic blueprint; revise or alter arrangements"
+    },
+    "帰る": {
+      "家": "one's dwelling; destination after being out'",
+      "国": "homeland; implies returning to one's native land'",
+      "部屋": "Personal living space; retreat to privacy",
+      "会社": "workplace; leaving at day's end'",
+      "学校": "Educational building; means \"leave school, head home"
+    },
+    "生きる": {
+      "人": "Human being; together means 'living as a person'",
+      "世界": "vast society or realm you inhabit",
+      "時代": "Historical span; means \"to live through an era",
+      "社会": "Human world; navigating life among others"
+    },
+    "残る": {
+      "時間": "duration left; means 'to have time'",
+      "お金": "Currency; means \"to have savings left",
+      "仕事": "unfinished tasks and duties yet incomplete",
+      "問題": "Unresolved issue; something still pending"
+    },
+    "話す": {
+      "こと": "abstract matter; together means 'to discuss'",
+      "英語": "global business language; means 'speak English'",
+      "言葉": "Communication system; together means 'to use language'",
+      "話": "verbal exchange; reinforces conversational meaning",
+      "電話": "Voice connection; means \"to talk on phone",
+      "語": "Communication system; means \"to speak [a language]",
+      "政治": "Government affairs; discussing current events and policy",
+      "昔": "bygone times; together means 'to reminisce'"
+    },
+    "会う": {
+      "人": "individual you arrange to meet socially",
+      "友達": "Close companion you arrange to see",
+      "先生": "Educator you consult or visit professionally",
+      "家族": "Close relatives you visit or reunite with"
+    },
+    "頼む": {
+      "人": "individual you depend on; means 'to'",
+      "友達": "trusted companion you rely on for help",
+      "こと": "abstract matter/favor; makes 'to request someone'",
+      "仕事": "task or assignment; means 'to commission'"
+    },
+    "売る": {
+      "本": "Bound pages; means \"to be popular/successful",
+      "車": "motorized vehicle; often means 'trade-in'",
+      "家": "Building where family lives; major transaction",
+      "服": "Wearable items, often in retail/fashion context"
+    },
+    "進む": {
+      "道": "Linear route; together means \"to proceed forward",
+      "計画": "structured roadmap; progresses or moves forward",
+      "仕事": "tasks and projects; progress being made",
+      "研究": "Academic investigation; means 'to progress/advance'"
+    },
+    "向かう": {
+      "駅": "Transport hub; means \"heading to station",
+      "家": "Your dwelling; means 'to head home'",
+      "学校": "Educational building; means \"to head toward",
+      "場所": "destination; means 'to head toward'"
+    },
+    "戻る": {
+      "家": "one's dwelling; means 'to return home",
+      "部屋": "Personal space; together means 'to return home'",
+      "場所": "original spot; means 'to return/go back'",
+      "駅": "Transport hub; means \"return to station"
+    },
+    "伝える": {
+      "こと": "Abstract matter; creates \"inform/tell someone",
+      "気持ち": "Internal emotions; expressing what's in your heart'",
+      "言葉": "spoken/written expressions conveying thoughts and feelings"
+    },
+    "落ちる": {
+      "雨": "Water droplets from sky; precipitation falling",
+      "雪": "White winter precipitation descending from sky",
+      "葉": "Green foliage that drops in autumn",
+      "花": "Delicate petals that drift downward naturally",
+      "試験": "Academic assessment; together means \"to fail'"
+    },
+    "思い出す": {
+      "こと": "Abstract matter; creates \"to reminisce",
+      "人": "Someone from your past; reminiscing fondly",
+      "名前": "Personal identifier often forgotten at introductions",
+      "場所": "Physical spots tied to memories"
+    },
+    "開く": {
+      "ドア": "Western-style hinged entry, swings open",
+      "窓": "Glass pane; opens for fresh air",
+      "本": "Bound pages you read; means \"to start reading",
+      "店": "**Business establishment; together means \"to open/start a business\"**",
+      "会": "Social gathering; together means \"to hold/convene",
+      "パーティー": "Social gathering; together means \"to host/throw"
+    },
+    "済む": {
+      "仕事": "tasks/duties completed; means 'work is done'",
+      "用事": "Daily obligations; together means \"be/get done",
+      "こと": "Abstract matter/affair; together means \"to suffice'"
+    },
+    "勝つ": {
+      "試合": "Competitive sporting event or tournament round"
+    },
+    "歌う": {
+      "歌": "Melody with lyrics; what singers perform"
+    },
+    "逃げる": {
+      "人": "Individual human being; means \"to flee/desert someone",
+      "場所": "Refuge spot; means 'to take shelter'",
+      "危険": "threatening situation; means 'to avoid danger'"
+    },
+    "やめる": {
+      "仕事": "employment or career; means 'to resign/quit'",
+      "会社": "workplace organization; means 'to resign/quit job'",
+      "勉強": "Academic learning; means \"to quit school/studying",
+      "練習": "Repetitive training sessions; means \"quit practicing"
+    },
+    "なくなる": {
+      "お金": "Currency; together means \"to run out",
+      "時間": "Minutes and hours; means \"to run out",
+      "人": "individual who has passed away/died"
+    },
+    "払う": {
+      "お金": "Currency; what you hand over for purchases",
+      "代": "monetary amount owed; means 'pay fee'",
+      "円": "Japan's currency; what you literally pay'",
+      "万": "Large sum unit; paying serious money",
+      "千": "Round number amount; means 'pay 1000 yen'",
+      "億": "astronomical sum; implies paying huge amounts"
+    },
+    "飛ぶ": {
+      "鳥": "Feathered creature; natural flyer, literally soars",
+      "飛行機": "Metal bird that carries passengers skyward",
+      "虫": "Small crawling creature; often winged pests"
+    },
+    "聞こえる": {
+      "音": "Audible vibrations reaching your ears",
+      "声": "human sound; means 'hear someone speaking'",
+      "音楽": "Melodies and songs that reach your ears"
+    },
+    "負ける": {
+      "試合": "Competitive sporting event where winners emerge"
+    },
+    "いただく": {
+      "プレゼント": "Wrapped surprise; humbly received from someone",
+      "食べ物": "nourishment; humbly consumed with gratitude"
+    },
+    "通う": {
+      "学校": "Educational institution you attend regularly",
+      "会社": "workplace you commute to daily",
+      "大学": "Higher education institution students regularly attend",
+      "病院": "Medical facility; means \"receiving ongoing treatment"
+    },
+    "撮る": {
+      "写真": "Visual memory captured by camera",
+      "映画": "Feature-length production; together means \"to film/direct"
+    },
+    "打つ": {
+      "手": "body part; together means 'to clap'"
+    },
+    "立てる": {
+      "計画": "Blueprint for future actions; means \"formulate/devise"
+    },
+    "踊る": {
+      "音楽": "Rhythmic sounds that make bodies move",
+      "パーティー": "Social gathering where dancing naturally happens"
+    },
+    "回る": {
+      "時計": "Timekeeping device with rotating hands",
+      "店": "Multiple establishments; together means 'visit several'"
+    },
+    "渡す": {
+      "お金": "Currency; together means \"to hand over/pay",
+      "プレゼント": "Wrapped surprise; together means 'to give/hand over'",
+      "手紙": "Written message; means \"to hand over/deliver"
+    },
+    "決まる": {
+      "こと": "Abstract matter; creates \"it's settled/decided'",
+      "予定": "future arrangements; becomes 'plans are finalized'",
+      "計画": "future blueprint; becomes 'finalized/set in stone'",
+      "日": "calendar square; together means 'to set a date'",
+      "時間": "clock hours; when scheduled/fixed appointments"
+    },
+    "役に立つ": {
+      "人": "individual; together means 'to be helpful/useful'\"",
+      "道具": "Physical implements that serve practical purposes"
+    },
+    "投げる": {
+      "ごみ": "Unwanted waste; means \"to discard/dispose"
+    },
+    "着く": {
+      "駅": "Platform where trains stop; arrival destination",
+      "空港": "Terminal with runways; your flight's destination'",
+      "家": "Your dwelling; means \"to arrive home",
+      "学校": "Educational building; destination you physically reach",
+      "場所": "**\"destination point; means 'to reach destination'\"**"
+    },
+    "降る": {
+      "雨": "Water drops from clouds; literally raining",
+      "雪": "White winter precipitation falling from sky"
+    },
+    "くださる": {
+      "プレゼント": "Wrapped item humbly received from superior"
+    },
+    "吸う": {
+      "空気": "Invisible gas we breathe to live"
+    },
+    "出かける": {
+      "場所": "destination spot; where you're heading out to'",
+      "買い物": "errands at stores; means \"go shopping",
+      "旅行": "Adventure away from home; means \"leave on trip"
+    },
+    "焼く": {
+      "肉": "Animal protein; together means 'to grill'",
+      "魚": "Scaly swimmer; grilled for meals",
+      "パン": "Dough-based food; together means 'to bake'",
+      "ケーキ": "Sweet dessert; together means 'to bake'",
+      "野菜": "Carrots, peppers, etc.; grilling or roasting them"
+    },
+    "塗る": {
+      "色": "Visual property applied with brush or tool",
+      "絵": "Visual artwork created by applying pigments",
+      "壁": "Vertical surface to paint or plaster"
+    },
+    "眠る": {
+      "人": "individual; together means 'someone sleeps/dormant'",
+      "赤ちゃん": "Newborn needing lots of sleep time"
+    },
+    "いらっしゃる": {
+      "人": "visitor or guest; polite attendance reference"
+    },
+    "間に合う": {
+      "時間": "duration needed; means 'to make it'",
+      "授業": "Scheduled educational session; arriving punctually matters",
+      "電車": "Commuter rail; catching it on time",
+      "会議": "Scheduled gathering; arriving before it starts"
+    },
+    "慣れる": {
+      "こと": "Abstract matter; together means \"get accustomed",
+      "仕事": "Daily occupation requiring adjustment period",
+      "生活": "Daily routines and environment; adjusting to them",
+      "場所": "New environment requiring adjustment and familiarity"
+    },
+    "遅れる": {
+      "時間": "schedule's progression; together means 'running late",
+      "電車": "Rail transport that runs behind schedule",
+      "授業": "Scheduled educational session; means \"late to class",
+      "会議": "Scheduled gathering; means \"arrive late to"
+    },
+    "咲く": {
+      "花": "Colorful petals that naturally open in spring"
+    },
+    "揺れる": {
+      "地震": "Natural disaster; ground trembles and shakes",
+      "船": "Watercraft that rocks on waves",
+      "電車": "Rail vehicle that rocks during motion"
+    },
+    "騒ぐ": {
+      "人": "individual; together means 'to cause commotion'",
+      "子供": "Young humans, naturally loud and energetic"
+    },
+    "飾る": {
+      "花": "Natural bloom arranged for interior beauty",
+      "部屋": "Personal living space you make festive"
+    },
+    "謝る": {
+      "人": "Someone wronged; the recipient of apology",
+      "こと": "abstract matter; together means 'to apologize'"
+    },
+    "吹く": {
+      "風": "Air current; creates \"wind blows\" naturally"
+    },
+    "倒れる": {
+      "人": "Human who suddenly collapses from illness",
+      "木": "Tall wooden plant that gets felled or topples",
+      "建物": "Structures that crumble during earthquakes or disasters"
+    },
+    "移る": {
+      "場所": "physical spot; together means 'to relocate'",
+      "家": "Building where you live; means \"to move/relocate",
+      "部屋": "personal living space; together means 'to change rooms'",
+      "会社": "workplace organization; means 'to change jobs'"
+    },
+    "届ける": {
+      "荷物": "Boxes and bags sent through postal/courier services",
+      "手紙": "Written correspondence sent through postal service",
+      "プレゼント": "Wrapped surprise for someone special; send/deliver"
+    },
+    "間違える": {
+      "こと": "abstract matter; together means 'to be mistaken'",
+      "答え": "solution to problem; getting it wrong",
+      "道": "Life's route; together means \"to go astray'",
+      "時間": "clock reading; means 'to get the time wrong'",
+      "場所": "where things are; means 'go to wrong spot'"
+    },
+    "おっしゃる": {
+      "こと": "abstract matter/remark; makes respectful 'statement'",
+      "言葉": "speech content; makes verb more formal/respectful"
+    },
+    "浴びる": {
+      "シャワー": "Spray of water for quick bathing",
+      "風呂": "Soaking tub; together means \"to bathe'"
+    },
+    "弾く": {
+      "ピアノ": "Keyboard instrument with 88 keys, classic recital choice",
+      "ギター": "Six-stringed instrument, strummed or plucked"
+    },
+    "込む": {
+      "電車": "Daily commuter vehicle; becomes \"crowded/packed train",
+      "店": "Commercial establishment; becomes \"to be crowded/busy",
+      "道": "Linear travel surface; creates \"traffic jam"
+    },
+    "なくす": {
+      "お金": "Currency, coins, bills; means \"run out\"",
+      "鍵": "Metal object that locks/unlocks; commonly misplaced",
+      "財布": "Money holder, commonly misplaced or pickpocketed"
+    },
+    "噛む": {
+      "食べ物": "edible items requiring chewing thoroughly"
+    },
+    "張る": {
+      "紙": "Thin sheets; attach to cover surfaces"
+    },
+    "上る": {
+      "山": "Tall natural peak; together means \"to climb'",
+      "階段": "Steps between floors you climb upward",
+      "坂": "Slanted roadway; climb uphill literally"
+    },
+    "亡くなる": {
+      "人": "Individual human being; polite way to",
+      "家族": "Beloved relatives; polite way to say \"pass away",
+      "祖父": "Male elder, father's generation; polite passing'",
+      "祖母": "Mother's or father's mother; respectful passing"
+    },
+    "知らせる": {
+      "こと": "abstract matter/fact; means 'to inform of'",
+      "ニュース": "Current events; together means \"to announce/notify news"
+    },
+    "折れる": {
+      "枝": "Tree limb; snaps off naturally or forcefully",
+      "木": "Tall woody plant; snaps in storms"
+    },
+    "泊まる": {
+      "ホテル": "Lodging building where travelers sleep overnight",
+      "旅館": "Traditional Japanese inn with tatami rooms",
+      "家": "Someone's private residence; implies visiting/lodging informally'"
+    },
+    "尋ねる": {
+      "こと": "abstract matter; creates 'to inquire about'",
+      "質問": "inquiry seeking information; together means 'to ask'",
+      "道": "Physical route; together means \"ask directions",
+      "人": "someone approached for information or directions"
+    },
+    "盗む": {
+      "お金": "Currency; the classic theft crime",
+      "財布": "Personal item holding cash and cards"
+    },
+    "寄る": {
+      "店": "Commercial place; means \"to stop by",
+      "場所": "specific spot; together means 'to stop by'",
+      "駅": "Transport hub; stop by on the way"
+    },
+    "かぶる": {
+      "帽子": "Head covering worn for style or sun protection"
+    },
+    "捕まえる": {
+      "人": "Individual human being; means \"to arrest/apprehend",
+      "虫": "Small crawling creatures; childhood summer activity",
+      "魚": "Aquatic creature with scales, caught swimming"
+    },
+    "急ぐ": {
+      "人": "Individual human; together means \"to hurry someone",
+      "仕事": "tasks with deadlines; rushing means working hastily"
+    },
+    "手伝う": {
+      "人": "individual needing assistance; means 'help someone'",
+      "仕事": "Tasks or duties; helping means \"to",
+      "宿題": "School tasks done at home; helping complete them"
+    },
+    "足りる": {
+      "お金": "Currency; means \"to have enough funds",
+      "時間": "precious resource; means 'have enough time'"
+    },
+    "折る": {
+      "紙": "Flat sheets; creates creases for origami",
+      "枝": "Tree limb; snapping means picking flowers/foliage"
+    },
+    "鳴く": {
+      "鳥": "Feathered creature; chirps and tweets naturally",
+      "犬": "Loyal pet; barks (not just birds 鳴く!)",
+      "猫": "Furry pet that meows, not chirps",
+      "虫": "Small creatures that chirp at night"
+    },
+    "褒める": {
+      "人": "individual you commend or compliment",
+      "子供": "Young person needing encouragement and positive reinforcement",
+      "仕事": "someone's effort/output deserving recognition'"
+    },
+    "割れる": {
+      "ガラス": "Fragile transparent material that shatters easily",
+      "コップ": "Fragile drinking vessel, shatters when dropped"
+    },
+    "滑る": {
+      "人": "individual; together means 'to be funny/amusing'",
+      "雪": "White powder on slopes; ski sport"
+    },
+    "乾く": {
+      "服": "Wearable fabric items hung after washing",
+      "髪": "Crown strands needing towel or dryer"
+    },
+    "晴れる": {
+      "天気": "atmospheric conditions; means \"become sunny/clear",
+      "空": "Blue expanse above; becomes cloudless and clear"
+    },
+    "勤める": {
+      "会社": "corporate employer; together means 'work for'",
+      "銀行": "Financial institution where salaries are earned",
+      "病院": "Medical facility where staff are employed"
+    },
+    "足す": {
+      "砂糖": "Sweet white crystals; sweetening food/drinks",
+      "塩": "White seasoning crystals; means \"add for flavor"
+    },
+    "濡れる": {
+      "服": "Western garments that absorb water easily",
+      "髪": "Head strands, damp after shower or rain",
+      "体": "Physical form; getting drenched or soaked",
+      "手": "Body part dirtied, needs washing clean"
+    },
+    "いじめる": {
+      "人": "vulnerable individual, target of mistreatment",
+      "子供": "Young vulnerable ones; targets of bullying"
+    },
+    "冷える": {
+      "体": "your physical self; means 'catch a chill'",
+      "部屋": "Indoor space that gets uncomfortably chilly",
+      "天気": "atmospheric conditions; means \"weather turns cold/chilly"
+    },
+    "焼ける": {
+      "肉": "protein from animals; gets grilled/cooked",
+      "パン": "Dough-based staple; becomes \"to toast/bake",
+      "家": "Building where you live; catastrophic fire loss"
+    },
+    "汚れる": {
+      "服": "Fabric worn daily; easily gets stained",
+      "手": "Body part used for touching, working",
+      "部屋": "Living space that accumulates mess naturally"
+    },
+    "包む": {
+      "プレゼント": "Gift requiring decorative wrapping paper",
+      "花": "Blooms given as gifts, wrapped delicately"
+    },
+    "止む": {
+      "雨": "Water falling from sky; stops naturally",
+      "雪": "White winter precipitation that eventually stops falling",
+      "風": "Invisible natural force; together means \"calm weather"
+    },
+    "ご覧になる": {
+      "テレビ": "Screen device for watching shows politely",
+      "映画": "Hollywood entertainment watched in theaters",
+      "写真": "Captured memories on paper or screen",
+      "本": "Bound pages you read; polite viewing"
+    },
+    "おる": {
+      "家": "One's dwelling; means 'to stay home",
+      "部屋": "Indoor living space; implies staying/remaining inside"
+    },
+    "おいでになる": {
+      "家": "dwelling; together means 'to be home'",
+      "部屋": "Indoor space; means \"to be present/stay"
+    },
+    "なさる": {
+      "仕事": "employment; polite form of 'to work'",
+      "勉強": "learning; together means 'to study' (polite)",
+      "こと": "abstract matter; makes polite command/suggestion",
+      "スポーツ": "Physical games and athletics; means \"to play sports"
+    },
+    "申し上げる": {
+      "こと": "abstract matter; together means 'to humbly say'",
+      "話": "words/matters conveyed humbly upward"
+    },
+    "申す": {
+      "こと": "abstract matter; together means 'to be named'",
+      "名前": "personal identifier; makes humble self-introduction"
+    },
+    "伺う": {
+      "こと": "abstract matter/information; makes 'politely ask/hear about'",
+      "話": "story or information; means 'to hear/learn about'",
+      "家": "Someone's residence; together means 'to visit'",
+      "お宅": "Someone's residence; together means \"to visit'"
+    },
+    "差し上げる": {
+      "プレゼント": "Wrapped token of appreciation, given humbly upward",
+      "花": "Decorative gift bloom; polite offering gesture"
+    },
+    "まいる": {
+      "家": "Dwelling you visit formally or humbly",
+      "部屋": "Enclosed space you enter/visit respectfully",
+      "お宅": "someone's residence; means 'to visit politely"
+    },
+    "いたす": {
+      "仕事": "employment; humble way to say 'work'",
+      "こと": "Abstract matter; makes humble \"to do",
+      "準備": "advance arrangements; makes verb mean 'to prepare'"
+    },
+    "召し上がる": {
+      "食事": "Formal dining occasion, polite hospitality setting",
+      "お茶": "Japanese beverage; politely enjoying refreshments together"
+    },
+    "締める": {
+      "ネクタイ": "Formal neckwear knotted for business attire",
+      "ドア": "Western-style entry; shut it securely",
+      "窓": "Glass opening; close/shut to secure it"
+    },
+    "空く": {
+      "席": "place to sit; becomes available/unoccupied",
+      "部屋": "Indoor space that becomes available/vacant",
+      "時間": "schedule opening; means 'to have free time'",
+      "お腹": "Body part that rumbles when hungry"
+    },
+    "しかる": {
+      "子供": "Young ones needing discipline or correction",
+      "子": "Young person needing discipline or correction",
+      "人": "Individual deserving correction or discipline"
+    },
+    "釣る": {
+      "魚": "Aquatic creatures you angle for; the catch"
+    },
+    "差す": {
+      "日": "Wait, I need to reconsider. \"日\"",
+      "光": "rays or beams streaming in"
+    },
+    "植える": {
+      "花": "Colorful blooms planted in gardens",
+      "木": "Woody plant; gives shade and oxygen",
+      "野菜": "Edible crops grown in gardens"
+    },
+    "沸く": {
+      "水": "Clear liquid heated until bubbling"
+    },
+    "暮れる": {
+      "日": "Wait, I need to reconsider. The",
+      "空": "Overhead expanse that darkens at dusk"
+    },
+    "閉まる": {
+      "ドア": "Western-style hinged entrance that shuts automatically",
+      "窓": "Glass opening in wall that shuts",
+      "店": "Commercial establishment; means \"to close (for business)"
+    },
+    "写す": {
+      "写真": "Captured image; together means \"to photograph'",
+      "絵": "Visual artwork; means copying/tracing it"
+    },
+    "構う": {
+      "こと": "Abstract matter; together means 'don't worry",
+      "人": "others; together means 'to meddle/interfere'"
+    },
+    "取り替える": {
+      "服": "Western garments; means 'to change outfit'",
+      "部屋": "living space; switching means changing hotels/residences"
+    },
+    "沸かす": {
+      "水": "Clear liquid heated for tea or cooking"
+    },
+    "漬ける": {
+      "野菜": "Produce pickled for preservation; makes tsukemono"
+    },
+    "曇る": {
+      "空": "vast overhead expanse turning gray",
+      "天気": "atmospheric conditions; becomes 'to be cloudy'"
+    },
+    "いい": {
+      "人": "individual with admirable character or qualities",
+      "天気": "Atmospheric conditions; means \"nice weather",
+      "気持ち": "Internal emotional state; means \"pleasant/comfortable",
+      "友達": "close companion; together means 'good friend'",
+      "先生": "educator; means 'kind/capable instructor'",
+      "学校": "Educational institution; describes quality/reputation",
+      "仕事": "Professional task; means \"quality work/good job",
+      "会社": "Workplace organization; means \"good/desirable employer",
+      "料理": "Culinary art; together means \"good cook",
+      "レストラン": "Western dining establishment; means quality/upscale place",
+      "都合": "scheduling situation; together means 'convenient timing'",
+      "具合": "physical/mechanical wellness; means 'feeling good/working well'"
+    },
+    "好き": {
+      "人": "Individual you're romantically attracted to'",
+      "食べ物": "cuisine; together means 'favorite food'",
+      "料理": "culinary arts; means 'enjoy cooking/cuisine'",
+      "音楽": "Melodies and rhythms; describes taste preferences",
+      "映画": "Entertainment on screen; shows taste in cinema",
+      "スポーツ": "Physical games and athletic activities you enjoy",
+      "色": "Visual spectrum property; means \"favorite color",
+      "動物": "Living creatures you're fond of; pets/wildlife'",
+      "本": "Reading material; means \"fond of books/reading",
+      "旅行": "Going places; means \"to like traveling",
+      "科学": "systematic study of nature, subject preference",
+      "遊び": "recreational fun; together means 'playful/fun-loving'",
+      "白": "achromatic color; means 'prefer/favor fairness'",
+      "黒": "Dark color; means \"fond of dark things",
+      "赤": "Primary color; fondness for communism/leftism",
+      "語": "Communication system; your preferred tongue",
+      "青": "Color of sky; means 'inexperienced youth'",
+      "緑": "Nature's color; means \"fond of plants/nature'",
+      "黄色": "Shrill sound color; means 'screaming/cheering loudly'",
+      "茶色": "Warm earth tone, a preferred color"
+    },
+    "必要": {
+      "時間": "duration needed; means 'takes time' or 'requires time'",
+      "お金": "Currency required for purchases and survival",
+      "こと": "Abstract matter or task requiring attention"
+    },
+    "同じ": {
+      "人": "Individual human; together means 'same person/someone'",
+      "こと": "Abstract matter or circumstance; expresses similarity",
+      "学校": "Educational institution; classmates attended together",
+      "会社": "Workplace employer; means \"coworkers\" together",
+      "国": "Nation sharing your citizenship or homeland",
+      "意見": "Personal viewpoint; together means \"to agree'",
+      "気持ち": "Internal emotion; shared understanding or empathy"
+    },
+    "多い": {
+      "人": "individuals; indicates crowdedness or population",
+      "学生": "University-aged learners; means \"enrollment is high",
+      "外国人": "Non-Japanese people; indicates demographic diversity",
+      "車": "Motorized transport; indicates traffic density",
+      "問題": "Issue or difficulty; indicates troublesome abundance",
+      "仕事": "tasks and duties; suggests being busy/swamped",
+      "人口": "**\"居住者数; indicates demographic density\"** Or alternatively:",
+      "割合": "Statistical fraction; means \"high percentage"
+    },
+    "欲しい": {
+      "お金": "Currency; universally desired resource",
+      "時間": "precious hours; means 'need more time'",
+      "本": "Reading material; expresses wanting to obtain",
+      "服": "Western garments you desire or need",
+      "車": "Four-wheeled dream purchase, major life goal"
+    },
+    "悪い": {
+      "人": "individual; together means 'villain/bad person'",
+      "天気": "atmospheric conditions; means \"bad weather",
+      "習慣": "Repeated behavior pattern; together means \"vice",
+      "気分": "internal emotional state; together means 'nauseous/unwell'",
+      "都合": "scheduling situation; together means 'inconvenient/unavailable'",
+      "具合": "Physical well-being; together means \"feeling unwell"
+    },
+    "高い": {
+      "山": "Natural elevation; emphasizes impressive altitude",
+      "建物": "Structures with multiple floors; emphasizes vertical height",
+      "値段": "Cost amount; together means 'expensive'",
+      "レストラン": "Dining establishment; means expensive/pricey here",
+      "ホテル": "Lodging accommodation; expensive or towering building",
+      "車": "Motorized vehicle; refers to expensive price",
+      "服": "Western garments; means \"expensive\" here",
+      "靴": "Footwear with elevated heels or soles",
+      "背": "Physical stature; describes tall people"
+    },
+    "大丈夫": {
+      "人": "Individual who's reliable and capable'",
+      "こと": "abstract matter; together means 'no problem'",
+      "体": "Your physical self; asks about health/wellness",
+      "気持ち": "Internal emotional state; together means \"reassured"
+    },
+    "すごい": {
+      "人": "impressive individual; means 'amazing person'",
+      "こと": "abstract situation or fact; intensifies awesomeness",
+      "力": "inner power/ability; together means 'amazing/impressive'",
+      "技術": "advanced skills/methods; creates 'amazing/impressive technology'",
+      "景色": "Natural vista; means \"breathtaking/amazing view",
+      "映画": "blockbuster entertainment; together means 'amazing film'"
+    },
+    "簡単": {
+      "問題": "Test question or issue; means \"easy problem",
+      "質問": "Inquiry or prompt requiring answer; straightforward one",
+      "仕事": "Task or duty; effortless to complete",
+      "料理": "Kitchen craft; means 'easy-to-make dishes'",
+      "テスト": "Academic assessment; describes difficulty level"
+    },
+    "新しい": {
+      "家": "Building where you live; recently constructed dwelling",
+      "車": "Four-wheeled transport, often bought brand-new",
+      "服": "Western garments; outfit makeover or purchase",
+      "靴": "Footwear protecting feet; needs breaking in",
+      "本": "Reading material; freshly published or acquired",
+      "パソコン": "Desktop/laptop device; tech becomes outdated fast",
+      "仕事": "employment opportunity; career position you start",
+      "友達": "Person you've recently met or befriended'",
+      "先生": "Educator who just started at school",
+      "学校": "Educational institution recently built or attended"
+    },
+    "強い": {
+      "人": "Individual; together means assertive/pushy character",
+      "力": "Physical power; together means \"powerful/mighty",
+      "風": "Moving air; creates \"strong gale/wind",
+      "雨": "Heavy downpour from sky; intense precipitation",
+      "地震": "Ground-shaking disaster; intensity matters most"
+    },
+    "大きな": {
+      "家": "Spacious dwelling; emphasizes impressive size",
+      "建物": "Structure with walls and roof; impressive architecture",
+      "木": "Tall woody plant; emphasizes impressive height",
+      "公園": "Green space with playground; emphasizes spaciousness",
+      "問題": "Serious issue or challenge; signifies importance",
+      "会社": "Business organization; \"major corporation\" nuance"
+    },
+    "特別": {
+      "人": "Individual human; means \"special/important person",
+      "日": "**\"Marked calendar date; creates 'special day/occasion'\"**",
+      "こと": "abstract matter; together means 'something special'",
+      "料理": "Culinary arts; together means \"specialty dish",
+      "プレゼント": "Something given to mark memorable occasions"
+    },
+    "面白い": {
+      "人": "Individual with entertaining/amusing character",
+      "映画": "cinematic story; can be captivating entertainment",
+      "本": "Printed pages that captivate readers' attention'",
+      "話": "**\"Anecdote or story that captivates listeners\"**",
+      "授業": "Educational session that engages or bores students",
+      "先生": "Educator who captivates students with engaging lessons"
+    },
+    "嫌": {
+      "人": "Individual you dislike or find disagreeable",
+      "こと": "abstract matter; together means 'to dislike'",
+      "仕事": "Daily grind you'd rather avoid'",
+      "食べ物": "Cuisine you dislike or can't tolerate'"
+    },
+    "難しい": {
+      "問題": "Challenge needing solution; creates \"difficult problem",
+      "質問": "Inquiry that's hard to answer'",
+      "仕事": "Employment requiring high skill or effort",
+      "漢字": "Complex writing symbols; notoriously hard to master",
+      "テスト": "Academic assessment that challenges students' knowledge'",
+      "試験": "Challenging assessment of knowledge or skill"
+    },
+    "元気": {
+      "人": "Individual with energy and vitality",
+      "子供": "Young one, naturally full of energy",
+      "学生": "University youth; describes lively, energetic students",
+      "赤ちゃん": "Newborn human; together means \"healthy baby"
+    },
+    "変": {
+      "人": "Individual who acts oddly or suspiciously",
+      "こと": "Abstract matter or occurrence; means \"something strange",
+      "話": "suspicious story; means 'fishy tale'",
+      "天気": "Atmospheric conditions; means \"changeable/unstable weather"
+    },
+    "嫌い": {
+      "人": "Individual who dislikes others; misanthrope",
+      "食べ物": "Cuisine and dishes; together means 'disliked foods'",
+      "野菜": "Green foods kids often reject",
+      "仕事": "Daily grind; often becomes unbearable duty"
+    },
+    "楽しい": {
+      "時間": "moments or hours; creates 'good time'",
+      "旅行": "Adventure away from home; pleasant journey",
+      "パーティー": "Festive gathering; atmosphere that brings joy",
+      "授業": "Structured educational session; can be enjoyable",
+      "話": "Engaging conversation; creates pleasant interaction"
+    },
+    "嬉しい": {
+      "気持ち": "Internal emotional state; describes happy feelings",
+      "こと": "abstract matter/fact; creates 'I'm glad that",
+      "ニュース": "Information received; makes you feel glad",
+      "プレゼント": "Wrapped surprise that brings joy when received"
+    },
+    "大好き": {
+      "人": "Someone you're fond of; romantic or platonic'",
+      "食べ物": "Cuisine you crave; expresses favorite foods",
+      "料理": "culinary art; means loving to cook/eat",
+      "音楽": "Melodies and rhythms; expresses passionate fondness",
+      "動物": "Living creatures; expressing fondness for pets"
+    },
+    "少ない": {
+      "人": "individuals; together means 'sparsely populated'",
+      "時間": "duration/hours available; means 'not enough time'",
+      "お金": "Currency; means being poor/broke/short on cash",
+      "学生": "Young learners enrolled; describes small enrollment/population",
+      "人口": "**\"demographic count; indicates sparse inhabitation\"**",
+      "割合": "Statistical fraction; indicates low percentage"
+    },
+    "近い": {
+      "駅": "Platform where trains stop; conveniently located nearby",
+      "店": "Commercial building nearby; means \"conveniently located",
+      "学校": "Educational building; describes proximity to home",
+      "家": "Dwelling; means 'close to home/nearby'",
+      "公園": "Green space with swings; conveniently nearby",
+      "場所": "Physical spot; means \"nearby location"
+    },
+    "長い": {
+      "時間": "duration or period; together means 'lengthy/prolonged'",
+      "休み": "break period; together means 'long vacation'",
+      "夏休み": "School break in hot months; extended duration",
+      "髪": "Head strands; describes hairstyle length",
+      "川": "Natural waterway; often described by length",
+      "道": "Route or journey; emphasizes extended distance",
+      "橋": "Structure spanning water or valleys",
+      "話": "Narrative or conversation; implies lengthy rambling"
+    },
+    "有名": {
+      "人": "individual; together means 'celebrity/famous figure'",
+      "場所": "**\"Destination or site; together means 'famous spot'\"**",
+      "レストラン": "Western-style dining establishment, often renowned locally",
+      "ホテル": "Accommodation establishment; well-known or renowned",
+      "大学": "prestigious institution of higher learning"
+    },
+    "若い": {
+      "人": "individual; describes youthful humans",
+      "学生": "University learner in their youthful years",
+      "女性": "Adult female person; youthful femininity",
+      "男性": "Male person; describes a young man",
+      "先生": "educator; emphasizes inexperience or youth"
+    },
+    "大きい": {
+      "家": "Building where family lives; spacious dwelling",
+      "部屋": "Indoor space; describes its spaciousness",
+      "建物": "Structures with walls and roofs; size matters",
+      "車": "Motorized transport; emphasizes physical size/spaciousness",
+      "木": "Tall plant with trunk and branches",
+      "声": "Sound from throat; together means 'loud'"
+    },
+    "美しい": {
+      "景色": "Natural vista worthy of admiration",
+      "女性": "Adult female person; graceful and elegant",
+      "花": "Nature's bloom, epitome of beauty'",
+      "山": "Majestic natural peak; scenic landscape feature",
+      "海": "Vast blue waters, naturally scenic and pristine",
+      "空": "Blue expanse above; clear weather vista",
+      "音楽": "harmonious sounds; describes pleasing melodies"
+    },
+    "早い": {
+      "時間": "the hour; means 'it's still early",
+      "朝": "Dawn hours; together means \"early morning",
+      "電車": "Rail commuter; makes \"express/rapid train",
+      "車": "motorized vehicle; describes its speed",
+      "返事": "Communication feedback; promptness shows respect"
+    },
+    "正しい": {
+      "答え": "Solution to a problem; the right one",
+      "意見": "Personal viewpoint that can be validated",
+      "道": "**\"Metaphorical journey; together means 'righteous path'\"**"
+    },
+    "小さい": {
+      "家": "structure where you live; describes modest dwelling",
+      "部屋": "Indoor living space; describes cramped quarters",
+      "子供": "Young person; emphasizes youth or littleness",
+      "赤ちゃん": "Newborn human; emphasizes tiny, precious size",
+      "声": "Sound from throat; means \"quiet/soft-spoken",
+      "字": "Written symbols; together means \"fine print"
+    },
+    "小さな": {
+      "家": "cozy dwelling; suggests modest humble home",
+      "部屋": "Indoor living space, cozy and compact",
+      "子供": "Young ones; emphasizes their tender smallness",
+      "町": "Quaint community, cozy settlement feeling",
+      "店": "Retail business; together suggests cozy boutique"
+    },
+    "安い": {
+      "レストラン": "Western-style dining spot, budget-friendly option",
+      "ホテル": "Overnight lodging; budget-friendly accommodation",
+      "店": "Commercial establishment with low prices; bargain retailer",
+      "値段": "monetary amount tagged on goods; affordability",
+      "服": "Wearable fashion items, affordably priced garments",
+      "本": "printed pages; affordably priced reading material"
+    },
+    "古い": {
+      "家": "Building with history; vintage dwelling charm",
+      "建物": "Structure with history and character",
+      "車": "Motorized vehicle, potentially vintage or worn-out",
+      "本": "Bound pages; suggests worn, vintage reading material",
+      "服": "Worn garments; means outdated or unfashionable",
+      "友達": "Companion from way back; longtime bond",
+      "町": "Historic district with traditional atmosphere",
+      "寺": "Buddhist sanctuary; evokes ancient heritage"
+    },
+    "低い": {
+      "山": "Natural elevation; describes a small/short one",
+      "建物": "Structure with few floors; not tall",
+      "値段": "monetary amount; together means 'inexpensive/cheap'",
+      "声": "Sound from throat; means soft/quiet speaking",
+      "背": "Physical vertical measurement; means \"short in stature"
+    },
+    "痛い": {
+      "頭": "body part housing brain; means 'headache'",
+      "お腹": "Core body area; signals stomachache/bellyache",
+      "歯": "Hard white bone in mouth; toothache",
+      "足": "Lower limb; often sore from walking",
+      "手": "Body part with fingers; indicates injury or soreness",
+      "耳": "Side head organ; harsh criticism hurts",
+      "鼻": "Facial feature; sore from cold/crying",
+      "首": "Body part connecting head to shoulders;",
+      "腕": "Upper limb; sore from overuse or injury",
+      "背中": "Upper body part, prone to strain",
+      "のど": "Passage for swallowing; gets sore when sick"
+    },
+    "きれい": {
+      "人": "Individual human being; describes attractive appearance",
+      "女性": "Adult female person; often describes elegance",
+      "景色": "Natural vista; visually stunning view",
+      "花": "Delicate petals, naturally beautiful plant",
+      "海": "Vast blue waters, visually stunning and clear",
+      "空": "Blue expanse above; weather description classic",
+      "部屋": "Personal space that's tidy and clean'",
+      "字": "Written symbols; together means \"neat handwriting"
+    },
+    "便利": {
+      "場所": "well-situated spot; emphasizes practical accessibility",
+      "駅": "Transportation hub; closeness determines convenience",
+      "店": "Small neighborhood retail outlet, handy access",
+      "道具": "Practical implements that make tasks easier"
+    },
+    "おいしい": {
+      "料理": "Prepared dishes; praises the chef's result'",
+      "食べ物": "Cuisine, dishes, or meals evaluated for taste",
+      "レストラン": "Western dining establishment with good food",
+      "肉": "Animal protein; savory not sweet flavor",
+      "魚": "Seafood swimmer, fresh or cooked delicacy"
+    },
+    "辛い": {
+      "料理": "Prepared dishes; describes spicy flavors",
+      "カレー": "Japanese spiced stew, ranges mild to fiery",
+      "気持ち": "Internal emotional state; means \"painful/difficult feelings",
+      "仕事": "Daily grind; together means \"tough/hard work",
+      "生活": "Daily existence; together means \"hardship/struggle"
+    },
+    "優しい": {
+      "人": "individual with warmhearted, compassionate nature",
+      "先生": "Educator; describes their kind, caring nature",
+      "お母さん": "**\"Nurturing parent, epitome of kindness\"**",
+      "お父さん": "Male parent; describes his warm nature",
+      "友達": "companion who shows you warmth and care",
+      "声": "spoken sound; creates soothing, warm tone",
+      "母": "Nurturing parent; epitome of gentle kindness",
+      "父": "Male parent; warm and caring demeanor",
+      "息子": "Male child; describes caring, devoted offspring",
+      "娘": "Female child; describes sweet, gentle nature",
+      "男": "Compassionate male; describes a kind-hearted man",
+      "女": "Feminine person; implies graceful, tender-hearted character"
+    },
+    "寒い": {
+      "天気": "Atmospheric conditions; describes coldness outside",
+      "日": "24-hour period; describes the weather that day",
+      "冬": "Coldest season, snowy months of year",
+      "朝": "Dawn hours when temperatures drop lowest",
+      "部屋": "Indoor space that feels chilly",
+      "国": "Nation with frigid climate year-round"
+    },
+    "白い": {
+      "服": "Western garments; often worn formally or symbolically",
+      "紙": "Blank sheets for writing or printing",
+      "雪": "Winter precipitation; naturally pure and white",
+      "花": "Delicate petals, often symbolizing purity",
+      "猫": "Furry pet; often represents good luck",
+      "犬": "Loyal pet; iconic fluffy Spitz breed"
+    },
+    "赤い": {
+      "服": "Western garments; describes bold fashion choice",
+      "花": "Blooming plant part; vivid when crimson",
+      "色": "Visual property; specifies red hue/shade",
+      "顔": "Front of head; shows embarrassment/shame"
+    },
+    "青い": {
+      "空": "Vast overhead expanse; naturally this color",
+      "海": "Vast salty waters, famously azure blue",
+      "服": "Western garments; describes outfit color",
+      "色": "Visual property; describes blue-tinted appearance"
+    },
+    "黒い": {
+      "服": "Garments worn; formal or mourning attire",
+      "髪": "Head covering; describes typical Japanese hair color",
+      "猫": "Feline pet; superstition symbol in Japan",
+      "犬": "Loyal four-legged pet, often this color",
+      "色": "Visual property; describes dark shade"
+    },
+    "黄色い": {
+      "花": "Petaled plant; bright golden blooms in nature",
+      "色": "visual property; together means simply 'yellow'"
+    },
+    "明るい": {
+      "部屋": "Indoor space with windows and lighting",
+      "人": "Individual who's cheerful, positive, outgoing'",
+      "声": "Vocal tone; together means \"cheerful voice",
+      "色": "Visual hue; together means cheerful/vivid tone"
+    },
+    "暗い": {
+      "部屋": "Indoor space lacking light or cheer",
+      "道": "Linear route; suggests uncertain or bleak future",
+      "夜": "After-dark hours; literally lacks light",
+      "色": "Visual spectrum property; describes subdued/dull tones",
+      "顔": "expression showing worry or gloom"
+    },
+    "熱い": {
+      "コーヒー": "Bitter caffeinated beverage, best served steaming",
+      "お茶": "Japanese beverage, often served steaming hot",
+      "夏": "Sweltering season; describes oppressive climate"
+    },
+    "冷たい": {
+      "水": "Refreshing drink; naturally chilled and crisp",
+      "風": "Moving air; describes a chilling breeze"
+    },
+    "暑い": {
+      "天気": "Atmospheric conditions; describes hot, humid days",
+      "日": "24-hour period; describes weather temperature",
+      "夏": "Hot season between spring and fall",
+      "部屋": "Indoor space that feels uncomfortably warm",
+      "国": "tropical or desert nation; climate-focused"
+    },
+    "涼しい": {
+      "天気": "Atmospheric conditions; describes pleasant coolness",
+      "日": "I need to reconsider this task.",
+      "秋": "Season when heat breaks, pleasantly cool",
+      "部屋": "Indoor space that stays pleasantly cool",
+      "風": "Natural air current; pleasantly chilling sensation"
+    },
+    "暖かい": {
+      "天気": "Atmospheric conditions; pleasant mild climate",
+      "日": "sunny period; together means 'warm day'",
+      "春": "Season when warmth pleasantly returns after winter",
+      "部屋": "Indoor living space, cozy when heated",
+      "服": "Cozy winter garments; insulating layers",
+      "気持ち": "Internal emotional state; creates \"warmhearted; kind"
+    },
+    "重い": {
+      "荷物": "Travel bags and boxes; burdensome to carry",
+      "箱": "Container that's burdensome to carry or lift'",
+      "気持ち": "Internal emotional state; creates \"depressed/burdened feeling"
+    },
+    "軽い": {
+      "荷物": "Travel bags; easy to carry burden",
+      "服": "Western garments; comfortable, easy to wear",
+      "気持ち": "Internal emotional state; creates \"cheerful/carefree"
+    },
+    "太い": {
+      "木": "Woody plant with trunk; emphasizes girth",
+      "線": "Mark on paper; becomes 'bold stroke'",
+      "体": "Physical frame; implies \"to gain weight"
+    },
+    "細い": {
+      "道": "Narrow route or alleyway, hard to pass",
+      "線": "Mark or stroke; together means delicate/thin line",
+      "体": "Physical frame; means \"slender/slim figure",
+      "指": "Body parts at hand's end; graceful/delicate when slender'"
+    },
+    "広い": {
+      "部屋": "Indoor living space; emphasizes openness",
+      "家": "**\"dwelling with ample room inside\"** This",
+      "公園": "Green recreational space, emphasizes openness",
+      "道": "Paved surface for travel; implies spaciousness",
+      "海": "Vast blue expanse; emphasizes endless horizon",
+      "世界": "Global realm; suggests broad perspectives/horizons"
+    },
+    "狭い": {
+      "部屋": "Living space that feels uncomfortably small",
+      "道": "Linear passage where width matters most",
+      "家": "dwelling that feels tight and confined",
+      "電車": "Commuter vehicle, often packed and cramped"
+    },
+    "厚い": {
+      "本": "Bound pages; emphasizes physical thickness/substance",
+      "服": "Garments; together means heavy/warm clothing",
+      "コート": "Winter outerwear; emphasizes insulation thickness",
+      "壁": "Vertical barrier; suggests strong separation or insulation"
+    },
+    "薄い": {
+      "本": "Printed pages bound together; lacking substance",
+      "服": "Garments; describes lightweight, sheer fabric",
+      "紙": "Writing material; delicate, tears easily",
+      "壁": "Room divider; means sound carries through",
+      "色": "Visual tone; together means \"pale/light-colored"
+    },
+    "深い": {
+      "海": "Vast blue waters; literally and metaphorically profound",
+      "川": "Natural waterway; implies danger or profundity",
+      "プール": "Chlorinated water basin; depth matters for diving",
+      "関係": "Bond between people; implies intimacy and closeness",
+      "意味": "significance or interpretation; together means 'profound'"
+    },
+    "浅い": {
+      "海": "Vast saltwater body, but near shore",
+      "川": "flowing waterway, wadeable when not deep",
+      "プール": "Recreational water tank; kiddie/wading depth"
+    },
+    "丸い": {
+      "形": "physical outline; describes roundness of silhouette",
+      "顔": "Front of head; describes chubby cheeks"
+    },
+    "柔らかい": {
+      "布団": "Japanese bedding; plush and comfortable sleeping",
+      "ベッド": "Furniture for sleeping; emphasizes comfort level",
+      "肉": "protein tissue; describes tender, quality meat",
+      "パン": "Baked goods; fresh and fluffy when ideal"
+    },
+    "硬い": {
+      "石": "Natural hard mineral; literally rock-solid firmness",
+      "ベッド": "Sleeping furniture; describes firm mattress support",
+      "肉": "Animal protein; becomes \"tough/chewy meat",
+      "パン": "Baked staple that goes stale, crusty"
+    },
+    "甘い": {
+      "味": "Sensory quality; means \"too lenient/naive",
+      "ケーキ": "Frosted dessert, birthday celebration treat",
+      "お菓子": "Treats and desserts with high sugar content",
+      "果物": "Natural dessert, often ripe and juicy",
+      "コーヒー": "Bitter beverage often sweetened with sugar"
+    },
+    "苦い": {
+      "味": "sensory quality; creates 'bitter taste/flavor'",
+      "コーヒー": "Dark morning brew, naturally has bitterness",
+      "薬": "Healing remedy, often unpleasant tasting",
+      "経験": "lesson learned through hardship or failure"
+    },
+    "忙しい": {
+      "人": "individual; describes someone constantly occupied",
+      "日": "24-hour period; describes having hectic days",
+      "時間": "moments and hours; when busy, lacking this",
+      "仕事": "demanding employment; creates 'swamped with work'",
+      "生活": "Daily existence; together means \"hectic lifestyle"
+    },
+    "眠い": {
+      "人": "Individual who gets sleepy/drowsy",
+      "時": "specific moment; together means 'when sleepy'",
+      "朝": "Early daylight hours when drowsiness persists"
+    },
+    "恥ずかしい": {
+      "気持ち": "Inner emotion; together intensifies embarrassment felt",
+      "こと": "abstract matter; together means 'embarrassing situation/fact'",
+      "経験": "moments lived through; creates 'embarrassing memory'",
+      "話": "anecdote or tale; creates 'embarrassing story'"
+    },
+    "寂しい": {
+      "気持ち": "Internal emotional state; expresses loneliness felt",
+      "人": "Individual who feels alone or isolated",
+      "夜": "Dark hours when solitude feels deepest",
+      "場所": "Physical spot that feels empty or isolated"
+    },
+    "危ない": {
+      "場所": "unsafe spot; area with hazards",
+      "道": "Physical route; treacherous when poorly maintained",
+      "人": "suspicious individual; means 'shady character'",
+      "こと": "Abstract matter; together means \"close call"
+    },
+    "上手": {
+      "人": "individual; together means 'someone skilled/expert'",
+      "料理": "culinary art; means 'good at cooking'",
+      "スポーツ": "Physical games and athletics; athletic prowess",
+      "歌": "melodic vocals; means 'good at singing'",
+      "絵": "Visual art; means \"good at drawing"
+    },
+    "下手": {
+      "人": "individual; together means 'shy/socially awkward person'",
+      "料理": "culinary art requiring skill and practice",
+      "スポーツ": "Physical games requiring athletic ability; being",
+      "歌": "Vocal melody; together means \"sing poorly",
+      "絵": "Visual art showing one's artistic ability'"
+    },
+    "丁寧": {
+      "説明": "Clarifying information given with thorough care",
+      "仕事": "Professional tasks done with care and thoroughness",
+      "言葉": "Spoken/written words; together means 'polite speech'",
+      "人": "individual; together means 'courteous/well-mannered person'"
+    },
+    "親切": {
+      "人": "individual; describes their warm character",
+      "先生": "educator who shows warmth to students",
+      "店員": "Retail worker; describes their helpful service manner",
+      "母": "親切な母\" means \"kind mother\" - a",
+      "父": "Male parent; describes his caring nature",
+      "両親": "The two who raised you; familial kindness"
+    },
+    "真面目": {
+      "人": "Individual; describes reliable, diligent character",
+      "学生": "Diligent learner; describes conscientious, hardworking pupil"
+    },
+    "立派": {
+      "人": "Individual of admirable character and achievement",
+      "建物": "Impressive structure; together means \"magnificent edifice",
+      "家": "Impressive building structure; magnificent residence",
+      "仕事": "Professional accomplishment worthy of praise"
+    },
+    "賑やか": {
+      "町": "Urban area alive with activity and people",
+      "店": "Commercial space full of customers and energy",
+      "場所": "Venue or spot; describes lively atmosphere",
+      "パーティー": "Social gathering; creates lively, festive atmosphere"
+    },
+    "静か": {
+      "場所": "peaceful spot; means 'quiet place/area'",
+      "部屋": "Private indoor space; peaceful sanctuary",
+      "町": "Small residential area; peaceful neighborhood",
+      "人": "reserved individual; implies calm temperament",
+      "夜": "Dark hours when stillness naturally falls",
+      "図書館": "Hushed reading room; naturally silent space"
+    },
+    "うるさい": {
+      "音": "Vibrations you hear; becomes \"too loud",
+      "声": "sound from throat; means speaking loudly/annoyingly",
+      "人": "Individual who's annoying or nagging'",
+      "場所": "Specific spot; together means 'noisy place'"
+    },
+    "汚い": {
+      "部屋": "Personal living space, often messy or unkempt",
+      "服": "Garments needing laundry, visibly soiled",
+      "手": "Body part used for touching; implies dishonesty",
+      "川": "Natural waterway, often polluted or murky",
+      "町": "Urban area needing cleanup or maintenance"
+    },
+    "珍しい": {
+      "動物": "Living creatures; exotic or uncommon species",
+      "花": "Botanical specimen, exotic or uncommon variety",
+      "経験": "Life events; together means \"unusual happening",
+      "名前": "identifier given at birth; uncommon one"
+    },
+    "丈夫": {
+      "体": "Physical frame; together means \"healthy/strong",
+      "建物": "Solid structure; means well-built, sturdy construction"
+    },
+    "不便": {
+      "場所": "Remote area lacking amenities or access",
+      "駅": "Transport hub; means \"inconvenient location/access",
+      "生活": "Daily existence; together means \"inconvenient lifestyle"
+    },
+    "つまらない": {
+      "映画": "Hollywood entertainment; when unengaging or dull",
+      "本": "Reading material that disappoints or drags",
+      "授業": "Classroom instruction that drags on tediously",
+      "話": "Dialogue or story that lacks interest",
+      "人": "Individual; describes dull/uninteresting character"
+    },
+    "ひどい": {
+      "天気": "atmospheric conditions; means \"terrible/stormy weather",
+      "経験": "traumatic or painful life event",
+      "人": "cruel individual; describes heartless character",
+      "話": "narrative or account; means 'cruel/terrible story'"
+    },
+    "残念": {
+      "こと": "Abstract matter; expresses disappointment or regret",
+      "ニュース": "Information reports; expresses disappointment about events",
+      "気持ち": "Internal emotional state; expresses disappointment/regret"
+    },
+    "熱心": {
+      "人": "Individual who shows dedication; means enthusiast",
+      "学生": "Young learner who studies with passion",
+      "先生": "Educator who passionately dedicates themselves to teaching"
+    },
+    "やさしい": {
+      "問題": "Test question or puzzle; means \"easy problem",
+      "質問": "inquiry requiring simple answer; not difficult",
+      "テスト": "Academic evaluation that's not difficult'",
+      "本": "Reading material that's not challenging'"
+    },
+    "易い": {
+      "問題": "Test question or challenge; means \"easy problem",
+      "質問": "Inquiry posed to others; simple to ask",
+      "仕事": "tasks or employment; means 'easy to work with/on'"
+    },
+    "無理": {
+      "こと": "Abstract matter; together means \"impossible; can't be done'",
+      "話": "spoken words; together means 'absurd story/excuse'"
+    },
+    "普通": {
+      "人": "average individual; unremarkable everyday folks",
+      "生活": "Daily existence; together means \"ordinary/everyday life",
+      "日": "weekday contrasted with holidays; becomes 'normally'",
+      "話": "Casual dialogue; together means \"everyday conversation",
+      "こと": "abstract matter; together means 'commonplace occurrence'"
+    },
+    "十分": {
+      "時間": "duration needed; together means 'enough time'",
+      "お金": "Currency; together means \"financially secure/well-off",
+      "準備": "Groundwork; together means \"well-prepared"
+    },
+    "確か": {
+      "こと": "Abstract matter; together means \"to confirm'"
+    },
+    "かわいい": {
+      "子供": "Young humans; naturally evoke affection and tenderness",
+      "赤ちゃん": "Tiny newborn, universally adored and cherished",
+      "犬": "Loyal furry pet, often called adorable",
+      "猫": "Furry pet, quintessentially adorable creature",
+      "服": "Western garments with adorable style appeal",
+      "顔": "Front of head; describes attractive appearance",
+      "娘": "Female child; proud parent's affectionate phrase'",
+      "息子": "Male child; doting parent's affection'",
+      "女の子": "Young female child, often called adorable",
+      "男の子": "Young male child, endearingly adorable",
+      "妹": "Female sibling, often affectionately described",
+      "弟": "Male sibling, often seen as endearing"
+    },
+    "大事": {
+      "こと": "Abstract matter; means \"something important/serious",
+      "人": "cherished individual; means 'loved one'",
+      "話": "Serious discussion requiring attention and care",
+      "仕事": "crucial task/job requiring serious attention",
+      "時間": "moments and hours; treasuring them matters",
+      "安全": "protection from harm; most valued priority",
+      "自由": "personal liberty; together means 'to value/cherish'"
+    },
+    "結構": {
+      "こと": "abstract matter; together means 'often; quite'",
+      "人": "individual; together means 'quite a few people'"
+    },
+    "怖い": {
+      "映画": "Horror genre entertainment on screen",
+      "話": "Spooky story or tale told aloud",
+      "夢": "Nighttime vision; together means \"nightmare",
+      "顔": "Front of head; describes intimidating expression",
+      "人": "Individual human being; means \"scary/intimidating person",
+      "こと": "Abstract matter; creates \"being afraid/scared"
+    },
+    "いろいろ": {
+      "こと": "Abstract matters; means \"various things/experiences",
+      "人": "Individuals with diverse backgrounds; means \"all",
+      "話": "Topics exchanged in conversation; means chitchat",
+      "経験": "life events accumulated over time; diverse background",
+      "問題": "Challenges or issues; means \"various problems"
+    },
+    "大切": {
+      "こと": "Abstract matter; together means \"something important",
+      "人": "Individual you value and cherish most",
+      "時間": "precious resource; fleeting moments to treasure",
+      "家族": "Blood relatives; cherished above all else",
+      "友達": "Companions to treasure and value deeply",
+      "安全": "Protection from harm; vital to preserve",
+      "自由": "Liberty; its importance defines humanity"
+    },
+    "素晴らしい": {
+      "景色": "Natural vista that inspires awe and admiration",
+      "経験": "Lived moments; creates \"magnificent life events",
+      "人": "**\"Individual with exceptional qualities; admirable character\"**",
+      "こと": "Abstract matter or fact; expresses admiration",
+      "映画": "Hollywood production; cinematic masterpiece worth praising",
+      "音楽": "Melodious art form; expresses exceptional quality",
+      "天気": "Atmospheric conditions; perfect clear skies"
+    },
+    "国際": {
+      "空港": "Hub for cross-border flights and travel",
+      "会議": "Formal gathering; together means \"international conference",
+      "関係": "Ties between nations; means \"diplomatic affairs",
+      "社会": "Global community; worldwide relations and affairs"
+    },
+    "ソフト": {
+      "声": "Gentle tone when speaking; indicates kindness"
+    },
+    "おかしい": {
+      "話": "narrative or anecdote; together means 'funny story'",
+      "こと": "abstract situation; means 'something's wrong/strange",
+      "人": "Individual; means \"strange/weird person",
+      "顔": "facial expression that looks silly or strange"
+    },
+    "だめ": {
+      "こと": "abstract matter; together means 'forbidden/must not'",
+      "人": "Unreliable individual; means 'hopeless/worthless person'"
+    },
+    "急": {
+      "用": "Matter requiring attention; means 'urgent business'",
+      "用事": "Unexpected errands requiring immediate attention",
+      "仕事": "Urgent task or unexpected assignment demanding immediate attention",
+      "話": "Conversation topic; together means \"urgent business",
+      "電話": "Unexpected incoming call requiring immediate attention"
+    },
+    "うまい": {
+      "料理": "Culinary art; together means \"delicious food",
+      "人": "Individual with expertise or cleverness",
+      "話": "Narrative that's too convenient or suspicious'"
+    },
+    "厳しい": {
+      "先生": "Educator who demands high standards relentlessly",
+      "人": "individual with demanding, uncompromising character",
+      "親": "Mom and dad who raise with strict rules",
+      "規則": "Guidelines enforced without leniency or flexibility",
+      "練習": "Repetitive drills; becomes \"rigorous/demanding training",
+      "冬": "Coldest season; describes harsh, bitter conditions",
+      "天気": "Harsh atmospheric conditions; extreme climate elements"
+    },
+    "弱い": {
+      "人": "individual; describes someone vulnerable or feeble",
+      "子": "Vulnerable young one; means weak/soft spot",
+      "体": "Physical frame; means \"frail\" or \"weak constitution",
+      "力": "Physical power; means lacking strength/ability"
+    },
+    "悲しい": {
+      "話": "Narrative or account; becomes \"sad story",
+      "こと": "Abstract matter; becomes noun \"sad thing/event",
+      "映画": "tearjerker on screen; emotional cinema experience",
+      "顔": "Front of head; shows sorrowful expression",
+      "気持ち": "Internal emotional state; expresses sadness within"
+    },
+    "適当": {
+      "こと": "abstract matter; together means 'irresponsible; careless; halfhearted'",
+      "人": "qualified individual; means 'right person for job'",
+      "時間": "duration or moment; means 'convenient time'"
+    },
+    "複雑": {
+      "問題": "Tricky issue requiring careful thought; difficult situation",
+      "話": "narrative or situation; means 'complicated matter'",
+      "気持ち": "Inner emotions; together means \"mixed feelings",
+      "関係": "interpersonal bonds; often romantically tangled"
+    },
+    "遅い": {
+      "時間": "the clock; together means 'running late'",
+      "電車": "Rail transport that's running behind schedule'",
+      "返事": "Communication feedback; means \"slow to respond"
+    },
+    "短い": {
+      "時間": "Duration or period; means \"brief/insufficient",
+      "話": "Brief verbal exchange; means \"quick chat",
+      "髪": "Head strands; describes hairstyle length",
+      "スカート": "Women's garment; fashionably above the knee'"
+    },
+    "遠い": {
+      "場所": "Geographic point requiring travel to reach",
+      "国": "foreign nation, geographically or culturally remote",
+      "家": "one's dwelling; implies long commute distance'",
+      "学校": "Educational institution requiring long commute",
+      "駅": "Transport hub; inconveniently located access point",
+      "道": "Route or journey; suggests long difficult path"
+    },
+    "まずい": {
+      "料理": "prepared food; means badly-cooked dish",
+      "味": "sensory quality; together means \"bad-tasting",
+      "こと": "situation; together means \"problematic\" or \"in trouble"
+    },
+    "よろしい": {
+      "こと": "abstract matter; together means 'is acceptable'",
+      "時間": "convenient moment; asks scheduling availability",
+      "日": "convenient timing; asking schedule availability"
+    },
+    "細かい": {
+      "字": "Written symbols; together means \"small print/handwriting",
+      "話": "conversation; together means 'detailed/nitpicky explanation'",
+      "お金": "Currency; together means \"small change/bills"
+    },
+    "盛ん": {
+      "スポーツ": "Physical competitions; actively popular/thriving activity",
+      "産業": "Manufacturing, commerce, or trade sector; economic vitality"
+    },
+    "ぬるい": {
+      "お茶": "Japanese beverage, best served hot",
+      "コーヒー": "Hot beverage that's disappointingly cooled down'"
+    }
+  }
+}

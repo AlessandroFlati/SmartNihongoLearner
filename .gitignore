@@ -38,6 +38,12 @@ lerna-debug.log*
 data-preparation/output/*.json
 data-preparation/scrapers/cache/
 
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.checkpoint.json
+
 # User data (privacy)
 *.db
 *.sqlite

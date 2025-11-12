@@ -1,0 +1,439 @@
+================================================================================
+COLLOCATION ANALYSIS: Words with High Numbers of Matches
+================================================================================
+
+Total words analyzed: 390
+Average matches per word: 5.76
+Median matches per word: 4
+
+================================================================================
+DISTRIBUTION ANALYSIS
+================================================================================
+
+Very High (30+ matches): 7 words
+High (20-29 matches): 5 words
+Medium-High (15-19 matches): 5 words
+
+================================================================================
+TOP 50 WORDS WITH MOST COLLOCATIONS
+================================================================================
+
+ 1. ある         (aru            ) - verb      
+    Matches: 162 - to be; to exist; to live
+    By Score: 3=2, 2=160, 1=0
+
+ 2. 行く         (iku            ) - verb      
+    Matches:  85 - to go; to move (in a direction or towards a specific locatio
+    By Score: 3=9, 2=76, 1=0
+
+ 3. する         (suru           ) - verb      
+    Matches:  80 - to do; to carry out; to perform
+    By Score: 3=12, 2=68, 1=0
+
+ 4. 買う         (kau            ) - verb      
+    Matches:  78 - to buy; to purchase
+    By Score: 3=5, 2=73, 1=0
+
+ 5. いる         (iru            ) - verb      
+    Matches:  52 - to be (of animate objects); to exist
+    By Score: 3=3, 2=49, 1=0
+
+ 6. 来る         (kuru           ) - verb      
+    Matches:  50 - to come (spatially or temporally); to approach; to arrive
+    By Score: 3=2, 2=48, 1=0
+
+ 7. 食べる        (taberu         ) - verb      
+    Matches:  33 - to eat
+    By Score: 3=15, 2=18, 1=0
+
+ 8. 見る         (miru           ) - verb      
+    Matches:  27 - to see; to look; to watch; to view; to observe
+    By Score: 3=4, 2=23, 1=0
+
+ 9. 使う         (tsukau         ) - verb      
+    Matches:  24 - to use (a thing method etc.); to make use of; to put to use
+    By Score: 3=3, 2=21, 1=0
+
+10. 書く         (kaku           ) - verb      
+    Matches:  22 - to write; to compose; to pen
+    By Score: 3=1, 2=21, 1=0
+
+11. かかる        (kakaru         ) - verb      
+    Matches:  21 - to take (a resource e.g. time or money)
+    By Score: 3=3, 2=18, 1=0
+
+12. 好き         (suki           ) - adjective 
+    Matches:  20 - liked; well-liked; favourite; favorite
+    By Score: 3=4, 2=16, 1=0
+
+13. なる         (naru           ) - verb      
+    Matches:  17 - to become; to get; to grow; to be; to reach; to attain
+    By Score: 3=0, 2=17, 1=0
+
+14. わかる        (wakaru         ) - verb      
+    Matches:  17 - to understand; to comprehend; to grasp; to see; to get; to f
+    By Score: 3=2, 2=15, 1=0
+
+15. 乗る         (noru           ) - verb      
+    Matches:  16 - to get on (train plane bus ship etc.); to get in; to board; 
+    By Score: 3=4, 2=12, 1=0
+
+16. 言う         (iu             ) - verb      
+    Matches:  15 - to say; to utter; to declare
+    By Score: 3=2, 2=13, 1=0
+
+17. 入る         (hairu          ) - verb      
+    Matches:  15 - to enter; to go into
+    By Score: 3=2, 2=13, 1=0
+
+18. 終わる        (owaru          ) - verb      
+    Matches:  14 - to end; to come to an end; to close; to finish
+    By Score: 3=2, 2=12, 1=0
+
+19. 知る         (shiru          ) - verb      
+    Matches:  14 - to be aware of; to know; to be conscious of; to cognize; to 
+    By Score: 3=1, 2=13, 1=0
+
+20. 始まる        (hajimaru       ) - verb      
+    Matches:  13 - to begin; to start; to commence
+    By Score: 3=1, 2=12, 1=0
+
+21. 起きる        (okiru          ) - verb      
+    Matches:  13 - to get up; to rise; to blaze up (fire)
+    By Score: 3=1, 2=12, 1=0
+
+22. 読む         (yomu           ) - verb      
+    Matches:  12 - to read
+    By Score: 3=3, 2=9, 1=0
+
+23. 飲む         (nomu           ) - verb      
+    Matches:  12 - to drink; to gulp; to swallow; to take (medicine)
+    By Score: 3=6, 2=6, 1=0
+
+24. いい         (ii             ) - adjective 
+    Matches:  12 - good; excellent; fine; nice; pleasant; agreeable
+    By Score: 3=2, 2=10, 1=0
+
+25. 優しい        (yasashii       ) - adjective 
+    Matches:  12 - tender; kind; gentle; graceful; affectionate; amiable
+    By Score: 3=1, 2=11, 1=0
+
+26. かわいい       (kawaii         ) - adjective 
+    Matches:  12 - cute; adorable; charming; lovely; pretty
+    By Score: 3=6, 2=6, 1=0
+
+27. 作る         (tsukuru        ) - verb      
+    Matches:  11 - to make; to produce; to manufacture; to build; to construct
+    By Score: 3=3, 2=8, 1=0
+
+28. 痛い         (itai           ) - adjective 
+    Matches:  11 - painful; sore
+    By Score: 3=2, 2=9, 1=0
+
+29. 出る         (deru           ) - verb      
+    Matches:  10 - to leave; to exit; to go out; to come out; to get out
+    By Score: 3=0, 2=10, 1=0
+
+30. 教える        (oshieru        ) - verb      
+    Matches:  10 - to teach; to instruct
+    By Score: 3=0, 2=10, 1=0
+
+31. 寝る         (neru           ) - verb      
+    Matches:  10 - to lie down
+    By Score: 3=0, 2=10, 1=0
+
+32. 新しい        (atarashii      ) - adjective 
+    Matches:  10 - new; novel; fresh; recent; latest; up-to-date; modern
+    By Score: 3=3, 2=7, 1=0
+
+33. 持つ         (motsu          ) - verb      
+    Matches:   9 - to hold (in one's hand); to take; to carry
+    By Score: 3=0, 2=9, 1=0
+
+34. 聞く         (kiku           ) - verb      
+    Matches:   9 - to hear
+    By Score: 3=2, 2=7, 1=0
+
+35. 高い         (takai          ) - adjective 
+    Matches:   9 - high; tall
+    By Score: 3=2, 2=7, 1=0
+
+36. つける        (tsukeru        ) - verb      
+    Matches:   8 - to turn on; to switch on; to light up
+    By Score: 3=1, 2=6, 1=1
+
+37. 切る         (kiru           ) - verb      
+    Matches:   8 - to cut; to cut through; to perform (surgery)
+    By Score: 3=0, 2=8, 1=0
+
+38. 降りる        (oriru          ) - verb      
+    Matches:   8 - to descend (e.g. a mountain); to go down; to come down
+    By Score: 3=1, 2=7, 1=0
+
+39. 住む         (sumu           ) - verb      
+    Matches:   8 - to live (of humans); to reside; to inhabit; to dwell; to abi
+    By Score: 3=1, 2=7, 1=0
+
+40. 話す         (hanasu         ) - verb      
+    Matches:   8 - to talk; to speak; to converse; to chat
+    By Score: 3=1, 2=7, 1=0
+
+41. 多い         (ooi            ) - adjective 
+    Matches:   8 - many; numerous; a lot
+    By Score: 3=1, 2=7, 1=0
+
+42. 長い         (nagai          ) - adjective 
+    Matches:   8 - long (distance)
+    By Score: 3=1, 2=7, 1=0
+
+43. 古い         (furui          ) - adjective 
+    Matches:   8 - old; aged; ancient; antiquated; antique; timeworn
+    By Score: 3=1, 2=7, 1=0
+
+44. きれい        (kirei          ) - adjective 
+    Matches:   8 - pretty; lovely; beautiful; fair
+    By Score: 3=4, 2=4, 1=0
+
+45. 入れる        (ireru          ) - verb      
+    Matches:   7 - to put in; to let in; to take in; to bring in; to insert; to
+    By Score: 3=0, 2=6, 1=1
+
+46. 変わる        (kawaru         ) - verb      
+    Matches:   7 - to change; to be transformed; to be altered; to vary
+    By Score: 3=1, 2=6, 1=0
+
+47. 呼ぶ         (yobu           ) - verb      
+    Matches:   7 - to call out (to); to call; to invoke
+    By Score: 3=0, 2=7, 1=0
+
+48. 開ける        (akeru          ) - verb      
+    Matches:   7 - to open (a door etc.); to unwrap (e.g. parcel package); to u
+    By Score: 3=3, 2=4, 1=0
+
+49. 洗う         (arau           ) - verb      
+    Matches:   7 - to wash; to cleanse; to rinse
+    By Score: 3=3, 2=4, 1=0
+
+50. 同じ         (onaji          ) - adjective 
+    Matches:   7 - same; identical; equal; uniform; equivalent; similar; common
+    By Score: 3=0, 2=7, 1=0
+
+================================================================================
+VERY HIGH COLLOCATION WORDS (30+): DETAILED ANALYSIS
+================================================================================
+
+
+ある (aru) - verb
+English: to be; to exist; to live
+Total Matches: 162
+--------------------------------------------------------------------------------
+
+Score 3 (2 matches):
+  - こと (koto) - thing; matter
+  - 問題 (mondai) - question (e.g. on a test); problem
+
+Score 2 (160 matches):
+  - 理由 (riyuu) - reason; pretext; motive
+  - 関係 (kankei) - relation; relationship; connection
+  - 時間 (jikan) - time
+  - 場所 (basho) - place; location; spot; position
+  - 店 (mise) - store; shop; establishment; restaurant
+  - 公園 (kouen) - (public) park
+  - 駅 (eki) - railway station; train station
+  - 興味 (kyoumi) - interest (in something); curiosity (abou
+  - 趣味 (shumi) - hobby; pastime
+  - 機会 (kikai) - chance; opportunity
+  ... and 150 more
+
+================================================================================
+
+行く (iku) - verb
+English: to go; to move (in a direction or towards a specific location); to head (towards); to be transported (towards); to reach
+Total Matches: 85
+--------------------------------------------------------------------------------
+
+Score 3 (9 matches):
+  - 学校 (gakkou) - school
+  - 会社 (kaisha) - company; corporation
+  - 家 (ie) - house; residence; dwelling
+  - 駅 (eki) - railway station; train station
+  - 店 (mise) - store; shop; establishment; restaurant
+  - レストラン (resutoran) - restaurant (esp. Western-style)
+  - 旅行 (ryokou) - travel; trip; journey; excursion; tour
+  - トイレ (toire) - toilet; restroom; bathroom; lavatory
+  - スーパー (suupaa) - supermarket
+
+Score 2 (76 matches):
+  - 映画館 (eigakan) - movie theatre; movie theater; cinema
+  - 病院 (byouin) - hospital
+  - 銀行 (ginkou) - bank; banking institution
+  - 公園 (kouen) - (public) park
+  - 図書館 (toshokan) - library
+  - 海 (umi) - sea; ocean; waters
+  - 山 (yama) - mountain; hill
+  - 国 (kuni) - country; state
+  - 外国 (gaikoku) - foreign country
+  - 市 (shi) - city
+  ... and 66 more
+
+================================================================================
+
+する (suru) - verb
+English: to do; to carry out; to perform
+Total Matches: 80
+--------------------------------------------------------------------------------
+
+Score 3 (12 matches):
+  - 仕事 (shigoto) - work; job; labor; labour; business; task
+  - 勉強 (benkyou) - study
+  - 話 (hanashi) - talk; speech; chat; conversation
+  - 質問 (shitsumon) - question; inquiry; enquiry
+  - 買い物 (kaimono) - shopping; purchased goods
+  - 料理 (ryouri) - cooking; cookery; cuisine
+  - 運動 (undou) - exercise; physical training; work-out
+  - 練習 (renshuu) - practice; training; drill; (an) exercise
+  - 準備 (junbi) - preparation; arrangements; getting ready
+  - 旅行 (ryokou) - travel; trip; journey; excursion; tour
+  ... and 2 more
+
+Score 2 (68 matches):
+  - 経験 (keiken) - experience
+  - 連絡 (renraku) - to contact; to get in touch
+  - 紹介 (shoukai) - introduction; presentation; referral; li
+  - 説明 (setsumei) - explanation; exposition
+  - 研究 (kenkyuu) - study; research; investigation
+  - 計画 (keikaku) - plan; project; schedule; scheme; program
+  - 会議 (kaigi) - meeting; conference; session; assembly; 
+  - 試合 (shiai) - match; game; bout; contest
+  - 試験 (shiken) - examination; exam; test
+  - 失敗 (shippai) - failure; mistake; blunder
+  ... and 58 more
+
+================================================================================
+
+買う (kau) - verb
+English: to buy; to purchase
+Total Matches: 78
+--------------------------------------------------------------------------------
+
+Score 3 (5 matches):
+  - 本 (hon) - book; volume; script
+  - 服 (fuku) - clothes (esp. Western clothes)
+  - 車 (kuruma) - car; automobile; vehicle
+  - 卵 (tamago) - eggs; egg; spawn; roe
+  - ノート (nooto) - notebook; copy-book; exercise book
+
+Score 2 (73 matches):
+  - 食べ物 (tabemono) - food
+  - パン (pan) - bread; pastries (e.g. croissants); pastr
+  - 野菜 (yasai) - vegetable
+  - 肉 (niku) - flesh
+  - 魚 (sakana) - fish
+  - 果物 (kudamono) - fruit
+  - 靴 (kutsu) - shoe; shoes; boots; footwear; footgear
+  - お土産 (omiyage) - local specialty or souvenir bought as a 
+  - カメラ (kamera) - camera
+  - スーツ (suutsu) - suit (clothing)
+  ... and 63 more
+
+================================================================================
+
+いる (iru) - verb
+English: to be (of animate objects); to exist
+Total Matches: 52
+--------------------------------------------------------------------------------
+
+Score 3 (3 matches):
+  - 人 (hito) - man; person
+  - 家 (ie) - house; residence; dwelling
+  - 部屋 (heya) - room; chamber
+
+Score 2 (49 matches):
+  - 場所 (basho) - place; location; spot; position
+  - 中 (chuu) - medium; average; middle
+  - 学校 (gakkou) - school
+  - 会社 (kaisha) - company; corporation
+  - 国 (kuni) - country; state
+  - 所 (tokoro) - place; spot; scene; site
+  - 母 (haha) - mother
+  - 父 (chichi) - father
+  - 息子 (musuko) - son
+  - 娘 (musume) - daughter
+  ... and 39 more
+
+================================================================================
+
+来る (kuru) - verb
+English: to come (spatially or temporally); to approach; to arrive
+Total Matches: 50
+--------------------------------------------------------------------------------
+
+Score 3 (2 matches):
+  - 人 (hito) - man; person
+  - 明日 (ashita) - tomorrow
+
+Score 2 (48 matches):
+  - 友達 (tomodachi) - friend; companion
+  - 先生 (sensei) - teacher; instructor; master
+  - 客 (kyaku) - guest; visitor
+  - 手紙 (tegami) - letter
+  - 季節 (kisetsu) - season; time of year
+  - 春 (haru) - spring; springtime
+  - 今日 (kyou) - today; this day
+  - 昨日 (kinou) - yesterday
+  - 母 (haha) - mother
+  - 父 (chichi) - father
+  ... and 38 more
+
+================================================================================
+
+食べる (taberu) - verb
+English: to eat
+Total Matches: 33
+--------------------------------------------------------------------------------
+
+Score 3 (15 matches):
+  - 食べ物 (tabemono) - food
+  - 料理 (ryouri) - cooking; cookery; cuisine
+  - パン (pan) - bread; pastries (e.g. croissants); pastr
+  - 肉 (niku) - flesh
+  - 魚 (sakana) - fish
+  - 野菜 (yasai) - vegetable
+  - 果物 (kudamono) - fruit
+  - ケーキ (keeki) - cake
+  - お菓子 (okashi) - confections; sweets; candy; cake
+  - 朝ご飯 (asagohan) - breakfast
+  ... and 5 more
+
+Score 2 (18 matches):
+  - サラダ (sarada) - salad
+  - ステーキ (suteeki) - steak
+  - ハンバーグ (hanbagu) - Hamburg steak; hamburger steak
+  - サンドイッチ (sandoicchi) - sandwich
+  - 牛肉 (gyuuniku) - beef
+  - 豚肉 (butaniku) - pork
+  - 鶏肉 (toriniku) - chicken meat
+  - バター (bataa) - butter
+  - ジャム (jamu) - jam
+  - 飴 (ame) - (hard) candy; toffee
+  ... and 8 more
+
+================================================================================
+
+================================================================================
+RECOMMENDATIONS
+================================================================================
+
+Based on the analysis:
+
+1. VERY HIGH (30+ matches): 7 words
+   Recommendation: Consider limiting to top 10-15 matches (score 3 + some score 2)
+   These words are too difficult for a single game round.
+
+2. HIGH (20-29 matches): 5 words
+   Recommendation: Consider limiting to top 15-20 matches
+   May be challenging but doable in a single round.
+
+3. MEDIUM-HIGH (15-19 matches): 5 words
+   Recommendation: Keep all matches (reasonable difficulty)
+

@@ -42,6 +42,23 @@ export const loadCollocations = async () => {
 };
 
 /**
+ * Load collocation hints from JSON file
+ */
+export const loadHints = async () => {
+  try {
+    const response = await fetch('/data/collocation_hints.json');
+    if (!response.ok) {
+      throw new Error(`Failed to load hints: ${response.statusText}`);
+    }
+    const data = await response.json();
+    return data.hints;
+  } catch (error) {
+    console.error('Error loading hints:', error);
+    throw error;
+  }
+};
+
+/**
  * Initialize all data (vocabulary and collocations)
  * This should be called once when the app first loads
  */
@@ -120,10 +137,57 @@ export const getCollocationStats = async () => {
   return stats;
 };
 
+// In-memory cache for hints (no need for IndexedDB - static data)
+let hintsCache = null;
+let reverseHintsCache = null;
+
+/**
+ * Load reverse collocation hints from JSON file
+ * (for noun → verb/adjective modes)
+ */
+export const loadReverseHints = async () => {
+  try {
+    const response = await fetch('/data/reverse_hints.json');
+    if (!response.ok) {
+      console.warn('Reverse hints not found, will use fallback');
+      return null;
+    }
+    const data = await response.json();
+    return data.hints;
+  } catch (error) {
+    console.warn('Error loading reverse hints, will use fallback:', error);
+    return null;
+  }
+};
+
+/**
+ * Get hints for a word's collocations
+ * @param {string} word - The word (verb/adjective for forward mode, noun for reverse mode)
+ * @param {string} mode - Game mode ('forward' or 'reverse')
+ * @returns {Object} Hints object mapping target words to hint strings
+ */
+export const getHintsForWord = async (word, mode = 'forward') => {
+  if (mode === 'reverse') {
+    // Reverse mode: noun → verb/adjective
+    if (!reverseHintsCache) {
+      reverseHintsCache = await loadReverseHints();
+    }
+    return reverseHintsCache?.[word] || {};
+  } else {
+    // Forward mode: verb/adjective → noun
+    if (!hintsCache) {
+      hintsCache = await loadHints();
+    }
+    return hintsCache[word] || {};
+  }
+};
+
 export default {
   loadVocabulary,
   loadCollocations,
+  loadHints,
   initializeAllData,
   getVocabularyStats,
   getCollocationStats,
+  getHintsForWord,
 };

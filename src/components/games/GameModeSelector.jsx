@@ -15,18 +15,21 @@ import {
   FormControlLabel,
   Radio,
   Alert,
+  Slider,
 } from '@mui/material';
 import { PlayArrow as PlayIcon } from '@mui/icons-material';
 import PropTypes from 'prop-types';
 
 function GameModeSelector({ onStartGame }) {
   const [mode, setMode] = useState('verb-to-noun');
-  const [wordSelection, setWordSelection] = useState('recommended');
+  const [matchCount, setMatchCount] = useState(10);
+  const [newWordsTarget, setNewWordsTarget] = useState(5);
 
   const handleStart = () => {
     onStartGame({
       mode,
-      wordSelection,
+      matchCount,
+      newWordsTarget,
     });
   };
 
@@ -40,9 +43,8 @@ function GameModeSelector({ onStartGame }) {
       </Typography>
 
       <Alert severity="info" sx={{ mb: 3 }}>
-        In this game, you'll be given a Japanese word (verb or adjective), and you need to find
-        all the nouns that naturally pair with it. For example, for のむ (to drink), you'd enter
-        words like 水 (water), コーヒー (coffee), etc.
+        Find all words that naturally pair together in Japanese. Match verbs with nouns,
+        adjectives with nouns, or find which verbs/adjectives can describe a given noun.
       </Alert>
 
       <Box sx={{ mb: 3 }}>
@@ -75,54 +77,95 @@ function GameModeSelector({ onStartGame }) {
                 </Box>
               }
             />
+            <FormControlLabel
+              value="noun-to-verb"
+              control={<Radio />}
+              label={
+                <Box>
+                  <Typography variant="body1">Noun → Verbs</Typography>
+                  <Typography variant="caption" color="text.secondary">
+                    Given a noun, find all verbs that pair with it (e.g., "What can you do with water?")
+                  </Typography>
+                </Box>
+              }
+            />
+            <FormControlLabel
+              value="noun-to-adjective"
+              control={<Radio />}
+              label={
+                <Box>
+                  <Typography variant="body1">Noun → Adjectives</Typography>
+                  <Typography variant="caption" color="text.secondary">
+                    Given a noun, find all adjectives that describe it (e.g., "How can food be?")
+                  </Typography>
+                </Box>
+              }
+            />
           </RadioGroup>
         </FormControl>
       </Box>
 
       <Box sx={{ mb: 3 }}>
         <Typography variant="h6" gutterBottom>
-          Word Selection
+          Total Matches Per Word
         </Typography>
-        <FormControl component="fieldset" fullWidth>
-          <RadioGroup value={wordSelection} onChange={(e) => setWordSelection(e.target.value)}>
-            <FormControlLabel
-              value="recommended"
-              control={<Radio />}
-              label={
-                <Box>
-                  <Typography variant="body1">Recommended</Typography>
-                  <Typography variant="caption" color="text.secondary">
-                    Words you haven't practiced much, prioritized by difficulty
-                  </Typography>
-                </Box>
+        <Typography variant="body2" color="text.secondary" paragraph>
+          How many matches to find for each word
+        </Typography>
+        <Box sx={{ px: 2 }}>
+          <Slider
+            value={matchCount}
+            onChange={(e, newValue) => {
+              setMatchCount(newValue);
+              // Auto-adjust newWordsTarget to half when matchCount changes
+              const newTarget = Math.floor(newValue / 2);
+              if (newWordsTarget > newValue) {
+                setNewWordsTarget(newValue);
+              } else {
+                setNewWordsTarget(newTarget);
               }
-            />
-            <FormControlLabel
-              value="random"
-              control={<Radio />}
-              label={
-                <Box>
-                  <Typography variant="body1">Random</Typography>
-                  <Typography variant="caption" color="text.secondary">
-                    Any random word from the vocabulary list
-                  </Typography>
-                </Box>
-              }
-            />
-            <FormControlLabel
-              value="due"
-              control={<Radio />}
-              label={
-                <Box>
-                  <Typography variant="body1">Due for Review</Typography>
-                  <Typography variant="caption" color="text.secondary">
-                    Words scheduled for review based on SRS algorithm
-                  </Typography>
-                </Box>
-              }
-            />
-          </RadioGroup>
-        </FormControl>
+            }}
+            min={5}
+            max={20}
+            step={1}
+            marks={[
+              { value: 5, label: '5' },
+              { value: 10, label: '10' },
+              { value: 15, label: '15' },
+              { value: 20, label: '20' },
+            ]}
+            valueLabelDisplay="on"
+          />
+        </Box>
+      </Box>
+
+      <Box sx={{ mb: 3 }}>
+        <Typography variant="h6" gutterBottom>
+          New Words Target
+        </Typography>
+        <Typography variant="body2" color="text.secondary" paragraph>
+          How many should be NEW (never practiced). Remaining will be REVIEW (weak/struggling)
+        </Typography>
+        <Box sx={{ px: 2 }}>
+          <Slider
+            value={newWordsTarget}
+            onChange={(e, newValue) => setNewWordsTarget(newValue)}
+            min={0}
+            max={matchCount}
+            step={1}
+            marks={[
+              { value: 0, label: '0' },
+              { value: Math.floor(matchCount * 0.25), label: `${Math.floor(matchCount * 0.25)}` },
+              { value: Math.floor(matchCount * 0.5), label: `${Math.floor(matchCount * 0.5)}` },
+              { value: Math.floor(matchCount * 0.75), label: `${Math.floor(matchCount * 0.75)}` },
+              { value: matchCount, label: `${matchCount}` },
+            ]}
+            valueLabelDisplay="on"
+          />
+        </Box>
+        <Typography variant="caption" color="text.secondary" sx={{ display: 'block', mt: 1, textAlign: 'center' }}>
+          New: {newWordsTarget} | Review: {matchCount - newWordsTarget}
+        </Typography>
       </Box>
 
       <Box sx={{ display: 'flex', justifyContent: 'center', mt: 4 }}>
