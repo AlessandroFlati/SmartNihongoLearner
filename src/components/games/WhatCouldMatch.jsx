@@ -32,7 +32,7 @@ import storage from '../../services/storage';
 import { getHintsForWord } from '../../services/dataLoader';
 import * as wanakana from 'wanakana';
 
-function WhatCouldMatch({ word, onComplete, mode = 'verb-to-noun', matchCount = 15, newWordsTarget = 3 }) {
+function WhatCouldMatch({ word, onComplete, mode = 'verb-to-noun', matchCount = 15, newWordsTarget = 3, studyListWords = new Set() }) {
   const [collocation, setCollocation] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -99,15 +99,21 @@ function WhatCouldMatch({ word, onComplete, mode = 'verb-to-noun', matchCount = 
           // Get all matches for this mode
           const allMatches = getMatchesForMode(data);
 
+          // Filter matches by study list (if provided)
+          const filteredMatches = studyListWords.size > 0
+            ? allMatches.filter(m => studyListWords.has(m.word))
+            : allMatches;
+
+
           // For noun-to-verb/adjective modes, use simple top N selection
           // For verb/adjective-to-noun modes, use SRS-based selection
           let matches;
           if (mode === 'noun-to-verb' || mode === 'noun-to-adjective') {
-            // Simple selection: take top N by score
-            matches = allMatches.slice(0, matchCount);
+            // Simple selection: take top N by score from filtered matches
+            matches = filteredMatches.slice(0, matchCount);
           } else {
-            // SRS-based selection
-            matches = await getLimitedNounMatchesWithProgress(word.japanese, data, matchCount, newWordsTarget);
+            // SRS-based selection from filtered matches
+            matches = await getLimitedNounMatchesWithProgress(word.japanese, data, matchCount, newWordsTarget, filteredMatches);
           }
 
           setLimitedMatches(matches);
@@ -141,23 +147,58 @@ function WhatCouldMatch({ word, onComplete, mode = 'verb-to-noun', matchCount = 
     // Convert answer to romaji if it's kana (readings in DB are romaji)
     const answerRomaji = wanakana.isKana(answer) ? wanakana.toRomaji(answer) : answer;
 
+
+    // Check for duplicate readings in target matches
+    const duplicateReadings = limitedMatches.filter(m => m.reading === answerRomaji);
+    if (duplicateReadings.length > 1) {
+      console.warn('[WhatCouldMatch] Multiple words with same reading:',
+        duplicateReadings.map(m => `${m.word}(${m.reading})`).join(', '));
+    }
+
     // IMPORTANT: Search TARGET matches first to avoid homophone collisions
     // Example: うち could match both 家 (house) and 中 (inside)
-    // We want to prioritize 家 if it's in the target list
-    let match = limitedMatches.find(m => {
-      const wordMatch = m.word === answer; // Match kanji directly
-      const readingMatch = m.reading === answerRomaji; // Match romaji reading
-      return wordMatch || readingMatch;
-    });
+    // Strategy:
+    // 1. First check for exact kanji match (highest priority)
+    // 2. Then check for reading match, but prioritize words NOT already found
+    //    (this allows finding all words even if they share the same reading)
+
+    // Try exact kanji match first
+    let match = limitedMatches.find(m => m.word === answer);
+
+    // If no exact match, try reading match - prioritize unfound words
+    if (!match) {
+      // First try to find unfound word with this reading
+      match = limitedMatches.find(m =>
+        m.reading === answerRomaji && !foundMatches.has(m.word)
+      );
+
+      // If all words with this reading are already found, match any (will be marked duplicate)
+      if (!match) {
+        match = limitedMatches.find(m => m.reading === answerRomaji);
+      }
+    }
+
 
     // Only if not found in target matches, check bonus matches
     if (!match) {
       const allMatches = getMatchesForMode(collocation);
-      match = allMatches.find(m => {
-        const wordMatch = m.word === answer; // Match kanji directly
-        const readingMatch = m.reading === answerRomaji; // Match romaji reading
-        return wordMatch || readingMatch;
-      });
+
+      // Try exact kanji match first
+      match = allMatches.find(m => m.word === answer);
+
+      // If no exact match, try reading match - prioritize unfound words
+      if (!match) {
+        // First try to find unfound word with this reading
+        match = allMatches.find(m =>
+          m.reading === answerRomaji && !bonusMatches.has(m.word) && !foundMatches.has(m.word)
+        );
+
+        // If all words with this reading are already found, match any (will be marked duplicate)
+        if (!match) {
+          match = allMatches.find(m => m.reading === answerRomaji);
+        }
+      }
+
     }
 
     const isCorrect = !!match;
@@ -197,9 +238,10 @@ function WhatCouldMatch({ word, onComplete, mode = 'verb-to-noun', matchCount = 
         // Move to next hint
         setCurrentHintIndex(currentHintIndex + 1);
 
-        // Check if all target matches have been found
-        if (newFoundMatches.size === totalMatches) {
-          // All words found! Auto-complete with perfect performance
+
+        // Check if all words have been found OR all words accounted for (found + skipped)
+        if (newFoundMatches.size + skippedWords.size === totalMatches) {
+          // Game complete! Either all found, or combination of found + skipped
           setTimeout(async () => {
             // Calculate SRS based on how many were skipped
             const skippedCount = skippedWords.size;
@@ -243,7 +285,13 @@ function WhatCouldMatch({ word, onComplete, mode = 'verb-to-noun', matchCount = 
   };
 
   const handleContinue = () => {
-    console.log('[WhatCouldMatch] Continue clicked');
+      word: word.japanese,
+      foundMatches: foundMatches.size,
+      totalMatches,
+      score,
+      answersCount: answers.length,
+    });
+
     if (onComplete) {
       onComplete({
         word: word.japanese,
@@ -253,7 +301,7 @@ function WhatCouldMatch({ word, onComplete, mode = 'verb-to-noun', matchCount = 
         answers,
       });
     } else {
-      console.warn('[WhatCouldMatch] No onComplete callback provided');
+      console.error('[WhatCouldMatch] onComplete callback is missing!');
     }
   };
 
@@ -282,6 +330,7 @@ function WhatCouldMatch({ word, onComplete, mode = 'verb-to-noun', matchCount = 
 
     // Move to next word
     setCurrentHintIndex(currentHintIndex + 1);
+
 
     // Check if all words have been found or skipped
     if (foundMatches.size + newSkippedWords.size === totalMatches) {
@@ -343,6 +392,11 @@ function WhatCouldMatch({ word, onComplete, mode = 'verb-to-noun', matchCount = 
   );
   const currentWord = unfoundMatches.length > 0 ? unfoundMatches[0] : null;
   const currentHint = currentWord ? wordHints[currentWord.word] : null;
+
+  // Debug logging for hint display
+  if (currentWord && gameState === 'playing') {
+  }
+
 
   return (
     <Paper sx={{ p: 4 }}>
@@ -477,30 +531,6 @@ function WhatCouldMatch({ word, onComplete, mode = 'verb-to-noun', matchCount = 
             </Box>
           )}
 
-          {/* Bonus Matches */}
-          {bonusMatches.size > 0 && (
-            <Box sx={{ mb: 3 }}>
-              <Typography variant="h6" gutterBottom sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
-                ✨ Bonus Words ({bonusMatches.size})
-              </Typography>
-              <Typography variant="body2" color="text.secondary" sx={{ mb: 1 }}>
-                Valid collocations you found outside the target set (tracked but no points)
-              </Typography>
-              <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 1, mb: 2 }}>
-                {getMatchesForMode(collocation)
-                  .filter(m => bonusMatches.has(m.word))
-                  .map((match, idx) => (
-                    <Chip
-                      key={idx}
-                      label={`${match.word} (${match.reading}) - ${match.english}`}
-                      color="warning"
-                      variant="outlined"
-                    />
-                  ))}
-              </Box>
-            </Box>
-          )}
-
           <Divider sx={{ my: 2 }} />
 
           {/* Skipped Words (Can't Remember) */}
@@ -511,14 +541,6 @@ function WhatCouldMatch({ word, onComplete, mode = 'verb-to-noun', matchCount = 
                 Words You Couldn't Remember ({skippedMatches.length})
               </Typography>
               {skippedMatches.map((match, idx) => {
-                // Get top 5 collocations for this noun
-                const allMatchesForNoun = collocation ? getMatchesForMode(collocation).filter(m => m.word === match.word) : [];
-                const topCollocations = allMatchesForNoun.length > 0
-                  ? getMatchesForMode(collocation)
-                      .filter(m => m.word === match.word)
-                      .slice(0, 1)
-                  : [];
-
                 return (
                   <Alert key={idx} severity="warning" sx={{ mb: 2 }}>
                     <Typography variant="subtitle1" sx={{ fontWeight: 'bold' }}>
@@ -529,9 +551,6 @@ function WhatCouldMatch({ word, onComplete, mode = 'verb-to-noun', matchCount = 
                     </Typography>
                     <Typography variant="body2" sx={{ mb: 1 }}>
                       <strong>Hint:</strong> {wordHints[match.word] || 'related item'}
-                    </Typography>
-                    <Typography variant="body2" sx={{ mb: 1 }}>
-                      <strong>Collocation:</strong> {word.japanese} + {match.word} = "{word.english} {match.english.toLowerCase()}"
                     </Typography>
                   </Alert>
                 );
@@ -567,6 +586,8 @@ function WhatCouldMatch({ word, onComplete, mode = 'verb-to-noun', matchCount = 
               onClick={() => {
                 if (onComplete) {
                   onComplete({ skipQueue: true });
+                } else {
+                  console.error('[WhatCouldMatch] onComplete is missing for Back to Menu');
                 }
               }}
             >
@@ -598,6 +619,7 @@ WhatCouldMatch.propTypes = {
   mode: PropTypes.string,
   matchCount: PropTypes.number,
   newWordsTarget: PropTypes.number,
+  studyListWords: PropTypes.instanceOf(Set),
 };
 
 export default WhatCouldMatch;

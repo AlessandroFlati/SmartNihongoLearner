@@ -100,7 +100,6 @@ export const storage = {
     const count = await db.vocabulary.count();
     if (count === 0) {
       await db.vocabulary.bulkAdd(vocabularyArray);
-      console.log(`Initialized ${vocabularyArray.length} vocabulary words`);
     }
   },
 
@@ -149,7 +148,6 @@ export const storage = {
       }
 
       await db.collocations.bulkAdd(collocationRecords);
-      console.log(`Initialized ${collocationRecords.length} collocation entries`);
     }
   },
 
@@ -320,7 +318,6 @@ export const storage = {
         }
       }
 
-      console.log('Data import successful');
       return true;
     } catch (error) {
       console.error('Failed to import data:', error);
@@ -336,7 +333,6 @@ export const storage = {
     await db.collocationProgress.clear();
     await db.settings.clear();
     localStorage.clear();
-    console.log('All user data cleared');
   },
 
   // ============================================================================

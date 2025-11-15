@@ -9,7 +9,6 @@ import { useState, useRef, useEffect } from 'react';
 import { TextField, Button, Box, Chip, Paper, List, ListItem, ListItemText } from '@mui/material';
 import { Send as SendIcon } from '@mui/icons-material';
 import PropTypes from 'prop-types';
-import * as wanakana from 'wanakana';
 
 function AnswerInput({ onSubmit, disabled = false, placeholder = 'Enter your answer in Japanese...', previousAnswers = [], availableWords = [] }) {
   const [answer, setAnswer] = useState('');
@@ -24,28 +23,22 @@ function AnswerInput({ onSubmit, disabled = false, placeholder = 'Enter your ans
     }
   }, [disabled, previousAnswers]);
 
-  // No wanakana.bind() - we handle conversion manually in onChange to avoid incomplete conversions
-
-  // Find candidates based on hiragana reading
-  const findCandidates = (hiraganaInput) => {
-    if (!hiraganaInput || availableWords.length === 0) {
+  // Find candidates based on input (match kanji directly)
+  const findCandidates = (input) => {
+    if (!input || availableWords.length === 0) {
       return [];
     }
 
-    // Convert hiragana to romaji (database readings are in romaji)
-    const romajiInput = wanakana.isKana(hiraganaInput) ? wanakana.toRomaji(hiraganaInput) : hiraganaInput;
-
-    // Find all words where the reading matches the input
+    // Find all words where the word/kanji matches the input
     const matches = availableWords.filter(word => {
-      // Match if reading starts with or equals the input (romaji comparison)
-      return word.reading === romajiInput || word.reading.startsWith(romajiInput);
+      return word.word === input || word.word.startsWith(input);
     });
 
-    // Sort by exact match first, then by reading length
+    // Sort by exact match first, then by word length
     matches.sort((a, b) => {
-      if (a.reading === romajiInput && b.reading !== romajiInput) return -1;
-      if (a.reading !== romajiInput && b.reading === romajiInput) return 1;
-      return a.reading.length - b.reading.length;
+      if (a.word === input && b.word !== input) return -1;
+      if (a.word !== input && b.word === input) return 1;
+      return a.word.length - b.word.length;
     });
 
     return matches;
@@ -54,25 +47,13 @@ function AnswerInput({ onSubmit, disabled = false, placeholder = 'Enter your ans
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Ensure any incomplete romaji sequences are fully converted before submitting
-    const finalAnswer = wanakana.toHiragana(answer);
-    const trimmedAnswer = finalAnswer.trim();
+    const trimmedAnswer = answer.trim();
 
     if (trimmedAnswer && !disabled) {
       onSubmit(trimmedAnswer);
       setAnswer('');
       setCandidates([]);
       setSelectedCandidateIndex(0);
-    }
-  };
-
-  const handleBlur = () => {
-    // When input loses focus, finalize any incomplete conversions
-    if (answer) {
-      const finalAnswer = wanakana.toHiragana(answer);
-      if (finalAnswer !== answer) {
-        setAnswer(finalAnswer);
-      }
     }
   };
 
@@ -88,9 +69,8 @@ function AnswerInput({ onSubmit, disabled = false, placeholder = 'Enter your ans
       } else {
         // Not showing candidates yet: check if we can show them
         const currentValue = answer.trim();
-        const isFullyConverted = wanakana.isKana(currentValue);
 
-        if (isFullyConverted && currentValue.length > 0) {
+        if (currentValue.length > 0) {
           const matches = findCandidates(currentValue);
 
           if (matches.length > 0) {
@@ -103,7 +83,6 @@ function AnswerInput({ onSubmit, disabled = false, placeholder = 'Enter your ans
           }
           // If no matches, let spacebar add space normally
         }
-        // If not fully converted, let wanakana handle the spacebar
       }
     }
     // Handle Enter for submission
@@ -121,11 +100,7 @@ function AnswerInput({ onSubmit, disabled = false, placeholder = 'Enter your ans
   // Update candidates when answer changes (typing)
   const handleChange = (e) => {
     const newValue = e.target.value;
-
-    // Manually convert romaji to hiragana on each keystroke
-    // This ensures real-time conversion while preserving incomplete sequences
-    const convertedValue = wanakana.toHiragana(newValue);
-    setAnswer(convertedValue);
+    setAnswer(newValue);
 
     // Clear candidates when user starts typing again
     if (candidates.length > 0) {
@@ -177,7 +152,6 @@ function AnswerInput({ onSubmit, disabled = false, placeholder = 'Enter your ans
             value={answer}
             onChange={handleChange}
             onKeyDown={handleKeyDown}
-            onBlur={handleBlur}
             placeholder={placeholder}
             disabled={disabled}
             variant="outlined"

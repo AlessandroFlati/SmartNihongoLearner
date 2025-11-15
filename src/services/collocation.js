@@ -198,10 +198,11 @@ export const getWordCollocationStats = async (word) => {
  * @param {Collocation} collocation - The collocation object
  * @param {number} maxMatches - Maximum number of matches to return (user-controlled)
  * @param {number} newWordsTarget - How many should be NEW (never practiced)
+ * @param {Array} preFilteredMatches - Optional pre-filtered matches (e.g., by study list)
  * @returns {Promise<Array>} Limited array of matches, SRS-prioritized
  */
-export const getLimitedNounMatchesWithProgress = async (wordJapanese, collocation, maxMatches = 15, newWordsTarget = 3) => {
-  const allMatches = collocation.getNounMatches();
+export const getLimitedNounMatchesWithProgress = async (wordJapanese, collocation, maxMatches = 15, newWordsTarget = 3, preFilteredMatches = null) => {
+  const allMatches = preFilteredMatches || collocation.getNounMatches();
   const total = allMatches.length;
 
   // If total matches is less than or equal to max, return all
@@ -262,7 +263,6 @@ export const getLimitedNounMatchesWithProgress = async (wordJapanese, collocatio
   selected.push(...reviewMatches.slice(0, remaining));
 
   // DEBUG: Log selection process
-  console.log(`[getLimitedNounMatchesWithProgress] ${wordJapanese}:`, {
     totalMatches: total,
     requestedMax: maxMatches,
     requestedNew: newWordsTarget,
@@ -280,7 +280,6 @@ export const getLimitedNounMatchesWithProgress = async (wordJapanese, collocatio
       .filter(m => !alreadySelected.has(m.word))
       .slice(0, maxMatches - selected.length);
     selected.push(...remaining);
-    console.log(`[getLimitedNounMatchesWithProgress] Filled ${remaining.length} more from remaining matches. Total: ${selected.length}`);
   }
 
   // Return without progress metadata
@@ -288,55 +287,101 @@ export const getLimitedNounMatchesWithProgress = async (wordJapanese, collocatio
 };
 
 /**
- * Get recommended practice words based on user progress
- * Prioritizes words with many collocations that haven't been practiced
+ * Get recommended practice words based on SRS progress
+ * Prioritizes: failed/struggling > due for review > new words
  */
-export const getRecommendedPracticeWords = async (count = 5) => {
+export const getRecommendedPracticeWords = async (count = 10) => {
   const allCollocations = await storage.getAllCollocations();
   const allProgress = await storage.getAllWordProgress();
+  const now = new Date().toISOString();
 
-  // Create set of practiced word IDs
-  const practicedWords = new Set(allProgress.map(p => p.wordId));
+  // Create progress map for quick lookup
+  const progressMap = new Map(allProgress.map(p => [p.wordId, p]));
 
-  // Score each word
+  // Score each word based on SRS priority
   const scored = allCollocations.map(entry => {
+    const progress = progressMap.get(entry.word);
     const matches = entry.matches?.nouns || [];
-    const totalScore = matches.reduce((sum, m) => sum + m.score, 0);
-    const isPracticed = practicedWords.has(entry.word);
+    const collocationScore = matches.reduce((sum, m) => sum + m.score, 0);
+
+    if (!progress) {
+      // NEW word - medium priority, weighted by collocation quality
+      return {
+        ...entry,
+        category: 'new',
+        priority: collocationScore,
+      };
+    }
+
+    const interval = progress.interval || 0;
+    const correctCount = progress.correctCount || 0;
+    const level = progress.level || 0;
+    const isDue = progress.nextReview && progress.nextReview <= now;
+
+    // Calculate SRS priority
+    let priority = 0;
+    let category = 'mature';
+
+    if (interval === 0 || correctCount === 0) {
+      // FAILED/NEVER SUCCEEDED - highest priority
+      category = 'failed';
+      priority = 10000 + collocationScore;
+    } else if (correctCount < 3 || interval < 3) {
+      // LEARNING (struggling) - very high priority
+      category = 'learning';
+      priority = 5000 + (3 - correctCount) * 1000 + collocationScore;
+    } else if (isDue) {
+      // DUE FOR REVIEW - high priority based on how overdue
+      const daysOverdue = (new Date() - new Date(progress.nextReview)) / (1000 * 60 * 60 * 24);
+      category = 'due';
+      priority = 2000 + daysOverdue * 100 + collocationScore;
+    } else if (level < 5) {
+      // YOUNG - medium-low priority
+      category = 'young';
+      priority = 500 + collocationScore;
+    } else {
+      // MATURE - low priority
+      category = 'mature';
+      priority = 100 + collocationScore;
+    }
 
     return {
       ...entry,
-      totalScore,
-      matchCount: matches.length,
-      isPracticed,
-      // Prioritize unpracticed words with high scores
-      priority: isPracticed ? totalScore * 0.3 : totalScore,
+      category,
+      priority,
+      progress,
     };
   });
 
-  // Sort by priority
+  // Sort by priority (descending)
   scored.sort((a, b) => b.priority - a.priority);
 
-  // Return top N
-  return scored.slice(0, count).map(s => new Collocation(s));
+  // Debug: Log SRS selection breakdown
+  const categories = { failed: 0, learning: 0, due: 0, young: 0, mature: 0, new: 0 };
+  const selected = scored.slice(0, count);
+  selected.forEach(s => categories[s.category]++);
+
+  // Return top N (mix of review and new words naturally sorted by priority)
+  return selected.map(s => new Collocation(s));
 };
 
 /**
  * Get recommended nouns for reverse practice (noun-to-verb, noun-to-adjective)
- * Returns nouns that have verb/adjective matches
+ * Prioritizes: failed/struggling > due for review > new words
  */
-export const getRecommendedPracticeNouns = async (count = 5) => {
+export const getRecommendedPracticeNouns = async (count = 10) => {
   const allVocabulary = await storage.getAllVocabulary();
   const allCollocations = await storage.getAllCollocations();
   const allProgress = await storage.getAllWordProgress();
+  const now = new Date().toISOString();
 
-  // Create set of practiced word IDs
-  const practicedWords = new Set(allProgress.map(p => p.wordId));
+  // Create progress map for quick lookup
+  const progressMap = new Map(allProgress.map(p => [p.wordId, p]));
 
   // Get all nouns from vocabulary
   const nouns = allVocabulary.filter(v => v.type === 'noun');
 
-  // For each noun, count how many verbs/adjectives pair with it
+  // Score each noun based on SRS priority
   const scored = nouns.map(noun => {
     let verbMatches = 0;
     let adjectiveMatches = 0;
@@ -357,8 +402,62 @@ export const getRecommendedPracticeNouns = async (count = 5) => {
       }
     }
 
-    const isPracticed = practicedWords.has(noun.japanese);
     const matchCount = verbMatches + adjectiveMatches;
+
+    // Skip nouns with no matches
+    if (matchCount === 0) {
+      return null;
+    }
+
+    const progress = progressMap.get(noun.japanese);
+
+    if (!progress) {
+      // NEW word - medium priority, weighted by collocation quality
+      return {
+        word: noun.japanese,
+        japanese: noun.japanese,
+        reading: noun.reading,
+        english: noun.english,
+        type: 'noun',
+        matchCount,
+        verbMatches,
+        adjectiveMatches,
+        category: 'new',
+        priority: totalScore,
+      };
+    }
+
+    const interval = progress.interval || 0;
+    const correctCount = progress.correctCount || 0;
+    const level = progress.level || 0;
+    const isDue = progress.nextReview && progress.nextReview <= now;
+
+    // Calculate SRS priority
+    let priority = 0;
+    let category = 'mature';
+
+    if (interval === 0 || correctCount === 0) {
+      // FAILED/NEVER SUCCEEDED - highest priority
+      category = 'failed';
+      priority = 10000 + totalScore;
+    } else if (correctCount < 3 || interval < 3) {
+      // LEARNING (struggling) - very high priority
+      category = 'learning';
+      priority = 5000 + (3 - correctCount) * 1000 + totalScore;
+    } else if (isDue) {
+      // DUE FOR REVIEW - high priority based on how overdue
+      const daysOverdue = (new Date() - new Date(progress.nextReview)) / (1000 * 60 * 60 * 24);
+      category = 'due';
+      priority = 2000 + daysOverdue * 100 + totalScore;
+    } else if (level < 5) {
+      // YOUNG - medium-low priority
+      category = 'young';
+      priority = 500 + totalScore;
+    } else {
+      // MATURE - low priority
+      category = 'mature';
+      priority = 100 + totalScore;
+    }
 
     return {
       word: noun.japanese,
@@ -366,24 +465,134 @@ export const getRecommendedPracticeNouns = async (count = 5) => {
       reading: noun.reading,
       english: noun.english,
       type: 'noun',
-      totalScore,
       matchCount,
       verbMatches,
       adjectiveMatches,
-      isPracticed,
-      // Prioritize unpracticed nouns with many matches
-      priority: isPracticed ? totalScore * 0.3 : totalScore,
+      category,
+      priority,
+      progress,
     };
   });
 
-  // Filter out nouns with no matches
-  const withMatches = scored.filter(n => n.matchCount > 0);
+  // Filter out nulls (nouns with no matches)
+  const withMatches = scored.filter(n => n !== null);
 
-  // Sort by priority
+  // Sort by priority (descending)
   withMatches.sort((a, b) => b.priority - a.priority);
 
+  // Debug: Log SRS selection breakdown
+  const categories = { failed: 0, learning: 0, due: 0, young: 0, mature: 0, new: 0 };
+  const selected = withMatches.slice(0, count);
+  selected.forEach(s => categories[s.category]++);
+
   // Return top N
-  return withMatches.slice(0, count);
+  return selected;
+};
+
+/**
+ * Get SRS statistics for a JLPT level
+ * @param {string} level - 'n5' or 'n54'
+ * @param {Set} studyListWords - Set of words in this level
+ * @returns {Promise<Object>} Statistics object
+ */
+export const getSRSStatisticsForLevel = async (level, studyListWords) => {
+  const allProgress = await storage.getAllWordProgress();
+  const allVocabulary = await storage.getAllVocabulary();
+  const allCollocationProgress = await storage.getAllCollocationProgress();
+
+  // Filter vocabulary by study list
+  const levelVocabulary = allVocabulary.filter(v => studyListWords.has(v.japanese));
+
+  // Create progress map for quick lookup (main word progress)
+  const progressMap = new Map(allProgress.map(p => [p.wordId, p]));
+
+  // Create map of word -> correct answer count from collocation pairs
+  const wordCorrectCount = new Map();
+  for (const collocationProg of allCollocationProgress) {
+    if (collocationProg.pairId && (collocationProg.correct > 0 || collocationProg.incorrect > 0)) {
+      const [word1, word2] = collocationProg.pairId.split('|');
+      const correctCount = collocationProg.correct || 0;
+
+      // Add correct count to both words in the pair
+      wordCorrectCount.set(word1, (wordCorrectCount.get(word1) || 0) + correctCount);
+      wordCorrectCount.set(word2, (wordCorrectCount.get(word2) || 0) + correctCount);
+    }
+  }
+
+  // Initialize stats
+  const stats = {
+    total: levelVocabulary.length,
+    practiced: 0,
+    new: 0,
+    learning: 0, // < 3 correct
+    young: 0, // 3-5 correct
+    mature: 0, // 6-10 correct
+    mastered: 0, // > 10 correct
+    byType: {
+      noun: { total: 0, practiced: 0 },
+      verb: { total: 0, practiced: 0 },
+      adjective: { total: 0, practiced: 0 },
+    },
+  };
+
+  // Calculate statistics
+  for (const word of levelVocabulary) {
+    const progress = progressMap.get(word.japanese);
+    const type = word.type;
+
+    // Count by type
+    if (stats.byType[type]) {
+      stats.byType[type].total++;
+    }
+
+    // Calculate effective correct count based on practice type
+    let effectiveCorrectCount = 0;
+
+    if (progress && progress.reviewCount > 0) {
+      // Word has been practiced as MAIN WORD - use main word's correct count only
+      // This prevents inflating the count when multiple collocations are answered in one session
+      effectiveCorrectCount = progress.correctCount || 0;
+    } else if (wordCorrectCount.has(word.japanese)) {
+      // Word has ONLY been seen as collocation answer - use collocation correct count
+      effectiveCorrectCount = wordCorrectCount.get(word.japanese);
+    }
+
+    // Word is "practiced" if it has progress OR appears in collocation pairs
+    const hasCollocationProgress = wordCorrectCount.has(word.japanese) ||
+      allCollocationProgress.some(cp => {
+        if (!cp.pairId) return false;
+        const [w1, w2] = cp.pairId.split('|');
+        return (w1 === word.japanese || w2 === word.japanese) &&
+               ((cp.correct || 0) + (cp.incorrect || 0) > 0);
+      });
+    const isPracticed = progress || hasCollocationProgress;
+
+    if (isPracticed) {
+      stats.practiced++;
+      if (stats.byType[type]) {
+        stats.byType[type].practiced++;
+      }
+
+      // Categorize by consecutive correct count (SRS progression)
+      if (effectiveCorrectCount < 3) {
+        stats.learning++;
+      } else if (effectiveCorrectCount <= 5) {
+        stats.young++;
+      } else if (effectiveCorrectCount <= 10) {
+        stats.mature++;
+      } else {
+        stats.mastered++;
+      }
+    } else {
+      stats.new++;
+    }
+  }
+
+  // Calculate percentages
+  stats.practicedPercentage = stats.total > 0 ? Math.round((stats.practiced / stats.total) * 100) : 0;
+  stats.masteryPercentage = stats.total > 0 ? Math.round(((stats.young + stats.mature + stats.mastered) / stats.total) * 100) : 0;
+
+  return stats;
 };
 
 export default {
@@ -402,4 +611,5 @@ export default {
   getRecommendedPracticeWords,
   getRecommendedPracticeNouns,
   getLimitedNounMatchesWithProgress,
+  getSRSStatisticsForLevel,
 };

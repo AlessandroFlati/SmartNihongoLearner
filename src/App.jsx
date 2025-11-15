@@ -26,10 +26,12 @@ import {
   SportsEsports as GameIcon,
   CheckCircle as CheckIcon,
   DeleteForever as DeleteIcon,
+  TrendingUp as TrendingUpIcon,
+  School as SchoolIcon,
 } from '@mui/icons-material';
 import { initializeAllData, getVocabularyStats, getCollocationStats } from './services/dataLoader';
 import storage from './services/storage';
-import { getRecommendedPracticeWords, getRecommendedPracticeNouns } from './services/collocation';
+import { getRecommendedPracticeWords, getRecommendedPracticeNouns, getSRSStatisticsForLevel } from './services/collocation';
 import GameModeSelector from './components/games/GameModeSelector';
 import WhatCouldMatch from './components/games/WhatCouldMatch';
 
@@ -49,6 +51,7 @@ function App() {
     return localStorage.getItem('jlptLevel') || null;
   });
   const [studyListWords, setStudyListWords] = useState(new Set());
+  const [srsStats, setSrsStats] = useState(null);
 
   // Navigation state
   const [currentScreen, setCurrentScreen] = useState('home'); // home, game-setup, playing
@@ -59,11 +62,12 @@ function App() {
   // Reset dialog state
   const [resetDialogOpen, setResetDialogOpen] = useState(false);
 
-  // Load study list when JLPT level changes
+  // Load study list and SRS statistics when JLPT level changes
   useEffect(() => {
-    const loadStudyList = async () => {
+    const loadStudyListAndStats = async () => {
       if (!jlptLevel) {
         setStudyListWords(new Set());
+        setSrsStats(null);
         return;
       }
 
@@ -74,15 +78,20 @@ function App() {
           throw new Error(`Failed to load study list: ${response.statusText}`);
         }
         const data = await response.json();
-        setStudyListWords(new Set(data.words));
+        const wordsSet = new Set(data.words);
+        setStudyListWords(wordsSet);
         console.log(`Loaded ${data.words.length} words for ${jlptLevel.toUpperCase()}`);
+
+        // Load SRS statistics for this level
+        const stats = await getSRSStatisticsForLevel(jlptLevel, wordsSet);
+        setSrsStats(stats);
       } catch (err) {
         console.error('Error loading study list:', err);
         setError(`Failed to load study list: ${err.message}`);
       }
     };
 
-    loadStudyList();
+    loadStudyListAndStats();
   }, [jlptLevel]);
 
   useEffect(() => {
@@ -251,6 +260,11 @@ function App() {
         collocations: collocStats,
         database: dbInfo,
       });
+      // Reload SRS statistics for current level
+      if (jlptLevel && studyListWords.size > 0) {
+        const srsStats = await getSRSStatisticsForLevel(jlptLevel, studyListWords);
+        setSrsStats(srsStats);
+      }
     } catch (err) {
       console.error('Error resetting SRS history:', err);
       setError(`Failed to reset SRS history: ${err.message}`);
@@ -394,6 +408,193 @@ function App() {
               </Box>
             </Paper>
 
+            {/* SRS Statistics for Selected Level */}
+            {jlptLevel && srsStats && (
+              <Box sx={{ mt: 4 }}>
+                <Box sx={{ display: 'flex', alignItems: 'center', mb: 2 }}>
+                  <TrendingUpIcon sx={{ mr: 1 }} color="primary" />
+                  <Typography variant="h6">
+                    Your Progress - {jlptLevel === 'n5' ? 'N5' : 'N5+N4'}
+                  </Typography>
+                </Box>
+
+                {/* Overall Progress */}
+                <Grid container spacing={2} sx={{ mb: 3 }}>
+                  <Grid item xs={12} sm={6}>
+                    <Card sx={{ bgcolor: 'primary.main', color: 'primary.contrastText' }}>
+                      <CardContent>
+                        <Typography variant="body2" sx={{ opacity: 0.9, mb: 1 }}>
+                          Words Practiced
+                        </Typography>
+                        <Typography variant="h3">
+                          {srsStats.practiced} / {srsStats.total}
+                        </Typography>
+                        <Typography variant="h6" sx={{ mt: 1 }}>
+                          {srsStats.practicedPercentage}%
+                        </Typography>
+                      </CardContent>
+                    </Card>
+                  </Grid>
+                  <Grid item xs={12} sm={6}>
+                    <Card sx={{ bgcolor: 'success.main', color: 'success.contrastText' }}>
+                      <CardContent>
+                        <Typography variant="body2" sx={{ opacity: 0.9, mb: 1 }}>
+                          Mastery Level
+                        </Typography>
+                        <Typography variant="h3">
+                          {srsStats.young + srsStats.mature + srsStats.mastered}
+                        </Typography>
+                        <Typography variant="h6" sx={{ mt: 1 }}>
+                          {srsStats.masteryPercentage}% mastered
+                        </Typography>
+                      </CardContent>
+                    </Card>
+                  </Grid>
+                </Grid>
+
+                {/* SRS Maturity Breakdown */}
+                <Typography variant="subtitle1" gutterBottom sx={{ mt: 3, mb: 1, display: 'flex', alignItems: 'center' }}>
+                  <SchoolIcon sx={{ mr: 1, fontSize: '1.2rem' }} />
+                  Learning Progress
+                </Typography>
+                <Grid container spacing={2}>
+                  <Grid item xs={6} sm={2.4}>
+                    <Card variant="outlined">
+                      <CardContent>
+                        <Typography color="text.secondary" gutterBottom variant="body2">
+                          New
+                        </Typography>
+                        <Typography variant="h4">
+                          {srsStats.new}
+                        </Typography>
+                        <Typography variant="caption" color="text.secondary">
+                          Not practiced
+                        </Typography>
+                      </CardContent>
+                    </Card>
+                  </Grid>
+                  <Grid item xs={6} sm={2.4}>
+                    <Card variant="outlined">
+                      <CardContent>
+                        <Typography color="text.secondary" gutterBottom variant="body2">
+                          Learning
+                        </Typography>
+                        <Typography variant="h4">
+                          {srsStats.learning}
+                        </Typography>
+                        <Typography variant="caption" color="text.secondary">
+                          &lt;3 correct
+                        </Typography>
+                      </CardContent>
+                    </Card>
+                  </Grid>
+                  <Grid item xs={6} sm={2.4}>
+                    <Card variant="outlined">
+                      <CardContent>
+                        <Typography color="text.secondary" gutterBottom variant="body2">
+                          Young
+                        </Typography>
+                        <Typography variant="h4">
+                          {srsStats.young}
+                        </Typography>
+                        <Typography variant="caption" color="text.secondary">
+                          3-5 correct
+                        </Typography>
+                      </CardContent>
+                    </Card>
+                  </Grid>
+                  <Grid item xs={6} sm={2.4}>
+                    <Card variant="outlined">
+                      <CardContent>
+                        <Typography color="text.secondary" gutterBottom variant="body2">
+                          Mature
+                        </Typography>
+                        <Typography variant="h4">
+                          {srsStats.mature}
+                        </Typography>
+                        <Typography variant="caption" color="text.secondary">
+                          6-10 correct
+                        </Typography>
+                      </CardContent>
+                    </Card>
+                  </Grid>
+                  <Grid item xs={6} sm={2.4}>
+                    <Card variant="outlined">
+                      <CardContent>
+                        <Typography color="text.secondary" gutterBottom variant="body2">
+                          Mastered
+                        </Typography>
+                        <Typography variant="h4">
+                          {srsStats.mastered}
+                        </Typography>
+                        <Typography variant="caption" color="text.secondary">
+                          &gt;10 correct
+                        </Typography>
+                      </CardContent>
+                    </Card>
+                  </Grid>
+                </Grid>
+
+                {/* Word Type Breakdown */}
+                <Typography variant="subtitle1" gutterBottom sx={{ mt: 3, mb: 1 }}>
+                  By Word Type
+                </Typography>
+                <Grid container spacing={2}>
+                  <Grid item xs={12} sm={4}>
+                    <Card variant="outlined">
+                      <CardContent>
+                        <Typography color="text.secondary" gutterBottom variant="body2">
+                          Nouns
+                        </Typography>
+                        <Typography variant="h5">
+                          {srsStats.byType.noun.practiced} / {srsStats.byType.noun.total}
+                        </Typography>
+                        <Typography variant="caption" color="text.secondary">
+                          {srsStats.byType.noun.total > 0
+                            ? Math.round((srsStats.byType.noun.practiced / srsStats.byType.noun.total) * 100)
+                            : 0}% practiced
+                        </Typography>
+                      </CardContent>
+                    </Card>
+                  </Grid>
+                  <Grid item xs={12} sm={4}>
+                    <Card variant="outlined">
+                      <CardContent>
+                        <Typography color="text.secondary" gutterBottom variant="body2">
+                          Verbs
+                        </Typography>
+                        <Typography variant="h5">
+                          {srsStats.byType.verb.practiced} / {srsStats.byType.verb.total}
+                        </Typography>
+                        <Typography variant="caption" color="text.secondary">
+                          {srsStats.byType.verb.total > 0
+                            ? Math.round((srsStats.byType.verb.practiced / srsStats.byType.verb.total) * 100)
+                            : 0}% practiced
+                        </Typography>
+                      </CardContent>
+                    </Card>
+                  </Grid>
+                  <Grid item xs={12} sm={4}>
+                    <Card variant="outlined">
+                      <CardContent>
+                        <Typography color="text.secondary" gutterBottom variant="body2">
+                          Adjectives
+                        </Typography>
+                        <Typography variant="h5">
+                          {srsStats.byType.adjective.practiced} / {srsStats.byType.adjective.total}
+                        </Typography>
+                        <Typography variant="caption" color="text.secondary">
+                          {srsStats.byType.adjective.total > 0
+                            ? Math.round((srsStats.byType.adjective.practiced / srsStats.byType.adjective.total) * 100)
+                            : 0}% practiced
+                        </Typography>
+                      </CardContent>
+                    </Card>
+                  </Grid>
+                </Grid>
+              </Box>
+            )}
+
             {stats.vocabulary && (
               <Box sx={{ mt: 4 }}>
                 <Typography variant="h6" gutterBottom>
@@ -497,6 +698,7 @@ function App() {
             mode={gameConfig.mode}
             matchCount={gameConfig.matchCount}
             newWordsTarget={gameConfig.newWordsTarget}
+            studyListWords={studyListWords}
           />
         )}
       </Container>

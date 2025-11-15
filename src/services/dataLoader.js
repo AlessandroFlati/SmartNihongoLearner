@@ -46,7 +46,9 @@ export const loadCollocations = async () => {
  */
 export const loadHints = async () => {
   try {
-    const response = await fetch('/data/collocation_hints.json');
+    // Add cache-busting parameter to force reload of updated hints
+    const cacheBuster = Date.now();
+    const response = await fetch(`/data/collocation_hints.json?v=${cacheBuster}`);
     if (!response.ok) {
       throw new Error(`Failed to load hints: ${response.statusText}`);
     }
@@ -84,6 +86,7 @@ export const initializeAllData = async () => {
     }
 
     console.log('Data initialization complete');
+
     return true;
   } catch (error) {
     console.error('Failed to initialize data:', error);
@@ -147,7 +150,9 @@ let reverseHintsCache = null;
  */
 export const loadReverseHints = async () => {
   try {
-    const response = await fetch('/data/reverse_hints.json');
+    // Add cache-busting parameter to force reload of updated hints
+    const cacheBuster = Date.now();
+    const response = await fetch(`/data/reverse_hints.json?v=${cacheBuster}`);
     if (!response.ok) {
       console.warn('Reverse hints not found, will use fallback');
       return null;
