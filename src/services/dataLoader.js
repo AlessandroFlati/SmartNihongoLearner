@@ -7,12 +7,15 @@
 
 import storage from './storage';
 
+// Get the base URL from Vite configuration for correct asset paths
+const BASE_URL = import.meta.env.BASE_URL;
+
 /**
  * Load vocabulary data from JSON file
  */
 export const loadVocabulary = async () => {
   try {
-    const response = await fetch('/data/vocabulary.json');
+    const response = await fetch(`${BASE_URL}data/vocabulary.json`);
     if (!response.ok) {
       throw new Error(`Failed to load vocabulary: ${response.statusText}`);
     }
@@ -29,7 +32,7 @@ export const loadVocabulary = async () => {
  */
 export const loadCollocations = async () => {
   try {
-    const response = await fetch('/data/collocations_complete.json');
+    const response = await fetch(`${BASE_URL}data/collocations_complete.json`);
     if (!response.ok) {
       throw new Error(`Failed to load collocations: ${response.statusText}`);
     }
@@ -48,7 +51,7 @@ export const loadHints = async () => {
   try {
     // Add cache-busting parameter to force reload of updated hints
     const cacheBuster = Date.now();
-    const response = await fetch(`/data/collocation_hints.json?v=${cacheBuster}`);
+    const response = await fetch(`${BASE_URL}data/collocation_hints.json?v=${cacheBuster}`);
     if (!response.ok) {
       throw new Error(`Failed to load hints: ${response.statusText}`);
     }
@@ -152,7 +155,7 @@ export const loadReverseHints = async () => {
   try {
     // Add cache-busting parameter to force reload of updated hints
     const cacheBuster = Date.now();
-    const response = await fetch(`/data/reverse_hints.json?v=${cacheBuster}`);
+    const response = await fetch(`${BASE_URL}data/reverse_hints.json?v=${cacheBuster}`);
     if (!response.ok) {
       console.warn('Reverse hints not found, will use fallback');
       return null;
