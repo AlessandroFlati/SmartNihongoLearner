@@ -1,0 +1,3815 @@
+{
+  "version": "1.0.0",
+  "generated_date": "2025-11-12T12:21:01",
+  "mode": "reverse",
+  "hints": {
+    "仕事": {
+      "する": "performing employment duties or tasks",
+      "やる": "Informally tackling work tasks",
+      "始める": "Initiating career or task engagement",
+      "終わる": "completing tasks and duties action",
+      "行う": "formally executing tasks or duties",
+      "休む": "taking time off from duties",
+      "済む": "reaching completion of tasks/duties",
+      "やめる": "terminating employment or career position",
+      "手伝う": "lending support to someone's tasks",
+      "なさる": "Performing work duties with respectful politeness",
+      "できる": "being capable/ready for work duties",
+      "続ける": "persisting through employment without stopping",
+      "始まる": "work period commences or kicks off",
+      "探す": "actively seeking employment or opportunities",
+      "増える": "workload or opportunities growing naturally",
+      "見つかる": "Employment opportunity becomes available to you",
+      "見つける": "discovering new employment opportunity",
+      "残る": "tasks persisting beyond completion time",
+      "頼む": "delegating task to another person",
+      "進む": "moving forward in project completion",
+      "慣れる": "becoming comfortable with job routines",
+      "急ぐ": "rushing to complete tasks quickly",
+      "褒める": "expressing approval for task performance",
+      "いたす": "Humble formal performing of duties",
+      "いい": "quality work worth praising or desirable",
+      "多い": "having abundant workload or tasks",
+      "簡単": "requiring minimal effort or skill",
+      "新しい": "recently started employment or assignment",
+      "嫌": "unwilling reluctant feeling toward duties",
+      "難しい": "challenging in complexity or execution",
+      "嫌い": "feeling aversion toward one's employment",
+      "辛い": "demanding and difficult to endure",
+      "忙しい": "having overwhelming workload intensity",
+      "丁寧": "Careful, thorough, meticulous work quality",
+      "立派": "impressive professional achievement quality",
+      "易い": "requiring minimal effort or skill",
+      "大事": "high-stakes, requires careful handling quality",
+      "急": "Unexpectedly arising requiring immediate handling"
+    },
+    "勉強": {
+      "する": "performing academic learning action",
+      "続ける": "persisting in learning without stopping",
+      "始める": "commencing learning activity or routine",
+      "なさる": "respectful performance of learning activities",
+      "やめる": "cease your learning pursuit action"
+    },
+    "話": {
+      "する": "engaging in conversational exchange action",
+      "聞く": "receiving spoken content attentively",
+      "言う": "Vocalize narrative or statement outward",
+      "わかる": "mentally grasping communicated content",
+      "笑う": "Amusing reaction to story content",
+      "話す": "verbal articulation of conversation content",
+      "申し上げる": "Humbly expressing words upward in respect",
+      "伺う": "Humbly receiving information from above",
+      "面白い": "Captivating quality that engages listeners",
+      "おかしい": "illogical or suspicious quality raising doubt",
+      "悲しい": "emotionally moving or tragic story quality",
+      "変": "Suspicious or peculiar story quality",
+      "楽しい": "Delightfully engaging conversational quality",
+      "長い": "extended in duration, potentially tedious",
+      "恥ずかしい": "Story causing shame or humiliation",
+      "つまらない": "lacking engagement or entertainment value",
+      "ひどい": "unreasonably cruel or outrageous content",
+      "無理": "Logically strained or far-fetched story quality",
+      "普通": "everyday conversational nature, nothing special",
+      "大事": "conversation requiring serious attention or urgency",
+      "怖い": "chilling or spine-tingling narrative quality",
+      "いろいろ": "diverse topics and subjects discussed",
+      "急": "urgent matter requiring immediate discussion",
+      "うまい": "cleverly told or persuasively articulated quality",
+      "複雑": "tangled plot with multiple threads",
+      "短い": "brief in duration or content",
+      "細かい": "covering minute details thoroughly"
+    },
+    "質問": {
+      "する": "performing inquiry-seeking action",
+      "答える": "responding verbally to an inquiry",
+      "聞く": "receiving inquiry through auditory attention",
+      "尋ねる": "seeking information through direct inquiry",
+      "難しい": "challenging to answer or comprehend",
+      "簡単": "requiring minimal thought to answer",
+      "やさしい": "not cognitively demanding to answer",
+      "易い": "Simple to comprehend or respond to"
+    },
+    "買い物": {
+      "する": "performing retail purchasing activity",
+      "出かける": "departing specifically for shopping purpose"
+    },
+    "料理": {
+      "する": "performing culinary preparation action",
+      "作る": "preparing food from ingredients action",
+      "食べる": "consuming prepared dishes action",
+      "できる": "possessing culinary skill or competence",
+      "習う": "receiving formal instruction in culinary skills",
+      "選ぶ": "Deciding which dish or cuisine type",
+      "好き": "having affection for culinary activities",
+      "おいしい": "pleasingly flavorful to the palate",
+      "辛い": "Having heat that burns the tongue",
+      "うまい": "demonstrating culinary skill and expertise",
+      "まずい": "unpleasant taste quality, poorly executed dish",
+      "いい": "Having delicious taste and skillful preparation",
+      "簡単": "requiring minimal effort or skill",
+      "特別": "exceptional cuisine for notable occasions",
+      "大好き": "passionate fondness for culinary delights",
+      "上手": "having excellent culinary skill",
+      "下手": "lacking culinary skill or technique"
+    },
+    "運動": {
+      "する": "performing physical training activities",
+      "続ける": "maintaining your fitness routine persistently",
+      "始める": "initiating a fitness regimen"
+    },
+    "練習": {
+      "する": "engaging in repetitive skill-building action",
+      "続ける": "maintain training regimen without stopping",
+      "始める": "initiating a training routine or session",
+      "やめる": "Ceasing a disciplined routine permanently",
+      "厳しい": "Demanding, intense training regimen quality"
+    },
+    "準備": {
+      "する": "Executing readiness and arrangement activities",
+      "いたす": "Humble performance of readying arrangements",
+      "十分": "thoroughly complete and ready state"
+    },
+    "旅行": {
+      "する": "performing journey activities; embarking on trips",
+      "行く": "departing towards a destination journey",
+      "楽しむ": "savoring the travel experience pleasurably",
+      "出かける": "departing outward on leisure journey",
+      "好き": "having fond passion for journeying",
+      "楽しい": "Pleasurable experience quality of journey"
+    },
+    "経験": {
+      "する": "actively undergoing or accumulating life events",
+      "持つ": "possessing accumulated life knowledge internally",
+      "苦い": "painful or regrettable memory quality",
+      "恥ずかしい": "cringe-inducing memories you'd rather forget",
+      "珍しい": "Rarely encountered or uncommon occurrence quality",
+      "ひどい": "traumatic or severely unpleasant quality",
+      "いろいろ": "having diverse background richness",
+      "素晴らしい": "exceptional quality making experience memorable and valuable"
+    },
+    "連絡": {
+      "する": "performing communication exchange action"
+    },
+    "紹介": {
+      "する": "facilitating connections between people or things"
+    },
+    "説明": {
+      "する": "performing clarification to make understood",
+      "丁寧": "Thorough and considerate in detail"
+    },
+    "研究": {
+      "する": "conducting systematic scholarly investigation",
+      "行う": "formally executing systematic investigation",
+      "進む": "research making forward progress naturally"
+    },
+    "計画": {
+      "する": "creating and executing strategic plans",
+      "作る": "constructing a structured framework intentionally",
+      "変える": "revising or altering arranged plans",
+      "進む": "moving forward through planned stages",
+      "立てる": "establishing framework action for plans",
+      "決まる": "reaching finalized state, becoming set"
+    },
+    "会議": {
+      "する": "conducting formal group discussion action",
+      "終わる": "session reaches natural conclusion",
+      "始まる": "formal gathering naturally commences",
+      "行う": "formally execute or orchestrate gathering",
+      "間に合う": "arriving before the scheduled start time",
+      "遅れる": "arriving after scheduled start time",
+      "国際": "Cross-border participation and multilateral scope"
+    },
+    "試合": {
+      "勝つ": "achieving victory in competitive contest",
+      "負ける": "experiencing defeat in competition",
+      "する": "competing in organized sporting event",
+      "見る": "spectating competitive event as audience",
+      "終わる": "competitive event reaching conclusion naturally",
+      "始まる": "When competition formally kicks off"
+    },
+    "試験": {
+      "受ける": "undergoing an evaluative challenge officially",
+      "する": "performing formal assessment or evaluation",
+      "終わる": "reaches conclusion, testing period closes",
+      "行う": "formally conducting/administering testing procedures",
+      "落ちる": "failing downward from passing standard",
+      "難しい": "challenging in complexity or passing difficulty"
+    },
+    "結婚": {
+      "する": "entering matrimonial union action"
+    },
+    "失敗": {
+      "する": "performing an unsuccessful action or error"
+    },
+    "相談": {
+      "する": "engaging in advice-seeking action"
+    },
+    "用意": {
+      "する": "performing preparatory arrangements action"
+    },
+    "予約": {
+      "する": "performing advance securing action"
+    },
+    "招待": {
+      "する": "performing the act of inviting"
+    },
+    "挨拶": {
+      "する": "performing social greeting ritual"
+    },
+    "翻訳": {
+      "する": "performing cross-language conversion work"
+    },
+    "注意": {
+      "する": "exercising vigilance or issuing warning"
+    },
+    "心配": {
+      "する": "experiencing or expressing worry state"
+    },
+    "安心": {
+      "する": "actively achieving mental peace state"
+    },
+    "利用": {
+      "する": "performing purposeful application action"
+    },
+    "放送": {
+      "する": "performing transmission to public audience"
+    },
+    "教育": {
+      "する": "performing instructional development of others"
+    },
+    "卒業": {
+      "する": "completing educational milestone action"
+    },
+    "生産": {
+      "する": "performing manufacturing operations commercially"
+    },
+    "掃除": {
+      "する": "performing household tidying activities"
+    },
+    "案内": {
+      "する": "performing the guiding/showing action"
+    },
+    "邪魔": {
+      "する": "action of creating obstruction or interfering"
+    },
+    "散歩": {
+      "する": "engaging in leisurely walking activity"
+    },
+    "洗濯": {
+      "する": "performing household cleaning task"
+    },
+    "出発": {
+      "する": "initiating a journey or mission"
+    },
+    "入学": {
+      "する": "performing official enrollment into institution"
+    },
+    "入院": {
+      "する": "undergoing medical facility admission action"
+    },
+    "出席": {
+      "する": "performing one's formal presence duty"
+    },
+    "競争": {
+      "する": "engaging in competitive rivalry action"
+    },
+    "喧嘩": {
+      "する": "engaging in confrontational conflict action"
+    },
+    "反対": {
+      "する": "expressing disagreement or objecting action"
+    },
+    "遠慮": {
+      "する": "performing self-restraint or holding back"
+    },
+    "会話": {
+      "する": "engaging in verbal exchange action"
+    },
+    "アルバイト": {
+      "する": "engaging in part-time employment activity"
+    },
+    "世話": {
+      "する": "performing caretaking duties for someone"
+    },
+    "復習": {
+      "する": "performing study reinforcement action"
+    },
+    "予習": {
+      "する": "performing advance lesson preparation action"
+    },
+    "チェック": {
+      "する": "performing verification or inspection action"
+    },
+    "失礼": {
+      "する": "Committing impolite social action"
+    },
+    "輸入": {
+      "する": "performing cross-border acquisition action"
+    },
+    "輸出": {
+      "する": "performing cross-border commercial sending action"
+    },
+    "貿易": {
+      "する": "engaging in international commerce activity"
+    },
+    "承知": {
+      "する": "performing acknowledgment or consent action"
+    },
+    "注射": {
+      "する": "performing medical needle procedure"
+    },
+    "水泳": {
+      "する": "performing aquatic sport activity"
+    },
+    "柔道": {
+      "する": "practicing martial art discipline"
+    },
+    "花見": {
+      "する": "performing seasonal observation activity",
+      "行く": "traveling to seasonal viewing location"
+    },
+    "支度": {
+      "する": "performing preparatory arrangements action"
+    },
+    "退院": {
+      "する": "performing medical release procedure"
+    },
+    "見物": {
+      "する": "performing spectator or tourist activities"
+    },
+    "寝坊": {
+      "する": "performing the oversleeping occurrence"
+    },
+    "下宿": {
+      "する": "engaging in rented room living arrangement"
+    },
+    "お礼": {
+      "する": "expressing gratitude through action"
+    },
+    "お祝い": {
+      "する": "performing celebratory rituals or gestures"
+    },
+    "テニス": {
+      "する": "engaging in the sport activity"
+    },
+    "マッチ": {
+      "する": "competing in organized contest action"
+    },
+    "故障": {
+      "する": "experiencing malfunction or breaking down",
+      "ある": "existing state of malfunction condition"
+    },
+    "発音": {
+      "する": "performing articulation of sounds"
+    },
+    "ご馳走": {
+      "する": "hosting or providing lavish meal treatment",
+      "ある": "existence of special meal occasion"
+    },
+    "代わり": {
+      "する": "performing substitution or replacement action",
+      "ある": "existence of an alternative option"
+    },
+    "匂い": {
+      "する": "emitting or giving off a scent",
+      "ある": "scent's presence or existence detected"
+    },
+    "パート": {
+      "する": "performing part-time employment duties"
+    },
+    "格好": {
+      "する": "adopting an appearance or posture"
+    },
+    "拝見": {
+      "する": "performing humble viewing action"
+    },
+    "人": {
+      "いる": "living presence or existence state",
+      "来る": "arrival or appearance of someone",
+      "待つ": "anticipating someone's arrival or presence",
+      "集まる": "multiple individuals converging to one location",
+      "会う": "arranging to encounter someone socially",
+      "亡くなる": "respectful passing from life action",
+      "死ぬ": "ceasing to live; mortality action",
+      "呼ぶ": "Summoning someone by voice or name",
+      "知る": "being acquainted with someone's existence",
+      "探す": "seeking someone for a specific purpose",
+      "合う": "people gathering or harmonizing together",
+      "立つ": "Rising to prominence or leadership position",
+      "怒る": "emotional reaction showing displeasure or rage",
+      "笑う": "expressing joy or amusement through sound",
+      "泣く": "emotional tears release action",
+      "起こす": "lifting someone from lying/sitting position",
+      "並ぶ": "forming queues or rows together",
+      "別れる": "Emotionally separating from someone close",
+      "生まれる": "coming into existence as human being",
+      "喜ぶ": "experiencing joyful emotional response",
+      "似る": "sharing physical or character resemblance",
+      "増える": "population growth or crowd expansion",
+      "動く": "taking action or being mobilized",
+      "止める": "halting someone's movement or action",
+      "連れる": "bringing someone along with you",
+      "迎える": "Going forth to receive/greet arriving person",
+      "訪ねる": "going to someone's location intentionally",
+      "太る": "gaining body mass physically",
+      "痩せる": "losing body mass intentionally or naturally",
+      "消える": "vanishing from existence or presence",
+      "見つかる": "locating someone missing or sought-after",
+      "見つける": "spotting or discovering the right individual",
+      "生きる": "continuing existence as human being",
+      "頼む": "seeking assistance or favor from someone",
+      "思い出す": "retrieving someone from mental memory",
+      "逃げる": "fleeing from responsibility or confrontation",
+      "なくなる": "passing away; ceasing to exist euphemism",
+      "役に立つ": "providing practical assistance or utility",
+      "眠る": "resting in dormant peaceful state",
+      "いらっしゃる": "honored guest's presence or movement",
+      "騒ぐ": "Creating disruptive commotion or uproar",
+      "謝る": "expressing remorse for wrongdoing done",
+      "倒れる": "losing balance or consciousness physically",
+      "尋ねる": "seeking information from someone directly",
+      "捕まえる": "Apprehending or seizing someone physically",
+      "急ぐ": "rushing to someone needing urgent help",
+      "手伝う": "lending assistance to someone's task",
+      "褒める": "expressing admiration for someone's qualities",
+      "滑る": "failing socially or comedically bombing",
+      "いじめる": "Inflicting cruel treatment upon someone",
+      "しかる": "Verbally reprimanding someone for wrongdoing",
+      "構う": "paying attention to someone's needs",
+      "いい": "having admirable moral character",
+      "好き": "being fond of someone affectionately",
+      "多い": "crowded or abundant in population",
+      "すごい": "possessing formidable or intimidating intensity",
+      "面白い": "having captivating personality or character",
+      "元気": "radiating vibrant energy and vitality",
+      "大好き": "deeply cherished affection for someone",
+      "有名": "widely recognized for notable achievements",
+      "若い": "having youthful age and vitality",
+      "きれい": "having attractive appearance or refined manner",
+      "優しい": "warmhearted and considerate in nature",
+      "忙しい": "having no free time schedule",
+      "親切": "showing warmhearted helpfulness to others",
+      "真面目": "Displaying reliable, diligent character traits",
+      "大切": "valued for deep personal significance",
+      "同じ": "sharing identical identity or origin",
+      "悪い": "having malicious or wicked character",
+      "大丈夫": "reliable and trustworthy character quality",
+      "強い": "possessing forceful or domineering character",
+      "特別": "standing apart from ordinary individuals",
+      "嫌": "having repulsive or dislikable character",
+      "変": "having peculiar or suspicious character",
+      "嫌い": "having disagreeable character or being disliked",
+      "少ない": "lacking sufficient population or attendance",
+      "明るい": "having cheerful, outgoing personality",
+      "眠い": "feeling drowsy needing rest state",
+      "寂しい": "feeling isolated, lacking human connection",
+      "危ない": "unreliable character posing potential harm",
+      "上手": "possessing talent or ability competently",
+      "下手": "lacking skill or competence quality",
+      "丁寧": "showing respectful, careful manners",
+      "立派": "admirable character and impressive presence",
+      "静か": "calm demeanor, not disruptive presence",
+      "うるさい": "Bothersome in behavior or talk",
+      "つまらない": "lacking charm or interesting qualities",
+      "ひどい": "showing cruel, heartless character traits",
+      "熱心": "showing passionate dedication character",
+      "普通": "unremarkable, average character or status",
+      "大事": "valued for significance or cherished",
+      "結構": "possessing admirable refined qualities",
+      "怖い": "intimidating or menacing in character",
+      "いろいろ": "diverse types and personalities present",
+      "素晴らしい": "admirable character of exceptional quality",
+      "おかしい": "behaving strangely or suspiciously odd",
+      "だめ": "lacking capability or moral worth",
+      "うまい": "possessing clever talent or expertise",
+      "厳しい": "demanding character, exacting standards held",
+      "弱い": "lacking strength or resilience of character",
+      "適当": "having the right qualifications match"
+    },
+    "家": {
+      "いる": "living presence within dwelling space",
+      "行く": "directional movement toward one's dwelling",
+      "住む": "occupying as one's dwelling place",
+      "引っ越す": "Relocating your dwelling to another place",
+      "建てる": "constructing a dwelling from foundation up",
+      "帰る": "returning movement toward one's dwelling",
+      "出る": "departing from one's residence",
+      "入る": "crossing threshold into dwelling space",
+      "つく": "lights become illuminated; dwelling brightens electrically",
+      "訪ねる": "Going to someone's residence socially",
+      "壊す": "physically demolishing a structure completely",
+      "売る": "Transferring property ownership for money",
+      "向かう": "traveling/heading toward one's residence",
+      "戻る": "returning journey action to one's dwelling",
+      "着く": "reaching one's home destination safely",
+      "移る": "relocating one's residence action",
+      "泊まる": "overnight guest lodging action",
+      "焼ける": "destructive fire consuming structure completely",
+      "おる": "animate presence within dwelling space",
+      "おいでになる": "honorific presence at residence location",
+      "伺う": "polite visiting or inquiring about residence",
+      "まいる": "Humble visiting or going motion",
+      "新しい": "recently constructed dwelling condition",
+      "大きな": "Having impressive physical size and stature",
+      "大きい": "having substantial physical size and space",
+      "古い": "Having weathered years of dwelling",
+      "近い": "proximity to one's residence location",
+      "小さい": "compact dwelling dimensions, cozy home",
+      "小さな": "compact cozy dwelling dimensions",
+      "広い": "having generous living space",
+      "狭い": "Having cramped living space dimensions",
+      "立派": "impressive in scale and prestige",
+      "遠い": "located at great travel distance"
+    },
+    "部屋": {
+      "いる": "animate presence within enclosed space",
+      "入る": "physically crossing threshold into enclosed space",
+      "片付ける": "organizing space to restore order",
+      "出る": "departing from an enclosed space",
+      "寝る": "resting/sleeping space designation action",
+      "帰る": "motion back to one's private space",
+      "戻る": "returning to one's personal space",
+      "飾る": "Adding ornamental elements to enhance appearance",
+      "移る": "relocating between living spaces action",
+      "冷える": "temperature dropping uncomfortably in space",
+      "汚れる": "accumulating mess and grime state",
+      "おる": "animate presence within enclosed space",
+      "おいでになる": "honorific presence in a location",
+      "まいる": "humble entering or visiting motion",
+      "空く": "becoming unoccupied or available for use",
+      "取り替える": "Swapping to a different living space",
+      "広い": "having ample interior space",
+      "狭い": "lacking sufficient space or area",
+      "大きい": "Having substantial size and volume",
+      "小さい": "having cramped or cozy dimensions",
+      "小さな": "having compact, cozy dimensions",
+      "きれい": "clean and visually pleasing state",
+      "寒い": "having chilly temperature inside space",
+      "明るい": "having good natural or artificial illumination",
+      "暗い": "lacking light or cheerful atmosphere",
+      "暑い": "having uncomfortably warm temperature inside",
+      "涼しい": "pleasantly temperature-controlled environment quality",
+      "暖かい": "having comfortable heated temperature",
+      "静か": "peaceful soundless atmosphere quality",
+      "汚い": "Messy, cluttered, or unsanitary living state"
+    },
+    "場所": {
+      "いる": "animate presence at location",
+      "ある": "inanimate existence at a location",
+      "知る": "having awareness of where something is",
+      "探す": "actively hunting for a suitable spot",
+      "忘れる": "Unable to recall a specific location",
+      "決める": "selecting and settling on location",
+      "訪ねる": "Purposefully going to see a place",
+      "住む": "establishing human habitation at location",
+      "見つかる": "spot becomes discovered through searching",
+      "見つける": "discovering or locating a suitable spot",
+      "向かう": "physically traveling toward a destination point",
+      "戻る": "returning to a previous location",
+      "思い出す": "mentally retrieving a location from memory",
+      "逃げる": "fleeing from a specific spot",
+      "着く": "reaching a destination point successfully",
+      "出かける": "departing toward a destination spot",
+      "慣れる": "becoming comfortable with a location",
+      "移る": "relocating from one position to another",
+      "間違える": "Confusing or misidentifying the correct spot",
+      "寄る": "stopping by temporarily at location",
+      "便利": "easy to access and use",
+      "静か": "peaceful atmosphere without noise or disturbance",
+      "遠い": "requiring significant travel or effort",
+      "近い": "Short distance from current position",
+      "有名": "well-known destination drawing recognition",
+      "寂しい": "lacking human presence or warmth",
+      "危ない": "Having hazardous risk conditions present",
+      "賑やか": "full of people and activity",
+      "うるさい": "having disruptive sound levels",
+      "不便": "lacking accessibility or practical reach"
+    },
+    "中": {
+      "いる": "being present within/inside location"
+    },
+    "学校": {
+      "行く": "daily directional movement for education",
+      "通う": "regular back-and-forth attendance action",
+      "いる": "animate presence/attendance at institution",
+      "出る": "Graduating or departing from institution",
+      "つく": "building illumination becoming active",
+      "休む": "Taking absence from attendance duties",
+      "帰る": "Departing institution to reach home",
+      "向かう": "traveling motion toward destination",
+      "着く": "reaching your educational destination physically",
+      "いい": "having quality education and reputation",
+      "同じ": "shared institutional identity or origin",
+      "新しい": "Recently built or established institution",
+      "近い": "short commuting distance from home",
+      "遠い": "requiring long travel distance daily"
+    },
+    "会社": {
+      "行く": "commuting movement to workplace destination",
+      "働く": "performing labor duties at organization",
+      "勤める": "formal employment service at organization",
+      "いる": "employed existence at workplace organization",
+      "出る": "departing employment or workplace permanently",
+      "入る": "joining as employee, becoming member",
+      "つく": "lights come on at workplace building",
+      "休む": "Taking authorized absence from employment",
+      "帰る": "Departing workplace after duty hours",
+      "やめる": "Severing employment ties, resignation action",
+      "通う": "Regular commuting back-and-forth to workplace",
+      "移る": "changing employer or workplace action",
+      "いい": "having desirable work environment or reputation",
+      "同じ": "shared workplace or employer identity",
+      "大きな": "Having extensive scale and workforce"
+    },
+    "国": {
+      "いる": "sovereign existing as political entity",
+      "行く": "traveling/moving to another nation",
+      "違う": "having distinct national characteristics or systems",
+      "住む": "establishing residence within a nation",
+      "引っ越す": "relocating one's life between nations",
+      "帰る": "Going back to one's homeland",
+      "同じ": "Sharing identical national origin or identity",
+      "寒い": "Having frigid climate conditions nationally",
+      "暑い": "Having tropical or warm climate",
+      "遠い": "geographically or culturally distant from here"
+    },
+    "所": {
+      "いる": "animate presence at location"
+    },
+    "母": {
+      "いる": "animate presence/existence state of person",
+      "来る": "arrival action of visiting parent",
+      "優しい": "nurturing warmth and tender care quality",
+      "親切": "Warm, nurturing care quality mothers embody"
+    },
+    "父": {
+      "いる": "animate existence or presence state",
+      "来る": "arrival movement toward speaker's location",
+      "優しい": "showing warm parental affection and care",
+      "親切": "caring and warmhearted paternal nature"
+    },
+    "息子": {
+      "いる": "animate existence of family member",
+      "来る": "arrival of offspring to location",
+      "優しい": "possessing caring and considerate nature",
+      "かわいい": "endearing quality of one's beloved child"
+    },
+    "娘": {
+      "いる": "animate existence of offspring possessed",
+      "来る": "arrival or visit to parent's location",
+      "かわいい": "Endearing quality often noted by parents",
+      "優しい": "having gentle, caring daughter nature"
+    },
+    "妻": {
+      "いる": "animate existence indicating marital status"
+    },
+    "夫": {
+      "いる": "animate existence state of spouse"
+    },
+    "兄": {
+      "いる": "having an older sibling's existence",
+      "来る": "arrival of familial visitor action"
+    },
+    "姉": {
+      "いる": "animate family member's existence state",
+      "来る": "visiting or arriving action from family"
+    },
+    "弟": {
+      "いる": "animate family member's existence state",
+      "来る": "younger sibling's arrival or visit action",
+      "かわいい": "endearing quality of younger sibling"
+    },
+    "妹": {
+      "いる": "animate existence state of family member",
+      "来る": "Arrival movement toward speaker's location",
+      "かわいい": "endearing quality often attributed to younger sisters"
+    },
+    "両親": {
+      "いる": "animate existence state of living parents",
+      "親切": "warm, considerate parental nature"
+    },
+    "兄弟": {
+      "いる": "having siblings as family members"
+    },
+    "男": {
+      "いる": "animate presence or existence state",
+      "優しい": "gentle and considerate in masculine character"
+    },
+    "女": {
+      "いる": "animate existence of female person",
+      "優しい": "gentle, nurturing feminine quality"
+    },
+    "男の子": {
+      "いる": "animate presence or existence state",
+      "かわいい": "endearingly adorable youthful charm"
+    },
+    "女の子": {
+      "いる": "animate existence or presence state",
+      "かわいい": "Having endearing, charming youthful appeal"
+    },
+    "運転手": {
+      "いる": "animate existence state for person-role"
+    },
+    "社長": {
+      "いる": "existence state of leadership position"
+    },
+    "生徒": {
+      "いる": "living presence state of students"
+    },
+    "先輩": {
+      "いる": "presence/existence of hierarchical superior"
+    },
+    "高校生": {
+      "いる": "animate existence or presence state"
+    },
+    "大学生": {
+      "いる": "animate existence at educational institution"
+    },
+    "市民": {
+      "いる": "existing as residents of a place"
+    },
+    "パパ": {
+      "いる": "animate being's existence or presence"
+    },
+    "ご主人": {
+      "いる": "animate existence status of spouse"
+    },
+    "奥さん": {
+      "いる": "existing in married status relationship"
+    },
+    "部長": {
+      "いる": "presence/existence of person in position",
+      "なる": "achieving professional advancement to leadership position"
+    },
+    "校長": {
+      "いる": "animate existence at institutional position",
+      "なる": "achieving leadership position through career progression"
+    },
+    "看護婦": {
+      "いる": "presence of medical caretaker",
+      "なる": "career transformation into profession"
+    },
+    "公務員": {
+      "いる": "existing in employment status or position",
+      "なる": "entering career path through transformation"
+    },
+    "課長": {
+      "いる": "animate existence in organizational position",
+      "なる": "achieving career promotion status"
+    },
+    "留学生": {
+      "いる": "animated presence at institution or location",
+      "なる": "transitioning into student status abroad"
+    },
+    "警官": {
+      "いる": "presence of animate authority figure"
+    },
+    "お嬢さん": {
+      "いる": "animate existence indicating daughter's presence"
+    },
+    "赤ん坊": {
+      "いる": "animate existence state of living being"
+    },
+    "お子さん": {
+      "いる": "animate existence state of offspring"
+    },
+    "家内": {
+      "いる": "animate existence of spouse at home"
+    },
+    "おまわりさん": {
+      "いる": "presence/existence of patrolling authority figure"
+    },
+    "すり": {
+      "いる": "presence of criminal lurking nearby"
+    },
+    "アナウンサー": {
+      "いる": "professional person's existence at workplace",
+      "なる": "achieving professional broadcasting career status"
+    },
+    "小鳥": {
+      "いる": "animate being's presence or location"
+    },
+    "一人": {
+      "いる": "solitary animate existence state"
+    },
+    "二人": {
+      "いる": "animate existence state of pair"
+    },
+    "こと": {
+      "ある": "occurrence or existence of situations",
+      "できる": "gaining capability or possibility regarding matter",
+      "思う": "mental judgment about a matter",
+      "言う": "verbal expression of matters/affairs",
+      "わかる": "mentally grasping a matter or situation",
+      "考える": "mental deliberation about matters or situations",
+      "知る": "becoming aware of facts or circumstances",
+      "忘れる": "Letting matters slip from memory",
+      "決める": "Finalizing a matter through resolution",
+      "調べる": "investigating matters through research inquiry",
+      "話す": "verbal exchange about matters/topics",
+      "伝える": "passing information or messages onward",
+      "思い出す": "retrieving past matters from memory",
+      "決まる": "Plans/matters reaching finalized settlement state",
+      "間違える": "Getting a matter/situation factually wrong",
+      "しまう": "bringing a matter to conclusion",
+      "ございます": "polite formal existence of matters",
+      "困る": "experiencing troublesome situations or difficulties",
+      "喜ぶ": "feeling joy about a matter",
+      "驚く": "reacting with surprise to matters/events",
+      "楽しむ": "deriving pleasure from activities or experiences",
+      "祈る": "Hopeful spiritual wishing for matters' outcomes",
+      "変える": "transforming situations or circumstances intentionally",
+      "頼む": "requesting favor or assistance action",
+      "済む": "matter reaching settled completion",
+      "慣れる": "gaining comfort through repeated experience with situations",
+      "謝る": "Expressing regret for a matter",
+      "おっしゃる": "Respectfully expressing someone's words or statements",
+      "知らせる": "communicating information about a matter/situation",
+      "尋ねる": "seeking information about matters formally",
+      "なさる": "performing actions/matters with honorific respect",
+      "申し上げる": "Humbly expressing matters to superiors",
+      "申す": "Humble formal stating of matters",
+      "伺う": "politely inquiring about matters from someone",
+      "いたす": "Humble performance of matters or actions",
+      "構う": "paying attention or concern to matters",
+      "大事": "matters requiring serious attention or care",
+      "いろいろ": "multiplicity spanning diverse matters",
+      "大切": "valued matter requiring care and attention",
+      "必要": "required for purpose or situation",
+      "同じ": "identical in nature or circumstance",
+      "大丈夫": "situation being manageable without worry",
+      "すごい": "terrible severity of a situation",
+      "特別": "Standing out from ordinary matters",
+      "嫌": "feeling aversion toward particular matters",
+      "変": "unusual situation or occurrence quality",
+      "嬉しい": "feeling joy about a matter",
+      "恥ずかしい": "causing shame or social discomfort",
+      "危ない": "risky situation threatening safety or wellbeing",
+      "残念": "unfortunate matter deserving regret",
+      "無理": "impossible or overly demanding matter",
+      "普通": "unremarkable, expected state of matters",
+      "確か": "confirmed or verified quality of matter",
+      "結構": "pleasantly satisfactory quality of matters",
+      "怖い": "frightening in nature or consequence",
+      "素晴らしい": "excellent quality deserving admiration and praise",
+      "おかしい": "strange or illogical situation quality",
+      "だめ": "prohibited or impermissible matter quality",
+      "悲しい": "emotionally distressing situation or occurrence",
+      "適当": "fitting well for the situation",
+      "まずい": "problematic situation needing urgent handling",
+      "よろしい": "formal permission or acceptability granted"
+    },
+    "問題": {
+      "ある": "existence of an issue/difficulty",
+      "考える": "deliberate mental processing seeking solution",
+      "わかる": "mentally grasping the solution or answer",
+      "起きる": "problem spontaneously arising or occurring",
+      "起こす": "to deliberately cause or trigger trouble",
+      "困る": "being stumped or troubled by difficulty",
+      "増える": "Problems multiply or grow worse",
+      "調べる": "investigating to understand root causes",
+      "残る": "unresolved issue persisting without solution",
+      "簡単": "requiring minimal effort to solve",
+      "難しい": "challenging in complexity or solving",
+      "多い": "abundant in quantity or frequency",
+      "大きな": "having serious magnitude or significance",
+      "やさしい": "Low difficulty requiring minimal effort",
+      "易い": "having simple solvability for learners",
+      "いろいろ": "multiple types of challenges/issues",
+      "複雑": "Multi-layered difficulty requiring careful analysis"
+    },
+    "理由": {
+      "ある": "reason exists or is present",
+      "わかる": "grasping the underlying motivation or cause",
+      "考える": "mentally processing underlying motivations",
+      "知る": "becoming aware of the underlying motive"
+    },
+    "関係": {
+      "ある": "connection or link exists between entities",
+      "深い": "Strong intimate bond quality",
+      "国際": "crossing national borders quality",
+      "複雑": "tangled with multiple interconnecting threads"
+    },
+    "時間": {
+      "使う": "spending/allocating temporal resources purposefully",
+      "かかる": "resource consumption requiring duration",
+      "間に合う": "arriving before deadline passes",
+      "遅れる": "falling behind scheduled timing point",
+      "足りる": "having adequate duration available",
+      "ある": "possessing availability of duration",
+      "持つ": "possessing duration for an activity",
+      "続く": "duration extending through temporal span",
+      "かける": "investing duration into something",
+      "ございます": "polite existence inquiry of availability",
+      "忘れる": "losing track of temporal passage",
+      "待つ": "letting duration pass before action",
+      "決める": "Setting a specific temporal slot",
+      "起きる": "event occurrence or emergence in time",
+      "過ぎる": "flowing forward movement beyond present moment",
+      "楽しむ": "deriving pleasure from moments spent",
+      "残る": "having spare duration still available",
+      "なくなる": "running out, time depleting unavailable",
+      "決まる": "scheduling becomes finalized and set",
+      "間違える": "Getting the hour/timing wrong action",
+      "空く": "becoming available or unscheduled in schedule",
+      "必要": "requiring allocation for completion",
+      "楽しい": "filled with joy and pleasure",
+      "長い": "extended duration quality",
+      "十分": "having adequate duration for purpose",
+      "短い": "brief duration or insufficient length",
+      "欲しい": "craving more duration or moments",
+      "少ない": "insufficient quantity for temporal needs",
+      "早い": "arriving or happening ahead of schedule",
+      "忙しい": "hectic schedule quality, no spare moments",
+      "大事": "precious, must-be-valued quality of moments",
+      "大切": "valued and irreplaceable quality of moments",
+      "適当": "right amount fitting the occasion",
+      "遅い": "taking longer duration than expected",
+      "よろしい": "suitable moment for polite permission"
+    },
+    "店": {
+      "行く": "traveling to a commercial destination",
+      "寄る": "casually stopping by en route",
+      "閉まる": "Business ceasing operations, doors shutting",
+      "ある": "location existence of commercial establishment",
+      "出る": "Departing from a business establishment",
+      "入る": "crossing threshold into commercial establishment",
+      "閉める": "ending business operations action",
+      "並ぶ": "Queueing outside awaiting entry or service",
+      "働く": "performing labor at commercial establishment",
+      "通る": "regularly passing by as patron/customer",
+      "過ぎる": "passing by a store location",
+      "開く": "Starting business operations by unlocking doors",
+      "回る": "visiting multiple establishments sequentially",
+      "込む": "filled with customers and activity",
+      "近い": "conveniently located within walking distance",
+      "小さな": "Intimate scale, cozy neighborhood character",
+      "安い": "low-priced for budget-conscious shopping",
+      "便利": "Easy to access and use location",
+      "賑やか": "Full of customers and activity"
+    },
+    "公園": {
+      "ある": "stationary existence at a location",
+      "行く": "traveling motion toward recreational destination",
+      "歩く": "leisurely strolling through open space",
+      "走る": "Physical exercise movement through open space",
+      "遊ぶ": "recreational activity in outdoor space",
+      "大きな": "having expansive recreational space and facilities",
+      "近い": "short distance from your location",
+      "広い": "having expansive open area quality"
+    },
+    "駅": {
+      "行く": "directional movement toward transportation hub",
+      "着く": "reaching your travel destination point",
+      "ある": "located existence of inanimate place",
+      "出る": "departing from transportation facility",
+      "つく": "illumination activates at transportation facility",
+      "歩く": "locomotion to/from/through transit point",
+      "通る": "passing by without stopping there",
+      "過ぎる": "moving past without stopping there",
+      "降りる": "exiting downward from transport vehicle",
+      "向かう": "directional movement toward the destination",
+      "戻る": "Returning motion to departure point",
+      "寄る": "stopping briefly en route somewhere",
+      "近い": "short walking distance to station",
+      "便利": "Having advantageous access and location features",
+      "不便": "poorly located or hard-to-access quality",
+      "遠い": "requiring long travel distance quality"
+    },
+    "興味": {
+      "ある": "possessing curiosity state toward something",
+      "持つ": "possessing curiosity as internal state"
+    },
+    "趣味": {
+      "ある": "possessing a leisure interest or pursuit"
+    },
+    "機会": {
+      "ある": "existence state of favorable circumstances"
+    },
+    "原因": {
+      "ある": "existence state of underlying cause"
+    },
+    "楽しみ": {
+      "ある": "possessing anticipation of future pleasure"
+    },
+    "つもり": {
+      "ある": "possessing an intention or plan state"
+    },
+    "場合": {
+      "ある": "existence of a particular circumstance"
+    },
+    "帰り": {
+      "ある": "existence of homeward journey ahead"
+    },
+    "仕方": {
+      "ある": "existence indicating alternative possibilities available",
+      "わかる": "grasping how to do something",
+      "知る": "possessing awareness of proper methods",
+      "教える": "transferring knowledge of methods/procedures"
+    },
+    "専門": {
+      "ある": "possessing expertise in a field"
+    },
+    "クラス": {
+      "ある": "scheduled existence of instructional session"
+    },
+    "後": {
+      "ある": "existence of remaining time or events",
+      "来る": "temporal arrival from what follows"
+    },
+    "間": {
+      "ある": "existence of spatial/temporal separation"
+    },
+    "ころ": {
+      "ある": "temporal existence marking past periods",
+      "来る": "temporal arrival at approximate point"
+    },
+    "この頃": {
+      "ある": "existence within a recent timeframe"
+    },
+    "この間": {
+      "ある": "occurrence existence within recent timeframe"
+    },
+    "途中": {
+      "ある": "existing as an intermediate state"
+    },
+    "晩": {
+      "ある": "temporal existence of a particular evening",
+      "食べる": "consuming the evening meal",
+      "寝る": "reclining action for nighttime rest"
+    },
+    "夕方": {
+      "ある": "temporal existence of this time period",
+      "来る": "temporal arrival of twilight period"
+    },
+    "昼間": {
+      "ある": "temporal existence within daylight hours"
+    },
+    "今月": {
+      "ある": "temporal existence or occurrence within",
+      "来る": "temporal arrival and progression forward"
+    },
+    "毎年": {
+      "ある": "recurring temporal existence happening consistently",
+      "来る": "temporal arrival of recurring periods"
+    },
+    "毎週": {
+      "ある": "regular occurrence existence in time",
+      "来る": "temporal arrival of recurring period"
+    },
+    "毎月": {
+      "ある": "recurring temporal existence or occurrence",
+      "来る": "temporal arrival of recurring period"
+    },
+    "一昨日": {
+      "ある": "past event occurrence or existence",
+      "行く": "temporal regression movement action",
+      "来る": "temporal arrival from two days past"
+    },
+    "一昨年": {
+      "ある": "past time period's occurrence or existence"
+    },
+    "一月": {
+      "ある": "temporal passage existing and elapsing",
+      "かかる": "duration resource consumption action"
+    },
+    "夕べ": {
+      "ある": "temporal existence of recent past evening"
+    },
+    "正月": {
+      "ある": "temporal existence of festive period"
+    },
+    "昼休み": {
+      "ある": "existence of scheduled time period"
+    },
+    "再来年": {
+      "ある": "temporal existence of future time"
+    },
+    "再来週": {
+      "ある": "temporal existence of scheduled events"
+    },
+    "再来月": {
+      "ある": "temporal existence of future event"
+    },
+    "上": {
+      "ある": "existing in a higher position",
+      "行く": "moving upward in direction or hierarchy",
+      "置く": "positioning items onto a surface"
+    },
+    "下": {
+      "ある": "existence beneath or subordinate position",
+      "行く": "descending movement toward lower position",
+      "置く": "positioning something in lower space"
+    },
+    "内": {
+      "ある": "existence state within boundaries",
+      "入る": "Movement from outside to within boundaries"
+    },
+    "外": {
+      "ある": "existence in exterior realm",
+      "行く": "departing toward exterior spaces"
+    },
+    "側": {
+      "ある": "existence at a position/perspective"
+    },
+    "後ろ": {
+      "ある": "something exists behind you unseen"
+    },
+    "横": {
+      "ある": "existing in a reclined position"
+    },
+    "裏": {
+      "ある": "hidden truth existing beneath surface"
+    },
+    "表": {
+      "ある": "existence state of outward appearance",
+      "見る": "Examining what appears on the surface"
+    },
+    "通り": {
+      "ある": "existence confirming expected correspondence",
+      "歩く": "traversing路 by foot movement"
+    },
+    "近く": {
+      "ある": "location existence within proximity",
+      "住む": "establishing residence in proximity"
+    },
+    "そば": {
+      "ある": "presence in one's vicinity or proximity",
+      "住む": "establishing residence in proximity"
+    },
+    "向こう": {
+      "ある": "existing at a distant location",
+      "行く": "movement toward the far side"
+    },
+    "辺": {
+      "ある": "existence/location in approximate place"
+    },
+    "真ん中": {
+      "ある": "stationary existence at central position"
+    },
+    "出口": {
+      "ある": "existence state of escape route",
+      "行く": "moving toward the way out"
+    },
+    "入口": {
+      "ある": "stationary location existence of opening",
+      "行く": "moving toward the entry point"
+    },
+    "交差点": {
+      "ある": "located existence of road junction"
+    },
+    "海岸": {
+      "ある": "static existence of geographical feature",
+      "行く": "traveling toward seaside destination"
+    },
+    "屋上": {
+      "ある": "physical existence/presence on building top",
+      "行く": "moving upward to elevated location"
+    },
+    "郊外": {
+      "ある": "locational existence of residential areas",
+      "行く": "traveling outward from city center",
+      "住む": "establish residential presence in area"
+    },
+    "廊下": {
+      "ある": "inanimate spatial existence of architectural feature",
+      "行く": "movement through linear passage space",
+      "歩く": "Moving through the elongated passage space"
+    },
+    "玄関": {
+      "ある": "existence of architectural space/feature"
+    },
+    "台所": {
+      "ある": "existence indicating household possession or presence",
+      "行く": "moving toward this household room"
+    },
+    "門": {
+      "ある": "existence of entrance structure"
+    },
+    "受付": {
+      "ある": "physical presence/location of service point"
+    },
+    "交番": {
+      "ある": "stationary existence at fixed location",
+      "行く": "traveling to seek police assistance"
+    },
+    "売り場": {
+      "ある": "location existence of retail space"
+    },
+    "隅": {
+      "ある": "located existence in recessed space"
+    },
+    "区": {
+      "ある": "existing as established administrative division"
+    },
+    "都": {
+      "ある": "physical existence of metropolitan entity"
+    },
+    "田舎": {
+      "ある": "stating one's rural origins or roots",
+      "行く": "traveling away from urban to rural"
+    },
+    "林": {
+      "ある": "natural existence of wooded area",
+      "行く": "Moving toward natural wooded destination"
+    },
+    "砂": {
+      "ある": "possessing gritty texture or quality"
+    },
+    "警察": {
+      "ある": "presence or existence in location",
+      "行く": "movement towards authorities for help/reporting",
+      "呼ぶ": "summoning authorities for help or emergencies"
+    },
+    "暇": {
+      "ある": "possessing availability of unoccupied time"
+    },
+    "ポスト": {
+      "ある": "stationary object's physical presence at location"
+    },
+    "誕生日": {
+      "ある": "existence of a scheduled annual occasion"
+    },
+    "半分": {
+      "ある": "state of partial presence or existence",
+      "食べる": "consuming a partial portion",
+      "飲む": "consuming liquid portion partially"
+    },
+    "家庭": {
+      "ある": "possessing/maintaining a family unit existence"
+    },
+    "ガス": {
+      "ある": "presence or leak detection state",
+      "使う": "utilizing fuel/energy resource for purpose"
+    },
+    "交通": {
+      "ある": "infrastructure's existence enabling movement and connection"
+    },
+    "湖": {
+      "ある": "natural existence in a location",
+      "行く": "traveling towards a destination location"
+    },
+    "晴れ": {
+      "ある": "existence of favorable meteorological conditions"
+    },
+    "工業": {
+      "ある": "existing as established industrial presence"
+    },
+    "水道": {
+      "ある": "infrastructure presence or availability state",
+      "使う": "utilizing municipal water infrastructure service"
+    },
+    "湯": {
+      "ある": "hot water supply existing/being available",
+      "飲む": "consuming heated liquid for medicinal purposes"
+    },
+    "台風": {
+      "ある": "natural phenomenon's occurrence or presence",
+      "来る": "Weather system approaching or arriving"
+    },
+    "熱": {
+      "ある": "possessing fever; having body temperature elevation",
+      "出る": "fever emerging from body condition"
+    },
+    "草": {
+      "ある": "growing naturally in a location",
+      "切る": "severing vegetation with blade action"
+    },
+    "お祭り": {
+      "ある": "event existence or scheduled occurrence",
+      "行く": "traveling to attend festive event"
+    },
+    "展覧会": {
+      "ある": "scheduled existence as upcoming event",
+      "行く": "traveling to attend cultural venue"
+    },
+    "留守": {
+      "ある": "state of nobody being home"
+    },
+    "火事": {
+      "ある": "occurrence existence of fire incident",
+      "起きる": "Fire outbreak or spontaneous occurrence"
+    },
+    "お釣り": {
+      "ある": "existence state of money returned",
+      "もらう": "accepting money back from transaction"
+    },
+    "贈り物": {
+      "ある": "possessing/having a gift received",
+      "もらう": "grateful acceptance of given items"
+    },
+    "特急": {
+      "ある": "scheduled existence of train service",
+      "乗る": "boarding fast rail transportation"
+    },
+    "泥棒": {
+      "ある": "occurrence or presence of criminal intrusion",
+      "入る": "unlawful intrusion into premises"
+    },
+    "天気予報": {
+      "ある": "existence of scheduled broadcast information",
+      "見る": "viewing broadcast information for planning",
+      "聞く": "receiving broadcast information aurally"
+    },
+    "引き出し": {
+      "ある": "possessing resourcefulness or mental reserves",
+      "開ける": "pulling out to access contents",
+      "閉める": "Sealing shut a sliding compartment"
+    },
+    "畳": {
+      "ある": "existing as room flooring feature"
+    },
+    "棚": {
+      "ある": "existing state of inanimate furniture object"
+    },
+    "本棚": {
+      "ある": "inanimate object's state of existence"
+    },
+    "ポケット": {
+      "ある": "having built-in existence as feature"
+    },
+    "曇り": {
+      "ある": "weather condition's natural existence state"
+    },
+    "式": {
+      "ある": "existence of mathematical relationship"
+    },
+    "忘れ物": {
+      "ある": "existence state of forgotten items"
+    },
+    "押し入れ": {
+      "ある": "spatial existence state in dwelling"
+    },
+    "講堂": {
+      "ある": "facility's physical presence or location"
+    },
+    "以上": {
+      "ある": "existence meeting minimum threshold condition"
+    },
+    "以下": {
+      "ある": "existence state within specified limit"
+    },
+    "以外": {
+      "ある": "existence state beyond exclusion boundary"
+    },
+    "以内": {
+      "ある": "existing within specified boundary or limit"
+    },
+    "日曜日": {
+      "ある": "temporal existence in weekly cycle",
+      "来る": "temporal arrival and recurrence of day"
+    },
+    "月曜日": {
+      "ある": "scheduled occurrence or presence state",
+      "来る": "temporal arrival of scheduled day"
+    },
+    "火曜日": {
+      "ある": "temporal occurrence or scheduled presence",
+      "来る": "temporal arrival and occurrence action"
+    },
+    "水曜日": {
+      "ある": "existence of scheduled event or occurrence",
+      "来る": "temporal arrival of a day"
+    },
+    "木曜日": {
+      "ある": "temporal existence of scheduled occurrence",
+      "来る": "temporal arrival of a scheduled day"
+    },
+    "金曜日": {
+      "ある": "temporal existence of upcoming weekday",
+      "来る": "temporal arrival of awaited day"
+    },
+    "土曜日": {
+      "ある": "temporal existence in calendar schedule",
+      "来る": "temporal arrival and approach action"
+    },
+    "わけ": {
+      "ある": "reason or circumstance exists naturally"
+    },
+    "うち": {
+      "ある": "possessing property; owning residential structure",
+      "行く": "moving toward someone's residence"
+    },
+    "別": {
+      "ある": "difference existing as reality"
+    },
+    "おかげ": {
+      "ある": "grace exists enabling fortunate outcome"
+    },
+    "一杯": {
+      "ある": "having sufficient quantity to fill",
+      "食べる": "consuming a bowlful of food",
+      "飲む": "consuming a full beverage serving"
+    },
+    "久しぶり": {
+      "ある": "existence of a time gap"
+    },
+    "両方": {
+      "ある": "possessing dual existence or presence"
+    },
+    "タイプ": {
+      "ある": "existence of one's romantic preference"
+    },
+    "倍": {
+      "ある": "existence of multiplied quantity or difference"
+    },
+    "終わり": {
+      "ある": "existence state of conclusion/termination"
+    },
+    "割合": {
+      "ある": "existing as a measurable proportion",
+      "多い": "high frequency or large proportion",
+      "少ない": "low in statistical frequency"
+    },
+    "一つ": {
+      "ある": "existence state of singular entity"
+    },
+    "二つ": {
+      "ある": "existence state of dual quantity"
+    },
+    "三つ": {
+      "ある": "existence state of multiple things"
+    },
+    "四つ": {
+      "ある": "existence state of quadruple items"
+    },
+    "五つ": {
+      "ある": "possessing or having five items"
+    },
+    "六つ": {
+      "ある": "existing at age six years"
+    },
+    "七つ": {
+      "ある": "existing as a count or age"
+    },
+    "八つ": {
+      "ある": "existing at eight years of age"
+    },
+    "九つ": {
+      "ある": "possessing nine items or years existing"
+    },
+    "台": {
+      "ある": "presence of furniture or equipment"
+    },
+    "番": {
+      "ある": "having one's designated turn exist"
+    },
+    "ため": {
+      "ある": "existence of beneficial purpose or value"
+    },
+    "テーブル": {
+      "ある": "inanimate object's stationary existence at location"
+    },
+    "灰皿": {
+      "ある": "stationary object's presence at location"
+    },
+    "カーテン": {
+      "ある": "presence or equipped state of furnishing"
+    },
+    "ステレオ": {
+      "ある": "inanimate object's state of existence"
+    },
+    "戸": {
+      "ある": "existence or presence at location"
+    },
+    "レジ": {
+      "ある": "located/present existence at store location"
+    },
+    "けが": {
+      "ある": "possessing/having injury state on body"
+    },
+    "ひげ": {
+      "ある": "natural presence state of facial hair"
+    },
+    "０": {
+      "ある": "existence state of nothing quantity"
+    },
+    "零": {
+      "ある": "state of existing or possessing something"
+    },
+    "１００": {
+      "ある": "possessing a quantity of hundred"
+    },
+    "メートル": {
+      "ある": "measurement distance existing between points"
+    },
+    "グラム": {
+      "ある": "possessing measurable weight or mass"
+    },
+    "大人": {
+      "なる": "transitioning into maturity stage"
+    },
+    "先生": {
+      "なる": "transformation into professional educator role",
+      "来る": "arrival for instruction or guidance",
+      "聞く": "seeking knowledge or advice from authority",
+      "呼ぶ": "summoning someone by title or name",
+      "怒る": "disciplinary anger response from authority figure",
+      "会う": "Scheduled appointment encounter for guidance",
+      "厳しい": "Demanding high standards and discipline",
+      "いい": "possessing skillful, admirable teaching qualities",
+      "新しい": "Recently appointed or unfamiliar instructor",
+      "面白い": "engaging teaching style that captivates students",
+      "若い": "Early-career educator with fresh energy",
+      "優しい": "showing warm, caring teaching manner",
+      "親切": "showing helpful warmth toward students",
+      "熱心": "passionate dedication to teaching students"
+    },
+    "友達": {
+      "遊ぶ": "spending leisure time together socially",
+      "会う": "Social gathering action with companions",
+      "なる": "forming bond transformation into companion",
+      "来る": "Friend arriving to visit you",
+      "作る": "Actively building new social connections",
+      "呼ぶ": "Summoning someone to gather or join",
+      "合う": "harmonizing personalities through compatible connection",
+      "待つ": "anticipating arrival of your companion",
+      "起こす": "Waking someone from sleep physically",
+      "集まる": "Friends coming together in one place",
+      "別れる": "ending a friendship through separation",
+      "連れる": "bringing companion to another location",
+      "迎える": "going out to greet arriving companion",
+      "頼む": "Seeking favor or assistance from companion",
+      "いい": "having positive, harmonious relationship quality",
+      "新しい": "recently acquired companion status",
+      "古い": "long-lasting friendship bond quality",
+      "優しい": "showing warmth and caring nature",
+      "大切": "valued deeply in one's heart"
+    },
+    "医者": {
+      "なる": "achieving medical professional status through training",
+      "見る": "getting medical examination or consultation",
+      "呼ぶ": "Summoning medical help when needed"
+    },
+    "最後": {
+      "なる": "reaching the final point transition"
+    },
+    "最初": {
+      "なる": "reaching the initial state or position"
+    },
+    "始め": {
+      "なる": "transitioning into initial phase state"
+    },
+    "お金持ち": {
+      "なる": "achieving wealth status transformation"
+    },
+    "二十歳": {
+      "なる": "reaching adulthood milestone transition"
+    },
+    "一番": {
+      "なる": "reaching top position transformation"
+    },
+    "スポーツ": {
+      "できる": "having athletic capability or skill",
+      "やる": "casual engagement in athletic activities",
+      "なさる": "Respectfully performing athletic activities",
+      "好き": "having fondness for athletic activities",
+      "上手": "having athletic ability and talent",
+      "下手": "lacking athletic skill or ability",
+      "盛ん": "actively flourishing with widespread participation"
+    },
+    "運転": {
+      "できる": "having capability/license to operate machinery"
+    },
+    "気持ち": {
+      "思う": "mentally considering what someone feels",
+      "わかる": "empathetically grasping someone's inner feelings",
+      "変わる": "emotional state undergoes transformation",
+      "伝える": "expressing inner emotions to others",
+      "いい": "pleasant, positive emotional state quality",
+      "同じ": "shared emotional state; mutual understanding",
+      "大丈夫": "emotionally reassured and mentally settled state",
+      "嬉しい": "positive emotional state of joy",
+      "辛い": "painful, difficult emotional state",
+      "暖かい": "heartwarming emotional quality, gentle kindness",
+      "重い": "weighty oppressive emotional burden quality",
+      "軽い": "unburdened, carefree emotional state quality",
+      "恥ずかしい": "feeling socially exposed or humiliated",
+      "寂しい": "isolated emotional state without connection",
+      "残念": "disappointment felt when hopes weren't met",
+      "悲しい": "emotionally heavy, grief-tinged inner state",
+      "複雑": "Tangled, conflicting emotions intertwined together"
+    },
+    "意見": {
+      "思う": "internal mental formation of viewpoint",
+      "言う": "Verbally expressing one's viewpoint outward",
+      "違う": "opinions diverge or clash between people",
+      "持つ": "possessing a viewpoint internally",
+      "聞く": "Receptively gathering someone's viewpoint",
+      "合う": "opinions reaching alignment or consensus",
+      "変える": "revising one's viewpoint or stance",
+      "同じ": "matching viewpoints in agreement",
+      "正しい": "being accurate or morally sound judgment"
+    },
+    "言葉": {
+      "言う": "Verbalizing specific words or phrases",
+      "覚える": "committing words/phrases to memory retention",
+      "使う": "employing language as communication tool",
+      "返す": "Giving verbal response back conversationally",
+      "調べる": "researching meaning or usage systematically",
+      "話す": "Using language through vocal expression",
+      "伝える": "passing meaning through speech to others",
+      "おっしゃる": "respectful utterance of words by superior",
+      "丁寧": "Respectful and careful speech manner"
+    },
+    "名前": {
+      "覚える": "committing someone's name to memory",
+      "言う": "vocally stating one's identity label",
+      "呼ぶ": "vocally addressing someone by their name",
+      "つける": "bestowing or assigning identity action",
+      "知る": "being aware of someone's identity",
+      "書く": "inscribing identity in characters",
+      "忘れる": "losing recall of someone's identifier",
+      "思い出す": "retrieving forgotten identity from memory",
+      "申す": "Humbly stating one's own name",
+      "珍しい": "uncommon or distinctive in naming"
+    },
+    "一": {
+      "言う": "verbal expression of single utterance",
+      "書く": "Creating a single stroke or character"
+    },
+    "二": {
+      "言う": "Expressing dual perspectives or alternatives verbally",
+      "書く": "Creating numerical symbols on surface"
+    },
+    "三": {
+      "言う": "verbal emphasis through triple repetition",
+      "書く": "forming strokes to create character"
+    },
+    "四": {
+      "言う": "Verbal expression meaning \"no way!\" or complaint",
+      "書く": "Creating characters with strokes and lines"
+    },
+    "五": {
+      "言う": "verbal expression of numerical complaint",
+      "書く": "Drawing strokes to form this numeral"
+    },
+    "六": {
+      "言う": "vocalizing difficult or complaining words",
+      "書く": "Creating written representation of numerals"
+    },
+    "七": {
+      "言う": "verbal expression of this lucky number",
+      "書く": "Creating written representation of numeric symbol"
+    },
+    "八": {
+      "言う": "expressing strong emotion or complaint",
+      "書く": "Creating written representation of numerical symbol"
+    },
+    "九": {
+      "言う": "verbal expression of something additional",
+      "書く": "inscribing numerical symbols or characters"
+    },
+    "十": {
+      "言う": "Verbally expressing counted quantities or numbers",
+      "書く": "inscribing numerical symbols or characters"
+    },
+    "プレゼント": {
+      "もらう": "receiving something given to you",
+      "包む": "covering gift in decorative paper",
+      "差し上げる": "Humbly offering upward with respect",
+      "くれる": "receiving-focused giving action toward me",
+      "送る": "delivering a gift remotely",
+      "喜ぶ": "emotional reaction upon receiving gift",
+      "いただく": "Humbly receiving with gratitude and respect",
+      "渡す": "hand over from giver to receiver",
+      "くださる": "Honorific receiving from superior's generosity",
+      "届ける": "Physically transporting gift to recipient",
+      "特別": "meaningful beyond ordinary gift-giving",
+      "嬉しい": "feeling joy from receiving it"
+    },
+    "お土産": {
+      "くれる": "receiving a gift from someone",
+      "買う": "acquiring gifts for others back home",
+      "もらう": "gratefully accepting a travel gift"
+    },
+    "宿題": {
+      "やる": "Casually completing school tasks",
+      "出す": "Submitting completed work to teacher",
+      "手伝う": "providing support with someone's schoolwork"
+    },
+    "レストラン": {
+      "行く": "traveling to dining establishment",
+      "働く": "providing labor service at establishment",
+      "安い": "low-priced dining establishment quality",
+      "おいしい": "having delicious food quality served",
+      "いい": "having excellent quality or atmosphere",
+      "高い": "expensive in price, upscale dining",
+      "有名": "widely recognized for dining reputation"
+    },
+    "映画館": {
+      "行く": "traveling to entertainment destination"
+    },
+    "病院": {
+      "行く": "traveling for medical treatment or checkup",
+      "働く": "performing employment duties at medical facility",
+      "通う": "regularly visiting back and forth for treatment",
+      "勤める": "professional employment at medical institution"
+    },
+    "銀行": {
+      "行く": "traveling to conduct financial business",
+      "勤める": "professional employment at an institution"
+    },
+    "図書館": {
+      "行く": "traveling to a destination facility",
+      "静か": "hushed atmosphere for focused studying"
+    },
+    "海": {
+      "泳ぐ": "Moving through water with body strokes",
+      "行く": "traveling toward coastal waters destination",
+      "見る": "Gazing upon vast water expanse",
+      "見える": "visible from a distance or location",
+      "渡る": "traversing vast waters to distant shores",
+      "青い": "vast color stretching to horizon",
+      "深い": "having profound vertical distance downward",
+      "美しい": "Visually stunning and pristine quality",
+      "きれい": "visually clear and unpolluted state",
+      "広い": "stretching endlessly across horizons",
+      "浅い": "Having limited depth for wading safely"
+    },
+    "山": {
+      "上る": "upward climbing movement toward summit",
+      "行く": "journey towards elevated natural terrain",
+      "見える": "visible from a distance naturally",
+      "高い": "Having elevated peak measurement",
+      "美しい": "scenic natural grandeur quality",
+      "低い": "having modest elevation or height"
+    },
+    "外国": {
+      "行く": "traveling movement to another nation"
+    },
+    "市": {
+      "行く": "traveling to urban destination"
+    },
+    "村": {
+      "行く": "traveling to a rural destination"
+    },
+    "島": {
+      "行く": "traveling to a destination place"
+    },
+    "トイレ": {
+      "行く": "movement toward facility for bodily needs",
+      "入る": "physically going inside the facility"
+    },
+    "スーパー": {
+      "行く": "traveling to a shopping destination"
+    },
+    "教会": {
+      "行く": "traveling to worship location"
+    },
+    "動物園": {
+      "行く": "traveling to visit a place"
+    },
+    "神社": {
+      "行く": "visiting a sacred place action"
+    },
+    "高校": {
+      "行く": "attending as a student regularly",
+      "入る": "becoming a student through enrollment action"
+    },
+    "大学": {
+      "行く": "movement towards educational institution for attendance",
+      "入る": "gaining admission and enrolling action",
+      "通う": "regular back-and-forth attendance action",
+      "有名": "having prestigious reputation and recognition"
+    },
+    "小学校": {
+      "行く": "attending as a young student"
+    },
+    "教室": {
+      "行く": "moving toward learning destination",
+      "入る": "Moving into a learning space"
+    },
+    "事務所": {
+      "行く": "Physical movement towards workplace destination"
+    },
+    "会場": {
+      "行く": "traveling to attend an event location",
+      "入る": "passing through entrance to venue"
+    },
+    "森": {
+      "行く": "movement toward natural wooded destination",
+      "見る": "observing nature's dense woodland scenery"
+    },
+    "近所": {
+      "行く": "local area movement for errands"
+    },
+    "研究室": {
+      "行く": "directional movement to workspace destination"
+    },
+    "会議室": {
+      "行く": "moving toward a meeting location"
+    },
+    "駐車場": {
+      "行く": "traveling motion toward parking destination"
+    },
+    "池": {
+      "行く": "traveling to water destination spot",
+      "見る": "observing scenic water feature visually"
+    },
+    "港": {
+      "行く": "traveling toward waterfront destination"
+    },
+    "庭": {
+      "行く": "moving outward into outdoor space",
+      "見る": "observing scenery for appreciation or inspection"
+    },
+    "郵便局": {
+      "行く": "moving toward a service destination"
+    },
+    "喫茶店": {
+      "行く": "traveling to a destination establishment"
+    },
+    "食堂": {
+      "行く": "moving toward eating location"
+    },
+    "美術館": {
+      "行く": "traveling to visit cultural destination"
+    },
+    "デパート": {
+      "行く": "traveling to shopping destination"
+    },
+    "北": {
+      "行く": "directional movement towards cardinal point"
+    },
+    "南": {
+      "行く": "directional movement toward warmer region"
+    },
+    "東": {
+      "行く": "moving in eastward direction"
+    },
+    "西": {
+      "行く": "Moving toward westward direction"
+    },
+    "アメリカ": {
+      "行く": "Travel movement toward distant destination"
+    },
+    "先": {
+      "行く": "moving forward towards what's ahead"
+    },
+    "アジア": {
+      "行く": "traveling/moving to distant destination"
+    },
+    "アフリカ": {
+      "行く": "travel movement toward distant destination"
+    },
+    "西洋": {
+      "行く": "traveling westward to foreign lands"
+    },
+    "中学校": {
+      "行く": "attending as a student regularly"
+    },
+    "飛行場": {
+      "行く": "traveling toward the aviation facility"
+    },
+    "ガソリンスタンド": {
+      "行く": "traveling to refuel destination"
+    },
+    "お手洗い": {
+      "行く": "moving towards facilities for bodily needs"
+    },
+    "床屋": {
+      "行く": "traveling to service location for grooming"
+    },
+    "八百屋": {
+      "行く": "traveling to shop destination for produce"
+    },
+    "歯医者": {
+      "行く": "traveling to professional appointment location"
+    },
+    "コンサート": {
+      "行く": "traveling to attend the event"
+    },
+    "大使館": {
+      "行く": "traveling to official diplomatic building"
+    },
+    "お見舞い": {
+      "行く": "traveling to visit the sick"
+    },
+    "明後日": {
+      "行く": "moving forward through calendar time",
+      "来る": "temporal arrival and approach action"
+    },
+    "講義": {
+      "行く": "physically traveling to attend sessions"
+    },
+    "映画": {
+      "見る": "active visual consumption of motion pictures",
+      "ご覧になる": "respectful viewing of visual entertainment",
+      "終わる": "reaches its final scene conclusion",
+      "始まる": "screening commences at scheduled time",
+      "見せる": "Presenting visual content to others",
+      "撮る": "capturing scenes to create cinema",
+      "面白い": "engaging entertainment quality that captivates viewers",
+      "怖い": "causing fear and tension sensations",
+      "好き": "having personal affection toward films",
+      "すごい": "remarkably intense or outstanding quality",
+      "つまらない": "lacking entertainment value or engagement",
+      "素晴らしい": "exceptional quality that deeply impresses viewers",
+      "悲しい": "evoking sorrowful emotions through storyline"
+    },
+    "テレビ": {
+      "見る": "Visual attention to broadcast content",
+      "ご覧になる": "polite viewing of broadcast content",
+      "つける": "activating electronic device for viewing",
+      "消す": "Powering down electronic device action"
+    },
+    "写真": {
+      "見る": "viewing captured visual moments",
+      "取る": "capturing images with camera action",
+      "見せる": "revealing images to another person",
+      "撮る": "capturing visual moments through camera",
+      "ご覧になる": "Respectfully viewing visual images",
+      "写す": "capturing image onto medium/film",
+      "送る": "transmitting images to distant recipients"
+    },
+    "景色": {
+      "見る": "visually taking in natural views",
+      "見える": "landscape appears naturally to vision",
+      "美しい": "Visually pleasing natural or panoramic quality",
+      "きれい": "visually pleasing aesthetic quality of views",
+      "素晴らしい": "breathtaking visual beauty that inspires awe",
+      "すごい": "breathtakingly impressive visual impact"
+    },
+    "夢": {
+      "見る": "experiencing nighttime mental visions",
+      "怖い": "having disturbing nightmare quality"
+    },
+    "ニュース": {
+      "見る": "Visual consumption of broadcast information",
+      "聞く": "Receiving broadcast information through listening",
+      "喜ぶ": "emotional response to positive information",
+      "驚く": "Reacting with shock to unexpected information",
+      "知らせる": "actively conveying information to others",
+      "嬉しい": "bringing joy or positive emotion",
+      "残念": "disappointing nature of unwelcome information"
+    },
+    "空": {
+      "曇る": "becoming obscured by cloud cover",
+      "見る": "Gazing upward to observe weather/scenery",
+      "見える": "visible appearance revealing weather conditions",
+      "晴れる": "weather transition to cloudless brightness",
+      "暮れる": "darkening transition from day to night",
+      "青い": "Clear azure quality of ideal skies",
+      "美しい": "Visually striking aesthetic quality overhead",
+      "きれい": "visually clear and pollution-free quality"
+    },
+    "月": {
+      "見る": "Gazing upward at celestial beauty"
+    },
+    "番組": {
+      "見る": "viewing broadcast content action"
+    },
+    "ページ": {
+      "見る": "viewing written or digital content"
+    },
+    "地図": {
+      "見る": "consulting visual reference for navigation"
+    },
+    "鏡": {
+      "見る": "gazing into reflective surface action"
+    },
+    "雲": {
+      "見る": "observing skyward visual phenomenon"
+    },
+    "右": {
+      "曲がる": "changing direction toward right side",
+      "見る": "directional gaze or observation action"
+    },
+    "左": {
+      "曲がる": "changing direction toward the left side",
+      "見る": "directing gaze toward left side"
+    },
+    "周り": {
+      "見る": "surveying one's surroundings or environment"
+    },
+    "物": {
+      "見る": "Visual inspection or evaluation action"
+    },
+    "スクリーン": {
+      "見る": "Viewing projected content or display"
+    },
+    "踊り": {
+      "見る": "spectating a performance as audience",
+      "習う": "formal instruction-receiving action for skill acquisition"
+    },
+    "ドア": {
+      "開ける": "unsealing barrier for passage through",
+      "閉める": "deliberately securing an opening shut",
+      "開く": "creating passage by unsealing entrance",
+      "閉まる": "barrier automatically completing its seal",
+      "しまう": "closing action to seal opening",
+      "押す": "applying force to open outward",
+      "引く": "pulling motion to open inward",
+      "締める": "securing closure by pulling tight"
+    },
+    "窓": {
+      "開ける": "allowing air and light entry action",
+      "閉める": "shutting to seal or secure opening",
+      "閉まる": "becoming sealed or shut automatically",
+      "しまう": "closing action to seal shut",
+      "開く": "allowing air and light passage inward",
+      "締める": "securing shut for closure or safety"
+    },
+    "文化": {
+      "違う": "showing distinct cultural characteristics between groups"
+    },
+    "意味": {
+      "わかる": "mentally grasping significance or sense",
+      "考える": "contemplating deeper significance intellectually",
+      "知る": "grasping significance through awareness",
+      "調べる": "searching for definitional understanding",
+      "深い": "profound significance with layered understanding"
+    },
+    "本当": {
+      "わかる": "grasping what's genuinely true",
+      "知る": "becoming aware of actual facts"
+    },
+    "語": {
+      "わかる": "comprehending communication meaning mentally",
+      "知る": "having awareness or familiarity with a language",
+      "話す": "vocal production of a language",
+      "好き": "preferred for communication or affection"
+    },
+    "法律": {
+      "わかる": "grasping legal concepts and provisions"
+    },
+    "経済": {
+      "わかる": "grasping complex financial systems intellectually"
+    },
+    "政治": {
+      "わかる": "grasping complex political systems and workings",
+      "話す": "Engaging in discussion about governmental matters"
+    },
+    "科学": {
+      "わかる": "grasping scientific principles and concepts",
+      "好き": "having passionate fondness for subject"
+    },
+    "方": {
+      "わかる": "cognitive grasp of method or manner",
+      "知る": "becoming acquainted with a person",
+      "教える": "Instructing someone on proper method"
+    },
+    "医学": {
+      "わかる": "grasping complex medical knowledge cognitively",
+      "知る": "possessing awareness of medical knowledge/field",
+      "教える": "instructing medical knowledge and practice"
+    },
+    "文法": {
+      "わかる": "mentally grasping rule systems clearly",
+      "知る": "cognitive awareness of language rules",
+      "教える": "Knowledge transfer action for language rules"
+    },
+    "地理": {
+      "わかる": "cognitively grasping spatial knowledge",
+      "知る": "possessing mental awareness of spatial knowledge",
+      "教える": "instructing knowledge of places and terrain"
+    },
+    "血": {
+      "出る": "flowing out from body wound"
+    },
+    "風呂": {
+      "出る": "finishing bathing and exiting",
+      "入る": "Getting into water for bathing",
+      "浴びる": "entering and immersing in bathing space"
+    },
+    "お風呂": {
+      "出る": "Exiting the bathing space after finishing",
+      "入る": "Physical immersion into bathing space"
+    },
+    "お金": {
+      "使う": "spending or deploying financial resources",
+      "かかる": "resource expenditure requirement action",
+      "借りる": "temporary acquisition with repayment obligation",
+      "貸す": "temporarily transferring with expectation of return",
+      "返す": "Repaying borrowed funds action",
+      "払う": "transferring money to settle obligation",
+      "足りる": "reaching adequate amount for needs",
+      "持つ": "possessing or carrying wealth physically",
+      "出す": "Retrieving from container for payment",
+      "もらう": "acquiring funds from another party",
+      "入れる": "depositing or inserting funds action",
+      "取る": "Acquiring through effort or transaction",
+      "かける": "investing or allocating funds toward something",
+      "送る": "transferring funds to another person",
+      "落とす": "accidentally losing through careless dropping",
+      "拾う": "finding dropped currency from ground",
+      "集める": "accumulating funds systematically over time",
+      "困る": "financial hardship distress state",
+      "増える": "growing or multiplying in amount naturally",
+      "残る": "still present after spending or use",
+      "なくなる": "depleting or running out completely",
+      "渡す": "physically transferring into someone's possession",
+      "なくす": "misplacing through carelessness or accident",
+      "盗む": "Unlawfully taking without permission or right",
+      "必要": "required for achieving something essential",
+      "欲しい": "craving financial resources you lack",
+      "少ない": "insufficient funds financial constraint quality",
+      "十分": "having adequate amount for needs",
+      "細かい": "broken into coins and small bills"
+    },
+    "パソコン": {
+      "使う": "operating a tool for tasks",
+      "壊れる": "mechanical malfunction or damage occurring",
+      "直る": "malfunction spontaneously resolving to working condition",
+      "新しい": "Recently acquired or latest model quality"
+    },
+    "電話": {
+      "使う": "operating the device as tool",
+      "かかる": "requiring time/money resource investment",
+      "答える": "responding to incoming call action",
+      "切る": "Severing the connection to end call",
+      "鳴る": "device produces incoming call sound",
+      "話す": "engaging in conversation through telephone",
+      "急": "urgent unplanned call requiring immediate response"
+    },
+    "道具": {
+      "使う": "employing instruments for practical purposes",
+      "役に立つ": "fulfilling its functional purpose effectively",
+      "便利": "Makes tasks easier and efficient"
+    },
+    "英語": {
+      "使う": "employing a language for communication",
+      "教える": "instructing knowledge transfer of language",
+      "習う": "receiving formal instruction from teacher",
+      "話す": "oral language communication ability action"
+    },
+    "箸": {
+      "使う": "employing utensils for eating action"
+    },
+    "電車": {
+      "乗る": "boarding transportation as passenger",
+      "降りる": "exiting vehicle at destination stop",
+      "乗り換える": "switching between lines or vehicles",
+      "使う": "utilizing as transportation method",
+      "走る": "moving along tracks in operation",
+      "待つ": "Staying stationary until arrival occurs",
+      "止まる": "ceasing motion at station or track",
+      "間に合う": "arriving before departure time action",
+      "遅れる": "falling behind scheduled arrival time",
+      "揺れる": "rhythmic swaying motion during transit",
+      "込む": "packed with passengers state",
+      "早い": "having quick arrival/departure timing",
+      "狭い": "lacking personal space during commute",
+      "遅い": "behind schedule, crawling pace transit"
+    },
+    "コンピュータ": {
+      "使う": "operating technology for tasks and functions",
+      "買う": "acquiring through commercial transaction or payment"
+    },
+    "テープ": {
+      "使う": "employing adhesive tool for purpose",
+      "買う": "acquiring supplies through commercial transaction"
+    },
+    "ナイフ": {
+      "使う": "employing a tool for its cutting purpose",
+      "買う": "acquiring cutlery through commercial transaction"
+    },
+    "フォーク": {
+      "使う": "employing utensil for eating action",
+      "買う": "acquiring utensil through commercial transaction"
+    },
+    "消しゴム": {
+      "使う": "employing a tool for correction"
+    },
+    "万年筆": {
+      "使う": "employing a tool with technique",
+      "買う": "acquiring a quality writing instrument"
+    },
+    "ワープロ": {
+      "使う": "Operating a tool for typing documents",
+      "買う": "acquiring technology through commercial transaction"
+    },
+    "石鹸": {
+      "使う": "applying cleansing agent for washing",
+      "買う": "acquiring household necessities through commerce"
+    },
+    "スプーン": {
+      "使う": "employing utensil for its intended purpose",
+      "買う": "acquiring utensil through commercial transaction"
+    },
+    "糸": {
+      "使う": "employing material for crafting or sewing",
+      "買う": "acquiring crafting/sewing material commercially"
+    },
+    "味噌": {
+      "使う": "employing condiment in cooking preparation",
+      "買う": "acquiring staple condiment through commerce"
+    },
+    "茶碗": {
+      "使う": "employing tableware for its intended purpose",
+      "買う": "acquiring household dishware through purchase",
+      "洗う": "cleaning dishes after mealtime ritual"
+    },
+    "字引": {
+      "使う": "reference tool consultation action",
+      "買う": "acquiring reference material through purchase"
+    },
+    "客": {
+      "来る": "arrival movement of visitors/patrons",
+      "迎える": "Going out to greet arriving visitors"
+    },
+    "手紙": {
+      "書く": "composing correspondence with pen or brush",
+      "送る": "Dispatching written correspondence to recipient",
+      "来る": "arriving in the mail delivery",
+      "出す": "sending correspondence into postal system",
+      "もらう": "passive acquisition of written correspondence",
+      "読む": "processing written correspondence content",
+      "見せる": "revealing written correspondence to others",
+      "答える": "responding to written correspondence",
+      "返す": "Reciprocating written correspondence action",
+      "渡す": "physically transferring correspondence to recipient",
+      "届ける": "ensuring correspondence reaches its destination"
+    },
+    "季節": {
+      "来る": "temporal arrival of cyclical period",
+      "変わる": "Natural transition through yearly cycles"
+    },
+    "春": {
+      "来る": "seasonal arrival through natural progression",
+      "暖かい": "pleasant temperature quality of season"
+    },
+    "明日": {
+      "来る": "temporal arrival and approaching action",
+      "始まる": "when a future time period commences",
+      "起きる": "awakening action into a new day"
+    },
+    "今日": {
+      "来る": "temporal arrival reaching present moment",
+      "終わる": "reaches its conclusion, day closes",
+      "始まる": "commencing point of this day's events",
+      "起きる": "event occurrence or happening action"
+    },
+    "昨日": {
+      "来る": "temporal arrival from past point",
+      "起きる": "event or incident occurrence action"
+    },
+    "来年": {
+      "来る": "temporal arrival and approach action",
+      "始まる": "temporal period commences naturally"
+    },
+    "来週": {
+      "来る": "temporal arrival and approaching action",
+      "始まる": "temporal commencement of scheduled events"
+    },
+    "来月": {
+      "来る": "temporal arrival and approaching action"
+    },
+    "今度": {
+      "来る": "temporal arrival into next occasion"
+    },
+    "おじさん": {
+      "来る": "visitor arrival of male relative"
+    },
+    "おばさん": {
+      "来る": "visiting arrival of family member"
+    },
+    "お姉さん": {
+      "来る": "arrival movement toward speaker's location"
+    },
+    "お兄さん": {
+      "来る": "arrival of family member to location"
+    },
+    "おじいさん": {
+      "来る": "visiting arrival of elder relative"
+    },
+    "おばあさん": {
+      "来る": "Visiting arrival of elder relative"
+    },
+    "今": {
+      "来る": "temporal arrival at present moment"
+    },
+    "次": {
+      "来る": "temporal arrival of subsequent moment"
+    },
+    "今朝": {
+      "来る": "temporal arrival of morning period",
+      "食べる": "consuming food during morning timeframe",
+      "起きる": "emerging from sleep into morning"
+    },
+    "今晩": {
+      "来る": "temporal arrival and progression action",
+      "食べる": "consuming food during evening time",
+      "寝る": "nighttime rest action you plan for"
+    },
+    "大勢": {
+      "来る": "mass arrival movement toward location"
+    },
+    "星": {
+      "見える": "celestial body becoming visible naturally",
+      "光る": "emitting celestial light in darkness"
+    },
+    "将来": {
+      "考える": "contemplating what lies ahead thoughtfully"
+    },
+    "パン": {
+      "食べる": "consuming solid food by mouth",
+      "作る": "craft from flour through baking process",
+      "買う": "acquiring baked goods commercially",
+      "切る": "Slicing through for portions or sandwiches",
+      "焼く": "heating dough into edible bread",
+      "焼ける": "becoming cooked through heat transformation",
+      "柔らかい": "fresh texture quality indicating good bread",
+      "硬い": "stale or tough texture quality"
+    },
+    "お菓子": {
+      "食べる": "consuming sweet treats for enjoyment",
+      "作る": "preparing sweets from scratch or recipe",
+      "甘い": "having sugary taste characteristic of treats"
+    },
+    "ケーキ": {
+      "食べる": "consuming sweet food item through mouth",
+      "作る": "Crafting baked goods from ingredients",
+      "焼く": "heating batter into baked dessert",
+      "甘い": "having pleasurable sugar taste quality"
+    },
+    "朝ご飯": {
+      "作る": "preparing food from ingredients action",
+      "食べる": "consuming a meal, especially morning"
+    },
+    "昼ご飯": {
+      "作る": "preparing food from ingredients action"
+    },
+    "夕飯": {
+      "食べる": "consuming the evening meal ritual",
+      "作る": "preparing food from ingredients action"
+    },
+    "お弁当": {
+      "作る": "preparing packed lunch from ingredients",
+      "食べる": "consuming prepared boxed meal"
+    },
+    "サラダ": {
+      "作る": "preparing food by combining ingredients",
+      "食べる": "consuming food through chewing and swallowing"
+    },
+    "力": {
+      "持つ": "possessing inherent strength or capability",
+      "すごい": "impressive magnitude of power/ability",
+      "強い": "possessing potent intensity of capability",
+      "弱い": "lacking potency or forceful impact"
+    },
+    "傘": {
+      "持つ": "carrying for weather protection readiness",
+      "借りる": "temporarily obtaining someone else's rain protection",
+      "貸す": "temporarily providing protection item to another"
+    },
+    "カメラ": {
+      "持つ": "carrying device ready for use",
+      "買う": "acquiring equipment through monetary transaction"
+    },
+    "カップ": {
+      "持つ": "grasping vessel in hand action"
+    },
+    "動物": {
+      "死ぬ": "ceasing to live, natural end",
+      "育てる": "Nurturing care from young to mature",
+      "好き": "having affectionate preference towards creatures",
+      "大好き": "strong affectionate feelings toward creatures",
+      "珍しい": "seldom-seen exotic species quality"
+    },
+    "学部": {
+      "入る": "enrolling into academic division action"
+    },
+    "新聞社": {
+      "入る": "joining as employee or member",
+      "働く": "being employed at media organization"
+    },
+    "本": {
+      "買う": "acquiring ownership through transaction",
+      "読む": "processing written text for comprehension",
+      "借りる": "Temporary acquisition from library or friend",
+      "貸す": "temporarily transferring possession to another",
+      "返す": "returning borrowed item to owner",
+      "見せる": "presenting content to others' view",
+      "開ける": "Beginning access action for reading material",
+      "選ぶ": "picking from available reading materials",
+      "置く": "positioning for later reading access",
+      "並べる": "arranging multiple volumes in ordered display",
+      "売る": "transferring ownership for profit action",
+      "開く": "spreading pages to begin reading",
+      "ご覧になる": "polite visual examination of content",
+      "面白い": "Captivating content that engages reader",
+      "好き": "having fondness for reading material",
+      "欲しい": "craving to acquire and possess",
+      "新しい": "recently published or acquired condition",
+      "安い": "low-priced for purchasing reading material",
+      "古い": "well-worn or vintage publication quality",
+      "厚い": "having substantial page count depth",
+      "薄い": "having minimal page thickness or content depth",
+      "つまらない": "lacking engaging or captivating content",
+      "やさしい": "accessible for reading comprehension level"
+    },
+    "服": {
+      "買う": "acquiring garments through transaction",
+      "洗う": "cleansing garments with water action",
+      "着る": "putting garments on your body",
+      "脱ぐ": "removing garments from body action",
+      "汚れる": "becoming soiled or stained through wear",
+      "合う": "fitting together harmoniously with body",
+      "選ぶ": "picking garments from available options",
+      "変える": "switching outfit or wardrobe transformation",
+      "売る": "commercial transfer of garments action",
+      "乾く": "Moisture evaporating after washing fabric",
+      "濡れる": "becoming damp from water contact",
+      "取り替える": "swapping outfit for another one",
+      "新しい": "recently acquired or fashionably current garments",
+      "欲しい": "desiring to acquire new garments",
+      "高い": "expensive in price or quality",
+      "安い": "Low-priced garment; budget-friendly to buy",
+      "古い": "worn through time and use",
+      "白い": "Pure, clean color appearance quality",
+      "赤い": "having crimson color appearance",
+      "青い": "Color indicating freshness or inexperience",
+      "黒い": "dark-colored garment appearance, often formal",
+      "暖かい": "providing thermal insulation comfort",
+      "軽い": "comfortable weightless fabric quality",
+      "厚い": "Heavy fabric for warmth protection",
+      "薄い": "Light fabric with minimal thickness",
+      "汚い": "soiled or stained garment condition",
+      "かわいい": "charming appearance quality in fashion"
+    },
+    "車": {
+      "買う": "acquiring ownership through major transaction",
+      "乗る": "entering and traveling in vehicle",
+      "走る": "vehicle motion along roads",
+      "洗う": "Cleaning exterior with water and soap",
+      "壊れる": "mechanical failure or malfunction state",
+      "動く": "vehicle propulsion and operational motion",
+      "止まる": "Vehicle ceasing motion, coming to halt",
+      "止める": "Halting vehicle motion or parking action",
+      "降りる": "exiting a vehicle action downward",
+      "直る": "returning to working condition spontaneously",
+      "売る": "transferring vehicle ownership for money",
+      "新しい": "recently acquired or latest model condition",
+      "多い": "High traffic density condition",
+      "欲しい": "desiring to possess or acquire",
+      "高い": "expensive in purchase price terms",
+      "大きい": "having substantial physical size or capacity",
+      "早い": "high-speed movement capability quality",
+      "古い": "aged with wear and mileage"
+    },
+    "食べ物": {
+      "食べる": "consuming nourishment through mouth",
+      "買う": "acquiring provisions for consumption",
+      "いただく": "humble consumption with gratitude",
+      "噛む": "mechanical breakdown action before swallowing",
+      "好き": "having preferred taste appeal",
+      "おいしい": "pleasing flavor quality when consumed",
+      "嫌": "Food you dislike or refuse eating",
+      "嫌い": "having distasteful aversion quality",
+      "大好き": "having strong affection toward taste"
+    },
+    "野菜": {
+      "食べる": "consuming nutritious plant-based food",
+      "漬ける": "preserving in brine or marinade",
+      "買う": "acquiring fresh produce through commerce",
+      "切る": "slicing action for cooking preparation",
+      "育てる": "Cultivating growth from seed to harvest",
+      "焼く": "cooking with dry heat application",
+      "植える": "Cultivating edible crops in soil",
+      "嫌い": "feeling aversion toward eating greens"
+    },
+    "肉": {
+      "食べる": "consuming protein through oral intake",
+      "焼く": "cooking with direct heat application",
+      "買う": "acquiring protein at the market",
+      "切る": "Slicing through fibrous tissue action",
+      "焼ける": "cooking transformation through heat application",
+      "おいしい": "pleasurable taste quality for eating",
+      "柔らかい": "tender texture, easy to chew",
+      "硬い": "tough, chewy texture quality"
+    },
+    "魚": {
+      "食べる": "consuming as food or meal",
+      "釣る": "catching with hook and line",
+      "買う": "acquiring fresh seafood for consumption",
+      "焼く": "cooking with dry heat method",
+      "捕まえる": "seizing living creature from water",
+      "おいしい": "pleasing taste quality when eaten fresh"
+    },
+    "果物": {
+      "食べる": "consuming sweet edible produce",
+      "買う": "acquiring fresh produce through transaction",
+      "甘い": "having natural sugar taste quality"
+    },
+    "靴": {
+      "脱ぐ": "removing footwear before entering indoors",
+      "履く": "putting on lower-body items action",
+      "買う": "acquiring new footwear through purchase",
+      "磨く": "Buffing leather surface to gleaming shine",
+      "高い": "expensive in price, luxury footwear",
+      "新しい": "unworn, fresh-from-store condition quality"
+    },
+    "卵": {
+      "買う": "obtaining perishable food item commercially"
+    },
+    "スーツ": {
+      "買う": "acquiring formal attire through purchase"
+    },
+    "ノート": {
+      "買う": "acquiring school supplies through transaction"
+    },
+    "鉛筆": {
+      "買う": "acquiring a writing tool commercially"
+    },
+    "ボールペン": {
+      "買う": "acquiring item through commercial transaction"
+    },
+    "辞典": {
+      "買う": "acquiring reference material for ownership"
+    },
+    "切符": {
+      "買う": "acquiring for travel or entry access"
+    },
+    "指輪": {
+      "買う": "acquiring jewelry for commitment or adornment"
+    },
+    "時計": {
+      "買う": "acquiring timepiece through monetary transaction",
+      "壊れる": "mechanical malfunction stopping timekeeping function",
+      "置く": "positioning timepiece in a location",
+      "動く": "mechanism operating, functioning timepiece action",
+      "止まる": "ceasing to function or tick",
+      "止める": "halting time's mechanical movement",
+      "鳴る": "alarm or chime sounding automatically",
+      "回る": "circular motion of hands/mechanisms"
+    },
+    "ズボン": {
+      "買う": "acquiring clothing through commercial transaction"
+    },
+    "食料品": {
+      "買う": "acquiring provisions for household consumption"
+    },
+    "バター": {
+      "買う": "acquiring grocery item through transaction",
+      "食べる": "consuming spread or ingredient orally"
+    },
+    "人形": {
+      "買う": "acquiring collectible or gift item"
+    },
+    "ペット": {
+      "買う": "acquiring a living companion commercially"
+    },
+    "洋服": {
+      "買う": "acquiring garments through commercial transaction"
+    },
+    "靴下": {
+      "買う": "Acquiring replacement garments through commerce"
+    },
+    "手袋": {
+      "買う": "acquiring winter hand protection commercially"
+    },
+    "セーター": {
+      "買う": "acquiring clothing through commercial transaction"
+    },
+    "ワイシャツ": {
+      "買う": "acquiring new clothing through commerce"
+    },
+    "下着": {
+      "買う": "acquiring personal garments commercially"
+    },
+    "オーバー": {
+      "買う": "acquiring garment through monetary transaction"
+    },
+    "上着": {
+      "買う": "acquiring new garment through purchase"
+    },
+    "背広": {
+      "買う": "acquiring formal professional attire"
+    },
+    "おもちゃ": {
+      "買う": "acquiring playthings through purchase transaction"
+    },
+    "お皿": {
+      "買う": "acquiring new tableware for household"
+    },
+    "フィルム": {
+      "買う": "acquiring photographic supply for camera"
+    },
+    "冷蔵庫": {
+      "買う": "acquiring large household appliance"
+    },
+    "レコード": {
+      "買う": "acquiring music media through purchase"
+    },
+    "カレンダー": {
+      "買う": "Acquiring new year's date tracker"
+    },
+    "アクセサリー": {
+      "買う": "Acquiring fashion adornments through purchase"
+    },
+    "ジャム": {
+      "買う": "acquiring store product for consumption",
+      "食べる": "consuming sweet spread with food"
+    },
+    "たばこ": {
+      "買う": "acquiring tobacco products at retail"
+    },
+    "封筒": {
+      "買う": "acquiring stationery supplies for mailing purposes"
+    },
+    "かばん": {
+      "買う": "acquiring new carrier through transaction"
+    },
+    "スーツケース": {
+      "買う": "acquiring luggage for travel needs"
+    },
+    "ＦＡＸ": {
+      "買う": "acquiring office equipment for ownership"
+    },
+    "電灯": {
+      "買う": "acquiring electrical fixture for installation"
+    },
+    "ハンカチ": {
+      "買う": "acquiring through commercial transaction"
+    },
+    "ストーブ": {
+      "買う": "acquiring appliance through commercial transaction"
+    },
+    "絹": {
+      "買う": "acquiring luxury fabric through commerce"
+    },
+    "品物": {
+      "買う": "acquiring merchandise through transaction"
+    },
+    "はがき": {
+      "買う": "acquiring stationery for mailing messages",
+      "読む": "processing brief written messages received",
+      "書く": "penning messages on flat correspondence"
+    },
+    "めがね": {
+      "買う": "acquiring vision correction items"
+    },
+    "木綿": {
+      "買う": "acquiring fabric material for use"
+    },
+    "花瓶": {
+      "買う": "acquiring decorative household item through purchase"
+    },
+    "ラジカセ": {
+      "買う": "acquiring ownership through payment transaction"
+    },
+    "テープレコーダー": {
+      "買う": "acquiring ownership through commercial transaction"
+    },
+    "自動車": {
+      "買う": "acquiring major vehicle through transaction",
+      "乗る": "entering and traveling inside vehicle"
+    },
+    "オートバイ": {
+      "買う": "acquiring ownership through monetary transaction",
+      "乗る": "mounting and riding vehicle action"
+    },
+    "地下鉄": {
+      "買う": "purchasing fare access or ticket",
+      "乗る": "boarding transit vehicle action",
+      "降りる": "exiting downward from transit vehicle"
+    },
+    "汽車": {
+      "買う": "purchasing ticket for rail journey",
+      "乗る": "boarding action for passenger transport"
+    },
+    "乗り物": {
+      "乗る": "boarding and embarking upon transport",
+      "買う": "acquiring ownership of transportation means"
+    },
+    "急行": {
+      "買う": "purchasing express transit ticket or service",
+      "乗る": "boarding express transport service"
+    },
+    "ぶどう": {
+      "買う": "acquiring fruit through commercial transaction",
+      "食べる": "consuming fruit by mouth action"
+    },
+    "ごみ": {
+      "捨てる": "disposing of unwanted items permanently",
+      "出す": "removing waste from indoor storage",
+      "拾う": "Collecting scattered litter from ground",
+      "投げる": "Disposing by tossing into receptacle"
+    },
+    "声": {
+      "聞こえる": "sound passively reaching one's ears",
+      "出す": "producing sound from within outward",
+      "聞く": "perceiving vocal sounds passively or actively",
+      "上げる": "elevating volume or speaking out forcefully",
+      "下げる": "lowering volume or pitch intentionally",
+      "大きい": "loud in volume or intensity",
+      "小さい": "quiet or soft in volume",
+      "低い": "deep in pitch or tone",
+      "優しい": "soothing, warm vocal quality",
+      "明るい": "cheerful and positive vocal quality",
+      "うるさい": "disruptively loud volume quality",
+      "ソフト": "gentle, pleasant vocal tone quality"
+    },
+    "答え": {
+      "出す": "producing and presenting your conclusion",
+      "間違える": "getting your response factually wrong",
+      "正しい": "accurate without error or mistake"
+    },
+    "分": {
+      "かかる": "requiring time duration as resource"
+    },
+    "週間": {
+      "かかる": "duration consumption of time period"
+    },
+    "円": {
+      "かかる": "requiring monetary expenditure amount",
+      "払う": "transferring money to settle obligation"
+    },
+    "一日": {
+      "かかる": "requiring time duration as resource"
+    },
+    "二日": {
+      "かかる": "requiring duration of two days"
+    },
+    "三日": {
+      "かかる": "duration consumption spanning three days"
+    },
+    "四日": {
+      "かかる": "duration required for time passage"
+    },
+    "五日": {
+      "かかる": "duration required for time passage"
+    },
+    "六日": {
+      "かかる": "duration required for time passage"
+    },
+    "七日": {
+      "かかる": "duration required for time passage"
+    },
+    "八日": {
+      "かかる": "duration resource consumption for time periods"
+    },
+    "九日": {
+      "かかる": "Duration required spanning multiple days"
+    },
+    "十日": {
+      "かかる": "duration requiring this time span"
+    },
+    "二十日": {
+      "かかる": "duration consumption of twenty days"
+    },
+    "万": {
+      "かかる": "requiring large-scale resource expenditure",
+      "払う": "Disbursing large sum monetary transaction"
+    },
+    "千": {
+      "かかる": "resource expenditure reaching quantity level",
+      "払う": "Monetary disbursement action for amounts"
+    },
+    "億": {
+      "かかる": "requiring vast resource expenditure",
+      "払う": "massive monetary disbursement action"
+    },
+    "ご飯": {
+      "食べる": "consuming food, especially meals with rice"
+    },
+    "ステーキ": {
+      "食べる": "consuming solid food, especially meat"
+    },
+    "ハンバーグ": {
+      "食べる": "consuming prepared meat dish action"
+    },
+    "サンドイッチ": {
+      "食べる": "consuming solid food by mouth"
+    },
+    "米": {
+      "食べる": "consuming grains as staple nourishment"
+    },
+    "牛肉": {
+      "食べる": "consuming protein through mastication and ingestion"
+    },
+    "豚肉": {
+      "食べる": "consuming meat as nourishment"
+    },
+    "鶏肉": {
+      "食べる": "consuming protein through mouth ingestion"
+    },
+    "飴": {
+      "食べる": "consuming sweet solid by mouth"
+    },
+    "毎朝": {
+      "食べる": "consuming food as morning routine",
+      "起きる": "Rising from sleep as routine"
+    },
+    "毎晩": {
+      "食べる": "consuming food as nightly routine",
+      "寝る": "resting action done during nighttime hours"
+    },
+    "晩御飯": {
+      "食べる": "consuming the evening meal"
+    },
+    "音楽": {
+      "聞く": "actively perceiving sound through listening",
+      "楽しむ": "actively taking pleasure in experiencing sounds",
+      "聞こえる": "sound passively reaching your ears",
+      "踊る": "rhythmic body movement responding to sound",
+      "好き": "feeling affection or preference toward",
+      "大好き": "passionate affection feeling toward melodies",
+      "美しい": "aesthetically pleasing melodic quality",
+      "素晴らしい": "exceptionally impressive in artistic quality"
+    },
+    "ラジオ": {
+      "聞く": "actively receiving broadcast audio content",
+      "つける": "activating device to receive broadcasts"
+    },
+    "お茶": {
+      "飲む": "consuming hot beverage through sips",
+      "召し上がる": "Respectful honorific consumption of beverages",
+      "入れる": "brewing preparation action for serving",
+      "熱い": "steaming temperature, freshly brewed quality",
+      "ぬるい": "Lost ideal drinking temperature warmth"
+    },
+    "コーヒー": {
+      "飲む": "liquid consumption through mouth action",
+      "入れる": "brewing or preparing hot beverage action",
+      "熱い": "freshly brewed temperature for drinking",
+      "甘い": "having sugar-added sweetness in taste",
+      "苦い": "Sharp taste lacking sweetness, coffee's essence",
+      "ぬるい": "disappointingly cooled below ideal drinking temperature"
+    },
+    "砂糖": {
+      "入れる": "adding sweetener to beverage or food",
+      "足す": "Incrementally adding more sweetness ingredient"
+    },
+    "塩": {
+      "入れる": "adding seasoning to enhance flavor",
+      "取る": "grasping to extract excess moisture",
+      "つける": "applying seasoning to food surface",
+      "足す": "Adding more seasoning to adjust taste"
+    },
+    "醤油": {
+      "入れる": "adding seasoning into food",
+      "取る": "reaching/passing for table condiment",
+      "つける": "dipping food into liquid condiment"
+    },
+    "ガソリン": {
+      "入れる": "refueling action into tank"
+    },
+    "新聞": {
+      "読む": "Processing printed news content systematically"
+    },
+    "雑誌": {
+      "読む": "Processing printed periodical content leisurely"
+    },
+    "小説": {
+      "読む": "engaging with narrative fiction text"
+    },
+    "漫画": {
+      "読む": "processing sequential illustrated narratives"
+    },
+    "文章": {
+      "読む": "Processing composed written text thoroughly",
+      "書く": "Creating prose through pen action"
+    },
+    "文学": {
+      "読む": "engaging with literary works intellectually"
+    },
+    "ひらがな": {
+      "読む": "Processing Japanese syllabary characters visually",
+      "書く": "inscribing Japanese syllabary characters"
+    },
+    "かたかな": {
+      "読む": "Processing angular script symbols aloud or silently",
+      "書く": "inscribing angular script characters"
+    },
+    "テキスト": {
+      "読む": "Processing educational or study material"
+    },
+    "水": {
+      "飲む": "consuming liquid for hydration or thirst",
+      "沸かす": "heating liquid to boiling point",
+      "沸く": "heating liquid to bubbling point",
+      "冷たい": "refreshingly chilled temperature for drinking"
+    },
+    "牛乳": {
+      "飲む": "liquid consumption for nutrition intake"
+    },
+    "お酒": {
+      "飲む": "consuming alcoholic beverages socially or habitually"
+    },
+    "紅茶": {
+      "飲む": "consuming beverages, especially hot drinks"
+    },
+    "飲み物": {
+      "飲む": "liquid intake action for beverages"
+    },
+    "薬": {
+      "飲む": "oral ingestion of medication",
+      "苦い": "unpleasant taste that heals effectively"
+    },
+    "アルコール": {
+      "飲む": "consuming beverages, especially intoxicating liquids"
+    },
+    "テスト": {
+      "受ける": "undergoing formal evaluation as examinee",
+      "簡単": "requiring little effort to pass",
+      "難しい": "challenging in content or completion",
+      "やさしい": "Low difficulty, achievable for students"
+    },
+    "授業": {
+      "終わる": "reaching instructional session's natural conclusion",
+      "始まる": "scheduled educational session commences naturally",
+      "受ける": "receiving instruction as a student",
+      "休む": "skipping scheduled class attendance",
+      "間に合う": "arriving before class starts action",
+      "遅れる": "arriving after scheduled class start time",
+      "面白い": "engaging quality that captivates student attention",
+      "楽しい": "engaging and stimulating learning experience",
+      "つまらない": "lacking engagement or educational stimulation"
+    },
+    "天気": {
+      "晴れる": "becoming clear and sunny condition",
+      "変わる": "atmospheric conditions shift or transform",
+      "続く": "weather conditions persisting over time",
+      "冷える": "temperature dropping, atmospheric chill setting in",
+      "曇る": "sky becoming gray and cloudy",
+      "いい": "pleasant atmospheric conditions; clear skies",
+      "寒い": "low temperature atmospheric condition",
+      "暑い": "high temperature atmospheric condition",
+      "悪い": "unfavorable atmospheric conditions quality",
+      "変": "unpredictable or unstable atmospheric conditions",
+      "涼しい": "Pleasant temperature conditions, neither hot nor cold",
+      "暖かい": "pleasant temperature conditions, comfortable climate",
+      "ひどい": "extreme or severely unpleasant atmospheric conditions",
+      "素晴らしい": "Perfect, ideal meteorological conditions quality",
+      "厳しい": "harsh, extreme, or punishing conditions"
+    },
+    "生活": {
+      "変わる": "daily existence undergoes transformation",
+      "慣れる": "adapting to daily existence gradually",
+      "辛い": "difficult, burdensome daily existence quality",
+      "忙しい": "Having hectic daily routine demands",
+      "不便": "daily existence lacking ease or convenience",
+      "普通": "everyday routine without special circumstances"
+    },
+    "世界": {
+      "変わる": "undergoing fundamental transformation or shift",
+      "生きる": "navigating one's existence through society",
+      "広い": "vast in scope and possibilities"
+    },
+    "色": {
+      "変わる": "shifting through different hues naturally",
+      "合う": "harmonious blending or coordinated matching",
+      "塗る": "applying pigment to surface action",
+      "好き": "having preferred hue appeal",
+      "赤い": "warm primary hue of fire",
+      "青い": "cool-toned, youthful, or unripe quality",
+      "黒い": "darkest shade, absorbing all light",
+      "黄色い": "bright warm primary hue quality",
+      "明るい": "having pale or vivid brightness quality",
+      "暗い": "having low luminosity or muted tone",
+      "薄い": "Low saturation, faded color quality"
+    },
+    "気": {
+      "変わる": "Mental state transformation or mood shift"
+    },
+    "夏休み": {
+      "終わる": "temporal period reaching its conclusion",
+      "始まる": "period of time naturally commencing",
+      "長い": "extending over many days or weeks"
+    },
+    "今週": {
+      "終わる": "time period reaching its conclusion",
+      "始まる": "temporal period commences its duration"
+    },
+    "今年": {
+      "終わる": "temporal cycle reaching completion point",
+      "始まる": "temporal period commences its duration"
+    },
+    "戦争": {
+      "終わる": "Ceasing of hostilities and conflict",
+      "始まる": "conflict erupts and commences"
+    },
+    "去年": {
+      "終わる": "temporal period reaching completion point"
+    },
+    "先週": {
+      "終わる": "time period reaching its conclusion"
+    },
+    "先月": {
+      "終わる": "temporal period reaching its conclusion"
+    },
+    "雨": {
+      "降る": "descending from sky precipitation movement",
+      "止む": "natural cessation of falling precipitation",
+      "続く": "prolonged precipitation persisting over time",
+      "止まる": "natural cessation of falling precipitation",
+      "落ちる": "descending from sky to ground motion",
+      "強い": "intense downpour with heavy force"
+    },
+    "休み": {
+      "取る": "Actively claiming time off for yourself",
+      "長い": "Extended duration of break period"
+    },
+    "点": {
+      "取る": "earning or securing scored marks"
+    },
+    "タクシー": {
+      "呼ぶ": "summoning a vehicle to your location",
+      "乗る": "entering vehicle as passenger action"
+    },
+    "電気": {
+      "つける": "activating electrical power or lighting",
+      "消す": "Turning off power/light source action",
+      "光る": "emitting luminous visible energy",
+      "消える": "Power ceasing, light vanishing action"
+    },
+    "暖房": {
+      "つける": "activating warmth system into operation",
+      "消す": "Deactivating a warmth-producing system"
+    },
+    "冷房": {
+      "つける": "activating climate control system",
+      "消す": "turning off climate control system"
+    },
+    "番号": {
+      "知る": "mentally possessing contact information",
+      "書く": "Recording digits with writing instrument",
+      "教える": "sharing digits information with someone"
+    },
+    "レポート": {
+      "書く": "composing academic text with pen or keyboard"
+    },
+    "作文": {
+      "書く": "Creating written composition through penning"
+    },
+    "日記": {
+      "書く": "Recording personal thoughts through inscription"
+    },
+    "住所": {
+      "書く": "Recording location information in written form"
+    },
+    "漢字": {
+      "覚える": "Mental retention of character forms and meanings",
+      "書く": "Inscribing complex character strokes physically",
+      "難しい": "challenging to memorize and write correctly"
+    },
+    "嘘": {
+      "つく": "falsehood ignites or comes into being"
+    },
+    "顔": {
+      "洗う": "cleansing ritual for facial hygiene",
+      "見せる": "revealing your appearance or presence",
+      "赤い": "flushed from embarrassment or emotion",
+      "暗い": "expressing melancholy or troubled demeanor",
+      "丸い": "having soft circular facial contours",
+      "かわいい": "having endearing, youthful facial features",
+      "怖い": "Expression appearing menacing or intimidating",
+      "おかしい": "strange or suspicious facial expression",
+      "悲しい": "Expression displaying sorrow or grief"
+    },
+    "前": {
+      "立つ": "taking a position before something/someone"
+    },
+    "隣": {
+      "立つ": "taking a position beside something",
+      "座る": "taking a seat beside someone"
+    },
+    "椅子": {
+      "座る": "resting body upon furniture surface",
+      "並べる": "placing furniture in ordered rows"
+    },
+    "席": {
+      "空く": "becomes available for occupancy",
+      "座る": "occupying a designated seating place"
+    },
+    "道": {
+      "歩く": "traversing a path by foot",
+      "走る": "moving swiftly along a path",
+      "教える": "guiding someone along a route",
+      "覚える": "Internalizing a route through mental mapping",
+      "選ぶ": "deciding which route to take",
+      "曲がる": "changing direction at intersection or corner",
+      "渡る": "traversing from one side to another",
+      "通る": "traversing along a route's length",
+      "進む": "Moving forward along a route",
+      "間違える": "taking wrong route or direction",
+      "込む": "packed with traffic or people",
+      "尋ねる": "requesting directions or location information",
+      "長い": "Extended distance requiring journey time",
+      "正しい": "morally righteous path quality",
+      "暗い": "lacking light, potentially dangerous pathway",
+      "細い": "narrow width for passage way",
+      "広い": "having ample width for passage",
+      "狭い": "limited width restricting passage movement",
+      "危ない": "having hazardous conditions threatening safe passage",
+      "遠い": "requiring lengthy travel distance"
+    },
+    "プール": {
+      "泳ぐ": "moving through water with strokes",
+      "深い": "having significant vertical water depth",
+      "浅い": "having minimal water depth for safety"
+    },
+    "川": {
+      "泳ぐ": "Moving through water with body strokes",
+      "渡る": "traversing from one bank to another",
+      "長い": "extending far from source to mouth",
+      "深い": "having significant vertical water depth",
+      "浅い": "having low water depth for crossing",
+      "汚い": "Polluted waterway condition, unsafe ecosystem"
+    },
+    "数学": {
+      "教える": "imparting knowledge of mathematical concepts"
+    },
+    "歴史": {
+      "教える": "instructing knowledge of past events"
+    },
+    "ピアノ": {
+      "弾く": "striking keys to produce melodies",
+      "習う": "receiving formal instruction from teacher"
+    },
+    "約束": {
+      "忘れる": "failing to remember committed arrangements"
+    },
+    "バス": {
+      "乗る": "boarding large vehicle for transport",
+      "待つ": "anticipating arrival at stop or station",
+      "降りる": "exiting vehicle at destination stop",
+      "乗り換える": "Switching between vehicles during journey"
+    },
+    "返事": {
+      "待つ": "anticipating someone's response patiently",
+      "早い": "prompt response showing good responsiveness",
+      "遅い": "taking too long to respond back"
+    },
+    "箱": {
+      "開ける": "unsealing to reveal contents inside",
+      "運ぶ": "transporting containers from place to place",
+      "捨てる": "disposing of container when unwanted",
+      "重い": "Burdensome weight requiring effort to lift"
+    },
+    "め": {
+      "開ける": "lifting eyelids to become awake or aware",
+      "閉める": "Voluntary shutting action for rest or focus",
+      "疲れる": "becoming strained from excessive visual use"
+    },
+    "口": {
+      "開ける": "physical action revealing oral cavity opening",
+      "閉める": "deliberately sealing for silence or concealment"
+    },
+    "火": {
+      "消す": "extinguishing flames action"
+    },
+    "日": {
+      "差す": "Light beams penetrating through from above",
+      "暮れる": "day ending as darkness falls",
+      "決める": "selecting and fixing a calendar date",
+      "休む": "taking a break from obligations",
+      "決まる": "when a date/day becomes fixed",
+      "特別": "marked-as-distinctive day quality",
+      "寒い": "weather quality experienced on day",
+      "暑い": "Temperature quality of summer weather days",
+      "涼しい": "Pleasant temperature quality for leisurely days",
+      "暖かい": "Pleasant temperature quality of daytime",
+      "忙しい": "Time-packed with activities and obligations",
+      "普通": "not special or exceptional day",
+      "よろしい": "polite approval of scheduled timing"
+    },
+    "ペン": {
+      "借りる": "temporarily obtaining for writing use",
+      "貸す": "Temporary transfer action for borrowed use"
+    },
+    "自転車": {
+      "借りる": "Temporary taking for use, then returning",
+      "乗る": "mounting and riding vehicle action"
+    },
+    "手": {
+      "洗う": "cleansing action for hygiene preparation",
+      "触る": "making physical contact to explore",
+      "上げる": "upward lifting gesture, showing cooperation or volunteering",
+      "打つ": "rhythmic striking action for applause",
+      "濡れる": "becoming moistened through involvement or contact",
+      "汚れる": "becoming soiled from work or contact",
+      "痛い": "experiencing physical discomfort from injury or overuse",
+      "汚い": "Having morally corrupt or dishonest nature"
+    },
+    "髪": {
+      "洗う": "Cleansing action for scalp hygiene",
+      "切る": "shortening strands for style change",
+      "乾く": "Natural moisture evaporation after washing",
+      "濡れる": "becoming moistened from water contact",
+      "長い": "extending down from head length",
+      "黒い": "Natural dark color, classic Japanese beauty",
+      "短い": "having close-cropped length styling"
+    },
+    "体": {
+      "洗う": "cleansing action for physical hygiene",
+      "疲れる": "physical energy depletion state",
+      "太る": "increasing physical mass accumulation action",
+      "痩せる": "reducing physical mass and size",
+      "濡れる": "becoming moistened from liquid contact",
+      "冷える": "losing warmth, becoming chilled physically",
+      "大丈夫": "being healthy and uninjured physically",
+      "太い": "having substantial physical build or girth",
+      "細い": "having slender physique or frame",
+      "丈夫": "resilient health and physical durability",
+      "弱い": "lacking physical strength or resilience"
+    },
+    "歯": {
+      "磨く": "Cleaning action with circular scrubbing motion",
+      "痛い": "throbbing ache sensation needing dentist attention"
+    },
+    "技術": {
+      "磨く": "Refining skills through dedicated practice",
+      "すごい": "impressively advanced or remarkably skilled quality"
+    },
+    "紙": {
+      "切る": "Severing thin material with blade",
+      "捨てる": "disposing of unwanted documents or waste",
+      "張る": "Affixing flat material to surface",
+      "折る": "Creasing and bending into shapes",
+      "白い": "Having pristine, unmarked surface quality",
+      "薄い": "having minimal thickness, see-through quality"
+    },
+    "毛": {
+      "切る": "grooming action that trims or shortens"
+    },
+    "電報": {
+      "送る": "dispatching urgent written message remotely"
+    },
+    "鍵": {
+      "落とす": "accidentally losing possession through carelessness",
+      "なくす": "Careless misplacing causing security concern"
+    },
+    "財布": {
+      "落とす": "accidentally losing possession through carelessness",
+      "なくす": "Unintentionally misplacing a valuable possession",
+      "盗む": "Illicitly taking someone's money holder"
+    },
+    "お母さん": {
+      "怒る": "Expressing parental displeasure or scolding",
+      "似る": "inheriting maternal features or traits",
+      "優しい": "showing warm nurturing maternal care"
+    },
+    "お父さん": {
+      "怒る": "Expressing parental displeasure or scolding",
+      "似る": "inheriting physical traits or mannerisms",
+      "優しい": "showing warm paternal caring nature"
+    },
+    "子供": {
+      "育てる": "nurturing growth from childhood to maturity",
+      "しかる": "Disciplinary verbal correction for misbehavior",
+      "泣く": "Natural emotional release through tears",
+      "起こす": "bringing up and nurturing to adulthood",
+      "生まれる": "Coming into existence as offspring",
+      "連れる": "accompanying dependent person to destination",
+      "遊ぶ": "joyful recreational activity of youth",
+      "騒ぐ": "energetically making loud playful commotion",
+      "褒める": "Encouraging words for good behavior or achievement",
+      "いじめる": "Inflicting repeated cruelty on weaker ones",
+      "かわいい": "endearing appearance and innocent charm",
+      "元気": "Bursting with youthful energy and vitality",
+      "小さい": "young age and physical smallness",
+      "小さな": "young in age and physical size"
+    },
+    "赤ちゃん": {
+      "泣く": "vocal distress expression, their primary communication",
+      "生まれる": "coming into existence from womb",
+      "眠る": "peaceful slumber state of infants",
+      "かわいい": "endearing quality that melts hearts universally",
+      "元気": "healthy and thriving with vitality",
+      "小さい": "naturally diminutive and delicate in size"
+    },
+    "朝": {
+      "起きる": "Rising from sleep at dawn",
+      "迎える": "actively welcoming a new day's arrival",
+      "早い": "occurring before usual morning time",
+      "寒い": "chilly temperature characteristic of early hours",
+      "眠い": "drowsy state upon waking early"
+    },
+    "事故": {
+      "起きる": "spontaneous occurrence of unfortunate events",
+      "起こす": "causally triggering an unfortunate incident"
+    },
+    "地震": {
+      "起きる": "Natural disaster occurrence action",
+      "揺れる": "ground trembles and buildings sway violently",
+      "強い": "having powerful seismic intensity/magnitude"
+    },
+    "毎日": {
+      "起きる": "daily awakening from sleep action",
+      "寝る": "resting sleep action done routinely"
+    },
+    "午前": {
+      "起きる": "emerging from sleep into morning hours"
+    },
+    "夜": {
+      "寝る": "reclining into nighttime rest period",
+      "暗い": "lacking light quality of nighttime",
+      "寂しい": "empty quiet feeling when darkness falls",
+      "静か": "peaceful soundless quality of nighttime"
+    },
+    "ベッド": {
+      "寝る": "resting/sleeping action on furniture surface",
+      "柔らかい": "Cushioned comfort quality for sleeping surface",
+      "硬い": "firm mattress support quality"
+    },
+    "今夜": {
+      "寝る": "resting action done at nighttime"
+    },
+    "昼": {
+      "寝る": "midday rest or nap action"
+    },
+    "午後": {
+      "寝る": "Taking afternoon rest or nap"
+    },
+    "花": {
+      "咲く": "Natural opening and flourishing action",
+      "植える": "putting seeds/bulbs in ground for blooms",
+      "触る": "Gently making physical contact, risking damage",
+      "置く": "positioning as decorative display arrangement",
+      "育てる": "nurturing growth from seed to bloom",
+      "落ちる": "petals naturally descending downward motion",
+      "飾る": "placing blooms for aesthetic display",
+      "包む": "Enveloping delicately in protective covering",
+      "差し上げる": "Respectfully presenting as a gift",
+      "きれい": "visually appealing floral beauty quality",
+      "美しい": "Aesthetic visual perfection naturally displayed",
+      "白い": "pure color quality, innocence symbolism",
+      "赤い": "Vivid crimson color blooming brightly",
+      "黄色い": "bright golden color characteristic",
+      "珍しい": "exceptional bloom seldom encountered in nature"
+    },
+    "ボタン": {
+      "押す": "applying pressure to activate mechanism"
+    },
+    "ベル": {
+      "押す": "pressing to activate sound signal",
+      "鳴る": "sound emanating automatically when activated"
+    },
+    "線": {
+      "引く": "drawing or marking a line",
+      "太い": "having substantial width or boldness",
+      "細い": "having delicate narrow width strokes"
+    },
+    "風邪": {
+      "引く": "drawing illness into your body",
+      "治る": "natural recovery from illness process",
+      "治す": "restoring health from illness action"
+    },
+    "縦": {
+      "引く": "drawing a vertical line downward"
+    },
+    "シャツ": {
+      "着る": "putting on upper-body garments"
+    },
+    "コート": {
+      "着る": "putting on shoulder-down garments",
+      "脱ぐ": "removing outerwear upon arriving indoors",
+      "厚い": "Having substantial insulation and fabric weight"
+    },
+    "着物": {
+      "着る": "donning traditional garment from shoulders down"
+    },
+    "帽子": {
+      "かぶる": "placing object onto head action",
+      "脱ぐ": "removing headwear action showing respect"
+    },
+    "サンダル": {
+      "履く": "putting footwear onto feet action"
+    },
+    "スリッパ": {
+      "履く": "putting on footwear below ankles"
+    },
+    "机": {
+      "置く": "positioning furniture in a space",
+      "並べる": "arranging furniture in orderly rows",
+      "片付ける": "Clearing and organizing the surface workspace"
+    },
+    "学生": {
+      "集まる": "Students congregating together for shared purpose",
+      "多い": "large quantity of enrolled learners",
+      "元気": "having youthful vigor and vitality",
+      "少ない": "Low in enrollment or attendance numbers",
+      "若い": "being in youthful life stage",
+      "真面目": "diligent and conscientious in studies",
+      "熱心": "showing passionate dedication to studies"
+    },
+    "家族": {
+      "集まる": "relatives converging to one place",
+      "別れる": "Separating from loved ones permanently",
+      "会う": "gathering together with loved ones",
+      "亡くなる": "Respectful passing of loved ones",
+      "大切": "treasured and irreplaceable to you"
+    },
+    "切手": {
+      "集める": "Accumulating stamps as hobby items"
+    },
+    "犬": {
+      "育てる": "nurturing from puppy to adulthood",
+      "鳴く": "vocal sound animals naturally produce",
+      "かわいい": "endearingly charming appearance that melts hearts",
+      "白い": "having pure snowy coat color",
+      "黒い": "dark coat color characteristic"
+    },
+    "猫": {
+      "育てる": "nurturing from kitten to adulthood",
+      "鳴く": "vocal sound cats naturally make",
+      "かわいい": "endearing quality cats naturally possess",
+      "白い": "having pale fur coloring",
+      "黒い": "dark fur color, possibly superstitious"
+    },
+    "工場": {
+      "働く": "performing labor at industrial facility"
+    },
+    "足": {
+      "疲れる": "becoming weary from walking or standing",
+      "痛い": "experiencing soreness from walking or injury"
+    },
+    "親": {
+      "似る": "inheriting familial traits and features",
+      "厳しい": "Demanding discipline and high expectations parenting"
+    },
+    "値段": {
+      "上がる": "upward movement of monetary value",
+      "下がる": "decreasing in monetary value naturally",
+      "上げる": "increasing monetary amount upward",
+      "下げる": "lowering or reducing downward motion",
+      "比べる": "examining multiple costs side-by-side",
+      "高い": "costly in monetary terms",
+      "安い": "low in monetary terms",
+      "低い": "affordable in monetary value"
+    },
+    "階段": {
+      "上がる": "ascending movement upward on steps",
+      "降りる": "downward movement through stepped levels",
+      "上る": "upward climbing movement through steps"
+    },
+    "度": {
+      "上がる": "natural upward movement of temperature/measurement",
+      "下がる": "decreasing measurement on a scale"
+    },
+    "頭": {
+      "下げる": "lowering in respectful bowing gesture",
+      "痛い": "experiencing discomfort or ache sensation"
+    },
+    "心": {
+      "動く": "emotional stirring from deep feeling"
+    },
+    "角": {
+      "曲がる": "changing direction at intersection point"
+    },
+    "橋": {
+      "渡る": "traverse from one side to other",
+      "長い": "extending far across distance spans"
+    },
+    "半": {
+      "過ぎる": "exceeding the midpoint threshold"
+    },
+    "飛行機": {
+      "乗る": "boarding action as passenger traveler",
+      "飛ぶ": "aircraft performing its airborne movement action"
+    },
+    "船": {
+      "乗る": "embark aboard watercraft as passenger",
+      "揺れる": "rocking motion on water waves"
+    },
+    "エレベーター": {
+      "乗る": "entering and riding vertical transport",
+      "降りる": "exiting downward from the lift"
+    },
+    "エスカレーター": {
+      "乗る": "stepping onto moving platform transport",
+      "降りる": "exiting downward at arrival point"
+    },
+    "荷物": {
+      "運ぶ": "physical transport from place to place",
+      "届ける": "transporting items to intended destination",
+      "重い": "burdensome weight making carrying difficult",
+      "軽い": "Easy to carry weight quality"
+    },
+    "年": {
+      "迎える": "welcoming arrival of new year"
+    },
+    "パーティー": {
+      "楽しむ": "actively savoring the festive atmosphere",
+      "開く": "Hosting action that initiates a gathering",
+      "踊る": "rhythmic movement celebration action",
+      "楽しい": "having lively atmosphere with joy",
+      "賑やか": "Full of energetic voices and activity"
+    },
+    "町": {
+      "住む": "establishing one's dwelling in a locale",
+      "引っ越す": "relocating your residence to different neighborhood",
+      "小さな": "Modest scale, intimate community feeling",
+      "古い": "having historical character and aged charm",
+      "賑やか": "Full of people and vibrant activity",
+      "静か": "peaceful atmosphere without urban noise",
+      "汚い": "Grimy streets, neglected urban condition"
+    },
+    "アパート": {
+      "住む": "dwelling action establishing residential presence",
+      "引っ越す": "Relocating one's residence to or from"
+    },
+    "建物": {
+      "建てる": "erecting structures from foundation upward",
+      "壊す": "demolishing structure through force or decay",
+      "倒れる": "structural failure collapse action",
+      "高い": "having vertical height prominence",
+      "大きな": "impressive physical scale and presence",
+      "大きい": "having substantial physical scale or size",
+      "古い": "Having weathered time and history",
+      "低い": "having minimal vertical height measurement",
+      "立派": "impressive in scale and appearance",
+      "丈夫": "structurally solid and long-lasting quality"
+    },
+    "ビル": {
+      "建てる": "erecting a structure from ground up"
+    },
+    "病気": {
+      "治る": "natural recovery from ailment state",
+      "治す": "medical restoration to healthy state",
+      "直る": "natural recovery and healing completion"
+    },
+    "辞書": {
+      "調べる": "searching reference material for information"
+    },
+    "光": {
+      "光る": "emitting or reflecting brilliant radiance",
+      "消える": "light's gradual fading and vanishing",
+      "差す": "light penetrating through, streaming in"
+    },
+    "予定": {
+      "変える": "altering arrangements already made",
+      "決まる": "schedule naturally falls into place"
+    },
+    "時代": {
+      "生きる": "experiencing existence through a historical period"
+    },
+    "社会": {
+      "生きる": "navigating existence within community structures",
+      "国際": "crossing national boundaries, globally connected"
+    },
+    "昔": {
+      "話す": "narrating tales from bygone times"
+    },
+    "雪": {
+      "降る": "descending from sky precipitation action",
+      "落ちる": "descending from sky to ground naturally",
+      "滑る": "gliding motion on frozen surface",
+      "止む": "natural cessation of falling precipitation",
+      "白い": "Pure color quality naturally possessed"
+    },
+    "葉": {
+      "落ちる": "natural detachment descent from tree"
+    },
+    "会": {
+      "開く": "initiating/launching a gathering into existence"
+    },
+    "用事": {
+      "済む": "completing tasks and finishing obligations",
+      "急": "Unexpectedly arising, requiring immediate attention"
+    },
+    "歌": {
+      "歌う": "vocal performance action producing melody",
+      "上手": "having excellent vocal performance ability",
+      "下手": "lacking vocal or musical skill"
+    },
+    "危険": {
+      "逃げる": "fleeing movement away from peril"
+    },
+    "代": {
+      "払う": "settling financial obligation action"
+    },
+    "鳥": {
+      "鳴く": "producing characteristic vocal sounds naturally",
+      "飛ぶ": "Aerial movement through wings and sky"
+    },
+    "虫": {
+      "飛ぶ": "winged movement through air naturally",
+      "捕まえる": "capturing small moving creatures skillfully",
+      "鳴く": "producing characteristic chirping or buzzing sounds"
+    },
+    "音": {
+      "聞こえる": "spontaneously reaching your ears passively",
+      "うるさい": "Excessively loud and disturbing quality"
+    },
+    "空港": {
+      "着く": "reaching your travel destination point",
+      "国際": "connecting multiple countries through flights"
+    },
+    "空気": {
+      "吸う": "drawing air into lungs action"
+    },
+    "絵": {
+      "塗る": "applying color/coating to surface artwork",
+      "写す": "Reproducing by tracing or copying faithfully",
+      "上手": "having excellent artistic execution quality",
+      "下手": "lacking artistic skill or technique"
+    },
+    "壁": {
+      "塗る": "applying coating or finish to surface",
+      "厚い": "having substantial width for insulation",
+      "薄い": "having minimal thickness, allowing sound through"
+    },
+    "風": {
+      "吹く": "air's natural movement action",
+      "止む": "natural cessation of blowing air",
+      "強い": "powerful blowing force intensity",
+      "冷たい": "chilling temperature felt against skin",
+      "涼しい": "pleasant temperature quality that refreshes"
+    },
+    "木": {
+      "植える": "placing into ground to cultivate growth",
+      "倒れる": "toppling over from standing position",
+      "折れる": "breaking naturally from wind or weight",
+      "大きな": "Towering in height and girth",
+      "大きい": "having impressive height and trunk girth",
+      "太い": "Having substantial trunk girth"
+    },
+    "シャワー": {
+      "浴びる": "letting water cascade over body"
+    },
+    "ギター": {
+      "弾く": "Plucking strings to produce music"
+    },
+    "坂": {
+      "上る": "climbing upward against incline's gradient"
+    },
+    "祖父": {
+      "亡くなる": "respectful passing away of elderly relative"
+    },
+    "祖母": {
+      "亡くなる": "respectful passing away of elder"
+    },
+    "枝": {
+      "折れる": "snapping or fracturing under force naturally",
+      "折る": "snapping off from tree action"
+    },
+    "ホテル": {
+      "泊まる": "overnight lodging action at accommodation",
+      "高い": "expensive in terms of room rates",
+      "有名": "well-known prestigious establishment status",
+      "安い": "Low-priced accommodation option"
+    },
+    "旅館": {
+      "泊まる": "overnight lodging action at accommodation"
+    },
+    "ガラス": {
+      "割れる": "fragile material spontaneously shattering into pieces"
+    },
+    "コップ": {
+      "割れる": "fragile vessel shattering into pieces"
+    },
+    "お宅": {
+      "伺う": "polite visiting or inquiring action",
+      "まいる": "humble visiting movement to someone's residence"
+    },
+    "食事": {
+      "召し上がる": "respectful consumption action (honorific eating)"
+    },
+    "ネクタイ": {
+      "締める": "Tightening fabric into formal knot"
+    },
+    "お腹": {
+      "空く": "experiencing hunger emptiness sensation",
+      "痛い": "experiencing internal discomfort or ache"
+    },
+    "子": {
+      "しかる": "Disciplinary reprimanding for misbehavior correction",
+      "弱い": "vulnerable in strength or capability"
+    },
+    "都合": {
+      "いい": "favorable for scheduling or availability",
+      "悪い": "unfavorable for scheduling or arrangements"
+    },
+    "具合": {
+      "いい": "favorable health or functioning quality",
+      "悪い": "poor health or malfunction state"
+    },
+    "遊び": {
+      "好き": "fond of recreational activities"
+    },
+    "白": {
+      "好き": "having preference for this color"
+    },
+    "黒": {
+      "好き": "Having preference for this color choice"
+    },
+    "赤": {
+      "好き": "having strong affection for crimson"
+    },
+    "青": {
+      "好き": "having affection for this color"
+    },
+    "緑": {
+      "好き": "feeling positive affection toward color"
+    },
+    "黄色": {
+      "好き": "having affection for this color"
+    },
+    "茶色": {
+      "好き": "having color preference affection"
+    },
+    "外国人": {
+      "多い": "having high population presence"
+    },
+    "人口": {
+      "多い": "having high demographic density or numbers",
+      "少ない": "having sparse demographic density"
+    },
+    "習慣": {
+      "悪い": "detrimental pattern harmful to wellbeing"
+    },
+    "気分": {
+      "悪い": "feeling physically or mentally unwell"
+    },
+    "背": {
+      "高い": "having tall vertical body measurement",
+      "低い": "being short in physical stature"
+    },
+    "女性": {
+      "きれい": "possessing aesthetic beauty and grace",
+      "若い": "being in youthful age stage",
+      "美しい": "possessing aesthetic grace and elegance"
+    },
+    "男性": {
+      "若い": "having youthful age or appearance"
+    },
+    "字": {
+      "小さい": "Having diminutive, hard-to-read script size",
+      "きれい": "Neat, legible penmanship quality",
+      "細かい": "having tiny, delicate stroke dimensions"
+    },
+    "寺": {
+      "古い": "having centuries of historical heritage"
+    },
+    "耳": {
+      "痛い": "experiencing discomfort or aching sensation"
+    },
+    "鼻": {
+      "痛い": "feeling discomfort or ache sensation"
+    },
+    "首": {
+      "痛い": "experiencing aching discomfort from strain or stiffness"
+    },
+    "腕": {
+      "痛い": "experiencing discomfort from strain or injury"
+    },
+    "背中": {
+      "痛い": "experiencing aching discomfort from strain or injury"
+    },
+    "のど": {
+      "痛い": "experiencing discomfort from illness or strain"
+    },
+    "カレー": {
+      "辛い": "having tongue-burning heat intensity"
+    },
+    "冬": {
+      "寒い": "Low temperature characteristic of the season",
+      "厳しい": "harsh, biting cold conditions"
+    },
+    "夏": {
+      "暑い": "having sweltering high-temperature climate quality",
+      "熱い": "intensely sweltering temperature quality of season"
+    },
+    "秋": {
+      "涼しい": "pleasant temperature quality after summer's heat"
+    },
+    "指": {
+      "細い": "Slender elegant digit appearance"
+    },
+    "形": {
+      "丸い": "circular contoured geometry without angles"
+    },
+    "布団": {
+      "柔らかい": "plush comfort quality for restful sleep"
+    },
+    "石": {
+      "硬い": "Unyielding solid quality resisting pressure"
+    },
+    "味": {
+      "甘い": "having sugary flavor quality",
+      "苦い": "Sharp, unpleasant flavor causing grimace",
+      "まずい": "unpleasant or offensive to palate"
+    },
+    "時": {
+      "眠い": "feeling drowsy at particular moments"
+    },
+    "店員": {
+      "親切": "helpful service-minded demeanor toward customers"
+    },
+    "安全": {
+      "大事": "Priority quality deserving careful attention",
+      "大切": "valued as a fundamental priority"
+    },
+    "自由": {
+      "大事": "Valued and precious quality worth protecting",
+      "大切": "precious quality worth protecting and cherishing"
+    },
+    "用": {
+      "急": "urgent matter requiring immediate attention"
+    },
+    "規則": {
+      "厳しい": "Rigidly enforced without leniency or exceptions"
+    },
+    "スカート": {
+      "短い": "having minimal length, above-knee hemline"
+    },
+    "産業": {
+      "盛ん": "thriving with active economic growth"
+    }
+  }
+}

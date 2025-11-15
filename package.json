@@ -1,0 +1,29 @@
+{
+  "name": "smart-nihongo-learner",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.13.5",
+    "@emotion/styled": "^11.13.5",
+    "@mui/icons-material": "^6.3.0",
+    "@mui/material": "^6.3.0",
+    "crypto-js": "^4.2.0",
+    "dexie": "^4.0.11",
+    "openai": "^4.74.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "wanakana": "^5.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^6.0.3"
+  }
+}

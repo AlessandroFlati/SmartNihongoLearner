@@ -1,0 +1,26 @@
+  1. ご覧になる           (freq: 4.62) - to see; to look; to watch
+  2. おる              (freq: 4.49) - to be (animate); to be; to exist
+  3. おいでになる          (freq: 4.23) - to be
+  4. なさる             (freq: 3.22) - to do
+  5. 締める             (freq: 3.22) - to tie; to fasten; to tighten
+  6. 空く              (freq: 3.22) - to become less crowded; to thin out; to get empty
+  7. しかる             (freq: 3.22) - to scold; to chide; to rebuke; to reprimand
+  8. 釣る              (freq: 3.19) - to fish; to angle; to catch
+  9. 差す              (freq: 3.17) - to shine
+ 10. 申し上げる           (freq: 3.17) - to say; to tell; to state; to express; to offer; t
+ 11. 植える             (freq: 3.15) - to plant; to grow; to raise
+ 12. 沸く              (freq: 3.12) - to grow hot (e.g. water); to boil
+ 13. 申す              (freq: 3.07) - to say; to be called
+ 14. 暮れる             (freq: 3.05) - to get dark; to grow dark
+ 15. 閉まる             (freq: 3.05) - to be shut; to close; to be closed
+ 16. 伺う              (freq: 3.02) - to ask; to inquire; to hear; to be told
+ 17. 写す              (freq: 2.96) - to transcribe; to duplicate; to reproduce; to imit
+ 18. 構う              (freq: 2.95) - to mind; to care about; to be concerned about; to 
+ 19. 取り替える           (freq: 2.80) - to exchange; to swap; to barter
+ 20. 沸かす             (freq: 2.78) - to boil; to heat
+ 21. 差し上げる           (freq: 2.70) - to give; to offer
+ 22. まいる             (freq: 2.62) - to go; to come; to call
+ 23. いたす             (freq: 2.61) - to do
+ 24. 漬ける             (freq: 2.60) - to soak (in); to steep; to dip; to dunk
+ 25. 曇る              (freq: 2.50) - to get cloudy; to cloud over; to become overcast
+ 26. 召し上がる           (freq: 2.15) - to eat; to drink
