@@ -116,8 +116,19 @@ function WhatCouldMatch({ word, onComplete, mode = 'verb-to-noun', matchCount = 
             matches = await getLimitedNounMatchesWithProgress(word.japanese, data, matchCount, newWordsTarget, filteredMatches);
           }
 
-          setLimitedMatches(matches);
-          setTotalMatches(matches.length);
+          // Deduplicate matches by word (keep first occurrence)
+          const seenWords = new Set();
+          const uniqueMatches = matches.filter(m => {
+            if (seenWords.has(m.word)) {
+              console.warn(`[WhatCouldMatch] Removing duplicate word: ${m.word} (${m.reading})`);
+              return false;
+            }
+            seenWords.add(m.word);
+            return true;
+          });
+
+          setLimitedMatches(uniqueMatches);
+          setTotalMatches(uniqueMatches.length);
 
           // Load hints for this word
           const hintMode = (mode === 'noun-to-verb' || mode === 'noun-to-adjective') ? 'reverse' : 'forward';
