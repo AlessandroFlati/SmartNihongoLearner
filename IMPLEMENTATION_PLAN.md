@@ -908,27 +908,61 @@ db.version(1).stores({
 
 ## Implementation Status
 
-### Phase 1: Data Preparation ✓ COMPLETE
+### ✅ Phase 1: Data Preparation - COMPLETE
 
 **Completed Items:**
 - ✓ Vocabulary collection: 703 N5 + 663 N4 = 1,342 unique words
 - ✓ Manual grammatical type classification for all words
 - ✓ Frequency data integration using wordfreq library (100% coverage)
 - ✓ CSV files created: N5.csv, N4.csv, N54.csv
-- ✓ Data analysis and validation tools
+- ✓ Collocation database generation (1,000+ pairs)
+- ✓ Context hints created (forward and reverse modes)
+- ✓ Data validation and quality assurance tools
 
-**Files Created:**
-- `data-preparation/input/N5.csv` - 703 words with frequency
-- `data-preparation/input/N4.csv` - 663 words with frequency
-- `data-preparation/input/N54.csv` - 1,342 combined unique words
-- `data-preparation/raw/scrape_kanshudo_frequency.py` - Routledge scraper
-- `data-preparation/raw/add_wordfreq_data.py` - Frequency integration
-- `data-preparation/raw/frequency_summary.py` - Analysis tool
+### ✅ Phase 2: Core Infrastructure - COMPLETE
 
-**Next:** Collocation generation and React project setup
+**Completed Items:**
+- ✓ React 18.3.1 + Vite project initialized
+- ✓ Material UI 6.3.0 with dark theme
+- ✓ Storage service (IndexedDB via Dexie + LocalStorage)
+- ✓ Data models and data loader services
+- ✓ Furigana display and Japanese input components
+- ✓ API key management with encryption
+
+### ✅ Phase 3: SRS System - COMPLETE
+
+**Completed Items:**
+- ✓ Anki-style SM-2 spaced repetition algorithm
+- ✓ 6-tier priority system for word selection
+- ✓ Word and collocation progress tracking
+- ✓ Maturity levels based on consecutive correct answers
+- ✓ Statistics tracking (any-context counting)
+
+### ✅ Phase 4: Game 1 - "What Could Match" - COMPLETE
+
+**Completed Items:**
+- ✓ Game component with 4 modes (Verb→Noun, Adj→Noun, Noun→Verb, Noun→Adj)
+- ✓ Answer validation with reading/kanji matching
+- ✓ Context hints system (forward and reverse)
+- ✓ Study list filtering by JLPT level
+- ✓ Skip functionality and results screen
+- ✓ Progress integration and SRS updates
+
+### ❌ Phase 5: Game 2 - "Fill the Blanks" - NOT STARTED
+
+**Status**: Planned but not implemented yet
+
+### 🔄 Phase 6-8: UI/UX Polish, Testing, Deployment - IN PROGRESS
+
+**Recent Updates:**
+- ✓ Documentation restructured (README, PROJECT_STATUS)
+- ✓ Bug fixes and improvements based on testing
+- 🔄 Ongoing UI/UX refinements
 
 ---
 
-**Document Version**: 1.1
-**Last Updated**: 2025-11-08
-**Status**: Phase 1 Complete - Ready for Phase 2
+**Document Version**: 1.2
+**Last Updated**: 2025-11-15
+**Status**: Phase 4 Complete - Core Application Functional
+
+**For current status and detailed progress, see:** [PROJECT_STATUS.md](PROJECT_STATUS.md)
