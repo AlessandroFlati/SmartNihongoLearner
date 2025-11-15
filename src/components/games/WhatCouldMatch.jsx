@@ -285,13 +285,6 @@ function WhatCouldMatch({ word, onComplete, mode = 'verb-to-noun', matchCount = 
   };
 
   const handleContinue = () => {
-      word: word.japanese,
-      foundMatches: foundMatches.size,
-      totalMatches,
-      score,
-      answersCount: answers.length,
-    });
-
     if (onComplete) {
       onComplete({
         word: word.japanese,

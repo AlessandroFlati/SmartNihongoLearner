@@ -262,17 +262,6 @@ export const getLimitedNounMatchesWithProgress = async (wordJapanese, collocatio
   const remaining = maxMatches - selected.length;
   selected.push(...reviewMatches.slice(0, remaining));
 
-  // DEBUG: Log selection process
-    totalMatches: total,
-    requestedMax: maxMatches,
-    requestedNew: newWordsTarget,
-    availableNew: newMatches.length,
-    availableReview: reviewMatches.length,
-    selectedNew: newToTake,
-    selectedReview: Math.min(remaining, reviewMatches.length),
-    totalSelected: selected.length,
-  });
-
   // If we don't have enough matches, fill with any remaining matches
   if (selected.length < maxMatches) {
     const alreadySelected = new Set(selected.map(m => m.word));
