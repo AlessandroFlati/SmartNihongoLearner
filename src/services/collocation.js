@@ -294,11 +294,11 @@ export const getRecommendedPracticeWords = async (count = 10) => {
     const collocationScore = matches.reduce((sum, m) => sum + m.score, 0);
 
     if (!progress) {
-      // NEW word - medium priority, weighted by collocation quality
+      // NEW word - HIGHEST priority (learn new words first, sorted by frequency)
       return {
         ...entry,
         category: 'new',
-        priority: collocationScore,
+        priority: 20000 + collocationScore,
       };
     }
 
@@ -312,11 +312,11 @@ export const getRecommendedPracticeWords = async (count = 10) => {
     let category = 'mature';
 
     if (interval === 0 || correctCount === 0) {
-      // FAILED/NEVER SUCCEEDED - highest priority
+      // FAILED - second highest priority
       category = 'failed';
       priority = 10000 + collocationScore;
     } else if (correctCount < 3 || interval < 3) {
-      // LEARNING (struggling) - very high priority
+      // LEARNING (struggling) - high priority, sorted by struggle level
       category = 'learning';
       priority = 5000 + (3 - correctCount) * 1000 + collocationScore;
     } else if (isDue) {
@@ -401,7 +401,7 @@ export const getRecommendedPracticeNouns = async (count = 10) => {
     const progress = progressMap.get(noun.japanese);
 
     if (!progress) {
-      // NEW word - medium priority, weighted by collocation quality
+      // NEW word - HIGHEST priority (learn new words first, sorted by frequency)
       return {
         word: noun.japanese,
         japanese: noun.japanese,
@@ -412,7 +412,7 @@ export const getRecommendedPracticeNouns = async (count = 10) => {
         verbMatches,
         adjectiveMatches,
         category: 'new',
-        priority: totalScore,
+        priority: 20000 + totalScore,
       };
     }
 
@@ -426,11 +426,11 @@ export const getRecommendedPracticeNouns = async (count = 10) => {
     let category = 'mature';
 
     if (interval === 0 || correctCount === 0) {
-      // FAILED/NEVER SUCCEEDED - highest priority
+      // FAILED - second highest priority
       category = 'failed';
       priority = 10000 + totalScore;
     } else if (correctCount < 3 || interval < 3) {
-      // LEARNING (struggling) - very high priority
+      // LEARNING (struggling) - high priority, sorted by struggle level
       category = 'learning';
       priority = 5000 + (3 - correctCount) * 1000 + totalScore;
     } else if (isDue) {
