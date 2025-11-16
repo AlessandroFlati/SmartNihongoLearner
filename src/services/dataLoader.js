@@ -146,6 +146,7 @@ export const getCollocationStats = async () => {
 // In-memory cache for meanings (no need for IndexedDB - static data)
 let meaningsCache = null;
 let reverseMeaningsCache = null;
+let synonymGroupsCache = null;
 
 /**
  * Load reverse collocation meanings from JSON file
@@ -190,6 +191,35 @@ export const getMeaningsForWord = async (word, mode = 'forward') => {
   }
 };
 
+/**
+ * Load synonym groups from JSON file
+ */
+export const loadSynonymGroups = async () => {
+  try {
+    const response = await fetch(`${BASE_URL}data/synonym_groups.json`);
+    if (!response.ok) {
+      console.warn('Synonym groups not found');
+      return null;
+    }
+    const data = await response.json();
+    return data;
+  } catch (error) {
+    console.warn('Error loading synonym groups:', error);
+    return null;
+  }
+};
+
+/**
+ * Get synonym group data with distinguishing hints
+ * @returns {Object} Synonym groups data with lookup table
+ */
+export const getSynonymGroups = async () => {
+  if (!synonymGroupsCache) {
+    synonymGroupsCache = await loadSynonymGroups();
+  }
+  return synonymGroupsCache;
+};
+
 export default {
   loadVocabulary,
   loadCollocations,
@@ -198,4 +228,5 @@ export default {
   getVocabularyStats,
   getCollocationStats,
   getMeaningsForWord,
+  getSynonymGroups,
 };

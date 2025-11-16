@@ -1,0 +1,54 @@
+{
+  "version": "1.0.0",
+  "description": "Synonym groups with distinguishing hints for bonus answer handling",
+  "groups": [
+    {
+      "id": "child-variations",
+      "words": ["子", "子供", "お子さん"],
+      "meanings": {
+        "子": "child",
+        "子供": "child",
+        "お子さん": "child"
+      },
+      "distinguishing_hints": {
+        "子": {
+          "hint_when_seeking_this": "the shortest form (one kanji)",
+          "hint_when_user_entered_this": "Correct meaning, but we're looking for a different form"
+        },
+        "子供": {
+          "hint_when_seeking_this": "the compound form (two kanji)",
+          "hint_when_user_entered_this": "Correct meaning, but we're looking for a different form"
+        },
+        "お子さん": {
+          "hint_when_seeking_this": "the polite/honorific form (starts with お)",
+          "hint_when_user_entered_this": "Correct meaning, but we're looking for a different form"
+        }
+      }
+    },
+    {
+      "id": "sunday-variations",
+      "words": ["日", "日曜日"],
+      "meanings": {
+        "日": "Sunday",
+        "日曜日": "Sunday"
+      },
+      "distinguishing_hints": {
+        "日": {
+          "hint_when_seeking_this": "the abbreviated form (one kanji)",
+          "hint_when_user_entered_this": "Correct! But we're looking for the full form"
+        },
+        "日曜日": {
+          "hint_when_seeking_this": "the full form (three kanji, ends with 日)",
+          "hint_when_user_entered_this": "Correct! But we're looking for the abbreviated form"
+        }
+      }
+    }
+  ],
+  "lookup": {
+    "子": "child-variations",
+    "子供": "child-variations",
+    "お子さん": "child-variations",
+    "日": "sunday-variations",
+    "日曜日": "sunday-variations"
+  }
+}
