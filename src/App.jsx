@@ -162,15 +162,29 @@ function App() {
       let recommended;
 
       // Use different function for reverse modes (noun-to-verb, noun-to-adjective)
+      // Request more words initially since we filter by study list afterwards
       if (isReverseMode) {
-        recommended = await getRecommendedPracticeNouns(10);
+        recommended = await getRecommendedPracticeNouns(50);
       } else {
-        recommended = await getRecommendedPracticeWords(10);
+        recommended = await getRecommendedPracticeWords(50);
       }
 
-      // Filter by word type AND study list
-      queue = recommended
-        .filter(c => c.type === wordType && studyListWords.has(c.word || c.japanese))
+      // Filter by word type AND study list, then limit to reasonable session size
+      const filtered = recommended
+        .filter(c => c.type === wordType && studyListWords.has(c.word || c.japanese));
+
+      // Deduplicate by japanese word (in case same word appears multiple times)
+      const seen = new Set();
+      queue = filtered
+        .filter(c => {
+          const word = c.word || c.japanese;
+          if (seen.has(word)) {
+            return false;
+          }
+          seen.add(word);
+          return true;
+        })
+        .slice(0, 15)  // Limit to 15 words per session
         .map(c => ({
           id: c.word || c.japanese,
           japanese: c.word || c.japanese,
@@ -196,32 +210,23 @@ function App() {
   };
 
   const handleGameComplete = (results) => {
-    console.log('Game results:', results);
-
     // Check if user wants to skip queue and return to menu
     if (results?.skipQueue) {
-      console.log('[App] User requested back to menu');
       setCurrentScreen('game-setup');
       setWordQueue([]);
       setCurrentWord(null);
       return;
     }
 
-    console.log('[App] Current word queue:', wordQueue.map(w => w.japanese));
-    console.log('[App] Current word:', currentWord?.japanese);
-
     // Move to next word in queue
     const currentIndex = wordQueue.findIndex(w => w.japanese === currentWord.japanese);
-    console.log('[App] Current word index:', currentIndex, 'Queue length:', wordQueue.length);
 
     if (currentIndex !== -1 && currentIndex < wordQueue.length - 1) {
       // There's a next word
       const nextWord = wordQueue[currentIndex + 1];
-      console.log('[App] Moving to next word:', nextWord.japanese);
       setCurrentWord(nextWord);
     } else {
       // No more words - return to setup
-      console.log('[App] No more words, returning to game-setup');
       setCurrentScreen('game-setup');
       setWordQueue([]);
       setCurrentWord(null);
