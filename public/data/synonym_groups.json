@@ -60,6 +60,24 @@
           "hint_when_user_entered_this": "Correct! But we're looking for the common form (辞書)"
         }
       }
+    },
+    {
+      "id": "car-variations",
+      "words": ["車", "自動車"],
+      "meanings": {
+        "車": "car; automobile; vehicle",
+        "自動車": "automobile; motorcar; motor vehicle; car; auto"
+      },
+      "distinguishing_hints": {
+        "車": {
+          "hint_when_seeking_this": "the shorter form (one kanji: 車)",
+          "hint_when_user_entered_this": "Correct! But we're looking for the longer form (自動車)"
+        },
+        "自動車": {
+          "hint_when_seeking_this": "the longer form (three kanji: 自動車)",
+          "hint_when_user_entered_this": "Correct! But we're looking for the shorter form (車)"
+        }
+      }
     }
   ],
   "lookup": {
@@ -69,6 +87,8 @@
     "日": "sunday-variations",
     "日曜日": "sunday-variations",
     "辞書": "dictionary-variations",
-    "字引": "dictionary-variations"
+    "字引": "dictionary-variations",
+    "車": "car-variations",
+    "自動車": "car-variations"
   }
 }
