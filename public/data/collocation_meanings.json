@@ -1,11 +1,11 @@
 {
   "version": "10.0.0",
-  "generator": "claude-api-clear-hints",
+  "generator": "claude-api-clear-meanings",
   "model": "claude-sonnet-4-5-20250929",
   "generatedAt": "2025-11-16 02:18:34",
   "totalPairs": 2246,
-  "description": "Clear, direct hints for collocation meanings",
-  "hints": {
+  "description": "Clear, direct meanings for collocation pairs",
+  "meanings": {
     "する": {
       "仕事": "to do work/one's job",
       "勉強": "to study",
