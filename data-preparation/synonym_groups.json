@@ -1,0 +1,976 @@
+{
+  "total_groups": 27,
+  "total_words_in_groups": 58,
+  "groups": [
+    {
+      "words": [
+        {
+          "id": "6faea64b-e88b-443e-aec3-d19785d71c2f",
+          "japanese": "三日",
+          "reading": "mikka",
+          "english": "third day of the month",
+          "type": "noun",
+          "frequency": 5.53
+        },
+        {
+          "id": "4b7cebe8-9ffe-4ca9-b6bc-fa003fa78dec",
+          "japanese": "十日",
+          "reading": "tooka",
+          "english": "tenth day of the month",
+          "type": "noun",
+          "frequency": 5.38
+        },
+        {
+          "id": "bafdac78-536a-43aa-89b1-7929449fbd70",
+          "japanese": "五日",
+          "reading": "itsuka",
+          "english": "fifth day of the month",
+          "type": "noun",
+          "frequency": 4.85
+        },
+        {
+          "id": "e3e7eb7c-3df1-48e3-a3f1-173098d374dd",
+          "japanese": "六日",
+          "reading": "muika",
+          "english": "sixth day of the month",
+          "type": "noun",
+          "frequency": 4.65
+        },
+        {
+          "id": "f5ea40ec-ecdb-4fb7-bf99-a3d4affe3a64",
+          "japanese": "九日",
+          "reading": "kokonoka",
+          "english": "ninth day of the month",
+          "type": "noun",
+          "frequency": 4.54
+        }
+      ],
+      "count": 5,
+      "average_similarity": 0.8818181818181818,
+      "examples": [
+        {
+          "japanese": "三日",
+          "reading": "mikka",
+          "english": "third day of the month"
+        },
+        {
+          "japanese": "十日",
+          "reading": "tooka",
+          "english": "tenth day of the month"
+        },
+        {
+          "japanese": "五日",
+          "reading": "itsuka",
+          "english": "fifth day of the month"
+        },
+        {
+          "japanese": "六日",
+          "reading": "muika",
+          "english": "sixth day of the month"
+        },
+        {
+          "japanese": "九日",
+          "reading": "kokonoka",
+          "english": "ninth day of the month"
+        }
+      ]
+    },
+    {
+      "words": [
+        {
+          "id": "930d0180-219f-4260-89ee-5e0ab1dcccbd",
+          "japanese": "子",
+          "reading": "ko",
+          "english": "child",
+          "type": "noun",
+          "frequency": 5.56
+        },
+        {
+          "id": "e671d3ee-03d2-431b-9f0e-e5c40b00df93",
+          "japanese": "子供",
+          "reading": "kodomo",
+          "english": "child",
+          "type": "noun",
+          "frequency": 5.42
+        },
+        {
+          "id": "220c4623-7d4b-43fa-81d8-e1f4c0955d33",
+          "japanese": "お子さん",
+          "reading": "okosan",
+          "english": "child",
+          "type": "noun",
+          "frequency": 3.68
+        }
+      ],
+      "count": 3,
+      "average_similarity": 1.0,
+      "examples": [
+        {
+          "japanese": "子",
+          "reading": "ko",
+          "english": "child"
+        },
+        {
+          "japanese": "子供",
+          "reading": "kodomo",
+          "english": "child"
+        },
+        {
+          "japanese": "お子さん",
+          "reading": "okosan",
+          "english": "child"
+        }
+      ]
+    },
+    {
+      "words": [
+        {
+          "id": "63500f6c-faf1-4f89-9840-ea346113c8c9",
+          "japanese": "日",
+          "reading": "nichi",
+          "english": "Sunday",
+          "type": "noun",
+          "frequency": 6.38
+        },
+        {
+          "id": "148fe8ba-7163-4e32-9518-671b07f3ef37",
+          "japanese": "日曜日",
+          "reading": "nichiyoubi",
+          "english": "Sunday",
+          "type": "noun",
+          "frequency": 4.35
+        }
+      ],
+      "count": 2,
+      "average_similarity": 1.0,
+      "examples": [
+        {
+          "japanese": "日",
+          "reading": "nichi",
+          "english": "Sunday"
+        },
+        {
+          "japanese": "日曜日",
+          "reading": "nichiyoubi",
+          "english": "Sunday"
+        }
+      ]
+    },
+    {
+      "words": [
+        {
+          "id": "dbceb0ef-54ae-4279-8936-e290aa46dbb8",
+          "japanese": "年",
+          "reading": "toshi",
+          "english": "year",
+          "type": "noun",
+          "frequency": 6.27
+        },
+        {
+          "id": "48eb9f50-1f99-4da1-bba8-e84bef4f95ea",
+          "japanese": "耳",
+          "reading": "mimi",
+          "english": "ear",
+          "type": "noun",
+          "frequency": 4.86
+        }
+      ],
+      "count": 2,
+      "average_similarity": 0.8571428571428571,
+      "examples": [
+        {
+          "japanese": "年",
+          "reading": "toshi",
+          "english": "year"
+        },
+        {
+          "japanese": "耳",
+          "reading": "mimi",
+          "english": "ear"
+        }
+      ]
+    },
+    {
+      "words": [
+        {
+          "id": "882d8548-e944-4b7f-a225-7c9e7a45347e",
+          "japanese": "一",
+          "reading": "ichi",
+          "english": "one",
+          "type": "noun",
+          "frequency": 6.08
+        },
+        {
+          "id": "35edebd9-ea9c-4b17-aaaf-8db43f5d74e2",
+          "japanese": "一つ",
+          "reading": "hitotsu",
+          "english": "one",
+          "type": "noun",
+          "frequency": 5.27
+        }
+      ],
+      "count": 2,
+      "average_similarity": 1.0,
+      "examples": [
+        {
+          "japanese": "一",
+          "reading": "ichi",
+          "english": "one"
+        },
+        {
+          "japanese": "一つ",
+          "reading": "hitotsu",
+          "english": "one"
+        }
+      ]
+    },
+    {
+      "words": [
+        {
+          "id": "2be3b8aa-dcb8-47f9-a607-d328cc0f257a",
+          "japanese": "二",
+          "reading": "ni",
+          "english": "two",
+          "type": "noun",
+          "frequency": 5.77
+        },
+        {
+          "id": "7b32d837-873b-4307-adcf-f36ff1c43873",
+          "japanese": "二つ",
+          "reading": "futatsu",
+          "english": "two",
+          "type": "noun",
+          "frequency": 4.6
+        }
+      ],
+      "count": 2,
+      "average_similarity": 1.0,
+      "examples": [
+        {
+          "japanese": "二",
+          "reading": "ni",
+          "english": "two"
+        },
+        {
+          "japanese": "二つ",
+          "reading": "futatsu",
+          "english": "two"
+        }
+      ]
+    },
+    {
+      "words": [
+        {
+          "id": "6789e662-b414-4c53-8f6a-c1132608240b",
+          "japanese": "二日",
+          "reading": "futsuka",
+          "english": "second day of the month",
+          "type": "noun",
+          "frequency": 5.67
+        },
+        {
+          "id": "642887c5-786e-473a-8c7f-44091fd84e14",
+          "japanese": "七日",
+          "reading": "nanoka",
+          "english": "seventh day of the month",
+          "type": "noun",
+          "frequency": 4.65
+        }
+      ],
+      "count": 2,
+      "average_similarity": 0.851063829787234,
+      "examples": [
+        {
+          "japanese": "二日",
+          "reading": "futsuka",
+          "english": "second day of the month"
+        },
+        {
+          "japanese": "七日",
+          "reading": "nanoka",
+          "english": "seventh day of the month"
+        }
+      ]
+    },
+    {
+      "words": [
+        {
+          "id": "2faf4b79-e6ad-4216-9842-2b1627137dff",
+          "japanese": "０",
+          "reading": "zero",
+          "english": "zero; nought",
+          "type": "noun",
+          "frequency": 5.66
+        },
+        {
+          "id": "f815a09a-68a6-46e7-917f-4579dda0851b",
+          "japanese": "零",
+          "reading": "rei",
+          "english": "zero; nought",
+          "type": "noun",
+          "frequency": 4.13
+        }
+      ],
+      "count": 2,
+      "average_similarity": 1.0,
+      "examples": [
+        {
+          "japanese": "０",
+          "reading": "zero",
+          "english": "zero; nought"
+        },
+        {
+          "japanese": "零",
+          "reading": "rei",
+          "english": "zero; nought"
+        }
+      ]
+    },
+    {
+      "words": [
+        {
+          "id": "441d26be-681d-4d85-9097-cb7293377c2e",
+          "japanese": "三",
+          "reading": "san",
+          "english": "three",
+          "type": "noun",
+          "frequency": 5.6
+        },
+        {
+          "id": "e29e9f8c-6199-4d95-bd95-23d6437e23e4",
+          "japanese": "三つ",
+          "reading": "mittsu",
+          "english": "three",
+          "type": "noun",
+          "frequency": 4.08
+        }
+      ],
+      "count": 2,
+      "average_similarity": 1.0,
+      "examples": [
+        {
+          "japanese": "三",
+          "reading": "san",
+          "english": "three"
+        },
+        {
+          "japanese": "三つ",
+          "reading": "mittsu",
+          "english": "three"
+        }
+      ]
+    },
+    {
+      "words": [
+        {
+          "id": "21573060-c53e-4d89-be31-93a927717dbd",
+          "japanese": "男",
+          "reading": "otoko",
+          "english": "man; male",
+          "type": "noun",
+          "frequency": 5.55
+        },
+        {
+          "id": "3ed4196b-cad5-4fec-84c7-0cdc9463264b",
+          "japanese": "男性",
+          "reading": "dansei",
+          "english": "man; male",
+          "type": "noun",
+          "frequency": 5.17
+        }
+      ],
+      "count": 2,
+      "average_similarity": 1.0,
+      "examples": [
+        {
+          "japanese": "男",
+          "reading": "otoko",
+          "english": "man; male"
+        },
+        {
+          "japanese": "男性",
+          "reading": "dansei",
+          "english": "man; male"
+        }
+      ]
+    },
+    {
+      "words": [
+        {
+          "id": "e3083df4-4dc8-406f-af8c-6f825572d79f",
+          "japanese": "夜",
+          "reading": "yoru",
+          "english": "evening; night",
+          "type": "noun",
+          "frequency": 5.29
+        },
+        {
+          "id": "5fd5d8c2-ac09-4021-b9ac-5cb9fc795af7",
+          "japanese": "晩",
+          "reading": "ban",
+          "english": "evening; night",
+          "type": "noun",
+          "frequency": 4.4
+        }
+      ],
+      "count": 2,
+      "average_similarity": 1.0,
+      "examples": [
+        {
+          "japanese": "夜",
+          "reading": "yoru",
+          "english": "evening; night"
+        },
+        {
+          "japanese": "晩",
+          "reading": "ban",
+          "english": "evening; night"
+        }
+      ]
+    },
+    {
+      "words": [
+        {
+          "id": "59a78ce9-1911-4a29-81fd-286bb2457426",
+          "japanese": "二十日",
+          "reading": "hatsuka",
+          "english": "twentieth day of the month",
+          "type": "noun",
+          "frequency": 5.24
+        },
+        {
+          "id": "84b35050-cbc0-4c26-908d-0ade097d6cbd",
+          "japanese": "八日",
+          "reading": "youka",
+          "english": "eighth day of the month",
+          "type": "noun",
+          "frequency": 4.78
+        }
+      ],
+      "count": 2,
+      "average_similarity": 0.8571428571428571,
+      "examples": [
+        {
+          "japanese": "二十日",
+          "reading": "hatsuka",
+          "english": "twentieth day of the month"
+        },
+        {
+          "japanese": "八日",
+          "reading": "youka",
+          "english": "eighth day of the month"
+        }
+      ]
+    },
+    {
+      "words": [
+        {
+          "id": "4b641ff9-3ea7-46ba-9252-099085a4eabb",
+          "japanese": "歌",
+          "reading": "uta",
+          "english": "song",
+          "type": "noun",
+          "frequency": 4.99
+        },
+        {
+          "id": "08903412-064c-4f8e-be09-47d35e652d45",
+          "japanese": "息子",
+          "reading": "musuko",
+          "english": "son",
+          "type": "noun",
+          "frequency": 4.92
+        }
+      ],
+      "count": 2,
+      "average_similarity": 0.8571428571428571,
+      "examples": [
+        {
+          "japanese": "歌",
+          "reading": "uta",
+          "english": "song"
+        },
+        {
+          "japanese": "息子",
+          "reading": "musuko",
+          "english": "son"
+        }
+      ]
+    },
+    {
+      "words": [
+        {
+          "id": "ec8ae237-d3ec-4bc7-ace7-41e21a68988a",
+          "japanese": "四",
+          "reading": "shi",
+          "english": "four",
+          "type": "noun",
+          "frequency": 4.93
+        },
+        {
+          "id": "b0ff29d9-3074-4bb4-b257-5069ea4969e3",
+          "japanese": "四つ",
+          "reading": "yottsu",
+          "english": "four",
+          "type": "noun",
+          "frequency": 3.58
+        }
+      ],
+      "count": 2,
+      "average_similarity": 1.0,
+      "examples": [
+        {
+          "japanese": "四",
+          "reading": "shi",
+          "english": "four"
+        },
+        {
+          "japanese": "四つ",
+          "reading": "yottsu",
+          "english": "four"
+        }
+      ]
+    },
+    {
+      "words": [
+        {
+          "id": "b60df41b-883c-4a78-a32a-4ae9b49cd9b4",
+          "japanese": "五",
+          "reading": "go",
+          "english": "five",
+          "type": "noun",
+          "frequency": 4.86
+        },
+        {
+          "id": "454bb873-68b9-46ec-9fc4-538b8ca331ef",
+          "japanese": "五つ",
+          "reading": "itsutsu",
+          "english": "five",
+          "type": "noun",
+          "frequency": 3.28
+        }
+      ],
+      "count": 2,
+      "average_similarity": 1.0,
+      "examples": [
+        {
+          "japanese": "五",
+          "reading": "go",
+          "english": "five"
+        },
+        {
+          "japanese": "五つ",
+          "reading": "itsutsu",
+          "english": "five"
+        }
+      ]
+    },
+    {
+      "words": [
+        {
+          "id": "25cce071-dbbd-4a1e-8821-46e1a4bafc22",
+          "japanese": "プレゼント",
+          "reading": "purezento",
+          "english": "present; gift",
+          "type": "noun",
+          "frequency": 4.83
+        },
+        {
+          "id": "ead47d15-ba47-4b31-a33e-c40ed5f9695c",
+          "japanese": "贈り物",
+          "reading": "okurimono",
+          "english": "present; gift",
+          "type": "noun",
+          "frequency": 4.07
+        }
+      ],
+      "count": 2,
+      "average_similarity": 1.0,
+      "examples": [
+        {
+          "japanese": "プレゼント",
+          "reading": "purezento",
+          "english": "present; gift"
+        },
+        {
+          "japanese": "贈り物",
+          "reading": "okurimono",
+          "english": "present; gift"
+        }
+      ]
+    },
+    {
+      "words": [
+        {
+          "id": "686c1d62-b2ab-40b3-b094-a72d4d738c3b",
+          "japanese": "兄",
+          "reading": "ani",
+          "english": "older brother; elder brother",
+          "type": "noun",
+          "frequency": 4.79
+        },
+        {
+          "id": "ef54a734-2ba6-4549-959d-edea0b63e1b1",
+          "japanese": "お兄さん",
+          "reading": "oniisan",
+          "english": "older brother; elder brother",
+          "type": "noun",
+          "frequency": 4.32
+        }
+      ],
+      "count": 2,
+      "average_similarity": 1.0,
+      "examples": [
+        {
+          "japanese": "兄",
+          "reading": "ani",
+          "english": "older brother; elder brother"
+        },
+        {
+          "japanese": "お兄さん",
+          "reading": "oniisan",
+          "english": "older brother; elder brother"
+        }
+      ]
+    },
+    {
+      "words": [
+        {
+          "id": "fd2329dd-192d-4a64-a47f-47e11f627769",
+          "japanese": "八",
+          "reading": "hachi",
+          "english": "eight",
+          "type": "noun",
+          "frequency": 4.79
+        },
+        {
+          "id": "9c8186fe-d3c1-42f5-baa1-240880aa4d9c",
+          "japanese": "八つ",
+          "reading": "yattsu",
+          "english": "eight",
+          "type": "noun",
+          "frequency": 3.42
+        }
+      ],
+      "count": 2,
+      "average_similarity": 1.0,
+      "examples": [
+        {
+          "japanese": "八",
+          "reading": "hachi",
+          "english": "eight"
+        },
+        {
+          "japanese": "八つ",
+          "reading": "yattsu",
+          "english": "eight"
+        }
+      ]
+    },
+    {
+      "words": [
+        {
+          "id": "2f189aed-6f6c-42fc-a1d5-79b1fc3a46cc",
+          "japanese": "姉",
+          "reading": "ane",
+          "english": "older sister; elder sister",
+          "type": "noun",
+          "frequency": 4.72
+        },
+        {
+          "id": "4eca1aab-8665-4533-977a-38e8bbf3ec40",
+          "japanese": "お姉さん",
+          "reading": "oneesan",
+          "english": "older sister; elder sister",
+          "type": "noun",
+          "frequency": 4.45
+        }
+      ],
+      "count": 2,
+      "average_similarity": 1.0,
+      "examples": [
+        {
+          "japanese": "姉",
+          "reading": "ane",
+          "english": "older sister; elder sister"
+        },
+        {
+          "japanese": "お姉さん",
+          "reading": "oneesan",
+          "english": "older sister; elder sister"
+        }
+      ]
+    },
+    {
+      "words": [
+        {
+          "id": "8c8d424a-5309-4a63-a818-74db79c41c6a",
+          "japanese": "風呂",
+          "reading": "furo",
+          "english": "bath; bathing; bathtub; bathroom",
+          "type": "noun",
+          "frequency": 4.69
+        },
+        {
+          "id": "114627ba-4fac-4dcd-a88b-ab171520ae49",
+          "japanese": "お風呂",
+          "reading": "ofuro",
+          "english": "bath",
+          "type": "noun",
+          "frequency": 4.68
+        }
+      ],
+      "count": 2,
+      "average_similarity": 0.2222222222222222,
+      "examples": [
+        {
+          "japanese": "風呂",
+          "reading": "furo",
+          "english": "bath; bathing; bathtub; bathroom"
+        },
+        {
+          "japanese": "お風呂",
+          "reading": "ofuro",
+          "english": "bath"
+        }
+      ]
+    },
+    {
+      "words": [
+        {
+          "id": "8542d87a-4fbd-4cd0-b290-360d6fc62a6c",
+          "japanese": "七",
+          "reading": "shichi",
+          "english": "seven",
+          "type": "noun",
+          "frequency": 4.66
+        },
+        {
+          "id": "f5e9d719-1be2-4729-8527-6f09f3b971ac",
+          "japanese": "七つ",
+          "reading": "nanatsu",
+          "english": "seven",
+          "type": "noun",
+          "frequency": 3.59
+        }
+      ],
+      "count": 2,
+      "average_similarity": 1.0,
+      "examples": [
+        {
+          "japanese": "七",
+          "reading": "shichi",
+          "english": "seven"
+        },
+        {
+          "japanese": "七つ",
+          "reading": "nanatsu",
+          "english": "seven"
+        }
+      ]
+    },
+    {
+      "words": [
+        {
+          "id": "4ff9874e-2e15-46db-9eec-5efabcff8a82",
+          "japanese": "六",
+          "reading": "roku",
+          "english": "six",
+          "type": "noun",
+          "frequency": 4.66
+        },
+        {
+          "id": "c3a16f27-c4fc-4d93-a90f-4d42bb1e5efa",
+          "japanese": "六つ",
+          "reading": "muttsu",
+          "english": "six",
+          "type": "noun",
+          "frequency": 3.13
+        }
+      ],
+      "count": 2,
+      "average_similarity": 1.0,
+      "examples": [
+        {
+          "japanese": "六",
+          "reading": "roku",
+          "english": "six"
+        },
+        {
+          "japanese": "六つ",
+          "reading": "muttsu",
+          "english": "six"
+        }
+      ]
+    },
+    {
+      "words": [
+        {
+          "id": "1d98b796-e980-43d2-9862-2fcafcf695ed",
+          "japanese": "赤ちゃん",
+          "reading": "akachan",
+          "english": "baby; infant",
+          "type": "noun",
+          "frequency": 4.56
+        },
+        {
+          "id": "8f8c0dcb-d3e1-4912-8092-9c179007d0f6",
+          "japanese": "赤ん坊",
+          "reading": "akanbou",
+          "english": "baby; infant",
+          "type": "noun",
+          "frequency": 3.7
+        }
+      ],
+      "count": 2,
+      "average_similarity": 1.0,
+      "examples": [
+        {
+          "japanese": "赤ちゃん",
+          "reading": "akachan",
+          "english": "baby; infant"
+        },
+        {
+          "japanese": "赤ん坊",
+          "reading": "akanbou",
+          "english": "baby; infant"
+        }
+      ]
+    },
+    {
+      "words": [
+        {
+          "id": "fdc8f956-3bf3-4cf1-addc-ce96b5e6204d",
+          "japanese": "九",
+          "reading": "kyuu",
+          "english": "nine",
+          "type": "noun",
+          "frequency": 4.55
+        },
+        {
+          "id": "1583f219-35ee-4b53-afa3-cf8addecdb6e",
+          "japanese": "九つ",
+          "reading": "kokonotsu",
+          "english": "nine",
+          "type": "noun",
+          "frequency": 2.64
+        }
+      ],
+      "count": 2,
+      "average_similarity": 1.0,
+      "examples": [
+        {
+          "japanese": "九",
+          "reading": "kyuu",
+          "english": "nine"
+        },
+        {
+          "japanese": "九つ",
+          "reading": "kokonotsu",
+          "english": "nine"
+        }
+      ]
+    },
+    {
+      "words": [
+        {
+          "id": "154231d5-38b8-44e4-a390-67a2335b512d",
+          "japanese": "祖父",
+          "reading": "sofu",
+          "english": "grandfather",
+          "type": "noun",
+          "frequency": 4.13
+        },
+        {
+          "id": "767cf103-0ecc-43e3-81f0-cd6b72fde5da",
+          "japanese": "おじいさん",
+          "reading": "ojiisan",
+          "english": "grandfather",
+          "type": "noun",
+          "frequency": 3.54
+        }
+      ],
+      "count": 2,
+      "average_similarity": 1.0,
+      "examples": [
+        {
+          "japanese": "祖父",
+          "reading": "sofu",
+          "english": "grandfather"
+        },
+        {
+          "japanese": "おじいさん",
+          "reading": "ojiisan",
+          "english": "grandfather"
+        }
+      ]
+    },
+    {
+      "words": [
+        {
+          "id": "eebbbf98-e02d-45ed-bf07-6eff97df01f4",
+          "japanese": "祖母",
+          "reading": "sobo",
+          "english": "grandmother",
+          "type": "noun",
+          "frequency": 4.07
+        },
+        {
+          "id": "61680fec-982f-473c-9962-e36bca3c2793",
+          "japanese": "おばあさん",
+          "reading": "obaasan",
+          "english": "grandmother",
+          "type": "noun",
+          "frequency": 3.43
+        }
+      ],
+      "count": 2,
+      "average_similarity": 1.0,
+      "examples": [
+        {
+          "japanese": "祖母",
+          "reading": "sobo",
+          "english": "grandmother"
+        },
+        {
+          "japanese": "おばあさん",
+          "reading": "obaasan",
+          "english": "grandmother"
+        }
+      ]
+    },
+    {
+      "words": [
+        {
+          "id": "43598085-78f3-46b2-ba2c-c721291a20ed",
+          "japanese": "辞書",
+          "reading": "jisho",
+          "english": "dictionary; lexicon",
+          "type": "noun",
+          "frequency": 3.98
+        },
+        {
+          "id": "6f28bd85-b10f-45c5-a867-e4164b78187c",
+          "japanese": "辞典",
+          "reading": "jiten",
+          "english": "dictionary; lexicon",
+          "type": "noun",
+          "frequency": 3.77
+        }
+      ],
+      "count": 2,
+      "average_similarity": 1.0,
+      "examples": [
+        {
+          "japanese": "辞書",
+          "reading": "jisho",
+          "english": "dictionary; lexicon"
+        },
+        {
+          "japanese": "辞典",
+          "reading": "jiten",
+          "english": "dictionary; lexicon"
+        }
+      ]
+    }
+  ]
+}

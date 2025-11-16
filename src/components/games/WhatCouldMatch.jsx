@@ -29,7 +29,7 @@ import { getCollocation, getLimitedNounMatchesWithProgress, getReverseCollocatio
 import { recordReview } from '../../services/srs';
 import { CollocationProgress } from '../../models/Progress';
 import storage from '../../services/storage';
-import { getHintsForWord } from '../../services/dataLoader';
+import { getMeaningsForWord, getSynonymGroups } from '../../services/dataLoader';
 import * as wanakana from 'wanakana';
 
 function WhatCouldMatch({ word, onComplete, mode = 'verb-to-noun', matchCount = 15, newWordsTarget = 3, studyListWords = new Set() }) {
@@ -46,7 +46,9 @@ function WhatCouldMatch({ word, onComplete, mode = 'verb-to-noun', matchCount = 
   const [bonusWarningCount, setBonusWarningCount] = useState(0);
   const [currentHintIndex, setCurrentHintIndex] = useState(0); // Index of current word being hinted
   const [skippedWords, setSkippedWords] = useState(new Set()); // Words user couldn't remember
-  const [wordHints, setWordHints] = useState({}); // Semantic hints for each noun
+  const [wordMeanings, setWordMeanings] = useState({}); // Semantic meanings for each noun
+  const [synonymGroups, setSynonymGroups] = useState(null); // Synonym group data
+  const [synonymAnswers, setSynonymAnswers] = useState([]); // Track synonym answers with hints
 
   // Helper function to get matches based on mode
   const getMatchesForMode = (collocationObj) => {
@@ -78,7 +80,8 @@ function WhatCouldMatch({ word, onComplete, mode = 'verb-to-noun', matchCount = 
     setBonusWarningCount(0);
     setCurrentHintIndex(0);
     setSkippedWords(new Set());
-    setWordHints({});
+    setWordMeanings({});
+    setSynonymAnswers([]);
 
     const loadWord = async () => {
       try {
@@ -130,10 +133,14 @@ function WhatCouldMatch({ word, onComplete, mode = 'verb-to-noun', matchCount = 
           setLimitedMatches(uniqueMatches);
           setTotalMatches(uniqueMatches.length);
 
-          // Load hints for this word
-          const hintMode = (mode === 'noun-to-verb' || mode === 'noun-to-adjective') ? 'reverse' : 'forward';
-          const hints = await getHintsForWord(word.japanese, hintMode);
-          setWordHints(hints);
+          // Load meanings for this word
+          const meaningMode = (mode === 'noun-to-verb' || mode === 'noun-to-adjective') ? 'reverse' : 'forward';
+          const meanings = await getMeaningsForWord(word.japanese, meaningMode);
+          setWordMeanings(meanings);
+
+          // Load synonym groups
+          const synonymData = await getSynonymGroups();
+          setSynonymGroups(synonymData);
 
           if (matches.length === 0) {
             setError('No collocation data available for this word.');
@@ -217,6 +224,40 @@ function WhatCouldMatch({ word, onComplete, mode = 'verb-to-noun', matchCount = 
     // Normalize answer to kanji form for consistent tracking
     const normalizedAnswer = match ? match.word : answer;
 
+    // Check if answer is a synonym of a target word (before processing as bonus/target)
+    let synonymInfo = null;
+    if (isCorrect && synonymGroups) {
+      // Find the target word we're currently seeking
+      const currentTargetWord = limitedMatches.find(m =>
+        !foundMatches.has(m.word) && !skippedWords.has(m.word)
+      );
+
+      if (currentTargetWord) {
+        const targetWord = currentTargetWord.word;
+        const enteredWord = normalizedAnswer;
+
+        // Check if both words are in the same synonym group
+        const targetGroupId = synonymGroups.lookup?.[targetWord];
+        const enteredGroupId = synonymGroups.lookup?.[enteredWord];
+
+        if (targetGroupId && targetGroupId === enteredGroupId && targetWord !== enteredWord) {
+          // Found a synonym! Get the distinguishing hint
+          const group = synonymGroups.groups?.find(g => g.id === targetGroupId);
+          if (group && group.distinguishing_hints) {
+            const enteredHint = group.distinguishing_hints[enteredWord]?.hint_when_user_entered_this;
+            const targetHint = group.distinguishing_hints[targetWord]?.hint_when_seeking_this;
+
+            synonymInfo = {
+              enteredWord,
+              targetWord,
+              enteredHint: enteredHint || 'Correct meaning, but different form',
+              targetHint: targetHint || 'different form',
+            };
+          }
+        }
+      }
+    }
+
     const isTargetMatch = limitedMatches.some(m => m.word === normalizedAnswer);
     const alreadyFoundTarget = foundMatches.has(normalizedAnswer);
     const alreadyFoundBonus = bonusMatches.has(normalizedAnswer);
@@ -233,9 +274,15 @@ function WhatCouldMatch({ word, onComplete, mode = 'verb-to-noun', matchCount = 
       reading: match ? match.reading : '',
       english: match ? match.english : '',
       duplicate: isCorrect && alreadyFound,
+      synonymInfo, // Add synonym information if detected
     };
 
     setAnswers([...answers, newAnswer]);
+
+    // Track synonym answers separately for UI feedback
+    if (synonymInfo) {
+      setSynonymAnswers([...synonymAnswers, synonymInfo]);
+    }
 
     // Only process if it's a new correct answer or a wrong answer
     if (isCorrect && !alreadyFound) {
@@ -395,9 +442,9 @@ function WhatCouldMatch({ word, onComplete, mode = 'verb-to-noun', matchCount = 
     m => !foundMatches.has(m.word) && !skippedWords.has(m.word)
   );
   const currentWord = unfoundMatches.length > 0 ? unfoundMatches[0] : null;
-  const currentHint = currentWord ? wordHints[currentWord.word] : null;
+  const currentMeaning = currentWord ? wordMeanings[currentWord.word] : null;
 
-  // Debug logging for hint display
+  // Debug logging for meaning display
   if (currentWord && gameState === 'playing') {
   }
 
@@ -462,12 +509,28 @@ function WhatCouldMatch({ word, onComplete, mode = 'verb-to-noun', matchCount = 
             </Alert>
           )}
 
-          {/* Current Hint Display */}
-          {currentHint && (
+          {/* Synonym Feedback Alert */}
+          {synonymAnswers.length > 0 && synonymAnswers[synonymAnswers.length - 1] && (
+            <Alert severity="success" sx={{ mb: 3 }}>
+              <Typography variant="h6" gutterBottom>✓ Close, but not quite!</Typography>
+              <Typography variant="body1" sx={{ mb: 1 }}>
+                You entered: <strong>{synonymAnswers[synonymAnswers.length - 1].enteredWord}</strong>
+              </Typography>
+              <Typography variant="body2" sx={{ mb: 1 }}>
+                {synonymAnswers[synonymAnswers.length - 1].enteredHint}
+              </Typography>
+              <Typography variant="body2" color="primary" sx={{ fontWeight: 'bold' }}>
+                We're looking for: {synonymAnswers[synonymAnswers.length - 1].targetHint}
+              </Typography>
+            </Alert>
+          )}
+
+          {/* Current Meaning Display */}
+          {currentMeaning && (
             <Alert severity="info" sx={{ mb: 3 }}>
-              <Typography variant="h6" gutterBottom>Current Word Hint:</Typography>
+              <Typography variant="h6" gutterBottom>Current Word Meaning:</Typography>
               <Typography variant="body1" sx={{ fontWeight: 'bold' }}>
-                {currentHint}
+                {currentMeaning}
               </Typography>
               {currentWord && (
                 <Typography variant="body2" color="text.secondary" sx={{ mt: 1 }}>
@@ -554,7 +617,7 @@ function WhatCouldMatch({ word, onComplete, mode = 'verb-to-noun', matchCount = 
                       {match.english}
                     </Typography>
                     <Typography variant="body2" sx={{ mb: 1 }}>
-                      <strong>Hint:</strong> {wordHints[match.word] || 'related item'}
+                      <strong>Meaning:</strong> {wordMeanings[match.word] || 'related item'}
                     </Typography>
                   </Alert>
                 );

@@ -1,12 +1,12 @@
 {
   "version": "10.0.0",
-  "generator": "claude-api-clear-hints-reverse",
+  "generator": "claude-api-clear-meanings-reverse",
   "model": "claude-sonnet-4-5-20250929",
   "mode": "reverse",
   "generatedAt": "2025-11-16 05:29:26",
   "totalPairs": 2246,
-  "description": "Clear, direct hints for reverse collocation meanings (noun -> verb/adjective)",
-  "hints": {
+  "description": "Clear, direct meanings for reverse collocation meanings (noun -> verb/adjective)",
+  "meanings": {
     "仕事": {
       "する": "to do work; to work",
       "やる": "to do work; to do one's job",

@@ -45,20 +45,20 @@ export const loadCollocations = async () => {
 };
 
 /**
- * Load collocation hints from JSON file
+ * Load collocation meanings from JSON file
  */
-export const loadHints = async () => {
+export const loadMeanings = async () => {
   try {
-    // Add cache-busting parameter to force reload of updated hints
+    // Add cache-busting parameter to force reload of updated meanings
     const cacheBuster = Date.now();
-    const response = await fetch(`${BASE_URL}data/collocation_hints.json?v=${cacheBuster}`);
+    const response = await fetch(`${BASE_URL}data/collocation_meanings.json?v=${cacheBuster}`);
     if (!response.ok) {
-      throw new Error(`Failed to load hints: ${response.statusText}`);
+      throw new Error(`Failed to load meanings: ${response.statusText}`);
     }
     const data = await response.json();
-    return data.hints;
+    return data.meanings;
   } catch (error) {
-    console.error('Error loading hints:', error);
+    console.error('Error loading meanings:', error);
     throw error;
   }
 };
@@ -143,59 +143,90 @@ export const getCollocationStats = async () => {
   return stats;
 };
 
-// In-memory cache for hints (no need for IndexedDB - static data)
-let hintsCache = null;
-let reverseHintsCache = null;
+// In-memory cache for meanings (no need for IndexedDB - static data)
+let meaningsCache = null;
+let reverseMeaningsCache = null;
+let synonymGroupsCache = null;
 
 /**
- * Load reverse collocation hints from JSON file
+ * Load reverse collocation meanings from JSON file
  * (for noun → verb/adjective modes)
  */
-export const loadReverseHints = async () => {
+export const loadReverseMeanings = async () => {
   try {
-    // Add cache-busting parameter to force reload of updated hints
+    // Add cache-busting parameter to force reload of updated meanings
     const cacheBuster = Date.now();
-    const response = await fetch(`${BASE_URL}data/reverse_hints.json?v=${cacheBuster}`);
+    const response = await fetch(`${BASE_URL}data/reverse_meanings.json?v=${cacheBuster}`);
     if (!response.ok) {
-      console.warn('Reverse hints not found, will use fallback');
+      console.warn('Reverse meanings not found, will use fallback');
       return null;
     }
     const data = await response.json();
-    return data.hints;
+    return data.meanings;
   } catch (error) {
-    console.warn('Error loading reverse hints, will use fallback:', error);
+    console.warn('Error loading reverse meanings, will use fallback:', error);
     return null;
   }
 };
 
 /**
- * Get hints for a word's collocations
+ * Get meanings for a word's collocations
  * @param {string} word - The word (verb/adjective for forward mode, noun for reverse mode)
  * @param {string} mode - Game mode ('forward' or 'reverse')
- * @returns {Object} Hints object mapping target words to hint strings
+ * @returns {Object} Meanings object mapping target words to meaning strings
  */
-export const getHintsForWord = async (word, mode = 'forward') => {
+export const getMeaningsForWord = async (word, mode = 'forward') => {
   if (mode === 'reverse') {
     // Reverse mode: noun → verb/adjective
-    if (!reverseHintsCache) {
-      reverseHintsCache = await loadReverseHints();
+    if (!reverseMeaningsCache) {
+      reverseMeaningsCache = await loadReverseMeanings();
     }
-    return reverseHintsCache?.[word] || {};
+    return reverseMeaningsCache?.[word] || {};
   } else {
     // Forward mode: verb/adjective → noun
-    if (!hintsCache) {
-      hintsCache = await loadHints();
+    if (!meaningsCache) {
+      meaningsCache = await loadMeanings();
     }
-    return hintsCache[word] || {};
+    return meaningsCache[word] || {};
   }
+};
+
+/**
+ * Load synonym groups from JSON file
+ */
+export const loadSynonymGroups = async () => {
+  try {
+    const response = await fetch(`${BASE_URL}data/synonym_groups.json`);
+    if (!response.ok) {
+      console.warn('Synonym groups not found');
+      return null;
+    }
+    const data = await response.json();
+    return data;
+  } catch (error) {
+    console.warn('Error loading synonym groups:', error);
+    return null;
+  }
+};
+
+/**
+ * Get synonym group data with distinguishing hints
+ * @returns {Object} Synonym groups data with lookup table
+ */
+export const getSynonymGroups = async () => {
+  if (!synonymGroupsCache) {
+    synonymGroupsCache = await loadSynonymGroups();
+  }
+  return synonymGroupsCache;
 };
 
 export default {
   loadVocabulary,
   loadCollocations,
-  loadHints,
+  loadMeanings,
   initializeAllData,
   getVocabularyStats,
   getCollocationStats,
-  getHintsForWord,
+  getMeaningsForWord,
+  getSynonymGroups,
 };
