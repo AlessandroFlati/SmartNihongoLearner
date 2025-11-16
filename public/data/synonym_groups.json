@@ -42,6 +42,24 @@
           "hint_when_user_entered_this": "Correct! But we're looking for the abbreviated form"
         }
       }
+    },
+    {
+      "id": "dictionary-variations",
+      "words": ["辞書", "字引"],
+      "meanings": {
+        "辞書": "dictionary; lexicon",
+        "字引": "dictionary"
+      },
+      "distinguishing_hints": {
+        "辞書": {
+          "hint_when_seeking_this": "the common form (辞書)",
+          "hint_when_user_entered_this": "Correct! But we're looking for the alternative form (字引)"
+        },
+        "字引": {
+          "hint_when_seeking_this": "the alternative form (字引)",
+          "hint_when_user_entered_this": "Correct! But we're looking for the common form (辞書)"
+        }
+      }
     }
   ],
   "lookup": {
@@ -49,6 +67,8 @@
     "子供": "child-variations",
     "お子さん": "child-variations",
     "日": "sunday-variations",
-    "日曜日": "sunday-variations"
+    "日曜日": "sunday-variations",
+    "辞書": "dictionary-variations",
+    "字引": "dictionary-variations"
   }
 }
