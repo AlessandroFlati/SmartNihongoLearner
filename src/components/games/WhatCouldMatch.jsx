@@ -103,10 +103,17 @@ function WhatCouldMatch({ word, onComplete, mode = 'verb-to-noun', matchCount = 
           const allMatches = getMatchesForMode(data);
 
           // Filter matches by study list (if provided)
-          const filteredMatches = studyListWords.size > 0
+          let filteredMatches = studyListWords.size > 0
             ? allMatches.filter(m => studyListWords.has(m.word))
             : allMatches;
 
+          // If NO matches in study list, expand to N5+N4 (all vocabulary) and take top 2 by score
+          // This ensures words with no N5 matches can still be practiced with higher-level vocabulary
+          if (filteredMatches.length === 0 && allMatches.length > 0) {
+            // Sort by score (descending) and take top 2
+            const sortedByScore = [...allMatches].sort((a, b) => b.score - a.score);
+            filteredMatches = sortedByScore.slice(0, 2);
+          }
 
           // For noun-to-verb/adjective modes, use simple top N selection
           // For verb/adjective-to-noun modes, use SRS-based selection
@@ -158,6 +165,27 @@ function WhatCouldMatch({ word, onComplete, mode = 'verb-to-noun', matchCount = 
 
     loadWord();
   }, [word.japanese, matchCount, newWordsTarget, mode]); // Depend on word, matchCount, newWordsTarget, and mode
+
+  // Handle Enter key on results page to continue to next word
+  useEffect(() => {
+    const handleKeyPress = (event) => {
+      if (gameState === 'finished' && event.key === 'Enter') {
+        // Trigger continue action
+        if (onComplete) {
+          onComplete({
+            word: word.japanese,
+            foundMatches: foundMatches.size,
+            totalMatches,
+            score,
+            answers,
+          });
+        }
+      }
+    };
+
+    window.addEventListener('keydown', handleKeyPress);
+    return () => window.removeEventListener('keydown', handleKeyPress);
+  }, [gameState, onComplete, word.japanese, foundMatches, totalMatches, score, answers]);
 
   const handleAnswer = async (answer) => {
     if (!collocation || gameState !== 'playing') return;

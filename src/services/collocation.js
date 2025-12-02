@@ -278,8 +278,10 @@ export const getLimitedNounMatchesWithProgress = async (wordJapanese, collocatio
 /**
  * Get recommended practice words based on SRS progress
  * Prioritizes: failed/struggling > due for review > new words
+ * @param {number} count - Maximum number of words to return
+ * @param {Set} studyListWords - Optional set of words to filter noun matches by
  */
-export const getRecommendedPracticeWords = async (count = 10) => {
+export const getRecommendedPracticeWords = async (count = 10, studyListWords = null) => {
   const allCollocations = await storage.getAllCollocations();
   const allProgress = await storage.getAllWordProgress();
   const now = new Date().toISOString();
@@ -291,7 +293,21 @@ export const getRecommendedPracticeWords = async (count = 10) => {
   const scored = allCollocations.map(entry => {
     const progress = progressMap.get(entry.word);
     const matches = entry.matches?.nouns || [];
-    const collocationScore = matches.reduce((sum, m) => sum + m.score, 0);
+
+    // Skip words with no matches at all
+    if (matches.length === 0) {
+      return null;
+    }
+
+    // Only count noun matches that are in the study list (if provided) for scoring
+    // But don't exclude words with no study list matches - they'll get expanded later
+    const filteredMatches = studyListWords
+      ? matches.filter(m => studyListWords.has(m.word))
+      : matches;
+
+    // Use filtered matches for scoring, or all matches if filtered is empty
+    const matchesForScoring = filteredMatches.length > 0 ? filteredMatches : matches.slice(0, 2);
+    const collocationScore = matchesForScoring.reduce((sum, m) => sum + m.score, 0);
 
     if (!progress) {
       // NEW word - HIGHEST priority (learn new words first, sorted by frequency)
@@ -342,12 +358,15 @@ export const getRecommendedPracticeWords = async (count = 10) => {
     };
   });
 
+  // Filter out nulls (words with no matches in study list)
+  const withMatches = scored.filter(s => s !== null);
+
   // Sort by priority (descending)
-  scored.sort((a, b) => b.priority - a.priority);
+  withMatches.sort((a, b) => b.priority - a.priority);
 
   // Debug: Log SRS selection breakdown
   const categories = { failed: 0, learning: 0, due: 0, young: 0, mature: 0, new: 0 };
-  const selected = scored.slice(0, count);
+  const selected = withMatches.slice(0, count);
   selected.forEach(s => categories[s.category]++);
 
   // Return top N (mix of review and new words naturally sorted by priority)
@@ -357,8 +376,10 @@ export const getRecommendedPracticeWords = async (count = 10) => {
 /**
  * Get recommended nouns for reverse practice (noun-to-verb, noun-to-adjective)
  * Prioritizes: failed/struggling > due for review > new words
+ * @param {number} count - Maximum number of nouns to return
+ * @param {Set} studyListWords - Optional set of words to filter matches by
  */
-export const getRecommendedPracticeNouns = async (count = 10) => {
+export const getRecommendedPracticeNouns = async (count = 10, studyListWords = null) => {
   const allVocabulary = await storage.getAllVocabulary();
   const allCollocations = await storage.getAllCollocations();
   const allProgress = await storage.getAllWordProgress();
@@ -375,26 +396,40 @@ export const getRecommendedPracticeNouns = async (count = 10) => {
     let verbMatches = 0;
     let adjectiveMatches = 0;
     let totalScore = 0;
+    let totalVerbMatches = 0;
+    let totalAdjectiveMatches = 0;
 
     // Check all collocations to see which ones pair with this noun
     for (const entry of allCollocations) {
       if (entry.matches && entry.matches.nouns) {
         const match = entry.matches.nouns.find(m => m.word === noun.japanese);
         if (match) {
-          totalScore += match.score;
+          // Count ALL matches
           if (entry.type === 'verb') {
-            verbMatches++;
+            totalVerbMatches++;
           } else if (entry.type === 'adjective') {
-            adjectiveMatches++;
+            totalAdjectiveMatches++;
+          }
+
+          // Only count this match for scoring if the verb/adjective is in the study list (if provided)
+          const inStudyList = !studyListWords || studyListWords.has(entry.word);
+          if (inStudyList) {
+            totalScore += match.score;
+            if (entry.type === 'verb') {
+              verbMatches++;
+            } else if (entry.type === 'adjective') {
+              adjectiveMatches++;
+            }
           }
         }
       }
     }
 
     const matchCount = verbMatches + adjectiveMatches;
+    const totalMatchCount = totalVerbMatches + totalAdjectiveMatches;
 
-    // Skip nouns with no matches
-    if (matchCount === 0) {
+    // Skip nouns with no matches at all
+    if (totalMatchCount === 0) {
       return null;
     }
 
@@ -411,6 +446,8 @@ export const getRecommendedPracticeNouns = async (count = 10) => {
         matchCount,
         verbMatches,
         adjectiveMatches,
+        totalVerbMatches,
+        totalAdjectiveMatches,
         category: 'new',
         priority: 20000 + totalScore,
       };
@@ -457,6 +494,8 @@ export const getRecommendedPracticeNouns = async (count = 10) => {
       matchCount,
       verbMatches,
       adjectiveMatches,
+      totalVerbMatches,
+      totalAdjectiveMatches,
       category,
       priority,
       progress,

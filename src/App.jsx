@@ -159,19 +159,39 @@ function App() {
     }
 
     try {
+      const TARGET_WORDS_PER_SESSION = 10;
       let recommended;
 
       // Use different function for reverse modes (noun-to-verb, noun-to-adjective)
-      // Request more words initially since we filter by study list afterwards
+      // Request ALL words sorted by SRS priority (using a very large number)
+      // This ensures we have the full dataset to filter from, maintaining proper SRS prioritization
+      // Pass study list to ensure we only get words with matches in the study list
       if (isReverseMode) {
-        recommended = await getRecommendedPracticeNouns(50);
+        recommended = await getRecommendedPracticeNouns(9999, studyListWords);
       } else {
-        recommended = await getRecommendedPracticeWords(50);
+        recommended = await getRecommendedPracticeWords(9999, studyListWords);
       }
 
-      // Filter by word type AND study list, then limit to reasonable session size
+      // Filter by word type AND study list
+      // For reverse modes, also check that the noun has matches for the specific mode
       const filtered = recommended
-        .filter(c => c.type === wordType && studyListWords.has(c.word || c.japanese));
+        .filter(c => {
+          // Check word type and study list
+          if (c.type !== wordType || !studyListWords.has(c.word || c.japanese)) {
+            return false;
+          }
+
+          // For reverse modes, check that noun has appropriate matches (use total counts, not study-list-filtered)
+          // This allows nouns with no N5 matches to still appear if they have N4+ matches
+          if (config.mode === 'noun-to-verb' && (c.totalVerbMatches || 0) === 0) {
+            return false; // Skip nouns with no verb matches at all
+          }
+          if (config.mode === 'noun-to-adjective' && (c.totalAdjectiveMatches || 0) === 0) {
+            return false; // Skip nouns with no adjective matches at all
+          }
+
+          return true;
+        });
 
       // Deduplicate by japanese word (in case same word appears multiple times)
       const seen = new Set();
@@ -184,7 +204,7 @@ function App() {
           seen.add(word);
           return true;
         })
-        .slice(0, 15)  // Limit to 15 words per session
+        .slice(0, TARGET_WORDS_PER_SESSION)  // Take exactly 10 words of the target type
         .map(c => ({
           id: c.word || c.japanese,
           japanese: c.word || c.japanese,
